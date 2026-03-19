@@ -1,0 +1,76 @@
+# Vulgar Moran — ADN Phonetique
+# Lingua franca d'Etra — Latin corrompu + italien + emprunts germano-francais + fantasy
+
+## IDENTITE
+# Pas de marqueurs exclusifs (lingua franca). Identite = melange latin corrompu.
+# Distinction cle vs Moran pur : perdu les -us/-ius, voyelles ouvertes, adouci.
+
+## ATTAQUES (23)
+# Racines latines corrompues + emprunts + fantasy
+Aur-    # Latin (Aurelius)
+Val-    # Latin (Valerius)
+Mar-    # Latin/ital (Marcus)
+Lor-    # Latin (Laurentius)
+Cas-    # Latin (Cassius)
+Ven-    # Latin (Ventura)
+Cel-    # Latin (Celsus)
+Fal-    # Fantasy-latin
+Ser-    # Latin (Servius)
+Luc-    # Latin (Lucius)
+Dom-    # Latin (Dominus)
+Cor-    # Latin (Cornelius)
+Ren-    # Ital/fantasy
+Tav-    # Fantasy
+Bren-   # Germanique absorbe
+Gal-    # Latin (Gallus) — pas confusion avec Ardrainic (contexte different)
+Ost-    # Latin (Ostia)
+Pav-    # Italien (Pavia)
+Sil-    # Latin (Silvanus)
+Dor-    # Fantasy-latin
+Vic-    # Latin (Victor)
+Mal-    # Latin (Malus)
+Fior-   # Italien (Fiore)
+
+## TERMINAISONS MASCULINES (10)
+-an     # Latin corrompu (-anus -> -an)
+-el     # Italien (-ello simplifie)
+-or     # Latin noble (-or)
+-ven    # Fantasy — propre VM
+-ic     # Latin (-icus -> -ic)
+-aro    # Italien vif (-aro)
+-ern    # Germanique absorbe
+-ori    # Italien noble (-ori)
+-as     # Latin simplifie (-as)
+-iel    # Doux, roman
+
+## TERMINAISONS FEMININES (10)
+-ara    # Latin vivant (-ara)
+-ene    # Roman commun
+-ila    # Italien vif (-ila)
+-ova    # Fantasy-latin
+-iel    # Liquide — propre VM
+-ina    # Italien classique (-ina)
+-orre   # Latin corrompu, grave
+-ane    # Roman ouvert
+-eri    # Italien vif (-eri)
+-ossa   # Fantasy-latin, lourd
+
+## VOYELLES DOMINANTES
+# a, o, e — ouvertes, chaudes, mediterraneennes
+# i frequent en position mediane (Silvani, Vicero)
+# u rare, reserve aux racines latines preservees (Lucarn, Aurel)
+
+## SONS INTERDITS
+# -us / -ius        → Moran (undead) — LA distinction cle
+# -ain / -eval      → Ardrainic (arthurien)
+# -tz / -enc / -esc → Sordrenic (occitan)
+# Ll- / Rh- / Gw-  → Armonorican (celtique)
+# Wulf- / Sig- / Grim- → Torrent (germanique pur)
+# -oush / -azd      → Hravevi (armenien)
+# -wyn / -wen / -ydd → Armonorican (gallois)
+
+## REGLE CLE
+# Le VM peut avoir des emprunts germaniques/francais (Bren-, -ern)
+# mais JAMAIS les marqueurs exclusifs des autres langues.
+# Un nom VM ne doit jamais sonner "purement" germanique ou francais —
+# toujours le melange latin en dessous.

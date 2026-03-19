@@ -1,0 +1,107 @@
+# ============================================================
+# ARMONORICAN — Dialect Rules
+# ============================================================
+# 2 dialects: armonorican_dialect (default=Aggeuios), ebiam_dialect (urban)
+# ============================================================
+
+# ============================================================
+# ARMONORICAN_DIALECT (Aggeuios — rural interior/west)
+# ============================================================
+# Culture: Aggeuios ("clumsy people" — rural, isolated)
+# Identity: The archaic, untouched Celtic heartland — they speak like their ancestors did
+# Style: pure, conservative, archaic, uncompromising, old-world
+#
+# Vowels: no change (base = standard)
+# Consonants: no change (Ll, Rh, Gw, dd all preserved)
+# Endings M: no change
+# Endings F: no change
+# Dynasty prefix: none (Welsh place-names used as-is)
+# Dialect-specific names: none (base pool IS Aggeuios)
+#
+# This is the DEFAULT dialect — all names use their base form.
+# The base_names.txt represents the Aggeuios pronunciation.
+#
+# Examples:
+# Llewyn    → Llewyn    (voiceless lateral preserved)
+# Gwythern  → Gwythern  (Gw- cluster preserved)
+# Rhyddel   → Rhyddel   (aspirated R preserved)
+# Brynedd   → Brynedd   (dd /ð/ preserved)
+# Ceirwen   → Ceirwen   (all sounds intact)
+
+# ============================================================
+# EBIAM_DIALECT (Ebiam — urban north-east)
+# ============================================================
+# Culture: Ebiam ("city-dwellers" — urban, border with Ardrainic)
+# Identity: Celtic people who trade with the Ardrainiens — their speech
+#           has absorbed French-like simplifications, like historical Gallo
+#           replacing Breton in eastern Brittany
+# Style: softened, simplified, cosmopolitan, gallo-roman, urbanized
+#
+# === INITIAL CONSONANT TRANSFORMS ===
+# Ll- → L-     (French speakers can't produce voiceless lateral /ɬ/)
+# Rh- → R-     (French doesn't aspirate R)
+# Gwy- → Gui-  (French substitution, cf. Guinevere < Gwenhwyfar)
+# Gwe- → Gue-  (French gue- substitution)
+# Gwa- → Gua-  (French gua- substitution)
+# Gw- → Gu-    (generic fallback)
+#
+# === ENDING TRANSFORMS (most specific first, only one fires) ===
+# -wydd → -vid   (w→v + ydd→id)
+# -wedd → -ved   (w→v + edd→ed)
+# -wyn  → -vin   (w→v + y→i)
+# -wen  → -ven   (w→v)
+# -wyr  → -vir   (w→v + y→i)
+# -wys  → -vis   (w→v + y→i)
+# -wyl  → -vil   (w→v + y→i)
+# -wel  → -vel   (w→v)
+# -wern → -vern  (w→v)
+# -ydd  → -id    (vowel simplification, non-w cases)
+# -yll  → -il    (vowel simplification)
+#
+# === REMAINING CONSONANT TRANSFORM ===
+# dd → d         (Welsh dd /ð/ → French d, anywhere in word)
+#
+# === UNCHANGED ===
+# -edd, -ris, -rys, -ell, -ern, -ith, -oel, -og, -on, -en, -el,
+# -ryn, -tan, -ion, -hael, -ys stay unchanged.
+# Names without Ll/Rh/Gw/w-endings/dd don't change at all.
+# This is intentional: Ebiam is PARTIALLY assimilated, not fully.
+# ~35-40% of names are identical in both dialects.
+#
+# Dynasty prefix: none
+# Dialect-specific names: none needed — transforms + shared pool sufficient
+#
+# === EXAMPLES ===
+#
+# MALE:
+# Llewyn    → Levin     (Ll→L, wyn→vin)
+# Gwythern  → Guithern  (Gwy→Gui)
+# Rhyddel   → Rydel     (Rh→R, dd→d)
+# Brynedd   → Bryned    (dd→d)
+# Heddwyn   → Hedvin    (wyn→vin, dd→d)
+# Beddwyr   → Bedvir    (wyr→vir, dd→d)
+# Gorwydd   → Gorvid    (wydd→vid)
+# Selwern   → Selvern   (wern→vern)
+# Maelris   → Maelris   (no change — no matching rules)
+# Drystan   → Drystan   (no change)
+# Myrddin   → Myrdin    (dd→d)
+# Emrys     → Emrys     (no change)
+# Bran      → Bran      (no change — standalone)
+#
+# FEMALE:
+# Ceirwen   → Ceirven   (wen→ven)
+# Morwydd   → Morvid    (wydd→vid)
+# Gweiryll  → Gueiril   (Gwe→Gue, yll→il)
+# Rhanedd   → Raned     (Rh→R, dd→d)
+# Llanwedd  → Lanved    (Ll→L, wedd→ved)
+# Maelwys   → Maelvis   (wys→vis)
+# Gwladys   → Guladys   (Gw→Gu)
+# Nerys     → Nerys     (no change)
+# Seren     → Seren     (no change)
+# Eluned    → Eluned    (no change)
+#
+# === VERIFICATION ===
+# Distinct at the ear? YES — Llewyn vs Levin, Gwythern vs Guithern
+# Kinship perceptible? YES — same roots, same rhythm, only consonants differ
+# All pronounceable? YES — verified by script (c:/tmp/generate_armonorican.py)
+# ~60% of names transform, ~40% stay identical = partial assimilation

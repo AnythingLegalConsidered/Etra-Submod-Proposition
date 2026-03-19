@@ -1,0 +1,273 @@
+# ============================================================
+# ARMONORICAN — Curated name pool (Aggeuios + Ebiam)
+# ============================================================
+# Philosophy: every name passes the "picture a character" test
+# ~70% organic/standalone, ~16% best compounds, ~4% wildcards
+# Exclusive markers: Ll-/Rh-/Gw- (attacks), -wyn/-wen/-wydd (endings)
+# Wildcard (★): up to 10% can break ALL phonetic rules
+# Max 3 names per ending, max 2 per attack in whole pool
+# ============================================================
+
+# ============================================================
+# MALE NAMES (50)
+# ============================================================
+
+## Mythological / Arthurian (12)
+## ---------------------------------------------------------
+Myrddin          # Merlin — the mage
+Peredur          # Perceval — grail quest
+Arawn            # king of the Otherworld
+Emrys            # Ambrosius — prophet
+Geraint          # Arthurian knight
+Gwydion          # trickster from the Mabinogion
+Owain            # noble youth — son of Urien
+Pwyll            # prince of Dyfed — wisdom
+Math             # sorcerer-king from the Mabinogion
+Gwalchmai        # hawk of May — = Gawain
+Caradoc          # the beloved — resistance leader
+Edern            # Arthurian knight
+
+## Historical (7)
+## ---------------------------------------------------------
+Einion           # anvil/eagle — historical Welsh
+Rhodri           # circle-ruler — historical king
+Tudur            # people-ruler — = Tudor
+Meilyr           # steel-ruler — bard
+Seisyll          # sixth — dynasty name
+Cynan            # hound-chief — prince
+Emlyn            # rival — standalone
+
+## Short / Nature (13)
+## ---------------------------------------------------------
+Bran             # crow
+Cei              # spear/key — = Kay
+Hydd             # stag
+Gwern            # alder
+Glyn             # valley
+Rhos             # moor
+Coel             # omen
+Deri             # oaks
+Prys             # thicket
+Nudd             # silver hand — mythology
+Gronw            # Mabinogion villain
+Rhun             # great — historical prince
+Lleu             # light — solar hero
+
+## Organic compounds (6)
+## ---------------------------------------------------------
+Cadfan           # Cad + fan (battle-peak)
+Tegid            # Teg + id (fair-one — legendary lake)
+Heilyn           # Heil + yn (cupbearer)
+Lleufer          # Lleu + fer (brightness)
+Ynyr             # honor — standalone real Welsh
+Iestyn           # Iest + yn (just-born)
+
+## Best formula compounds (10)
+## ---------------------------------------------------------
+Llewyn           # Llew + wyn (lion-white) — THE signature name
+Maelwyn          # Mael + wyn (prince-blessed)
+Cadwyn           # Cad + wyn (battle-blessed)
+Heddwyn          # Hedd + wyn (peace-blessed) — iconic Welsh
+Drystan          # Drys + tan (thorn-fire) — = Celtic Tristan
+Gwythern         # Gwyth + ern (wild-iron)
+Beddwyr          # Bedd + wyr (world-man) — = Bedivere
+Cernog           # Cer + nog (stag-fierce)
+Caerith          # Caer + ith (fortress-gift)
+Idriog           # Idr + iog (ardent-fierce)
+
+## Wildcards ★ (2)
+## ---------------------------------------------------------
+Taliesin         # ★ THE bard — 4 syl, breaks Tal- restriction
+Culhwch          # ★ Mabinogion hero — archaic -lwch cluster
+
+# ============================================================
+# FEMALE NAMES (50)
+# ============================================================
+
+## Mythological / Literary (11)
+## ---------------------------------------------------------
+Olwen            # white footprint — Mabinogion
+Branwen          # fair raven — Mabinogion
+Ceridwen         # cauldron keeper — Mabinogion
+Rhiannon         # great queen — Mabinogion
+Blodeuwedd       # flower-face — made from flowers
+Enid             # soul — Arthurian
+Creirwy          # treasure — Mabinogion
+Esyllt           # = Iseult — tragic lover
+Eluned           # maiden of the ring
+Gwladys          # princess — organic
+Myfanwy          # my fine one — medieval poetry
+
+## Organic Welsh (17)
+## ---------------------------------------------------------
+Seren            # star
+Rhian            # maiden
+Eira             # snow
+Ffion            # foxglove
+Eleri            # river name
+Ceri             # love
+Tegan            # fair-little
+Elin             # nymph
+Hafwen           # summer-fair
+Blodwen          # flower-fair
+Heledd           # generous — medieval poetry
+Llinos           # linnet bird
+Delyth           # pretty
+Carys            # love
+Efa              # Eve — organic Welsh
+Siwan            # Joan — medieval Welsh
+Meinir           # tall and slender
+
+## Short / Nature (10)
+## ---------------------------------------------------------
+Gwawr            # dawn
+Awen             # poetic inspiration
+Manon            # queen
+Eirlys           # snowdrop
+Tirion           # gentle
+Celyn            # holly
+Aeronwy          # berry/river
+Eurgain          # golden-fair
+Non              # saint — mother of Dewi
+Dilys            # genuine
+
+## Standalone diverse (4)
+## ---------------------------------------------------------
+Tesni            # warmth
+Arddun           # very fair
+Mererid          # pearl
+Derwen           # oak
+
+## Best compounds (6)
+## ---------------------------------------------------------
+Ceirwen          # Ceir + wen (gem-fair)
+Tanwen           # Tan + wen (fire-fair)
+Morwydd          # Mor + wydd (sea-form) — exclusive -wydd
+Gwenril          # Gwen + ril (fair-stream)
+Rhosyn           # Rhos + yn (moor-bloom)
+Tegwen           # Teg + wen (fair-white)
+
+## Wildcards ★ (2)
+## ---------------------------------------------------------
+Arianrhod        # ★ silver wheel — goddess, 4 syl
+Tangwystl        # ★ peace-pledge — impossible -ngwystl cluster
+
+# ============================================================
+# DYNASTIES (30)
+# ============================================================
+# Style: Welsh-style toponyms (like existing aberavon, cwmgwrach)
+# These ADD to the 17 existing dynasties
+
+aberteg          # Aber + teg (fair estuary)
+abermael         # Aber + mael (prince's estuary)
+abercaer         # Aber + caer (fortress estuary)
+llangwern        # Llan + gwern (sacred alder-marsh)
+llanbryn         # Llan + bryn (sacred hill)
+cwmglyn          # Cwm + glyn (combe-valley)
+cwmderwen        # Cwm + derwen (oak combe)
+pencaer          # Pen + caer (fortress summit)
+penrhydd         # Pen + rhydd (free headland)
+caergwern        # Caer + gwern (alder fortress)
+brynhael         # Bryn + hael (generous hill)
+gwernydd         # Gwern + ydd (alder-place)
+rhyddglyn        # Rhydd + glyn (free valley)
+maelgwydd        # Mael + gwydd (prince's wood)
+tregwern         # Tre + gwern (alder village)
+tregelyn         # Tre + gelyn (holly village)
+penmael          # Pen + mael (prince's peak)
+nevglyn          # Nev + glyn (sky valley)
+llynhael         # Llyn + hael (generous lake)
+heddgwern        # Hedd + gwern (peaceful alders)
+caernev          # Caer + nev (sky fortress)
+dinasbryn        # Dinas + bryn (hill city)
+cwmrhos          # Cwm + rhos (moorland combe)
+drysgwydd        # Drys + gwydd (thorn wood)
+heilgwern        # Heil + gwern (hunting alders)
+
+# Totemic / Heroic (non-toponymic)
+hebog            # hawk
+eryr             # eagle
+carw             # stag
+blaidd           # wolf
+draig            # dragon
+
+# ============================================================
+# LOWBORN (38)
+# ============================================================
+
+## Patronymics (15) — existing ap_/ab_ style
+## ---------------------------------------------------------
+ap_Llewyn        # son of Llewyn
+ap_Cadwyn        # son of Cadwyn
+ap_Maelwyn       # son of Maelwyn
+ap_Drystan       # son of Drystan
+ap_Cernog        # son of Cernog
+ab_Emrys         # son of Emrys
+ap_Heddwyn       # son of Heddwyn
+ap_Gwythern      # son of Gwythern
+ap_Beddwyr       # son of Beddwyr
+ap_Cadfan        # son of Cadfan
+ap_Tegid         # son of Tegid
+ab_Einion        # son of Einion
+ap_Rhodri        # son of Rhodri
+ap_Tudur         # son of Tudur
+ab_Owain         # son of Owain
+
+## Descriptive / Occupational (15)
+## ---------------------------------------------------------
+Gwernog          # of the alder grove
+Brynos           # of the hills
+Derwen           # of the oak
+Tannwr           # fire-worker
+Heilwr           # hunter
+Cwmryn           # of the small valley
+Pennog           # of the headland
+Dryswr           # of the thorns
+Goelwyr          # watchman
+Maelon           # princeling
+Rhoswel          # of the moor
+Llwydell         # the grey-bright
+Neveryn          # of the sky
+Glynnog          # of the valley
+Caerdden         # of the oak-fortress
+
+## Physical traits / Nature / Personality
+## ---------------------------------------------------------
+Llwyd            # grey/old
+Coch             # red/rusty
+Mawr             # big/great
+Bach             # small/little
+Celynnog         # of the holly
+Helig            # of the willow
+Doeth            # wise
+Dewr             # brave
+
+# ============================================================
+# DIALECT RULES
+# ============================================================
+#
+# Aggeuios (rural, interior/west):
+#   - Pure archaic Armonorican
+#   - Conservative vowels, harder consonants
+#   - No Ardrainic influence
+#   - Example: Llewyn -> Llewyn (unchanged, base = archaic standard)
+#
+# Ebiam (urban, north-east border):
+#   - Armonorican base + Ardrainic loanwords (Gallo-style)
+#   - Softened endings: -wyn -> -vin, -ydd -> -id, -wedd -> -vedd
+#   - Gw- -> Gu- (gallo-roman influence, NOT Gv-)
+#   - Occasional Ardrainic endings: -ain, -el borrowed
+#   - Example: Llewyn -> Llevin (softened double-L + -wyn > -vin)
+#
+# ============================================================
+# TRANSFORMATION TABLE (preview)
+# ============================================================
+#
+# | Name       | Aggeuios (archaic) | Ebiam (urban/mixed) |
+# |------------|-------------------|---------------------|
+# | Llewyn     | Llewyn            | Llevin              |
+# | Cadwyn     | Cadwyn            | Cadvin              |
+# | Gwythern   | Gwythern          | Guithern            |
+# | Ceirwen    | Ceirwen           | Ceirven             |
+# | Maelwyn    | Maelwyn           | Maelvin             |
+# | Cernog     | Cernog            | Cernog              |

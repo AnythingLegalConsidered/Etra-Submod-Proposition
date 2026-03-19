@@ -1,0 +1,279 @@
+# ============================================================
+# SORDRENIC — Pool de noms curate (Salt Sordrenic = standard)
+# ============================================================
+# Inspiration : Provencal + Occitan + Italien + Francais du sud
+# Regle : 2-3 syllabes, diversite obligatoire, feminins autonomes
+# Marqueurs exclusifs : -tz/-enc/-esc, Esc-/Rai-/Oiss- (max 30% du pool)
+# Max 3 noms par terminaison — le reste en wildcards/organiques
+# Les noms existants du mod (Peter, Raymond, etc.) sont GARDES
+# Ceux-ci s'AJOUTENT par-dessus
+#
+# Pool curate : 63M + 59F + 25dyn + 30low
+# ============================================================
+
+# ============================================================
+# PRENOMS MASCULINS (63 noms)
+# ============================================================
+
+## Signature occitane (marqueurs exclusifs, 2-3 max par terminaison)
+## ---------------------------------------------------------
+
+Arnotz           # Arn + otz (aigle-occitan)
+Drossotz         # Dross + otz (pierre brute-otz)
+Esclarenc        # Esc + larenc (eclairer-enc) — FLAGSHIP
+Garsenc          # Gars + enc (garcon-provencal)
+Sforzenc         # Sforz + enc (force-enc)
+Thalesc          # Thal + esc (mer-provencal)
+Roquesc          # Roq + uesc (roc-provencal)
+
+## Classiques occitans
+## ---------------------------------------------------------
+
+Raimontz         # Rai + montz (raimond-mont) — FLAGSHIP
+Pontaltz         # Pon + taltz (pont-altz)
+Mistranc         # Mist + ranc (mistral-anc)
+Blanquitz        # Blan + quitz (blanc-itz)
+Garsier          # Gars + ier (garcon-ier)
+Calmier          # Calm + ier (calme-ier)
+Sordrantz        # Sor + drantz (sordren-antz) — LORE
+Volcrantz        # Volc + rantz (volcae-antz) — LORE
+
+## Touche italienne
+## ---------------------------------------------------------
+
+Castenzo         # Cast + enzo (castel-enzo)
+Salvanto         # Sal + vanto (salvatore-anto)
+Miraldo          # Miral + do (miroir-aldo)
+Rinenzo          # Rin + enzo (rinaldo-enzo)
+Fiorent          # Fior + ent (fleur-organique)
+
+## Nobles/doux
+## ---------------------------------------------------------
+
+Carcenz          # Carc + enz (carcassonne-enz)
+Calvanto         # Calv + anto (calvaire-anto)
+
+## Maritime
+## ---------------------------------------------------------
+
+Corsorn          # Cors + orn (corsaire-maritime)
+Oissorn          # Oiss + orn (oissordrein-maritime) — EXCLUSIF Oiss-
+Saldosc          # Sal + dosc (sel-provencal)
+
+## Wildcards — profils sonores uniques
+## ---------------------------------------------------------
+
+Sordel           # troubadour, comme Sordello
+Mistrau          # mistral en provencal pur
+Tornac           # tour + toponyme occitan -ac
+Calveron         # crete sombre, rugueux
+Albaric          # blanc-puissant, noble ancien
+Folcran          # troubadour occitan profond
+Navriel          # navire-ciel, poetique
+Volcien          # des Volcae, ancien
+Rostang          # vieux guerrier occitan
+Dalmin           # mediterraneen doux
+Corsavel         # corsaire noble
+Barral           # seigneur provencal
+Gasquel          # gascon use
+Tolren           # vieux, use par le temps
+Salvorn          # sel + noble, maritime
+Carsenc          # marchand courant
+Brenac           # court, cotier
+Miral            # miroir, tronque
+
+## Organiques (sonnent naturels, pas decomposables)
+## ---------------------------------------------------------
+
+Gastol           # commun, use par le temps
+Corven           # maritime, rude
+Rimel            # doux, court
+Aldron           # noble ancien
+Lorec            # court, marchand
+Calven           # montagnard doux
+Persac           # terrien, toponyme
+Branel           # liquide, courant
+Marvol           # mysterieux
+Saltor           # maritime, sel + tour
+
+## Courts/bruts (1-2 syl, noms du peuple)
+## ---------------------------------------------------------
+
+Gast             # le "Jean" du Sordren
+Roq              # pierre, paysan
+Marc             # commun, pratique
+Bren             # court, maritime
+Vald             # court, vallee
+
+## Communs (raccourcis par l'usage)
+## ---------------------------------------------------------
+
+Calmon           # Calmontz raccourci
+Raimol           # Raimontz tronque
+Arnel            # Arnotz adouci
+Piermon          # Piermontz courant
+Gastel           # Gastorn + el
+
+# ============================================================
+# PRENOMS FEMININS (59 noms)
+# ============================================================
+
+## Signature occitane (marqueurs exclusifs, parcimonie)
+## ---------------------------------------------------------
+
+Esclaronda       # Esc + laronda (eclairer-lignee) — FLAGSHIP
+Navronda         # Navr + onda (navire-lignee)
+Volconda         # Volc + onda (volcae-lignee)
+Lorenca          # Lor + enca (or-provencale)
+Ossirenca        # Ossir + enca (oissordrein-provencale)
+Oissilde         # Oiss + ilde (oissordrein-ancienne) — EXCLUSIF Oiss-
+
+## Noblesse italienne/provencale
+## ---------------------------------------------------------
+
+Castenca         # Cast + enca (castel-provencale)
+Rainella         # Rai + nella (raimond-belle)
+Fiorella         # Fior + ella (fleur-belle)
+Drossella        # Dross + ella (pierre-belle)
+Brunissa         # Brun + issa (brune-noble)
+Blanquissa       # Blan + quissa (blanche-noble)
+Fiorenza         # Fior + enza (fleur-grace)
+
+## Doux/familier
+## ---------------------------------------------------------
+
+Stoelina         # Stoel + ina (stoeste-petite)
+Saldina          # Sal + dina (sel-petite)
+Marzina          # Marz + ina (mars-petite)
+Corsina          # Cors + ina (corse-petite)
+Thalinda         # Thal + inda (mer-ancienne)
+
+## Populaires/divers
+## ---------------------------------------------------------
+
+Valdesse         # Vald + esse (val-dame)
+Brunotte         # Brun + otte (brune-populaire)
+Loracia          # Lor + acia (or-grace)
+Mirosta          # Miral + osta (miroir-cote)
+
+## Wildcards — profils sonores uniques
+## ---------------------------------------------------------
+
+Mirena           # miroir, mediterraneen simple
+Celva            # foret, court, tranchant
+Calanda          # alouette provencale
+Thalene          # mer douce — nouveau son -ene
+Tornelle         # tour belle — nouveau son -elle
+Volcire          # volcae sombre — nouveau son -ire
+Corsiera         # corsaire noble — nouveau son -iera
+Pierra           # pierre populaire, simple
+Crestane         # crete provencale — nouveau son -ane
+Navrine          # navire petite — nouveau son -ine
+Sordra           # sordren feminin, identite lore
+Sforzelle        # force belle, italien-occitan
+Ailena           # aigle doux
+Dalvine          # vallee-vigne
+Rosca            # court, rude, diminutif
+Tolrene          # vieille, usee par le temps
+Albane           # blanche provencale
+Brenelle         # cotiere douce
+Calvene          # crete douce
+Marsane          # chaleur sud
+Folquine         # troubadour feminin
+Calmira          # calme profond — nouveau son -ira
+
+## Organiques (sonnent naturels, pas decomposables)
+## ---------------------------------------------------------
+
+Miren            # court, basque/occitan
+Solca             # fort, solaire
+Alena            # doux, mediterraneen
+Corsine          # maritime
+Bruna            # simple, chaud
+Lorelle          # liquide, dore
+Aldra            # noble ancien
+Ravenne          # profond, mysterieux
+
+## Courts/bruts (2 syl, noms du peuple)
+## ---------------------------------------------------------
+
+Nora             # court, doux
+Salda            # maritime, sel
+Fenna            # provencal
+Calma            # serein
+
+## Communs (raccourcis par l'usage)
+## ---------------------------------------------------------
+
+Lorel            # Lorenca raccourci
+Fiora            # Fiorella tronque
+Brissa           # Aubrissa raccourci
+
+# ============================================================
+# DYNASTIES CUSTOM (25)
+# ============================================================
+# Format : de_Xxxxx (nobilaire occitan/provencal)
+# S'ajoutent aux ~10 dynasties existantes (de_tolosa, de_fois, etc.)
+
+de_Tolmontz      # Tolosa + montz
+de_Carcavel      # Carcassonne + val
+de_Roquentz      # Roc + enca
+de_Bauxorc       # Les Baux + orc (pierre)
+de_Calmonca      # Calme + enca
+de_Mistrantz     # Mistral + antz
+de_Esclarmon     # Esclaramonda + mont
+de_Sordranvel    # Sordren + val
+de_Corsaltz      # Corsaire + altz
+de_Stoelmontz    # Stoeste + montz
+de_Valdorno      # Val + dorno
+de_Aiglanca      # Aiguilles + enca
+de_Thalvenc      # Thalassa + enc
+de_Oissorne      # Oissordrein + orne
+de_Fiormontz     # Fiore + montz
+de_Navresc       # Navire + esc
+de_Volcranvel    # Volcae + val
+de_Castornel     # Castel + orne
+de_Saldonca      # Saldorn + enca
+de_Montaurel     # Montagne + or + el
+de_Gasconvel     # Gascon + val
+de_Brunorca      # Brun + orca
+de_Piermonca     # Pierre + mont + enca
+de_Crestanvel    # Crete + val
+de_Raimondel     # Raimond + el
+
+# ============================================================
+# ROTURIERS / LOWBORN (30)
+# ============================================================
+# Noms courts, ruraux, sans particule
+# S'ajoutent aux 10 existants (Laforcada, Lestang, Costa, etc.)
+
+Rocavel          # roc + val
+Saldenc          # sel + enc
+Costantz         # cote + antz
+Aubrel           # aube + el
+Calmosc          # calme + osc
+Brunetz          # brun + etz
+Garsaud          # garcon + aud
+Roquiel          # rocher + el
+Mistrel          # mistral + el
+Volcain          # volcae + ain
+Corsaud          # corsaire + aud
+Fioretz          # fleur + etz
+Tornesc          # tour + esc
+Pontorc          # pont + orc
+Valdetz          # val + etz
+Aiglotz          # aigle + otz
+Drossenc         # pierre + enc
+Montesc          # mont + esc
+Rinauld          # Rinaldo paysan
+Calvetz          # calve + etz
+Navraud          # navire + aud
+Crestiel         # crete + el
+Stoelaud         # stoeste + aud
+Blanquetz        # blanc + etz
+Lornel           # lor + nel
+Sortenc          # sordren + enc
+Gastorel         # gaston + el
+Marzenc          # mars + enc
+Thalorc          # thalassa + orc
+Bauxaud          # baux + aud

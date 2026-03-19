@@ -1,0 +1,152 @@
+# ============================================================
+# ARDRAINIC — ADN Phonetique
+# ============================================================
+# Inspiration : Francais medieval + Cycle arthurien + Fantasy
+# Groupe : ardrainic (culture dominante d'Etra)
+# Cultures : Ardrainien (standard), Sittadellian, Aullerican,
+#            Aloisoise, Caprainois, Pwasciards, Serenish,
+#            Berenguer, Draquatin, Chevallois, Appavin
+# Race : 100% humain (pas de substrat racial)
+# ============================================================
+
+# ============================================================
+# ATTAQUES (50+)
+# ============================================================
+
+# Francaises/arthuriennes (30+)
+# Ald-    ancien/noble (Aldric, Aldeven)
+# Arn-    aigle (Arneval) — partage avec Torrent/Sordrenic, terminaisons differentes
+# Aud-    richesse (Audric)
+# Baud-   hardi (Baudren)
+# Baur-   paysan/laboureur (Bauriven)
+# Belv-   belle vue (Belviel)
+# Bran-   corbeau — Bran le Beni (Braneval)
+# Brev-   bref/concis (Breven)
+# Briv-   pont/force (Brivald)
+# Brun-   brun/armure (Bruneval) — partage avec Sordrenic
+# Carl-   homme libre (Carlvain)
+# Clar-   clair/lumineux (Clariden)
+# Clov-   Clovis (Clovel)
+# Corv-   corbeau (Corvain)
+# Dur-    dur/endurer (Dureval)
+# Eng-    ange/epee (Engeval)
+# Flor-   fleur/florissant (Florentin)
+# Gal-    galant — Gauvain/Galahad (EXCLUSIF sauf VM context)
+# Gar-    lance/jardin (Gareval)
+# Ger-    lance — Geraud (Gervain)
+# Gir-    lance ronde — Giraud (Giraudin)
+# Gon-    combat (Gonthen)
+# Guil-   volonte — Guillaume (Guilcen, Guileval)
+# Hug-    esprit (Hugolin)
+# Lamb-   terre — Lambert (Lambren)
+# Lanc-   lance — Lancelot (Lancelin)
+# Lan-    lande (Lanthien)
+# Lanv-   lande-valeur (Lanveric)
+# Lauv-   louange (Lauvain)
+# Mor-    sombre/mur (Morel)
+# Per-    pierre/rocher (Periven)
+# Perc-   perceur — Perceval (Percelin)
+# Ren-    regne/renaitre (Renald)
+# Ros-    rose/rosee (Roselin)
+# Rol-    gloire — Roland (Rolandel)
+# Sav-    sage (Saveric)
+# Tanc-   conseil (Tancrel, Tancren)
+# Thib-   peuple — Thibaut (EXCLUSIF)
+# Thi-    peuple variante (Thibert, Thieren)
+# Val-    valeur (Valerin) — partage avec Moran/VM
+
+# Sombres/mysterieuses (8)
+# Falv-   faucon sombre (Falvien)
+# Loth-   cache/sombre — Lothian (Lothen, Lothain)
+# Mal-    mauvais/sombre (Maldren)
+# Morv-   mer sombre (Morvain)
+# Tris-   triste — Tristan (Tristorin)
+# Ysor-   isole/mysterieux (Ysoren)
+
+# Fantasy/neoforges (15+)
+# Ard-    ardent (Ardivel)
+# Bal-    hardi (Balric)
+# Bor-    nord/boreal (Borivald)
+# Del-    vallee (Delvarin)
+# Dorv-   or/dore (Dorvain)
+# Eli-    elu (Elivain)
+# Eri-    noble (Erivel)
+# Gelv-   or/tribute (Gelvain)
+# Gorv-   seigneur (Gorvien)
+# Hel-    cacher/sacre (Helcarin)
+# Helv-   montagne (Helvain)
+# Herv-   armee — Herve (Hervain)
+# Marv-   merveille (Marven)
+# Orv-    or sombre (Orvelin)
+# Palv-   paladin (Palverin)
+# Riv-    riviere — Rivalen arthurien (Rivalen, Rivel)
+# Silv-   foret/argent (Silvain)
+# Solv-   soleil (Solveric)
+# Vent-   vent/aventure (Venthorin)
+# Viv-    vivant — Viviane (Vivalden)
+# Yv-     if — Yvain (Yvelin)
+
+# ============================================================
+# TERMINAISONS MASCULINES (12+)
+# ============================================================
+
+# Signature ardrainic (max 5 par terminaison)
+# -eval   EXCLUSIF (Thibeval, Bruneval, Engeval, Dureval, Braneval) = 5
+# -ain    EXCLUSIF (Corvain, Morvain, Silvain, Gervain, Lauvain) = 5
+# -elin   (Lancelin, Percelin, Roselin, Gavelin, Yvelin, Orvelin) = 6 → a reduire si needed
+#
+# ORGANIQUES (ne suivent pas Attaque+Terminaison, 25% min du pool) :
+# Gauceran, Brisand, Yserand, Orviel, Carvel, Aulvern, Cendrel,
+# Vauriel, Braivel, Vauredel, Falcren, Darviel, Audren, Lorviel,
+# Sauvrel, Dauvrel, Belvorne, Vincarel, Thelmond
+# + feminins : Aude, Yselle
+
+# Francaises/arthuriannes
+# -ric    (Aldric, Saveric, Audric, Solveric, Lanveric, Balric) = 6
+# -en     (Lothen, Baudren, Lambren, Ysoren, Marven, Rivalen, Aldeven, Gonthen, Breven, Tancren) = 10
+# -in     (Florentin, Giraudin, Palverin, Delvarin, Helcarin, Tristorin) = 6
+# -el     (Tancrel, Rolandel, Clovel, Ardivel, Erivel, Morel, Rivel) = 7
+# -ien    (Falvien, Lanthien, Gorvien, Thieren, Clariden, Davriel, Belviel) = 7
+# -ald    (Brivald, Renevald, Finvald, Irenvald, Borivald, Renald) = 6
+# -ert    (Thibert) = 1
+# -den    (Vivalden) = 1
+
+# ============================================================
+# TERMINAISONS FEMININES (12+)
+# ============================================================
+
+# -ore/-nore   (Belisore, Dianore, Eilenore, Irenore, Selinore, Lorendore) = 6
+# -ande/-inde  (Alisande, Iselinde, Orelinde, Erisande, Roselinde, Alderinde) = 6
+# -ise         (Florelise, Blanchise, Finelise, Novelise, Vorelise) = 5
+# -elle/-eline (Avrenelle, Luminelle, Brumeline, Nimueline, Sorelline, Gavenelle) = 6
+# -aine/-aire  (Melusaine, Genevaire, Celestaine, Solandine) = 4
+# -enne/-ene   (Lorenne, Solene, Clarenne, Rosenne, Dorene, Gervenne) = 6
+# -andre       (Silvandre, Helvandre) = 2
+# courts 2syl  (Nimue, Elise, Isore, Melise, Ilsen, Avrel, Brisen, Orvine, Clarel) = 9
+# divers       (Morgeline, Orveline, Viveldine, Clarinore, Rosanore, etc.)
+
+# ============================================================
+# VOYELLES DOMINANTES
+# ============================================================
+# a, e, i — ouvertes, claires, equilibrees
+# au       DISTINCTIF — aucune autre langue d'Etra ne l'utilise autant
+#          (Bauriven, Lauvain, Baudren, Audric, Dauvrel...)
+# o        secondaire (Florentin, Corvain, Morvain)
+
+# ============================================================
+# SONS INTERDITS (reserves a d'autres langues)
+# ============================================================
+# -tz, -enc, -esc, Esc-, Rai-, Oiss-  -> Sordrenic
+# -wald, -mar, -mund, Wulf-, Sig-, Grim-, Volk-  -> Torrent
+# -us, -ius                            -> Moran
+# Ll-, Rh-, Gw-, -wyn, -wen, -ydd     -> Armonorican
+# -oush, -azd, -akh, Tig-, Hov-       -> Hravevi
+
+# ============================================================
+# MARQUEURS EXCLUSIFS (non-recouvrement garanti)
+# ============================================================
+# Attaques : Thib- (EXCLUSIF), Gal- (quasi-exclusif, max 2 noms)
+# Terminaisons M : -eval (EXCLUSIF, 5 noms max), -ain (EXCLUSIF, 5 noms max)
+# Voyelle : au (distinctive)
+# Signature sonore : francais medieval + arthurien + 25%+ organiques memorables
+# Regle : max 5/terminaison, max 3/attaque, 25% organiques minimum

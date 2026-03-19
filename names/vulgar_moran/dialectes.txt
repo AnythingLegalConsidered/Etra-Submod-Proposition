@@ -1,0 +1,129 @@
+# Vulgar Moran — Grilles dialectales (8 dialectes)
+# Chaque culture tire le VM de base vers une direction differente
+
+# ============================================================
+# 1. VENTURIAN (DEFAULT — pas de transformation)
+# ============================================================
+# Style: commercial, cosmopolite, equilibre
+# Particule dynastique: di
+# Transformation: aucune — c'est la reference VM
+
+# ============================================================
+# 2. ROVINA — Latin preserve, elegant, italianisant
+# ============================================================
+# Particule: di
+# Proche du Moran classique, retour partiel au latin formel
+#
+# Regles:
+#   -an  → -anus (partiel, nobles)    | Aurelvan → Aurelvanus
+#   -el  → -ello                      | Fiorel → Fiorello
+#   -or  → -orius                     | Seranor → Seranorius
+#   -ian → -iano (voyelles allongees) | Tavian → Taviano
+#   F: -iane → -iana, -ene → -enia   | Corviane → Corviana
+
+# ============================================================
+# 3. KOTH — Germano-latin, durci, militaire
+# ============================================================
+# Particule: dal
+# Zone de marche, consonnes appuyees, emprunts Torrent
+#
+# Regles:
+#   -an  → -arn                       | Aurelvan → Aurelvarn
+#   -el  → -elt                       | Fiorel → Fiorelt
+#   -or  → -orn                       | Seranor → Seranorn
+#   -ven → -vern                      | Lorven → Lorvern
+#   V- initial → W- (10%)             | Valen → Walen
+#   F: -iel → -il, -ene → -en        | Luceriel → Luceril
+
+# ============================================================
+# 4. THANOK — Maritime, tronque, pragmatique
+# ============================================================
+# Particule: del
+# Marins, corsaires. Derniere syllabe coupee, noms courts.
+#
+# Regles:
+#   Derniere syllabe coupee           | Aurelvan → Aurel
+#   -or  → -o                         | Seranor → Serano
+#   -avel/-oven → -av/-ov             | Domavel → Domav
+#   Consonnes finales dures (-c,-k,-n)| Tavian → Tavic
+#   F: terminaisons → -a court        | Valorene → Valora
+
+# ============================================================
+# 5. FLUVIOLANDER — Fluvial, compose nature, bateliers
+# ============================================================
+# Particule: van
+# Noms lies a l'eau et au territoire, composes.
+#
+# Regles:
+#   Prefixe Riv-/Flu- (10%)          | Rivtavel, Flucoren
+#   -an  → -ander                     | Aurelvan → Aurelvander
+#   -el  → -elan                      | Fiorel → Fiorelan
+#   Voyelles ouvertes (e→a parfois)   | Celano → Calano
+#   F: -iane → -iande, -ene → -ande  | Corviane → Corviande
+
+# ============================================================
+# 6. FIORANELLE — Latin germanise, anguleux, transition Torrent
+# ============================================================
+# Particule: di (parfois von pour noblesse hybride)
+# Nord-est, noms plus durs, doubles consonnes.
+#
+# Regles:
+#   -an  → -ann                       | Aurelvan → Aurelvann
+#   -or  → -ort                       | Seranor → Seranort
+#   -el  → -eld                       | Fiorel → Fioreld
+#   B- initial plus frequent          | Emprunts Torrent renforces
+#   F: -iane → -ilde/-elde (15%)      | Corviane → Corvilde
+
+# ============================================================
+# 7. MARCHEUR — Latin occitanise, chaud, pont Sordrenic
+# ============================================================
+# Particule: del ou de
+# Frontiere ouest, influence occitane/sordrenic.
+#
+# Regles:
+#   -an  → -anc                       | Aurelvan → Aurelvanc
+#   -or  → -our                       | Seranor → Seranour
+#   -el  → -eu                        | Fiorel → Fioreu
+#   C- → Ch- (10%)                    | Celano → Chelano
+#   F: -iane → -ienne, -or → -eure   | Corviane → Corvienne
+
+# ============================================================
+# 8. RATTOLINI — Ratfolk, tronque, sifflant, rapide
+# ============================================================
+# Particule: dei
+# Max 2 syllabes, diminutifs, doubles sifflantes.
+#
+# Regles:
+#   Max 2 syllabes (toujours tronque) | Aurelvan → Aurvi
+#   Doubles sifflantes (zz, ss, vv)   | Corvan → Corri
+#   -an  → -i                         | Tavian → Tavi
+#   -or  → -o                         | Seranor → Sero
+#   F: -iel/-ene → -a/-za             | Seraniel → Sera
+
+# ============================================================
+# TABLEAU RECAP — Marqueurs par dialecte
+# ============================================================
+#
+# Dialecte     | Marqueur cle              | Particule | Temperature
+# -------------|---------------------------|-----------|------------
+# Venturian    | (standard)                | di        | Neutre
+# Rovina       | -anus/-ello/-orius        | di        | Chaud, classique
+# Koth         | -arn/-elt/-orn            | dal       | Froid, dur
+# Thanok       | tronque, -o/-a/-c         | del       | Sec, rapide
+# Fluviolander | -ander/-elan, Riv-/Flu-   | van       | Ouvert, fluide
+# Fioranelle   | -ann/-ort/-eld            | di/von    | Anguleux
+# Marcheur     | -anc/-our/-eu             | del/de    | Chaud, occitan
+# Rattolini    | -i/-o, doubles sifflantes | dei       | Vif, sifflant
+
+# ============================================================
+# EXEMPLE COMPLET — Aurelvan dans les 8 dialectes
+# ============================================================
+#
+# Venturian    → Aurelvan
+# Rovina       → Aurelvanus
+# Koth         → Aurelvarn
+# Thanok       → Aurel
+# Fluviolander → Aurelvander
+# Fioranelle   → Aurelvann
+# Marcheur     → Aurelvanc
+# Rattolini    → Aurvi

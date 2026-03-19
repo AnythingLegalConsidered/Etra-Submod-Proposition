@@ -1,0 +1,1317 @@
+# Torrent language config
+# Germanic-inspired language — 13 human dialects + 4 non-human
+# Uses static language file (hand-crafted with original mod names + dialect blocks)
+# Config generates LOCALIZATION ONLY (dialect variant entries)
+
+language_id: torrent_language
+color: map_german
+family: torrentor_language_family
+default_dialect_id: heuhian_dialect
+
+# Copy the existing static file instead of generating a language patch
+static_language_file: 01_etra_torrent.txt
+language_patch_file: 01_etra_torrent.txt
+
+patronym_suffix_son: "patronym_suffix_german_son"
+patronym_suffix_daughter: "patronym_suffix_german_son"
+location_prefix: "location_prefix_german"
+
+# Custom fantasy names — only these get localization + dialect variant entries
+# Original mod names (Alexander, Frederick, etc.) are in the static file and don't need loc
+custom_names:
+  male:
+    Classiques:
+      - Sigwald
+      - Sigmar
+      - Volkmar
+      - Volkhard
+      - Grimwald
+      - Arnwald
+      - Arngar
+      - Arnulf
+      - Aldrik
+      - Aldmund
+      - Helmrik
+      - Helmgar
+      - Eberhard
+      - Eberbern
+      - Hrodgar
+      - Hrodwald
+      - Brandolf
+      - Brandmar
+      - Tormund
+      - Torstein
+      - Torbrand
+      - Gundmar
+      - Gundbern
+      - Gundhard
+      - Hartbern
+      - Hartmund
+      - Wulfgar
+      - Wulfbrand
+      - Dietmar
+      - Dietwald
+      - Friedwald
+      - Gerbern
+      - Gerwald
+      - Baldgar
+      - Ulfgar
+      - Rikwald
+      - Waldbern
+    Fantasy:
+      - Skorvarn
+      - Skormund
+      - Skordorn
+      - Skorgust
+      - Tharwald
+      - Tharbern
+      - Thargar
+      - Velkvarn
+      - Velkdorn
+      - Drakwald
+      - Drakmorn
+      - Kurngar
+      - Kurnwald
+      - Rukhard
+      - Rukvarn
+      - Garnhelm
+      - Garnwald
+      - Storngar
+      - Stornmar
+      - Brekolf
+      - Brekdorn
+      - Brekstein
+      - Olkmar
+      - Olkgar
+      - Olkstein
+    Courts/Memorables:
+      - Garm
+      - Skorn
+      - Brek
+      - Ruk
+      - Drak
+      - Gund
+      - Volk
+      - Arn
+      - Hrod
+      - Brand
+      - Ulf
+      - Sten
+      - Kurn
+      - Thar
+    Structure_variee:
+      - Torvin
+      - Wulfren
+      - Garneth
+      - Aldenvarn
+      - Volkenmar
+      - Volkren
+      - Eberenwald
+      - Hrodven
+      - Brannrik
+      - Thurgast
+      - Kornstal
+      - Aldven
+      - Varnhelm
+    Organiques:
+      - Warneth
+      - Gildren
+      - Volstren
+      - Krenvald
+      - Rothgar
+      - Halstred
+      - Feldvarn
+      - Odgar
+    Fantasy-sur-classiques:
+      - Sigdorn
+      - Grimkald
+      - Friedgust
+      - Wulfgust
+      - Ebermorn
+      - Volkstein
+      - Torgust
+      - Hartvarn
+      - Arndorn
+      - Helmdorn
+      - Brandvarn
+      - Friedmorn
+      - Gundmorn
+
+  female:
+    Classiques:
+      - Svarnhild
+      - Sigrune
+      - Brunhild
+      - Brungard
+      - Arnlinde
+      - Arnhild
+      - Waldburg
+      - Grimrune
+      - Helmtrud
+      - Helmburg
+      - Ebergard
+      - Tornilde
+      - Gundlinde
+      - Gundtrud
+      - Hartrune
+      - Hartgard
+      - Friedlinde
+      - Gerhild
+      - Gerburg
+      - Wulfrune
+      - Aldhild
+      - Aldburg
+      - Brandgard
+      - Dietlinde
+      - Ulftrud
+    Fantasy:
+      - Volkara
+      - Tharvane
+      - Skormara
+      - Aldsolde
+      - Garnlinde
+      - Brekorn
+      - Velkhild
+      - Draksolde
+      - Gundvane
+      - Wulfmara
+      - Tormara
+      - Ebervane
+      - Skorgard
+      - Tharlinde
+      - Kurnburg
+      - Rukvane
+      - Stornmara
+      - Breksolde
+      - Olkrika
+      - Arnkara
+      - Waldmara
+      - Hartvane
+    Organiques:
+      - Astrild
+      - Gildvane
+      - Thornild
+      - Elgara
+      - Valkren
+      - Thuren
+      - Aldena
+      - Sterna
+      - Gervane
+      - Bruneth
+      - Wuldra
+    Attaques_feminines:
+      - Rostvane
+      - Rostmund
+      - Solmara
+      - Solrune
+      - Lindgard
+      - Lindhild
+      - Heilrune
+      - Heilburg
+      - Isenhild
+      - Isensolde
+      - Minnvane
+      - Audmara
+    Courts:
+      - Hild
+      - Runa
+      - Garda
+      - Solde
+      - Rika
+      - Mara
+      - Lind
+      - Isen
+
+  dynasties:
+    # von_ (standard — Heuhian, Fullhorner, Afhaemeisan, Lower Serenic, Bonwesforian)
+    - von_Skorwald
+    - von_Drakstein
+    - von_Thornburg
+    - von_Kurnfeld
+    - von_Grimhold
+    - von_Stornberg
+    - von_Brekwald
+    - von_Olkheim
+    - von_Velkburg
+    - von_Garnstein
+    - von_Rukberg
+    - von_Tharfeld
+    - von_Wulfheim
+    - von_Sigvarn
+    - von_Eberdorn
+    - von_Hartkald
+    - von_Friedmorn
+    - von_Baldenberg
+    - von_Hrodstein
+    - von_Brandvarn
+    # von/de_ (Middle Serenic)
+    - de_Sigvald
+    - de_Grimvain
+    - de_Tharvald
+    - von_Serenhald
+    # zu_ (Sorlkol)
+    - zu_Skorwold
+    - zu_Grimwold
+    - zu_Olkberg
+    - zu_Drakhorn
+    - zu_Brekstein
+    # van_ (Naurmen, Stedeling)
+    - van_Seegwoud
+    - van_Greemveld
+    - van_Woulfberg
+    - van_Braandhoek
+    - van_Toormeer
+    - van_Helmreek
+    - van_Draakwoud
+    - van_Skoorvaan
+    - van_Olkmaar
+    - van_Volkhaard
+
+  lowborn:
+    - Skorner
+    - Tharnbach
+    - Velkmann
+    - Drakner
+    - Kurnbach
+    - Rukmann
+    - Garnfeld
+    - Stornfeld
+    - Brekner
+    - Olkbach
+    - Wulfblut
+    - Grimfell
+    - Drakblut
+    - Stornkind
+    - Tharschlag
+    - Eberhorn
+    - Arnfeder
+    - Brandkohle
+    - Helmschmied
+    - Dunkelbach
+    - Grauvolk
+    - Steinherz
+    - Schwarzwald
+    - Tiefgrund
+    - Hochfeld
+    - Rotberg
+    - Wildbach
+    - Kaltstein
+    - Grauberg
+    - Dornfeld
+    - Sturmbach
+    - Langbein
+    - Krummhand
+    - Breitschild
+    - Eisenarm
+    - Grauhaar
+    - Hartfaust
+    - Dunkelhaut
+    - Schnellmund
+
+# ============================================================
+# DIALECT RULES — Generate localization variants
+# ============================================================
+# Transform order: overrides → prefix_rules → suffix_rules → replace_rules
+
+dialects:
+
+  # ============================================================
+  # FULLHORNER (archaic/vetusian) — intercalaire + vowel shift
+  # ============================================================
+  - id: fullhorner_dialect
+    # Suffix rules encode both intercalaire 'e' and a→ae, o→oe shifts
+    variants_file: dialect_variants.txt
+    variants_column: 1
+    rules_m:
+      - [ewald, ewaeld]    # 3-morpheme names: Eberenwald etc.
+      - [enwald, enwaeld]
+      - [enmar, enmaer]
+      - [stred, estred]
+      - [gast, egaest]
+      - [stal, estael]
+      - [vald, evaeld]
+      - [wald, ewaeld]
+      - [mar, emaer]
+      - [mund, emaend]
+      - [gar, egaer]
+      - [hard, ehaerd]
+      - [bern, ebern]
+      - [olf, eolf]
+      - [rik, erik]
+      - [stein, estein]
+      - [brand, ebraend]
+      - [kald, kaeld]
+      - [dorn, edoern]
+      - [varn, evarn]
+      - [morn, emoern]
+      - [gust, egust]
+      - [helm, ehelm]
+      - [ulf, eulf]
+      - [vin, evin]
+      - [ven, even]
+      - [ren, eren]
+      - [eth, eeth]
+    rules_f:
+      - [ilde, eilde]
+      - [gard, egaerd]
+      - [hild, ehaeld]
+      - [rune, eraene]
+      - [linde, elaende]
+      - [burg, ebuerg]
+      - [trud, etrud]
+      - [vane, evaene]
+      - [mara, emaera]
+      - [kara, ekaera]
+      - [gara, egaera]
+      - [solde, esoelde]
+      - [rika, erika]
+      - [orn, eoern]
+      - [mund, emaend]
+      - [ild, eild]
+      - [ena, eena]
+      - [dra, edra]
+      - [ren, eren]
+      - [eth, eeth]
+      - [na, ena]
+    extra_male:
+      # Vetusian substrate
+      - Othgar
+      - Weland
+      - Theudrik
+      - Hunwald
+      - Radgund
+      - Eodwald
+      - Wulfhad
+      - Athelbern
+      - Mundgar
+      - Hildebrand
+      - Aethelmor
+      - Godmund
+      - Eormund
+      - Saexwulf
+      - Leodgar
+    extra_female:
+      - Aethelburg
+      - Eadhild
+      - Theodlinde
+      - Wulfrun
+      - Hilderun
+      - Godgard
+      - Leodburg
+      - Eorild
+      - Athelmara
+      - Saexhild
+
+  # ============================================================
+  # AFHAEMEISAN (slightly softened central)
+  # ============================================================
+  - id: afhaemeisan_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 2
+    rules_m:
+      - [wald, vald]
+    rules_f:
+      - [gard, vard]
+    extra_male:
+      - Othgar
+      - Weland
+      - Theudrik
+      - Hunwald
+      - Radgund
+      - Eodwald
+      - Wulfhad
+      - Athelbern
+      - Mundgar
+      - Hildebrand
+      - Aethelmor
+      - Godmund
+      - Eormund
+      - Saexwulf
+      - Leodgar
+    extra_female:
+      - Aethelburg
+      - Eadhild
+      - Theodlinde
+      - Wulfrun
+      - Hilderun
+      - Godgard
+      - Leodburg
+      - Eorild
+      - Athelmara
+      - Saexhild
+
+  # ============================================================
+  # LOWER SERENIC (vetusian, hardened)
+  # ============================================================
+  - id: lower_serenic_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 3
+    rules_m:
+      - [vald, valt]
+      - [wald, walt]
+    rules_f:
+      - [gard, gaert]
+    extra_male:
+      - Othgar
+      - Weland
+      - Theudrik
+      - Hunwald
+      - Radgund
+      - Eodwald
+      - Wulfhad
+      - Athelbern
+      - Mundgar
+      - Hildebrand
+      - Aethelmor
+      - Godmund
+      - Eormund
+      - Saexwulf
+      - Leodgar
+    extra_female:
+      - Aethelburg
+      - Eadhild
+      - Theodlinde
+      - Wulfrun
+      - Hilderun
+      - Godgard
+      - Leodburg
+      - Eorild
+      - Athelmara
+      - Saexhild
+
+  # ============================================================
+  # MIDDLE SERENIC (ardrainic border, softened)
+  # ============================================================
+  - id: middle_serenic_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 4
+    rules_m:
+      - [wald, vald]
+    rules_f:
+      - [gard, vain]
+      - [vane, vaine]
+    extra_male:
+      - Othgar
+      - Weland
+      - Theudrik
+      - Hunwald
+      - Radgund
+      - Eodwald
+      - Wulfhad
+      - Athelbern
+      - Mundgar
+      - Hildebrand
+      - Aethelmor
+      - Godmund
+      - Eormund
+      - Saexwulf
+      - Leodgar
+    extra_female:
+      - Aethelburg
+      - Eadhild
+      - Theodlinde
+      - Wulfrun
+      - Hilderun
+      - Godgard
+      - Leodburg
+      - Eorild
+      - Athelmara
+      - Saexhild
+
+  # ============================================================
+  # SORLKOL (Swiss/mountain — a→o closure)
+  # ============================================================
+  - id: sorlkol_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 5
+    rules_m:
+      - [stred, strod]
+      - [gast, gost]
+      - [stal, stol]
+      - [vald, vold]
+      - [wald, wold]
+      - [mar, mor]
+      - [mund, mond]
+      - [hard, hord]
+      - [brand, brond]
+      - [kald, kold]
+      - [varn, vorn]
+      - [vin, von]
+      - [ven, von]
+      - [ren, ron]
+    rules_f:
+      - [gard, gord]
+      - [gara, gora]
+      - [vane, vone]
+      - [mara, mora]
+      - [kara, kora]
+      - [mund, mond]
+      - [ena, ona]
+      - [dra, dro]
+      - [ren, ron]
+      - [na, "no"]
+
+  # ============================================================
+  # NAURMEN (Dutch/Frisian — vowel elongation + ending shifts)
+  # ============================================================
+  - id: naurmen_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 6
+    # Prefix rules handle attack vowel elongation (i→ee, a→aa, o→oo, u→uu)
+    prefix_rules_m:
+      - [Volken, Voolken]
+      - [Eberen, Eberen]
+      - [Aldenv, Aaldenv]
+      - [Brann, Braann]
+      - [Brand, Braand]
+      - [Storn, Stoorn]
+      - [Volk, Voolk]
+      - [Grim, Greem]
+      - [Gund, Guund]
+      - [Hart, Haart]
+      - [Wulf, Wuulf]
+      - [Diet, Deet]
+      - [Bald, Baald]
+      - [Wald, Waald]
+      - [Skor, Skoor]
+      - [Thar, Thaar]
+      - [Drak, Draak]
+      - [Kurn, Kuurn]
+      - [Garn, Gaarn]
+      - [Olk, Oolk]
+      - [Tor, Toor]
+      - [Hrod, Hrood]
+      - [Sig, Seeg]
+      - [Rik, Reek]
+      - [Arn, Aarn]
+      - [Ald, Aald]
+      - [Ulf, Uulf]
+      - [Ruk, Ruuk]
+      - [Brek, Breek]
+      - [Varn, Vaarn]
+      - [Fried, Freed]
+    prefix_rules_f:
+      - [Storn, Stoorn]
+      - [Brand, Braand]
+      - [Brun, Bruun]
+      - [Gund, Guund]
+      - [Hart, Haart]
+      - [Wulf, Wuulf]
+      - [Wald, Waald]
+      - [Skor, Skoor]
+      - [Thar, Thaar]
+      - [Drak, Draak]
+      - [Kurn, Kuurn]
+      - [Garn, Gaarn]
+      - [Olk, Oolk]
+      - [Tor, Toor]
+      - [Rost, Roost]
+      - [Sol, Sool]
+      - [Lind, Leend]
+      - [Ald, Aald]
+      - [Sig, Seeg]
+      - [Arn, Aarn]
+      - [Ulf, Uulf]
+      - [Ruk, Ruuk]
+      - [Aud, Aaud]
+      - [Volk, Voolk]
+      - [Grim, Greem]
+      - [Brek, Breek]
+      - [Minn, Meenn]
+      - [Heil, Heel]
+      - [Isen, Eesen]
+    # Suffix rules handle ending transformations
+    rules_m:
+      - [stred, streed]
+      - [gast, gaast]
+      - [stal, staal]
+      - [vald, vaald]
+      - [wald, woud]
+      - [mar, maar]
+      - [mund, mond]
+      - [gar, gaar]
+      - [hard, haart]
+      - [bern, beer]
+      - [olf, olf]
+      - [rik, reek]
+      - [stein, steen]
+      - [brand, braand]
+      - [kald, koud]
+      - [dorn, doorn]
+      - [varn, vaan]
+      - [morn, moorn]
+      - [gust, gust]
+      - [helm, helm]
+      - [ulf, uulf]
+      - [vin, veen]
+      - [ven, veen]
+      - [ren, reen]
+      - [eth, eeth]
+    rules_f:
+      - [ilde, eelde]
+      - [gard, gaard]
+      - [hild, heeld]
+      - [rune, ruune]
+      - [linde, leende]
+      - [burg, buurg]
+      - [trud, truud]
+      - [vane, vaane]
+      - [mara, maara]
+      - [kara, kaara]
+      - [gara, gaara]
+      - [solde, soold]
+      - [rika, reeka]
+      - [orn, oorn]
+      - [mund, mond]
+      - [ild, eeld]
+      - [ena, eena]
+      - [dra, draa]
+      - [ren, reen]
+      - [eth, eeth]
+      - [na, naa]
+
+  # ============================================================
+  # STEDELING (Dutch urban + ardrainic border)
+  # ============================================================
+  - id: stedeling_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 7
+    # Same vowel elongation as Naurmen
+    prefix_rules_m:
+      - [Volken, Voolken]
+      - [Aldenv, Aaldenv]
+      - [Brann, Braann]
+      - [Brand, Braand]
+      - [Storn, Stoorn]
+      - [Volk, Voolk]
+      - [Grim, Greem]
+      - [Gund, Guund]
+      - [Hart, Haart]
+      - [Wulf, Wuulf]
+      - [Diet, Deet]
+      - [Bald, Baald]
+      - [Wald, Waald]
+      - [Skor, Skoor]
+      - [Thar, Thaar]
+      - [Drak, Draak]
+      - [Kurn, Kuurn]
+      - [Garn, Gaarn]
+      - [Olk, Oolk]
+      - [Tor, Toor]
+      - [Hrod, Hrood]
+      - [Sig, Seeg]
+      - [Rik, Reek]
+      - [Arn, Aarn]
+      - [Ald, Aald]
+      - [Ulf, Uulf]
+      - [Ruk, Ruuk]
+      - [Brek, Breek]
+      - [Varn, Vaarn]
+      - [Fried, Freed]
+    prefix_rules_f:
+      - [Storn, Stoorn]
+      - [Brand, Braand]
+      - [Brun, Bruun]
+      - [Gund, Guund]
+      - [Hart, Haart]
+      - [Wulf, Wuulf]
+      - [Wald, Waald]
+      - [Skor, Skoor]
+      - [Thar, Thaar]
+      - [Drak, Draak]
+      - [Kurn, Kuurn]
+      - [Garn, Gaarn]
+      - [Olk, Oolk]
+      - [Tor, Toor]
+      - [Rost, Roost]
+      - [Sol, Sool]
+      - [Lind, Leend]
+      - [Ald, Aald]
+      - [Sig, Seeg]
+      - [Arn, Aarn]
+      - [Ulf, Uulf]
+      - [Ruk, Ruuk]
+      - [Aud, Aaud]
+      - [Volk, Voolk]
+      - [Grim, Greem]
+      - [Brek, Breek]
+      - [Minn, Meenn]
+      - [Heil, Heel]
+      - [Isen, Eesen]
+    # Same as Naurmen endings but -woud→-voud, -gard→-gain (ardrainic influence)
+    rules_m:
+      - [stred, streed]
+      - [gast, gaast]
+      - [stal, staal]
+      - [vald, vaald]
+      - [wald, voud]
+      - [mar, maar]
+      - [mund, mond]
+      - [gar, gaar]
+      - [hard, haart]
+      - [bern, beer]
+      - [rik, reek]
+      - [stein, steen]
+      - [brand, braand]
+      - [kald, kain]
+      - [dorn, doorn]
+      - [varn, vaan]
+      - [morn, moorn]
+      - [gust, gust]
+      - [helm, helm]
+      - [vin, veen]
+      - [ven, veen]
+      - [ren, reen]
+      - [eth, eeth]
+    rules_f:
+      - [ilde, eelde]
+      - [gard, gain]
+      - [hild, heeld]
+      - [rune, ruune]
+      - [linde, leende]
+      - [burg, buurg]
+      - [trud, truud]
+      - [vane, vaine]
+      - [mara, maara]
+      - [kara, kaara]
+      - [gara, gaara]
+      - [solde, soold]
+      - [rika, reeka]
+      - [orn, oorn]
+      - [mund, mond]
+      - [ild, eeld]
+      - [ena, eena]
+      - [dra, draa]
+      - [ren, reen]
+      - [eth, eeth]
+      - [na, naa]
+    extra_male:
+      - Koopvald
+      - Muurwoud
+      - Goudmaar
+      - Ringvald
+      - Poortwoud
+      - Handelmaar
+      - Waalvoud
+      - Zilverbeer
+      - Burgmeer
+      - Dijkvaan
+    extra_female:
+      - Goudvane
+      - Ringdis
+      - Poortmara
+      - Muurlinde
+      - Zilverkara
+      - Waalgaard
+    extra_dynasties:
+      - van_Goudmeer
+      - van_Ringveld
+      - van_Poorthoek
+      - van_Zilverberg
+      - van_Waalmeer
+      - van_Dijkwoud
+      - van_Burgveld
+      - van_Koophaven
+
+  # ============================================================
+  # THAURFOLK (Danish/Scandinavian — w→v, g→j, -sen patronyms)
+  # ============================================================
+  - id: thaurfolk_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 8
+    rules_m:
+      - [gast, jast]
+      - [wald, vald]
+      - [gar, jar]
+    rules_f:
+      - [gard, jard]
+      - [gara, jara]
+    extra_male:
+      - Halvard
+      - Halvmund
+      - Ragnvald
+      - Ragnmund
+      - Stigarn
+      - Stigvald
+      - Torbjorn
+      - Torvald
+      - Audulf
+      - Finnvald
+      - Finnarn
+      - Bjorngar
+      - Bjornvald
+      - Keldvarn
+      - Keldmund
+      - Grindvald
+      - Askvald
+      - Brondulf
+      - Vigmund
+      - Skjoldarn
+    extra_female:
+      - Halvdis
+      - Ragndis
+      - Tordis
+      - Stigfrid
+      - Audfrid
+      - Finnild
+      - Bjornild
+      - Keldrun
+      - Vigdis
+      - Askfrid
+      - Gronild
+      - Skjoldis
+    extra_dynasties:
+      - af_Halvard
+      - af_Ragnvald
+      - af_Stigarn
+      - af_Torvald
+      - af_Bjornvald
+      - af_Finnarn
+      - af_Keldmund
+      - af_Vigmund
+      - af_Skjoldarn
+      - af_Askvald
+
+  # ============================================================
+  # BONWESFORIAN (Low German — bridge culture)
+  # ============================================================
+  - id: bonwesforian_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 9
+    rules_m:
+      - [mund, mond]
+    rules_f:
+      - [mund, mond]
+    extra_male:
+      - Othgar
+      - Weland
+      - Theudrik
+      - Hunwald
+      - Radgund
+      - Eodwald
+      - Wulfhad
+      - Athelbern
+      - Mundgar
+      - Hildebrand
+      - Aethelmor
+      - Godmund
+      - Eormund
+      - Saexwulf
+      - Leodgar
+    extra_female:
+      - Aethelburg
+      - Eadhild
+      - Theodlinde
+      - Wulfrun
+      - Hilderun
+      - Godgard
+      - Leodburg
+      - Eorild
+      - Athelmara
+      - Saexhild
+
+  # ============================================================
+  # BORRIKAN (Polish/Slavic — palatalization + own pool)
+  # ============================================================
+  - id: borrikan_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 10
+    prefix_rules_m:
+      - [Sig, Zyg]
+      - [Grim, Grzym]
+      - [Brun, Brzun]
+      - [Helm, Chelm]
+    prefix_rules_f:
+      - [Sig, Zyg]
+      - [Grim, Grzym]
+      - [Brun, Brzun]
+    rules_m:
+      - [wald, wald]
+    rules_f:
+      - [gard, garda]
+      - [vane, wana]
+    replace_rules_m:
+      - [w, l]
+    replace_rules_f:
+      - [w, l]
+    extra_male:
+      - Wojslaw
+      - Wojmierz
+      - Bogslaw
+      - Bogdorn
+      - Radslaw
+      - Radmierz
+      - Staslaw
+      - Stanimierz
+      - Miroslaw
+      - Bronwald
+      - Bronislaw
+      - Kazimierz
+      - Drogosz
+      - Wlodmierz
+      - Zygbern
+      - Grzymar
+      - Borvarn
+      - Starogard
+      - Leszwald
+      - Mieszko
+    extra_female:
+      - Wojslawa
+      - Bogmira
+      - Radmira
+      - Miroslawa
+      - Bronka
+      - Stanmira
+      - Kazimira
+      - Drogyna
+      - Leszhild
+      - Bogvane
+      - Wlodslawa
+      - Grzymara
+    extra_dynasties:
+      - Wojslavski
+      - Bogdanski
+      - Radoslavski
+      - Stanimorski
+      - Miroszewski
+      - Bronikowski
+      - Kazimirski
+      - Drogoszewski
+      - Grzymalski
+      - Leszkowski
+
+  # ============================================================
+  # TYELKIAN (Hungarian/Finnish — vowel harmony, accents)
+  # ============================================================
+  - id: tyelkian_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 11
+    prefix_rules_m:
+      - [Sig, Zsig]
+    prefix_rules_f:
+      - [Sig, Zsig]
+    rules_m:
+      - [wald, vald]
+    replace_rules_m:
+      - [w, v]
+    replace_rules_f:
+      - [w, v]
+    extra_male:
+      - Arpad
+      - Istvald
+      - Zsoltmund
+      - Belagar
+      - Kemengar
+      - Talvarn
+      - Boldmar
+      - Farkvald
+      - Gyulbern
+      - Laszgar
+      - Szabolmar
+      - Torokmund
+      - Zoltan
+      - Csabad
+      - Keled
+      - Vilagos
+      - Endrevald
+      - Levengar
+      - Tihamer
+      - Egermund
+    extra_female:
+      - Arpana
+      - Boldmara
+      - Farkmira
+      - Gyulvane
+      - Ilonka
+      - Eszteka
+      - Viragna
+      - Emeselde
+      - Csillana
+      - Katalke
+      - Szabolmara
+      - Tundena
+    extra_dynasties:
+      - Arpadi
+      - Istvaldi
+      - Zsoltmundi
+      - Belagari
+      - Farkvaldi
+      - Gyulberni
+      - Torokmundi
+      - Szaboli
+      - Levenfi
+      - Egermundi
+
+  # ============================================================
+  # CHESMEKER (Tatar/Turkic — guttural, -valt endings)
+  # ============================================================
+  - id: chesmeker_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 12
+    rules_m:
+      - [gast, khast]
+      - [vald, valt]
+      - [wald, valt]
+      - [gar, khar]
+      - [mund, mund]
+    rules_f:
+      - [gard, khar]
+      - [gara, khara]
+      - [vane, khan]
+    extra_male:
+      - Temurvalt
+      - Temurbek
+      - Arslanmund
+      - Arslanbek
+      - Karagar
+      - Karavarn
+      - Batukhan
+      - Batuvalt
+      - Toktamur
+      - Kuzbern
+      - Devlmund
+      - Bolavalt
+      - Torghul
+      - Sartmund
+      - Edighar
+      - Kutlubek
+      - Ildegar
+      - Ulugmar
+      - Mamavalt
+      - Noghay
+    extra_female:
+      - Arslanay
+      - Karagul
+      - Batumara
+      - Temurgul
+      - Toktagul
+      - Bolakhan
+      - Altunay
+      - Kutlugul
+      - Devlvane
+      - Ildegul
+      - Ulugmara
+      - Aysolde
+    extra_dynasties:
+      - Temurbek
+      - Arslankhan
+      - Karabek
+      - Batukhan
+      - Toktabek
+      - Kutlukhan
+      - Edigbek
+      - Ulugkhan
+      - Sartbek
+      - Noghaikhan
+
+  # ============================================================
+  # NON-HUMAN DIALECTS — no transforms, extra pools only
+  # ============================================================
+
+  # ERLFOLK (elves — proto-elvish germanized names)
+  - id: erlfolk_dialect
+    extra_male:
+      - Aelvindh
+      - Surangar
+      - Fionnwald
+      - Ilmarik
+      - Dharmund
+      - Ciarbern
+      - Tairesmar
+      - Vaelstein
+    extra_female:
+      - Niamhgard
+      - Ashvalinde
+      - Grianrune
+      - Eiludhild
+      - Tuulvane
+      - Siidhmara
+    extra_dynasties:
+      - aun_Aelvindwald
+      - aun_Fionnberg
+      - aun_Ilmastein
+      - aun_Dharfeld
+      - aun_Tairesheim
+
+  # TIEFLING — absorbs south torrent dialect, no extra pool
+  - id: tiefling_torrent_dialect
+
+  # RATFOLK — absorbs local dialect, no extra pool
+  - id: ratfolk_torrent_dialect
+
+  # KNAWVEN (ratfolk, Ringed City area — stedeling-adjacent)
+  # Quick, hissing, truncated — sibilant endings (ratfolk speech)
+  - id: knawven_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 13
+    rules_m:
+      - [stred, stress]
+      - [gast, gass]
+      - [stal, stass]
+      - [vald, vass]
+      - [wald, vass]
+      - [mar, mass]
+      - [mund, muss]
+      - [gar, gass]
+      - [hard, hass]
+      - [bern, bess]
+      - [stein, stiss]
+      - [brand, brass]
+      - [dorn, doss]
+      - [varn, vass]
+      - [morn, moss]
+      - [kald, kass]
+      - [olf, oss]
+      - [rik, riss]
+      - [gust, guss]
+      - [helm, hess]
+      - [ulf, uss]
+      - [vin, viss]
+      - [ven, vess]
+      - [ren, ress]
+      - [eth, ess]
+    rules_f:
+      - [ilde, iss]
+      - [gard, gass]
+      - [hild, hiss]
+      - [rune, russ]
+      - [linde, liss]
+      - [burg, buss]
+      - [trud, truss]
+      - [vane, vass]
+      - [mara, mass]
+      - [kara, kass]
+      - [gara, gass]
+      - [solde, soss]
+      - [rika, riss]
+      - [orn, oss]
+      - [mund, muss]
+      - [ild, iss]
+      - [ena, ess]
+      - [dra, drass]
+      - [ren, ress]
+      - [eth, ess]
+      - [na, nass]
+
+  # HIMMELSKIND (aasimar) — absorbs south dialect, no extra pool
+  - id: himmelskind_dialect
+
+# ============================================================
+# CULTURE → DIALECT MAPPINGS
+# ============================================================
+# Each culture gets reassigned from the old 3-dialect system
+# (central/south/north_torrentor_dialect) to its own dialect.
+
+cultures:
+  # --- CENTRAL (ex central_torrentor_dialect) ---
+  - id: heuhian_culture
+    dialect: heuhian_dialect
+    color: torrent_heuhian
+    tags: [south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group, vetusian_group]
+
+  - id: fullhorner_culture
+    dialect: fullhorner_dialect
+    color: torrent_fullhorner
+    tags: [south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group, vetusian_group]
+
+  - id: afhaemeisan_culture
+    dialect: afhaemeisan_dialect
+    color: afhaemeisan_color
+    tags: [south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group]
+
+  - id: lower_serenic_culture
+    dialect: lower_serenic_dialect
+    color: lower_serenic_color
+    tags: [south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group, vetusian_group]
+
+  # --- SOUTH (ex south_torrentor_dialect) ---
+  - id: middle_serenic_culture
+    dialect: middle_serenic_dialect
+    color: middle_serenic_color
+    tags: [south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group, vetusian_group]
+
+  - id: sorlkol_culture
+    dialect: sorlkol_dialect
+    color: map_newar
+    tags: [south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [human_group, aitan_group]
+
+  # --- NORTH (ex north_torrentor_dialect) ---
+  - id: naurmen_culture
+    dialect: naurmen_dialect
+    color: naurmen_color
+    tags: [frisian_gfx, dutch_gfx, north_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group]
+
+  - id: stedeling_culture
+    dialect: stedeling_dialect
+    color: stedeling_color
+    tags: [dutch_gfx, north_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group, ringed_citizen_group]
+
+  - id: thaurfolk_culture
+    dialect: thaurfolk_dialect
+    color: thaurfolk_color
+    tags: [danish_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group]
+    use_patronym: yes
+
+  - id: bonwesforian_culture
+    dialect: bonwesforian_dialect
+    color: "rgb { 152 0 2 }"
+    tags: [north_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group, vetusian_group]
+
+  - id: borrikan_culture
+    dialect: borrikan_dialect
+    color: borrikan_color
+    tags: [polish_gfx, west_slavic_gfx, slavic_gfx, eastern_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group]
+
+  - id: tyelkian_culture
+    dialect: tyelkian_dialect
+    color: tyelkian_color
+    tags: [hungarian_gfx, eastern_european_gfx, european_gfx]
+    groups: [torrenter_group, human_group]
+
+  - id: chesmeker_culture
+    dialect: chesmeker_dialect
+    color: chesmeker_color
+    tags: [central_asian_gfx, middle_east_gfx]
+    groups: [torrenter_group, human_group]
+
+  # --- NON-HUMAN ---
+  - id: torrentor_tieflings_culture
+    dialect: tiefling_torrent_dialect
+    color: tiefling_red
+    tags: [tiefling_gfx, south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, tiefling_group]
+
+  - id: torrentor_ratfolk_culture
+    dialect: ratfolk_torrent_dialect
+    color: torrent_ratfolk
+    tags: [ratfolk_gfx, south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, ratfolk_group, vetusian_group]
+
+  - id: erlfolk_culture
+    dialect: erlfolk_dialect
+    color: erlfolk_color
+    tags: [wood_elf_gfx, south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [torrenter_group, elven_group, vetusian_group]
+
+  - id: knawven_culture
+    dialect: knawven_dialect
+    color: map_FRI
+    tags: [verman_gfx, egyptian_gfx, middle_east_gfx]
+    groups: [torrenter_group, ratfolk_group, ringed_citizen_group]
+
+  - id: himmelskind_culture
+    dialect: himmelskind_dialect
+    color: map_austrian
+    tags: [aasimar_gfx, south_german_gfx, german_gfx, western_european_gfx, european_gfx]
+    groups: [aasimar_group, aitan_group]

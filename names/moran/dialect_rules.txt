@@ -1,0 +1,129 @@
+# ============================================================
+# MORAN — Regles Dialectales
+# ============================================================
+# 5 strates temporelles : Early (archaique) -> High (default) ->
+#   Late (corrompu) -> Novus (melange) -> Vivum (proto-italien)
+# Organisation CHRONOLOGIQUE, pas geographique.
+# Sud = ancien, Nord = recent.
+# ============================================================
+
+# ============================================================
+# HIGH MORAN (moran_language — DEFAULT)
+# ============================================================
+# Identite : Apogee imperial. Latin pur, majestueux, fige au sommet.
+# Style : majestueux, solennel, imperial, complet, prestige
+# Transformations : AUCUNE — c'est la reference.
+# Prefixe dynastique : aucun
+
+# ============================================================
+# EARLY MORAN (early_moran_dialect)
+# ============================================================
+# Identite : Republique archaique. Austere, severe, rude.
+# Style : archaique, dur, tronque, austere, republicain
+#
+# Voyelles : ae->ai (archaisme), u conserve
+# Consonnes : c->k devant e/i, s final dur
+# Terminaisons M : -us->-os, -ius->-ios, -or reste, -ax reste
+# Terminaisons F : -a->-a, -ina->-ina, -illa->-ila
+# Prefixe dynastique : aucun
+# Noms propres : favoriser Volsus, Fossus, Apitor, Hostior, etc.
+#
+# Exemples :
+# Aeternus   -> Aitornos
+# Caelinus   -> Kailinos
+# Sanctorius -> Sanktorios
+# Corvinus   -> Korvinos
+# Aeterna    -> Aitorna
+# Caelina    -> Kailina
+# Bellicor   -> Bellikor
+
+# ============================================================
+# LATE MORAN (late_moran_dialect)
+# ============================================================
+# Identite : Empire qui s'effrite. Latin ramolli, terminaisons erodees.
+# Style : adouci, erode, glissant, fatigue, decadent
+#
+# Voyelles : u->o (ouverture), ae->e (simplification)
+# Consonnes : -s final tombe, c->s devant e/i, t intervocalique->d
+# Terminaisons M : -us->-o, -ius->-io, -or reste, -ax->-as
+# Terminaisons F : -a->-a, -ina->-ina, -illa->-ella
+# Prefixe dynastique : aucun
+# Noms propres : favoriser Crepulus, Flavex, Sevelon, etc.
+#
+# Exemples :
+# Aeternus   -> Eterno
+# Sanctorius -> Sandorio
+# Feraxus    -> Feraso
+# Mortivex   -> Mordives
+# Aeterna    -> Eterna
+# Caelina    -> Selina
+# Sanctilla  -> Sandella
+
+# ============================================================
+# NOVUS MORAN (novus_moran_dialect)
+# ============================================================
+# Identite : Derniers recrutes undead. Latin contamine par vulgar moran.
+# Style : hybride, contamine, instable, melange, transitionnel
+#
+# Voyelles : u->o, ae->e, insertion voyelles parasites
+# Consonnes : comme Late + h aspire tombe, clusters simplifies
+# Terminaisons M : -us->-o, -ius->-io, -or->-ore, -ax->-ace
+# Terminaisons F : -a->-a, -ina->-ine, -illa->-elle
+# Prefixe dynastique : di (emprunt vulgar moran)
+# Noms propres : mix tardifs + emprunts vulgar moran
+#
+# Exemples :
+# Aeternus   -> Eterno
+# Sanctorius -> Sandorio
+# Feraxus    -> Ferace
+# Dominor    -> Dominore
+# Aeterna    -> Eterna
+# Caelina    -> Seline
+# Fundilla   -> Fundelle
+# dyn. Mortemari -> di Mortemari
+
+# ============================================================
+# VIVUM MORAN (vivum_moran_dialect)
+# ============================================================
+# Identite : Les VIVANTS. Seuls humains. Proto-italien evolue.
+# Style : italien, melodieux, vivant, ouvert, moderne
+#
+# Voyelles : u->o systematique, ae->e, voyelles ouvertes
+# Consonnes : c->ch devant e/i, t->z intervocalique, -ct-->-tt-, s->s
+# Terminaisons M : -us->-o, -ius->-io, -or->-ore, -ax->-ace, -er->-ero
+# Terminaisons F : -a->-a, -ina->-ina, -illa->-ella, -ia->-ia
+# Prefixe dynastique : di (italien)
+# Noms propres : Lucerno, Corvino, Valdo, Belcoro, Fontano, Silvano,
+#   Belcora, Fontina, Silvana, Valdina, Luciana, Corvella
+#
+# Exemples :
+# Aeternus   -> Eterno
+# Sanctorius -> Santorio
+# Caelinus   -> Chelino
+# Feraxus    -> Ferace
+# Bellicor   -> Bellicore
+# Aeterna    -> Eterna
+# Caelina    -> Chelina
+# Sanctilla  -> Santella
+# Mortiva    -> Mortiva
+# dyn. Mortemari -> di Mortemari
+
+# ============================================================
+# GRADIENT CHRONOLOGIQUE (resume visuel)
+# ============================================================
+#
+# SUD <-----------------------------------------> NORD
+# Early       High       Late       Novus       Vivum
+# (archaique) (imperial) (erode)    (melange)   (italien)
+# FIGE        FIGE       FIGE       FIGE        EVOLUE
+#
+# -os/-ios    -us/-ius   -o/-io     -o/-io      -o/-io
+# k devant ei c standard  s devant ei s devant ei ch devant ei
+# pas de pfx  pas de pfx  pas de pfx  di          di
+#
+# Distincteurs cles :
+# Early  = seul avec k/ai (archaisme)
+# High   = seul avec -us/-ius complets
+# Late   = -s tombe, t->d, mais pas de prefixe
+# Novus  = Late + prefixe di + terminaisons -ore/-ace/-elle
+# Vivum  = c->ch, -ct-->-tt-, noms propres italiens

@@ -1,0 +1,897 @@
+# ============================================================
+# TORRENTIAN — Pool de noms de base (Heuhian = standard)
+# ============================================================
+# Structure : Attaque + Terminaison (2 morphemes germaniques)
+# Ratio : ~50% recombinaisons classiques, ~50% fantasy
+# Regle : 2-3 syllabes, pas de clusters impossibles
+# Les noms existants du mod (Frederick, Conrad, etc.) sont GARDES
+# Ceux-ci s'AJOUTENT par-dessus
+# ============================================================
+
+# ============================================================
+# PRENOMS MASCULINS (80 noms)
+# ============================================================
+
+## Classiques (recombinaisons de morphemes germaniques reels)
+## ---------------------------------------------------------
+
+# Attaque Sig- (victoire)
+Sigwald          # Sig + wald (victoire-foret)
+Warneth          # organique — gardien+serment, archaique
+Sigmar           # Sig + mar (victoire-gloire)
+
+# Attaque Volk- (peuple)
+Volkmar          # Volk + mar (peuple-gloire)
+Volkhard         # Volk + hard (peuple-fort)
+
+# Attaque Grim- (feroce)
+Grimwald         # Grim + wald (feroce-foret)
+Gildren          # organique — or+secret, mysterieux
+Volstren         # organique — peuple+tempete, epique
+
+# Attaque Arn- (aigle)
+Arnwald          # Arn + wald (aigle-foret)
+Arngar           # Arn + gar (aigle-lance)
+Arnulf           # Arn + ulf (aigle-loup)
+
+# Attaque Ald- (ancien)
+Aldrik           # Ald + rik (ancien-puissant)
+Aldmund          # Ald + mund (ancien-protecteur)
+
+# Attaque Helm- (casque)
+Helmrik          # Helm + rik (casque-puissant)
+Helmgar          # Helm + gar (casque-lance)
+
+# Attaque Eber- (sanglier)
+Eberhard         # Eber + hard (sanglier-fort)
+Eberbern         # Eber + bern (sanglier-ours)
+
+# Attaque Hrod- (gloire)
+Hrodgar          # Hrod + gar (gloire-lance)
+Hrodwald         # Hrod + wald (gloire-foret)
+
+# Attaque Brand- (feu)
+Brandolf         # Brand + olf (feu-loup)
+Brandmar         # Brand + mar (feu-gloire)
+
+# Attaque Tor- (tonnerre)
+Tormund          # Tor + mund (tonnerre-protecteur)
+Torstein         # Tor + stein (tonnerre-pierre)
+Torbrand         # Tor + brand (tonnerre-feu)
+
+# Attaque Gund- (combat)
+Gundmar          # Gund + mar (combat-gloire)
+Gundbern         # Gund + bern (combat-ours)
+Gundhard         # Gund + hard (combat-fort)
+
+# Attaque Hart- (dur/fort)
+Hartbern         # Hart + bern (fort-ours)
+Hartmund         # Hart + mund (fort-protecteur)
+
+# Attaque Wulf- (loup)
+Wulfgar          # Wulf + gar (loup-lance)
+Wulfbrand        # Wulf + brand (loup-feu)
+
+# Attaque Diet- (peuple)
+Dietmar          # Diet + mar (peuple-gloire)
+Dietwald         # Diet + wald (peuple-foret)
+
+# Attaque Fried- (paix)
+Friedwald        # Fried + wald (paix-foret)
+
+# Attaque Ger- (lance)
+Gerbern          # Ger + bern (lance-ours)
+Gerwald          # Ger + wald (lance-foret)
+
+# Attaques solo (1 nom chacune)
+Baldgar          # Bald + gar (hardi-lance) — remplace Baldrik (trop proche d'Aldric ardrainic)
+Ulfgar           # Ulf + gar (loup-lance)
+Rikwald          # Rik + wald (puissant-foret)
+Waldbern         # Wald + bern (foret-ours)
+
+## Fantasy (morphemes inventes marques *)
+## ---------------------------------------------------------
+
+# Attaque Skor-* (brule/dur)
+Skorvarn         # Skor* + varn* (brule-gardien)
+Skormund         # Skor* + mund (brule-protecteur)
+Skordorn         # Skor* + dorn* (brule-epine)
+Skorgust         # Skor* + gust* (brule-rafale)
+
+# Attaque Thar-* (tonnerre deforme)
+Tharwald         # Thar* + wald (tonnerre-foret)
+Tharbern         # Thar* + bern (tonnerre-ours)
+Thargar          # Thar* + gar (tonnerre-lance)
+
+# Attaque Velk-* (folk deforme)
+Velkvarn         # Velk* + varn* (folk-gardien) — remplace Velkmar (trop proche de Volkmar)
+Velkdorn         # Velk* + dorn* (folk-epine)
+
+# Attaque Drak-* (dragon/sombre)
+Drakwald         # Drak* + wald (dragon-foret)
+Krenvald         # organique — pierre+foret, terrien
+Rothgar          # organique — conseil+lance, sage guerrier
+Drakmorn         # Drak* + morn* (dragon-aube)
+
+# Attaque Kurn-* (fournaise)
+Kurngar          # Kurn* + gar (fournaise-lance)
+Kurnwald         # Kurn* + wald (fournaise-foret)
+
+# Attaque Ruk-* (roc/brut)
+Rukhard          # Ruk* + hard (roc-fort)
+Rukvarn          # Ruk* + varn* (roc-gardien)
+
+# Attaque Garn-* (garde/fer)
+Garnhelm         # Garn* + helm (garde-casque)
+Garnwald         # Garn* + wald (garde-foret)
+
+# Attaque Storn-* (tempete)
+Storngar         # Storn* + gar (tempete-lance)
+Stornmar         # Storn* + mar (tempete-gloire)
+
+# Attaque Brek-* (briseur)
+Brekolf          # Brek* + olf (briseur-loup)
+Brekdorn         # Brek* + dorn* (briseur-epine)
+Brekstein        # Brek* + stein (briseur-pierre)
+
+# Attaque Olk-* (ancien/lourd)
+Olkmar           # Olk* + mar (ancien-gloire)
+Olkgar           # Olk* + gar (ancien-lance)
+Olkstein         # Olk* + stein (ancien-pierre)
+
+# Noms courts/bruts (1 syllabe, couche populaire, morpheme seul)
+Garm             # loup/chien (norrois garmr)
+Skorn            # brule (de Skor*)
+Brek             # briseur (de Brek*)
+Ruk              # roc (de Ruk*)
+Drak             # dragon (de Drak*)
+Gund             # combat
+Volk             # peuple
+Arn              # aigle
+Hrod             # gloire
+Brand            # feu
+Ulf              # loup
+Sten             # pierre (variante de Stein)
+Kurn             # fournaise (de Kurn*)
+Thar             # tonnerre (de Thar*)
+
+# Noms courts feminins (1-2 syllabes, populaires)
+Hild             # combat
+Runa             # secret
+Garda            # protection
+Solde            # or/soleil (de -solde*)
+Rika             # puissante
+Mara             # gloire
+Lind             # tilleul
+Isen             # glace
+
+# Noms a structure variee (moins mecanique, voyelles intercalaires, 3 morph.)
+Torvin           # Tor + vin (tonnerre-ami) — terminaison rare, court
+Wulfren          # Wulf + ren (loup-secret) — soft ending inhabituel
+Garneth          # Garn* + eth (garde-serment) — feel archaique
+Aldenvarn        # Ald + en + varn* (ancien-ne-gardien) — 3 morphemes
+Halstred         # organique — sel+courant, cotier, rugueux
+Volkenmar        # Volk + en + mar (peuple-de-gloire) — voyelle intercalaire
+Volkren          # Volk + ren (peuple-secret) — organique, doux
+Eberenwald       # Eber + en + wald (sanglier-de-foret) — voyelle intercalaire
+Hrodven          # Hrod + ven (gloire-ami) — court, doux
+Brannrik         # Brann + rik (flamme-puissant) — doublement consonne
+Feldvarn         # organique — champ+gardien, paysan noble
+Thurgast         # Thur + gast (geant-hote) — sens inhabituel
+Kornstal         # Korn + stal (grain-acier) — terrien
+Aldven           # Ald + ven (ancien-ami) — doux, court
+Varnhelm         # Varn* + helm (gardien-casque) — fantasy en attaque
+
+# Terminaisons fantasy sur attaques classiques
+Odgar            # organique — ancetre+lance, court, rude
+Grimkald         # Grim + kald* (feroce-froid)
+Friedgust        # Fried + gust* (paix-rafale) — remplace Grimmorn (Grim- a 5 = trop)
+Wulfgust         # Wulf + gust* (loup-rafale)
+Ebermorn         # Eber + morn* (sanglier-aube)
+Volkstein        # Volk + stein (peuple-pierre)
+Torgust          # Tor + gust* (tonnerre-rafale)
+Hartvarn         # Hart + varn* (fort-gardien)
+Arndorn          # Arn + dorn* (aigle-epine)
+Helmdorn         # Helm + dorn* (casque-epine)
+Brandvarn        # Brand + varn* (feu-gardien)
+Friedmorn        # Fried + morn* (paix-aube)
+Gundmorn         # Gund + morn* (combat-aube)
+
+# ============================================================
+# PRENOMS FEMININS (50 noms)
+# ============================================================
+
+## Classiques (recombinaisons de morphemes germaniques reels)
+## ---------------------------------------------------------
+
+# Attaque Sig- (victoire)
+Svarnhild        # organique — gardien+combat, puissant
+Sigrune          # Sig + rune (victoire-secret)
+
+# Attaque Brun- (armure)
+Brunhild         # Brun + hild (armure-combat)
+Brungard         # Brun + gard (armure-protection)
+
+# Attaque Arn- (aigle)
+Arnlinde         # Arn + linde (aigle-tilleul)
+Arnhild          # Arn + hild (aigle-combat)
+
+# Attaque Wald- (foret)
+Waldburg         # Wald + burg (foret-forteresse)
+
+# Attaque Grim- (feroce)
+Grimrune         # Grim + rune (feroce-secret)
+
+# Attaque Helm- (casque)
+Helmtrud         # Helm + trud (casque-force)
+Helmburg         # Helm + burg (casque-forteresse)
+
+# Attaque Eber- (sanglier)
+Ebergard         # Eber + gard (sanglier-protection)
+
+# Attaque Tor- (tonnerre)
+Tornilde         # Tor + (h)ilde (tonnerre-combat)
+
+# Attaque Gund- (combat)
+Gundlinde        # Gund + linde (combat-tilleul)
+Gundtrud         # Gund + trud (combat-force)
+
+# Attaque Hart- (fort)
+Hartrune         # Hart + rune (forte-secret)
+Hartgard         # Hart + gard (forte-protection)
+
+# Attaque Fried- (paix)
+Friedlinde       # Fried + linde (paix-tilleul)
+
+# Attaque Ger- (lance)
+Gerhild          # Ger + hild (lance-combat)
+Gerburg          # Ger + burg (lance-forteresse)
+
+# Attaque Wulf- (loup)
+Wulfrune         # Wulf + rune (louve-secret)
+
+# Attaque Ald- (ancienne)
+Aldhild          # Ald + hild (ancienne-combat)
+Aldburg          # Ald + burg (ancienne-forteresse)
+
+# Attaque Brand- (feu)
+Brandgard        # Brand + gard (feu-protection)
+
+# Attaque Diet- (peuple)
+Dietlinde        # Diet + linde (peuple-tilleul)
+
+# Attaque Ulf- (louve)
+Ulftrud          # Ulf + trud (louve-force)
+
+## Fantasy (morphemes inventes marques *)
+## ---------------------------------------------------------
+
+# Terminaisons fantasy -kara* (aimee), -vane* (vent), -mara* (gloire fem.),
+# -solde* (soleil/or), -rika* (puissante), -orn* (aube fem.)
+
+Volkara          # Volk + kara* (peuple-aimee)
+Tharvane         # Thar* + vane* (tonnerre-vent)
+Skormara         # Skor* + mara* (brule-gloire)
+Astrild          # organique — etoile+combat, lumineux
+Aldsolde         # Ald + solde* (ancienne-or)
+Garnlinde        # Garn* + linde (garde-tilleul)
+Brekorn          # Brek* + orn* (briseuse-aube)
+Velkhild         # Velk* + hild (folk-combat)
+Draksolde        # Drak* + solde* (dragon-or)
+Gundvane         # Gund + vane* (combat-vent)
+Wulfmara         # Wulf + mara* (louve-gloire)
+Tormara          # Tor + mara* (tonnerre-gloire)
+Gildvane         # organique — or+vent, elegante
+Ebervane         # Eber + vane* (sanglier-vent)
+Skorgard         # Skor* + gard (brule-protection)
+Tharlinde        # Thar* + linde (tonnerre-tilleul)
+Kurnburg         # Kurn* + burg (fournaise-forteresse)
+Rukvane          # Ruk* + vane* (roc-vent)
+Stornmara        # Storn* + mara* (tempete-gloire)
+Breksolde        # Brek* + solde* (briseuse-or)
+Olkrika          # Olk* + rika* (ancienne-puissante)
+Arnkara          # Arn + kara* (aigle-aimee)
+Waldmara         # Wald + mara* (foret-gloire)
+Hartvane         # Hart + vane* (forte-vent)
+Thornild         # organique — epine+combat, rude et fiere
+
+## Attaques exclusivement feminines
+## ---------------------------------------------------------
+# Attaques : Rost- (rouille), Sol- (soleil), Lind- (tilleul), Heil- (sacre),
+# Isen- (glace/fer), Minn- (amour), Aud- (richesse)
+
+Rostvane         # Rost + vane* (rouille-vent)
+Rostmund         # Rost + mund (rouille-protection)
+Solmara          # Sol + mara* (soleil-gloire)
+Solrune          # Sol + rune (soleil-secret)
+Lindgard         # Lind + gard (tilleul-protection)
+Lindhild         # Lind + hild (tilleul-combat)
+Heilrune         # Heil + rune (sacre-secret)
+Heilburg         # Heil + burg (sacre-forteresse)
+Isenhild         # Isen + hild (glace-combat)
+Isensolde        # Isen + solde* (glace-or)
+Minnvane         # Minn + vane* (amour-vent)
+Audmara          # Aud + mara* (richesse-gloire)
+
+## Organiques feminins (ajout audit — ratio M/F)
+## ---------------------------------------------------------
+Elgara           # organique — sonne elfique-germanique, doux
+Valkren          # Valk + ren (faucon-secret) — court, mysterieux
+Thuren           # Thur + en (geant-nee) — simple, archaique
+Aldena           # Ald + ena (ancienne-nee) — naturel, commun
+Sterna           # Stern + a (etoile) — court, poetique
+Gervane          # Ger + vane* (lance-vent) — elegante
+Bruneth          # Brun + eth (armure-serment) — serieux
+Wuldra           # Wuld + ra (gloire-feminine) — puissant, rare
+
+# ============================================================
+# DYNASTIES FANTASY (par prefixe dialectal)
+# ============================================================
+# S'ajoutent aux 179/318/197 dynasties von_ existantes dans le mod
+
+## von_ (standard — Heuhian, Fullhorner, Afhaemeisan, Lower Serenic, Bonwesforian)
+von_Skorwald
+von_Drakstein
+von_Thornburg
+von_Kurnfeld
+von_Grimhold
+von_Stornberg
+von_Brekwald
+von_Olkheim
+von_Velkburg
+von_Garnstein
+von_Rukberg
+von_Tharfeld
+von_Wulfheim
+von_Sigvarn
+von_Eberdorn
+von_Hartkald
+von_Friedmorn
+von_Baldenberg
+von_Hrodstein
+von_Brandvarn
+
+## von/de_ (Middle Serenic — influence ardrainic)
+de_Sigvald
+de_Grimvain
+de_Tharvald
+von_Serenhald
+
+## zu_ (Sorlkol — suisse)
+zu_Skorwold
+zu_Grimwold
+zu_Olkberg
+zu_Drakhorn
+zu_Brekstein
+
+## van_ (Naurmen, Stedeling — neerlandais)
+van_Seegwoud
+van_Greemveld
+van_Woulfberg
+van_Braandhoek
+van_Toormeer
+van_Helmreek
+van_Draakwoud
+van_Skoorvaan
+van_Olkmaar
+van_Volkhaard
+
+## af_ (Thaurfolk — danois)
+af_Sigvald
+af_Grimvald
+af_Torvald
+af_Brunmark
+af_Volksted
+af_Arnvald
+
+## -ski (Borrikan — polonais)
+Zygwaldski
+Brynski
+Arnowski
+Grymski
+Volkarski
+Helminski
+Tarski
+Waldowski
+Kornicki
+Draczewski
+
+## -i (Tyelkian — hongrois)
+Zsigvaldi
+Volkari
+Grimvaldi
+Helmeki
+Tornadi
+Brekendi
+Olkmari
+Kurnadi
+
+## -bek (Chesmeker — tatar)
+Sigbek
+Volkbek
+Grimbek
+Tornbek
+Kurnbek
+Skorvaltbek
+Drakhanbek
+Helmarbek
+
+## NOTE — Races non-humaines (systeme substrat, PAS de dialecte propre)
+## Tieflings, Ratfolk (Knawven), Himmelskind : absorbent la culture locale
+## → utilisent les noms du dialecte de leur zone (south/north_torrentor)
+## → pas de prefixe ni de transform special
+##
+## Erlfolk (elfes) : ~70-75% noms torrent locaux + ~25-30% proto-elfique germanise
+## Les noms proto-elfiques ci-dessous sont filtres par la phonetique torrentienne
+## (voir project_proto_languages.md pour le proto-elfique pur)
+
+## Erlfolk — Noms proto-elfiques germanises (~25-30% du pool elfique)
+## Prefixe dynastique : aun_ (nature)
+## Ces noms s'AJOUTENT au pool torrent standard que les Erlfolk utilisent deja
+
+# Masculins proto-elfiques germanises
+Aelvindh         # proto Ael- + germanique -ind + souffle -dh
+Surangar         # proto Sur- + torrent -gar (lance)
+Fionnwald        # proto Fionn- + torrent -wald (foret)
+Ilmarik          # proto Ilma- + torrent -rik (puissant)
+Dharmund         # proto Dhar- + torrent -mund (protecteur)
+Ciarbern         # proto Ciar- + torrent -bern (ours)
+Tairesmar        # proto Taires- + torrent -mar (gloire)
+Vaelstein        # proto Vael- + torrent -stein (pierre)
+
+# Feminins proto-elfiques germanises
+Niamhgard        # proto Niamh- + torrent -gard (protection)
+Ashvalinde       # proto Ashva- + torrent -linde (tilleul)
+Grianrune        # proto Grian- + torrent -rune (secret)
+Eiludhild        # proto Eiludh- + torrent -hild (combat)
+Tuulvane         # proto Tuul- + fantasy -vane (vent)
+Siidhmara        # proto Siidh- + fantasy -mara (gloire)
+
+# Dynasties Erlfolk
+aun_Aelvindwald
+aun_Fionnberg
+aun_Ilmastein
+aun_Dharfeld
+aun_Tairesheim
+
+# ============================================================
+# ROTURIERS / LOWBORN FANTASY
+# ============================================================
+# S'ajoutent aux 73 noms existants (Brenner, Kepler, Hegel, etc.)
+
+## Bases sur morphemes torrentians (noms de metier/lieu)
+Skorner          # de Skor (bruleur)
+Tharnbach        # de Thar + bach (ruisseau-tonnerre)
+Velkmann         # de Velk (homme du peuple)
+Drakner          # de Drak (dragon-eur)
+Kurnbach         # de Kurn + bach
+Rukmann          # de Ruk (homme de roc)
+Garnfeld         # de Garn + feld (champ de garde)
+Stornfeld        # de Storn + feld (champ de tempete)
+Brekner          # de Brek (briseur)
+Olkbach          # de Olk + bach
+
+## Occupationnels fantasy
+Wulfblut         # sang de loup
+Grimfell         # peau feroce
+Brekstein        # brise-pierre
+Drakblut         # sang de dragon
+Stornkind        # enfant de tempete
+Tharschlag       # frappe-tonnerre
+Eberhorn         # corne de sanglier
+Arnfeder         # plume d'aigle
+Brandkohle       # charbon de feu
+Helmschmied      # forgeur de casques
+
+## Nature / Geographie
+Dunkelbach       # ruisseau sombre
+Grauvolk         # peuple gris
+Steinherz        # coeur de pierre
+Schwarzwald      # foret noire
+Tiefgrund        # fond profond
+Hochfeld         # haut champ
+Rotberg          # montagne rouge
+Wildbach         # ruisseau sauvage
+Kaltstein        # pierre froide
+Grauberg         # montagne grise
+Dornfeld         # champ d'epines
+Sturmbach        # ruisseau de tempete
+
+## Traits physiques / Descriptifs
+Langbein         # longues jambes
+Krummhand        # main tordue
+Breitschild      # large bouclier
+Eisenarm         # bras de fer
+Grauhaar         # cheveux gris
+Hartfaust        # poing dur
+Dunkelhaut       # peau sombre
+Schnellmund      # bouche rapide (baratineur)
+
+## Patronymiques (base pour variantes dialectales)
+Sigwaldsen       # fils de Sigwald (forme Thaurfolk -sen)
+Grimgarsen       # fils de Grimgar
+Arnwaldsen       # fils de Arnwald
+
+# ============================================================
+# MINI-POOLS CULTURELS SPECIFIQUES
+# ============================================================
+# Ces cultures sont trop distinctes pour de simples transforms.
+# Ils utilisent ~50% noms torrent transforms + ~50% noms propres ci-dessous.
+
+# ============================================================
+# STEDELING (citadins fortifies / "ringed citizens")
+# ============================================================
+# Les Stedeling vivent dans des villes murees, sont marchands et urbains.
+# Langue de base : neerlandais (comme Naurmen) mais avec influence ardrainic
+# et vocabulaire commercial/urbain.
+# Pas un gros mini-pool — juste quelques noms propres qui refletent l'identite
+# urbaine/marchande, en plus du pool neerlandais standard.
+
+## Masculins Stedeling (10) — noms a connotation urbaine/marchande
+Koopvald         # Koop + vald (commerce-pouvoir) — neerlandais-torrent
+Muurwoud         # Muur + woud (mur-foret) — ville fortifiee
+Goudmaar         # Goud + maar (or-gloire) — marchand
+Ringvald         # Ring + vald (anneau-pouvoir) — ringed citizen
+Poortwoud        # Poort + woud (porte-foret) — portier
+Handelmaar       # Handel + maar (commerce-gloire)
+Waalvoud         # Waal + voud (rempart-foret) — fortifie
+Zilverbeer       # Zilver + beer (argent-ours) — riche
+Burgmeer         # Burg + meer (forteresse-lac) — toponyme
+Dijkvaan         # Dijk + vaan (digue-gardien)
+
+## Feminins Stedeling (6)
+Goudvane         # Goud + vane* (or-vent)
+Ringdis          # Ring + dis (anneau-deesse) — emprunt Thaurfolk
+Poortmara        # Poort + mara* (porte-gloire)
+Muurlinde        # Muur + linde (mur-tilleul)
+Zilverkara       # Zilver + kara* (argent-aimee)
+Waalgaard        # Waal + gaard (rempart-protection)
+
+## Dynasties Stedeling
+van_Goudmeer
+van_Ringveld
+van_Poorthoek
+van_Zilverberg
+van_Waalmeer
+van_Dijkwoud
+van_Burgveld
+van_Koophaven
+
+# ============================================================
+# SUBSTRAT VETUSIEN (Fullhorner, Lower/Middle Serenic, Bonwesforian)
+# ============================================================
+# Les Vetusians sont les habitants ORIGINELS du Torrent, avant la coalition
+# de 1097. Ils partagent un fond de noms archaiques proto-torrentians que
+# les cultures plus recentes (Heuhian, etc.) n'utilisent PAS.
+# Ces noms sonnent "vieux germanique" — plus rudes, voyelles fermees,
+# consonnes lourdes, structures inhabituelles.
+# ~15% du pool vetusian = ces noms + ~85% noms torrent standard
+
+## Masculins vetusiens (15)
+Othgar           # Oth + gar (serment-lance) — proto-forme de oath
+Weland           # forgeron mythique, nom pre-torrentian
+Theudrik         # Theud + rik (peuple-puissant) — forme archaique de Dietrik
+Hunwald          # Hun + wald (jeune guerrier-foret)
+Radgund          # Rad + gund (conseil-combat) — inversion inhabituelle
+Eodwald          # Eod + wald (richesse-foret) — archaique
+Wulfhad          # Wulf + had (loup-etat) — terminaison morte
+Athelbern        # Athel + bern (noble-ours) — proto-Ald
+Mundgar          # Mund + gar (protecteur-lance) — inversion
+Hildebrand       # Hild + brand (combat-feu) — tres ancien
+Aethelmor        # Aethel + mor (noble-aube*) — mixte archaique+fantasy
+Godmund          # God + mund (dieu-protecteur) — pre-Eternalist
+Eormund          # Eor + mund (terre-protecteur)
+Saexwulf         # Saex + wulf (couteau-loup) — rude
+Leodgar          # Leod + gar (peuple-lance) — proto-Diet
+
+## Feminins vetusiens (10)
+Aethelburg       # Aethel + burg (noble-forteresse)
+Eadhild          # Ead + hild (richesse-combat)
+Theodlinde       # Theod + linde (peuple-tilleul) — archaique
+Wulfrun          # Wulf + run (louve-secret) — forme ancienne de Wulfrune
+Hilderun         # Hild + run (combat-secret)
+Godgard          # God + gard (divine-protection)
+Leodburg         # Leod + burg (peuple-forteresse)
+Eorild           # Eor + ild (terre-combat)
+Athelmara        # Athel + mara* (noble-gloire)
+Saexhild         # Saex + hild (couteau-combat) — rude
+
+# ============================================================
+# THAURFOLK (danois/scandinave) — cotiers, patronymes -sen
+# ============================================================
+# Inspiration : vieux-danois + norrois + fantasy. Attaques Halv-, Ragn-, Stig-,
+# Tor- (partage), Aud-, Finn-, Bjorn-, Keld-
+# Terminaisons M : -vald (pouvoir), -arn (aigle), -mund (partage), -bjorn, -ulf
+# Terminaisons F : -dis (deesse), -frid (paix), -ild (combat), -run (secret)
+# Patronymes en -sen (signature exclusive Thaurfolk)
+# Prefixe dynastique : af_
+
+## Masculins Thaurfolk (20)
+Halvard          # Halv + ard (roc-gardien)
+Halvmund         # Halv + mund (roc-protecteur)
+Ragnvald         # Ragn + vald (conseil-pouvoir)
+Ragnmund         # Ragn + mund (conseil-protecteur)
+Stigarn          # Stig + arn (sentier-aigle)
+Stigvald         # Stig + vald (sentier-pouvoir)
+Torbjorn         # Tor + bjorn (tonnerre-ours) — hybride torrent
+Torvald          # Tor + vald (tonnerre-pouvoir) — hybride torrent
+Audulf           # Aud + ulf (richesse-loup)
+Finnvald         # Finn + vald (fin-pouvoir)
+Finnarn          # Finn + arn (fin-aigle)
+Bjorngar         # Bjorn + gar (ours-lance) — hybride torrent
+Bjornvald        # Bjorn + vald (ours-pouvoir)
+Keldvarn         # Keld + varn* (source-gardien) — hybride fantasy
+Keldmund         # Keld + mund (source-protecteur)
+Grindvald        # Grind + vald (grille-pouvoir)
+Askvald          # Ask + vald (frene-pouvoir)
+Brondulf         # Brond + ulf (epee-loup)
+Vigmund          # Vig + mund (combat-protecteur)
+Skjoldarn        # Skjold + arn (bouclier-aigle)
+
+## Feminins Thaurfolk (12)
+Halvdis          # Halv + dis (roc-deesse)
+Ragndis          # Ragn + dis (conseil-deesse)
+Tordis           # Tor + dis (tonnerre-deesse)
+Stigfrid         # Stig + frid (sentier-paix)
+Audfrid          # Aud + frid (richesse-paix)
+Finnild          # Finn + ild (fin-combat)
+Bjornild         # Bjorn + ild (ours-combat)
+Keldrun          # Keld + run (source-secret)
+Vigdis           # Vig + dis (combat-deesse)
+Askfrid          # Ask + frid (frene-paix)
+Gronild          # Gron + ild (vert-combat)
+Skjoldis         # Skjol + dis (bouclier-deesse)
+
+## Dynasties Thaurfolk
+af_Halvard
+af_Ragnvald
+af_Stigarn
+af_Torvald
+af_Bjornvald
+af_Finnarn
+af_Keldmund
+af_Vigmund
+af_Skjoldarn
+af_Askvald
+
+# ============================================================
+# BORRIKAN (polonais/slave) — seule culture slave du Torrent
+# ============================================================
+# Inspiration : vieux-polonais + fantasy. Attaques Woj-, Bog-, Rad-, Sta-, Mir-, Bron-
+# Terminaisons M : -slaw (gloire), -mierz (paix), -ek (diminutif), -osz
+# Terminaisons F : -slawa, -mira, -ka, -yna
+# Prefixe dynastique : ∅ + suffixe -ski/-wicz
+
+## Masculins Borrikan (20)
+Wojslaw          # Woj + slaw (guerrier-gloire)
+Wojmierz         # Woj + mierz (guerrier-paix)
+Bogslaw          # Bog + slaw (dieu-gloire)
+Bogdorn          # Bog + dorn* (dieu-epine) — fantasy
+Radslaw          # Rad + slaw (conseil-gloire)
+Radmierz         # Rad + mierz (conseil-paix)
+Staslaw          # Sta + slaw (etre-gloire)
+Stanimierz       # Stan + mierz (camp-paix)
+Miroslaw         # Mir + slaw (monde-gloire)
+Bronwald         # Bron + wald (arme-foret) — hybride torrent
+Bronislaw        # Bron + slaw (arme-gloire)
+Kazimierz        # Kaz + mierz (detruire-paix)
+Drogosz          # Drog + osz (precieux-fort)
+Wlodmierz        # Wlod + mierz (pouvoir-monde)
+Zygbern          # Zyg + bern (victoire-ours) — hybride torrent
+Grzymar          # Grzym + mar (tonnerre-gloire) — hybride torrent
+Borvarn          # Bor + varn* (foret-gardien) — hybride fantasy
+Starogard        # Star + gard (ancien-garde) — hybride
+Leszwald         # Lesz + wald (ruse-foret) — hybride torrent
+Mieszko          # Miesz + ko (epee-petit)
+
+## Feminins Borrikan (12)
+Wojslawa         # Woj + slawa (guerriere-gloire)
+Bogmira          # Bog + mira (divine-monde)
+Radmira          # Rad + mira (conseil-monde)
+Miroslawa        # Mir + slawa (monde-gloire)
+Bronka           # Bron + ka (arme-diminutif)
+Stanmira         # Stan + mira (camp-monde)
+Kazimira         # Kaz + mira (destructrice-monde)
+Drogyna          # Drog + yna (precieuse)
+Leszhild         # Lesz + hild (ruse-combat) — hybride torrent
+Bogvane          # Bog + vane* (divine-vent) — hybride fantasy
+Wlodslawa        # Wlod + slawa (pouvoir-gloire)
+Grzymara         # Grzym + mara* (tonnerre-gloire) — hybride fantasy
+
+## Dynasties Borrikan
+Wojslavski
+Bogdanski
+Radoslavski
+Stanimorski
+Miroszewski
+Bronikowski
+Kazimirski
+Drogoszewski
+Grzymalski
+Leszkowski
+
+# ============================================================
+# TYELKIAN (hongrois/finnois) — voyelle harmony, structure agglutinante
+# ============================================================
+# Inspiration : vieux-hongrois + fantasy. Attaques Arp-, Ist-, Zsolt-, Bel-, Kem-, Tal-
+# Terminaisons M : -ad/-ed (harmonie), -os/-es, -mund (emprunt torrent), -vald (emprunt)
+# Terminaisons F : -ka/-ke, -na/-ne (harmonie), -mara*
+# Prefixe dynastique : ∅ + suffixe -i/-fi
+# ORDRE INVERSE : nom de famille AVANT le prenom
+
+## Masculins Tyelkian (20)
+Arpad            # Arp + ad (orge-sang, fondateur mythique)
+Istvald          # Ist + vald (couronne-foret) — hybride torrent
+Zsoltmund        # Zsolt + mund (sultan-protecteur) — hybride torrent
+Belagar          # Bel + agar (interieur-lance) — hybride fantasy
+Kemengar         # Kem + en + gar (dur-ne-lance) — hybride torrent
+Talvarn          # Tal + varn* (base-gardien) — hybride fantasy
+Boldmar          # Bold + mar (heureux-gloire) — hybride torrent
+Farkvald         # Fark + vald (loup-foret) — hybride torrent
+Gyulbern         # Gyul + bern (braise-ours) — hybride torrent
+Laszgar          # Lasz + gar (camp-lance) — hybride torrent
+Szabolmar        # Szabol + mar (sabre-gloire) — hybride torrent
+Torokmund        # Torok + mund (force-protecteur) — hybride torrent
+Zoltan           # Zolt + an (sultan-ne)
+Csabad           # Csab + ad (combat-sang)
+Keled            # Kel + ed (lever-forme)
+Vilagos          # Vilag + os (monde-fort)
+Endrevald        # Endre + vald (viril-foret) — hybride
+Levengar         # Leven + gar (chevalier-lance) — hybride
+Tihamer          # Tiham + er (silencieux-homme)
+Egermund         # Eger + mund (aulne-protecteur) — hybride
+
+## Feminins Tyelkian (12)
+Arpana           # Arp + ana (orge-mere)
+Boldmara         # Bold + mara* (heureuse-gloire) — hybride fantasy
+Farkmira         # Fark + mira (louve-monde)
+Gyulvane         # Gyul + vane* (braise-vent) — hybride fantasy
+Ilonka           # Ilon + ka (lumiere-petite)
+Eszteka          # Eszte + ka (etoile-petite)
+Viragna          # Virag + na (fleur-femme)
+Emeselde         # Emes + elde (mere-ancienne)
+Csillana         # Csilla + na (etoile-femme)
+Katalke          # Katal + ke (pure-petite)
+Szabolmara       # Szabol + mara* (sabre-gloire) — hybride fantasy
+Tundena          # Tunde + na (fee-femme)
+
+## Dynasties Tyelkian
+Arpadi
+Istvaldi
+Zsoltmundi
+Belagari
+Farkvaldi
+Gyulberni
+Torokmundi
+Szaboli
+Levenfi
+Egermundi
+
+# ============================================================
+# CHESMEKER (tatar/turcique) — guttural, marche frontiere de l'est
+# ============================================================
+# Inspiration : tatar de Crimee + kipchak + fantasy. Attaques Temur-, Arslan-, Kara-,
+# Batu-, Tok-, Kuz-, Devl-
+# Terminaisons M : -khan (chef), -bek (seigneur), -tay (poulain), -gul (fleur),
+#                  -mund (emprunt torrent), -valt (emprunt torrent)
+# Terminaisons F : -gul (fleur), -ay (lune), -khan (dame), -mara*
+# Prefixe dynastique : ∅ + suffixe -bek/-khan
+
+## Masculins Chesmeker (20)
+Temurvalt        # Temur + valt (fer-foret) — hybride torrent
+Temurbek         # Temur + bek (fer-seigneur)
+Arslanmund       # Arslan + mund (lion-protecteur) — hybride torrent
+Arslanbek        # Arslan + bek (lion-seigneur)
+Karagar          # Kara + gar (noir-lance) — hybride torrent
+Karavarn         # Kara + varn* (noir-gardien) — hybride fantasy
+Batukhan         # Batu + khan (solide-chef)
+Batuvalt         # Batu + valt (solide-foret) — hybride torrent
+Toktamur         # Tok + tamur (sature-fer)
+Kuzbern          # Kuz + bern (automne-ours) — hybride torrent
+Devlmund         # Devl + mund (geant-protecteur) — hybride torrent
+Bolavalt         # Bola + valt (nuage-foret) — hybride torrent
+Torghul          # Tor + ghul (tonnerre-fleur) — hybride torrent
+Sartmund         # Sart + mund (marchand-protecteur) — hybride
+Edighar          # Edig + har (bon-guerrier)
+Kutlubek         # Kutlu + bek (beni-seigneur)
+Ildegar          # Ilde + gar (vent-lance) — hybride
+Ulugmar          # Ulug + mar (grand-gloire) — hybride torrent
+Mamavalt         # Mama + valt (oncle-foret) — hybride torrent
+Noghay           # Nog + hay (chien-vivant)
+
+## Feminins Chesmeker (12)
+Arslanay         # Arslan + ay (lionne-lune)
+Karagul          # Kara + gul (noire-fleur)
+Batumara         # Batu + mara* (solide-gloire) — hybride fantasy
+Temurgul         # Temur + gul (fer-fleur)
+Toktagul         # Tokta + gul (arret-fleur)
+Bolakhan         # Bola + khan (nuage-dame)
+Altunay          # Altun + ay (or-lune)
+Kutlugul         # Kutlu + gul (benie-fleur)
+Devlvane         # Devl + vane* (geante-vent) — hybride fantasy
+Ildegul          # Ilde + gul (vent-fleur)
+Ulugmara         # Ulug + mara* (grande-gloire) — hybride fantasy
+Aysolde          # Ay + solde* (lune-or) — hybride fantasy
+
+## Dynasties Chesmeker
+Temurbek
+Arslankhan
+Karabek
+Batukhan
+Toktabek
+Kutlukhan
+Edigbek
+Ulugkhan
+Sartbek
+Noghaikhan
+
+# ============================================================
+# TABLE DE TRANSFORMATION DIALECTALE (demo)
+# ============================================================
+# 6 noms x 17 dialectes — reference pour generer les variantes
+#
+# MASCULINS
+# ---------
+#
+# | Dialecte         | Sigwald    | Drakwald    | Grimkald    |
+# |------------------|------------|-------------|-------------|
+# | Heuhian (std)    | Sigwald    | Drakwald    | Grimkald    |
+# | Fullhorner       | Sigewaeld  | Drakewaeld  | Grimkaeld   |
+# | Afhaemeisan      | Sigvald    | Drakvald    | Grimkald    |
+# | Lower Serenic    | Sigwalt    | Drakwalt    | Grimkalt    |
+# | Middle Serenic   | Sigvald    | Drakvald    | Grimkald    |
+# | Sorlkol          | Sigwold    | Drakwold    | Grimkold    |
+# | Naurmen          | Seegwoud   | Draakwoud   | Greemkoud   |
+# | Stedeling        | Seegvoud   | Draakvoud   | Greemkain   |
+# | Thaurfolk        | Sigvald    | Drakvald    | Grimjald    |
+# | Bonwesforian     | Sigwald    | Drakwald    | Grimkald    |
+# | Borrikan         | Zygwald    | Draczwald   | Grzymkald   |
+# | Tyelkian         | Zsigvald   | Drakvald    | Grimkald    |
+# | Chesmeker        | Sigvalt    | Drakhvalt   | Grimkhalt   |
+# | (Erlfolk = utilisent le dialecte de leur zone + proto-elfique germanise)
+# | (Tieflings/Ratfolk/Himmelskind = utilisent le dialecte de leur zone)
+#
+# FEMININS
+# --------
+#
+# | Dialecte         | Brungard    | Tharvane    | Sigrika     |
+# |------------------|-------------|-------------|-------------|
+# | Heuhian (std)    | Brungard    | Tharvane    | Sigrika     |
+# | Fullhorner       | Brunegaerd  | Thaervane   | Sigerika    |
+# | Afhaemeisan      | Brunvard    | Tharvane    | Sigrika     |
+# | Lower Serenic    | Brungaert   | Thaervane   | Sigrika     |
+# | Middle Serenic   | Brunvain    | Tharvaine   | Sigrika     |
+# | Sorlkol          | Brungord    | Thorvone    | Sigrika     |
+# | Naurmen          | Bruungaard  | Thaarvane   | Seegreeka   |
+# | Stedeling        | Bruungain   | Thaarvaine  | Seegreeka   |
+# | Thaurfolk        | Brunjard    | Tharvane    | Sigrika     |
+# | Bonwesforian     | Brungard    | Tharvane    | Sigrika     |
+# | Borrikan         | Brzungarda  | Tarzwana    | Zygryka     |
+# | Tyelkian         | Brungard    | Tarvane     | Zsigrika    |
+# | Chesmeker        | Brunkhar    | Tharkhan    | Sigrikha    |
+# | (Erlfolk/Tieflings/Ratfolk/Himmelskind = dialecte local, pas de transform special)
+#
+# ============================================================
+# REGLES DE TRANSFORMATION RESUMEES
+# ============================================================
+#
+# Fullhorner : +e intercalaire, a->ae, o->oe (archaique)
+# Afhaemeisan : w->v parfois (legerement adouci)
+# Lower Serenic : a->ae leger, -ld->-lt
+# Middle Serenic : w->v, +influence ardrainic (-ain/-in)
+# Sorlkol : a->o (montagnard, suisse)
+# Naurmen : i->ee, a->aa, -wald->-woud, -mund->-mond, -hard->-haart,
+#           -stein->-steen, -bern->-beer, -brand->-braand, -rik->-reek,
+#           -kald->-koud, -dorn->-doorn, -varn->-vaan, -mar->-maar
+# Stedeling : base neerlandaise (comme Naurmen) + influence ardrainic aux frontieres :
+#             -woud->-voud parfois, -gard->-gain (ardrainic -ain), -kald->-kain
+#             Resultat : hybride neerlando-francais reconnaissable
+# Thaurfolk : -wald->-vald, g->j, patronymes -sen
+# Bonwesforian : -mund->-mond (bas-allemand)
+# Borrikan : Sig->Zyg, sch->sz, w->l (polonais)
+# Tyelkian : Sig->Zsig, harmonie vocalique, accents aigus (hongrois)
+# Chesmeker : -wald->-valt, +kh guttural (tatar)
+# Erlfolk : PAS de transform — utilisent dialecte local + ~25% noms proto-elfiques germanises
+# Tieflings : PAS de transform — utilisent south_torrentor_dialect
+# Ratfolk (Knawven) : PAS de transform — utilisent north_torrentor_dialect
+# Himmelskind : PAS de transform — utilisent south_torrentor_dialect

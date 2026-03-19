@@ -1,0 +1,298 @@
+# Armonorican language config
+# Welsh/Breton-inspired Celtic language — 2 dialects
+# 79M + 59F + 30 dynasties + 38 lowborn
+# Ebiam dialect uses prefix + suffix + replace rules
+
+language_id: armonorican_language
+color: map_WLS
+family: armonorican_language_family
+default_dialect_id: armonorican_dialect
+
+patronym_prefix_son: "patronym_prefix_welsh_son"
+patronym_prefix_son_vowel: "patronym_prefix_welsh_son_vowel"
+patronym_prefix_daughter: "patronym_prefix_welsh_daughter"
+
+custom_names:
+  male:
+    Noble/Royal:
+      - Llewyn
+      - Gwynris
+      - Maelwyn
+      - Maelris
+      - Tegwedd
+      - Cadwyn
+      - Rhiogan
+      - Prydell
+      - Hydd
+      - Iorwedd
+    Strong/Warrior:
+      - Llywern
+      - Gwythern
+      - Brennwyr
+      - Arwel
+      - Beddwyr
+      - Gorwydd
+      - Idriog
+      - Cernog
+      - Heilrys
+      - Gwydren
+      - Rhydwyr
+    Nature/Earth:
+      - Brynedd
+      - Brynoel
+      - Glynwedd
+      - Nevryn
+      - Hywern
+      - Drystan
+      - Derwyn
+      - Erwydd
+      - Selwern
+    Mystic/Sage:
+      - Emrydd
+      - Emrith
+      - Cerith
+      - Coelrys
+      - Nevydd
+      - Rhyddel
+      - Rhysedd
+      - Heddwyn
+    Diverse:
+      - Myrddin
+      - Llyredd
+      - Llaeron
+      - Rhovel
+      - Gwerith
+      - Gwalen
+      - Maeledd
+      - Tegris
+      - Owrell
+      - Peredur
+      - Idrwel
+      - Hywedd
+      - Eidwel
+      - Caerith
+      - Cynris
+      - Arawn
+      - Madwel
+      - Prydion
+      - Llangoel
+      - Ervoel
+      - Ynyrith
+      - Iestyn
+    Nouveaux:
+      - Emrys
+      - Geraint
+      - Sulwyn
+      - Gwydion
+      - Aedwyr
+    Courts:
+      - Bran
+      - Cei
+      - Gwern
+      - Cadfan
+      - Tegid
+      - Cynyr
+      - Ynyr
+      - Heilyn
+      - Lleufer
+      - Glyn
+      - Rhos
+      - Coel
+      - Deri
+      - Prys
+
+  female:
+    "-wen (fair/white)":
+      - Ceirwen
+      - Aerwen
+      - Tanwen
+      - Brynwen
+      - Prydwen
+      - Llyrwen
+      - Eidwen
+    "-wydd (form/essence)":
+      - Morwydd
+      - Golewydd
+      - Cerwydd
+      - Coelwydd
+    "-ys (lady)":
+      - Nerys
+      - Caerys
+      - Heilys
+      - Ceirys
+      - Nevrys
+    "-yll (soft form)":
+      - Gweiryll
+      - Brynyll
+      - Tegyll
+      - Owenyll
+    "-edd (visage)":
+      - Rhanedd
+      - Glynedd
+      - Lleunedd
+      - Gorhedd
+    "-el/-ell (bright)":
+      - Lleudel
+      - Prydel
+      - Gwynel
+      - Drysell
+    Organic:
+      - Eluned
+      - Gwladys
+      - Llanwedd
+    Diverse:
+      - Gwythen
+      - Emren
+      - Hywelen
+      - Morwen
+      - Sulwen
+      - Aedwen
+      - Meinir
+      - Dilys
+      - Morvyll
+      - Cerynedd
+      - Nevwel
+      - Rhianwys
+      - Aedyll
+    Courts:
+      - Seren
+      - Rhian
+      - Eira
+      - Ffion
+      - Sulys
+      - Eleri
+      - Aedys
+      - Gwenril
+      - Ceri
+      - Tegan
+      - Elin
+
+  dynasties:
+    # Toponymic (25)
+    - Aberteg
+    - Abermael
+    - Abercaer
+    - Llangwern
+    - Llanbryn
+    - Cwmglyn
+    - Cwmderwen
+    - Pencaer
+    - Penrhydd
+    - Caergwern
+    - Brynhael
+    - Gwernydd
+    - Rhyddglyn
+    - Maelgwydd
+    - Tregwern
+    - Tregelyn
+    - Penmael
+    - Nevglyn
+    - Llynhael
+    - Heddgwern
+    - Caernev
+    - Dinasbryn
+    - Cwmrhos
+    - Drysgwydd
+    - Heilgwern
+    # Totemic (5)
+    - Hebog
+    - Eryr
+    - Carw
+    - Blaidd
+    - Draig
+
+  lowborn:
+    # Patronymics (15)
+    - ap_Llewyn
+    - ap_Cadwyn
+    - ap_Maelwyn
+    - ap_Gwynris
+    - ab_Emrydd
+    - ap_Rhyddel
+    - ap_Llywern
+    - ab_Iorwyn
+    - ap_Brynedd
+    - ap_Drystan
+    - ap_Cernog
+    - ap_Gorwydd
+    - ab_Idriog
+    - ap_Heilrys
+    - ap_Tegwedd
+    # Descriptive (15)
+    - Gwernog
+    - Brynos
+    - Derwen
+    - Tannwr
+    - Heilwr
+    - Cwmryn
+    - Pennog
+    - Dryswr
+    - Goelwyr
+    - Maelon
+    - Rhoswel
+    - Llwydell
+    - Neveryn
+    - Glynnog
+    - Caerdden
+    # Physical/Nature/Personality (8)
+    - Llwyd
+    - Coch
+    - Mawr
+    - Bach
+    - Celynnog
+    - Helig
+    - Doeth
+    - Dewr
+
+# Ebiam dialect — urban/cosmopolitan, softened Armonorican
+# Aggeuios = default (armonorican_dialect), no transforms
+dialects:
+  - id: ebiam_dialect
+    # Prefix: Ll→L, Rh→R, Gwy→Gui, Gwe→Gue, Gwa→Gua, Gw→Gu
+    prefix_rules_m:
+      - [Ll, L]
+      - [Rh, R]
+      - [Gwy, Gui]
+      - [Gwe, Gue]
+      - [Gwa, Gua]
+      - [Gw, Gu]
+    prefix_rules_f:
+      - [Ll, L]
+      - [Rh, R]
+      - [Gwy, Gui]
+      - [Gwe, Gue]
+      - [Gwa, Gua]
+      - [Gw, Gu]
+    # Suffix: w→v transitions + vowel simplifications
+    rules_m:
+      - [wydd, vid]
+      - [wedd, ved]
+      - [wern, vern]
+      - [wyn, vin]
+      - [wen, ven]
+      - [wyr, vir]
+      - [wys, vis]
+      - [wyl, vil]
+      - [wel, vel]
+      - [ydd, id]
+      - [yll, il]
+    rules_f:
+      - [wydd, vid]
+      - [wedd, ved]
+      - [wern, vern]
+      - [wyn, vin]
+      - [wen, ven]
+      - [wyr, vir]
+      - [wys, vis]
+      - [wyl, vil]
+      - [wel, vel]
+      - [ydd, id]
+      - [yll, il]
+    # Replace: dd→d (Welsh voiced dental → French d)
+    replace_rules_m:
+      - [dd, d]
+    replace_rules_f:
+      - [dd, d]
+
+# No culture patch section — need original mod culture properties
+# Ebiam culture should point to ebiam_dialect (to be added later)

@@ -1,0 +1,278 @@
+# ============================================================
+# TORRENTIAN — Dialect Rules
+# ============================================================
+# 13 human dialects + notes for non-human cultures
+# Each dialect: identity, transforms, prefix, examples
+# ============================================================
+
+# ============================================================
+# CENTRAL GROUP (heartland germanique)
+# ============================================================
+
+# HEUHIAN (standard — reference)
+# -------------------------------------------
+# Identity: THE heartland, largest human block, cultural center of the Commonweal
+# Style: standard, balanced, martial, formal
+# Vowels: no shift (this IS the reference)
+# Consonants: no shift
+# Endings M: -wald, -mar, -mund, -gar, -bern, -hard, -olf, -rik, -stein...
+# Endings F: -hild, -gard, -rune, -linde, -burg, -trud, -vane, -mara...
+# Dynasty prefix: von
+# Unique names: none (the base pool IS Heuhian)
+# Examples: Sigwald, Volkmar, Brungard, Sighild (unchanged)
+
+# FULLHORNER (archaic/vetusian)
+# -------------------------------------------
+# Identity: original inhabitants, keepers of old traditions, conservative
+# Style: archaic, heavy, vowel-rich, slow
+# Vowels: a→ae, o→oe, +e intercalaire between consonant clusters
+# Consonants: h preserved in clusters, no simplification
+# Endings M: -wald→-waeld, -mar→-maer, -mund→-maend, -gar→-gaer
+# Endings F: -gard→-gaerd, -hild→-haeld, -rune→-raene, -linde→-laende
+# Dynasty prefix: von (traditional)
+# Unique names: uses VETUSIAN SUBSTRATE pool (Othgar, Weland, Theudrik, etc.)
+# Examples:
+#   Sigwald → Sigewaeld
+#   Volkmar → Volkemaer
+#   Brungard → Brunegaerd
+#   Grimkald → Grimkaeld
+#   Sighild → Sigehaeld
+
+# AFHAEMEISAN (slightly softened central)
+# -------------------------------------------
+# Identity: central but distinct, gentler than Heuhian
+# Style: softened, intermediate, flowing
+# Vowels: no major shift
+# Consonants: w→v occasionally, -ld stays
+# Endings M: -wald→-vald (sometimes), -mund stays
+# Endings F: -gard→-vard (sometimes)
+# Dynasty prefix: von
+# Unique names: none
+# Examples:
+#   Sigwald → Sigvald
+#   Brungard → Brunvard
+#   Tormund → Tormund (unchanged)
+#   Grimgar → Grimgar (unchanged)
+
+# LOWER SERENIC (vetusian, southern lean)
+# -------------------------------------------
+# Identity: old culture transitioning south, link between heartland and mountains
+# Style: slightly archaic, harder edges
+# Vowels: a→ae (light)
+# Consonants: -ld→-lt (hardening)
+# Endings M: -wald→-walt, -mar→-maer (light)
+# Endings F: -gard→-gaert
+# Dynasty prefix: von
+# Unique names: uses VETUSIAN SUBSTRATE pool
+# Examples:
+#   Sigwald → Sigwalt
+#   Volkmar → Volkmaer
+#   Brungard → Brungaert
+#   Grimkald → Grimkalt
+
+# ============================================================
+# SOUTH GROUP (mountain/Swiss)
+# ============================================================
+
+# MIDDLE SERENIC (vetusian, ardrainic border)
+# -------------------------------------------
+# Identity: frontier culture, caught between torrent and ardrainic worlds
+# Style: softened, French-tinged, diplomatic
+# Vowels: no major shift
+# Consonants: w→v
+# Endings M: -wald→-vald, occasional -ain creep from ardrainic
+# Endings F: -gard→-vain (ardrainic -ain infiltration), -rune stays
+# Dynasty prefix: von OR de (bilingual border)
+# Unique names: some ardrainic-influenced hybrids possible
+# Examples:
+#   Sigwald → Sigvald
+#   Brungard → Brunvain
+#   Tharvane → Tharvaine
+#   Grimkald → Grimkald (unchanged)
+#   Hartrune → Hartrune (unchanged)
+
+# SORLKOL (Swiss/Aitan, isolated)
+# -------------------------------------------
+# Identity: mountain isolates, conservative Swiss-style, small communities
+# Style: closed, mountainous, stocky sounds
+# Vowels: a→o (mountain closure)
+# Consonants: stable, conservative
+# Endings M: -wald→-wold, -mar→-mor, -mund→-mond
+# Endings F: -gard→-gord, -vane→-vone, -mara→-mora
+# Dynasty prefix: zu (Swiss-Alemannic)
+# Unique names: none (small culture, transforms suffice)
+# Examples:
+#   Sigwald → Sigwold
+#   Volkmar → Volkmor
+#   Brungard → Brungord
+#   Tharvane → Thorvone
+#   Drakwald → Drakwold
+
+# ============================================================
+# NORTH GROUP (diverse)
+# ============================================================
+
+# NAURMEN (Dutch/Frisian — maritime)
+# -------------------------------------------
+# Identity: maritime traders, coastal, practical, wealthy
+# Style: elongated vowels, soft endings, mercantile
+# Vowels: i→ee, a→aa, u→uu, o→oo
+# Consonants: -wald→-woud, d→t (final devoicing)
+# Endings M: -wald→-woud, -mund→-mond, -hard→-haart, -stein→-steen,
+#            -bern→-beer, -brand→-braand, -rik→-reek, -kald→-koud,
+#            -dorn→-doorn, -varn→-vaan, -mar→-maar, -gar→-gaar
+# Endings F: -gard→-gaard, -hild→-heeld, -vane→-vaane, -mara→-maara
+# Dynasty prefix: van (Dutch)
+# Unique names: none (transforms are very distinctive)
+# Examples:
+#   Sigwald → Seegwoud
+#   Grimkald → Greemkoud
+#   Volkmar → Voolkmaar
+#   Brandolf → Braandolf
+#   Brungard → Bruungaard
+
+# STEDELING (Dutch urban + ardrainic border)
+# -------------------------------------------
+# Identity: walled city merchants, cosmopolitan, ringed citizens
+# Style: Dutch base with French flourishes, urban, commercial
+# Vowels: same as Naurmen (i→ee, a→aa)
+# Consonants: same as Naurmen base
+# Endings M: same as Naurmen BUT -woud→-voud sometimes, -kald→-kain (ardrainic)
+# Endings F: same as Naurmen BUT -gard→-gain (ardrainic -ain), -vane→-vaine
+# Dynasty prefix: van (Dutch)
+# Unique names: HAS OWN MINI-POOL (Koopvald, Ringvald, Goudmaar, etc.)
+# Examples:
+#   Sigwald → Seegvoud (not -woud)
+#   Grimkald → Greemkain (ardrainic creep)
+#   Brungard → Bruungain (not -gaard)
+#   Tharvane → Thaarvaine
+
+# THAURFOLK (Danish/Scandinavian — coastal)
+# -------------------------------------------
+# Identity: maritime Scandinavians, patronymic culture, seafarers
+# Style: soft consonants, flowing, -sen patronyms
+# Vowels: no major shift
+# Consonants: w→v, g→j (softening)
+# Endings M: -wald→-vald, -gar→-jar (g softening)
+# Endings F: -gard→-jard
+# Dynasty prefix: af (Scandinavian)
+# Patronymic suffix: -sen (EXCLUSIVE to Thaurfolk)
+# Unique names: HAS OWN MINI-POOL (Halvard, Ragnvald, Stigarn, Torbjorn, etc.)
+#               + own F endings: -dis (goddess), -frid (peace), -ild (battle)
+# Examples:
+#   Sigwald → Sigvald
+#   Grimgar → Grimjar
+#   Brungard → Brunjard
+#   + Halvard, Ragnvald, Tordis (pool propre)
+
+# BONWESFORIAN (Low German — bridge culture)
+# -------------------------------------------
+# Identity: between Dutch north and German heartland, transitional
+# Style: close to standard, slightly softened
+# Vowels: no major shift
+# Consonants: -mund→-mond (Low German)
+# Endings M: -mund→-mond, rest stays close to standard
+# Endings F: minimal shift
+# Dynasty prefix: von (traditional)
+# Unique names: uses VETUSIAN SUBSTRATE pool
+# Examples:
+#   Tormund → Tormond
+#   Sigwald → Sigwald (unchanged)
+#   Grimmund → Grimmond
+#   Brungard → Brungard (unchanged)
+
+# BORRIKAN (Polish/Slavic — sole Slavic culture)
+# -------------------------------------------
+# Identity: radically different, Slavic outlier in a Germanic coalition
+# Style: sibilant, palatalized, -slaw endings, sz/cz sounds
+# Vowels: no harmonized shift, but i→y in some cases
+# Consonants: Sig→Zyg, sch→sz, w→ł, palatalization
+# Endings M: torrent endings adapted to Polish phonetics
+# Endings F: -slawa, -mira, -ka, -yna
+# Dynasty prefix: none, SUFFIX -ski/-wicz
+# Unique names: HAS OWN MINI-POOL (Wojslaw, Bogslaw, Radslaw, Miroslawa, etc.)
+#               ~50% transforms of torrent pool + ~50% own Slavic names
+# Examples (transforms):
+#   Sigwald → Zygwald
+#   Brungard → Brzungarda
+#   Grimgar → Grzymgar
+# Examples (own pool):
+#   Wojslaw, Bronislaw, Kazimierz, Bogmira, Radmira
+
+# TYELKIAN (Hungarian/Finnish — vowel harmony)
+# -------------------------------------------
+# Identity: exotic outlier, agglutinative feel, distinct vowel system
+# Style: vowel harmony, accented, reversed name order
+# Vowels: vowel harmony (back: a,o,u or front: e,ö,ü), accents aigus
+# Consonants: Sig→Zsig, w→v, sz/gy/cs sounds
+# Endings M: -ad/-ed (harmonized), -os/-es, +torrent hybrids (-vald, -mund)
+# Endings F: -ka/-ke (harmonized), -na/-ne, +torrent hybrids
+# Dynasty prefix: none, SUFFIX -i/-fi
+# Name order: REVERSED (family name first)
+# Unique names: HAS OWN MINI-POOL (Arpad, Istvald, Zsoltmund, Ilonka, etc.)
+# Examples (transforms):
+#   Sigwald → Zsigvald
+#   Volkmar → Volkár
+# Examples (own pool):
+#   Arpad, Zoltan, Csabad, Boldmara, Viragna
+
+# CHESMEKER (Tatar/Turkic — eastern march)
+# -------------------------------------------
+# Identity: frontier warriors, steppe-influenced, guttural, martial
+# Style: guttural, -khan/-bek titles, heavy consonants
+# Vowels: no harmonized shift
+# Consonants: -wald→-valt, +kh guttural, hard final consonants
+# Endings M: -khan (chief), -bek (lord), -tay, +torrent hybrids (-valt, -mund)
+# Endings F: -gul (flower), -ay (moon), -khan (lady), +torrent hybrids
+# Dynasty prefix: none, SUFFIX -bek/-khan
+# Unique names: HAS OWN MINI-POOL (Temurvalt, Arslanbek, Batukhan, Karagul, etc.)
+# Examples (transforms):
+#   Sigwald → Sigvalt
+#   Grimgar → Grimkhar
+#   Drakwald → Drakhvalt
+# Examples (own pool):
+#   Temurbek, Arslanmund, Batukhan, Altunay, Aysolde
+
+# ============================================================
+# NON-HUMAN CULTURES (no own dialect — substrate system)
+# ============================================================
+
+# ERLFOLK (elves — central-west forest border)
+# -------------------------------------------
+# Identity: forest guardians at the ardrainic/torrent border
+# System: use local torrent dialect + ~25-30% proto-elvish names
+#         germanized through torrent phonetics
+# Dynasty prefix: aun (nature)
+# Proto-elvish names in pool: Aelvindh, Fionnwald, Ilmarik, Dharmund,
+#   Niamhgard, Ashvalinde, Grianrune, etc.
+# These names keep proto-elvish attacks (Ael-, Fionn-, Ilma-, Dhar-, Niamh-)
+# but use torrent endings (-wald, -rik, -mund, -gard, -linde, -rune)
+
+# TORRENTOR TIEFLINGS (south heartland)
+# -------------------------------------------
+# System: absorb south_torrentor_dialect, no special substrate
+# Use standard south torrent names
+
+# TORRENTOR RATFOLK + KNAWVEN (south + north)
+# -------------------------------------------
+# System: absorb local dialect (south or north), no special substrate
+# Knawven (north) shares north_torrentor_dialect
+
+# HIMMELSKIND (aasimar — small enclave)
+# -------------------------------------------
+# System: absorb south_torrentor_dialect, no special substrate
+# "Children of the sky" — name identity comes from culture, not phonetics
+
+# ============================================================
+# SPECIAL LAYERS (shared across dialects)
+# ============================================================
+
+# VETUSIAN SUBSTRATE (Fullhorner, Lower/Middle Serenic, Bonwesforian)
+# -------------------------------------------
+# Shared pool of archaic proto-torrentian names (~15% of vetusian pools)
+# These names use OLD forms: Athel-, Theud-, Eod-, Saex-, Leod-, God-
+# and dead endings: -had, inversions (Mundgar, Radgund)
+# Pool: Othgar, Weland, Theudrik, Hunwald, Radgund, Eodwald, Wulfhad,
+#   Athelbern, Mundgar, Hildebrand, Aethelmor, Godmund, Eormund, Saexwulf,
+#   Leodgar, Aethelburg, Eadhild, Theodlinde, Wulfrun, Hilderun, Godgard,
+#   Leodburg, Eorild, Athelmara, Saexhild

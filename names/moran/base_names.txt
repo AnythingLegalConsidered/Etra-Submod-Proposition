@@ -1,0 +1,113 @@
+# ============================================================
+# MORAN — Pool de noms de base (post-audit)
+# ============================================================
+# Langue : moran_language (latin classique — morts-vivants)
+# Note : ces noms COMPLETENT le pool existant du mod (35M+35F+14dyn+100low)
+# Corrections audit : Cael- reduit 8->4, Nex- reduit 7->4,
+#   Floriana->Fulgina, Florellii->Fulgenii, Mortivus->Noctanus,
+#   +Umbrivus, +Tenebror, +Umbrivella, +Lucior, +Perpetuon,
+#   +Funebra, +Perpetua, +6M vivum, +6F vivum
+# ============================================================
+
+# ============================================================
+# PRENOMS MASCULINS (57 nouveaux)
+# ============================================================
+
+# --- Imperieux / Noblesse (prestige, pouvoir) ---
+# Aeternus, Caelinus, Dominor, Mortivex, Nexius, Sanctorius,
+# Crepanus, Severox, Vexandus, Augurex
+
+# --- Militaires / Durs (legion, combat) ---
+# Ossivax, Feraxus, Bellicor, Hastius, Scutanus, Loricor,
+# Vultus, Gladior, Castrus, Mortanus
+
+# --- Archaiques / Republicains (Early Moran) ---
+# Volsus, Caelox, Apitor, Veturnax, Fossus, Practor,
+# Cremonus, Numex, Sacrinus, Hostior
+
+# --- Courts / Cognomina (surnoms, quotidien) ---
+# Corvus, Canus, Rufor, Calvus, Nexo, Crispus,
+# Ossex, Fundus, Verox, Priscor
+
+# --- Sacres / Imperial Creeds ---
+# Sanctus, Lucior, Divinus, Lucernus, Aeterax, Flamor,
+# Perpetuon, Augurius, Fiderus, Sacrivex
+
+# --- Sombres / Undead (remplacement Nex-/Cael- surcharge) ---
+# Umbrivus, Tenebror, Noctanus
+
+# --- Tardifs / Corrompus (Late/Novus) ---
+# Crepulus, Ossivon, Flavex, Tulvanus, Corvinus,
+# Sevelon, Domivex
+
+# --- Vivum Moran (proto-italiens, noms vivants) ---
+# Lucerno, Corvino, Valdo, Belcoro, Fontano, Silvano
+
+# ============================================================
+# PRENOMS FEMININS (47 nouveaux)
+# ============================================================
+
+# --- Imperiales / Nobles ---
+# Aeterna, Caelina, Dominara, Mortiva, Nexia, Sanctoria,
+# Severina, Vexanda, Augura, Bellicora
+
+# --- Douces / Classiques ---
+# Corvina, Lucerna, Fulgina, Crispina, Hostia, Fundilla,
+# Calvina, Rufina, Tulvana, Priscora
+
+# --- Archaiques (Early Moran) ---
+# Volsa, Veturnilla, Fossina, Funebra, Cremona, Numeria,
+# Apitora, Practilla, Sacrilla, Pulsara
+
+# --- Sacrees / Imperial Creeds ---
+# Divina, Flamina, Sacriva, Fidelia, Lucida, Aeterina,
+# Caelida, Nexida, Sanctilla, Auguria
+
+# --- Sombres / Undead (remplacement surcharge) ---
+# Umbrivella, Perpetua
+
+# --- Tardives / Corrompues (Late/Novus) ---
+# Creporna, Ossivella, Mortella, Flavella,
+# Sevelina, Corvella, Domivera, Tulvella
+
+# --- Vivum Moran (proto-italiennes, noms vivants) ---
+# Belcora, Fontina, Silvana, Valdina, Luciana, Corvella
+
+# ============================================================
+# DYNASTIES (25 nouvelles)
+# ============================================================
+
+# --- Gens patriciennes (grandes familles imperiales) ---
+# Mortemari, Nextorii, Aeternii, Caelarii, Ossivarii
+
+# --- Gens militaires ---
+# Bellicii, Feraxii, Hastarii, Scutanii, Loricii
+
+# --- Gens sacrees (Imperial Creeds) ---
+# Sanctorii, Divinii, Flamarii, Sacrivii, Fidelicci
+
+# --- Gens anciennes (archaiques) ---
+# Veturnii, Volsarii, Crepanii, Practii, Hostarii
+
+# --- Gens recentes (Novus/Vivum — plus italiennes) ---
+# Corviani, Rufellii, Calvenii, Fundanii, Fulgenii
+
+# ============================================================
+# ROTURIERS (40 nouveaux)
+# ============================================================
+
+# --- Metiers / Fonctions ---
+# Fossarius, Murarius, Ferranus, Lignarius, Textoris,
+# Fullanus, Vinarius, Pistorus, Navarius, Carbonus
+
+# --- Nature / Lieux ---
+# Silvanus, Montanus, Rupinus, Fluminus, Vallensis,
+# Campanus, Litorius, Fontanus, Collivus, Pratensis
+
+# --- Traits / Surnoms ---
+# Calvinus, Longinus, Rufinus, Crassanus, Procerus,
+# Tacitus, Validus, Parvulus, Obscurus, Fervidus
+
+# --- Spirituels / Sacres ---
+# Templanus, Sacerdus, Augurius, Flaminus, Fidellus,
+# Sanctanus, Divinus, Caelanus, Lucernus, Aeternus

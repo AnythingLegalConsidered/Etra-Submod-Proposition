@@ -1,0 +1,75 @@
+# ============================================================
+# LUTIN — Noms proto-elfiques (30% du pool Lutin)
+# ============================================================
+# Les Lutin sont des elfes vivant en foret centrale, entoures
+# par les Ardrainic mais parlant Sordrenic.
+# Pool total = 35-40% sordrenic + 30-35% ardrainic
+#              + 15% proto-elfique filtre sordrenic
+#              + 15% proto-elfique filtre ardrainic
+#
+# Ce fichier contient UNIQUEMENT les noms proto-elfiques filtres.
+# Les noms sordrenic et ardrainic sont pris des pools existants.
+#
+# Proto-elfique = blend Gaelique + Finnois + Sanskrit
+# Filtre = adaptation aux terminaisons de la langue locale
+# ============================================================
+
+# ============================================================
+# MASCULINS — Filtre Sordrenic (15%)
+# ============================================================
+# Proto → terminaisons occitanes/italiennes (-tz, -enc, -esc, -antz)
+
+Aelvintz         # Aelvindh → -dh→-tz
+Suraniesc        # Suraniel → -iel→-iesc
+Fionesc          # Fionneth → simplif. + -esc
+Ilmadirantz      # Ilmadhir → -dh→-d, + -antz
+Toatienc         # Tuathiel → Tuath→Toat, -iel→-ienc
+Daruvenc         # Dharuvel → Dh→D, -el→-enc
+Siarunesc        # Ciarunel → Ci→Si, -el→-esc
+Saelorintz       # Shaelorin → Sh→S, + -tz
+Lorivantz        # Lorivaan → -aan→-antz
+Vaelitenc        # Vaelithen → -then→-tenc
+
+# ============================================================
+# MASCULINS — Filtre Ardrainic (15%)
+# ============================================================
+# Proto → terminaisons francaises/arthuriennes (-ain, -eval, -elin)
+
+Aelvain          # Aelvindh → -dh→-ain
+Suraneval        # Suraniel → -iel→-eval
+Fionneval        # Fionneth → -eth→-eval
+Ilmadrin         # Ilmadhir → -dhir→-drin
+Toathelin        # Tuathiel → -iel→-elin
+Daruvelin        # Dharuvel → Dh→D, -el→-elin
+Siaruvain        # Ciarunel → Ci→Si, -el→-vain
+Saelorin         # Shaelorin → Sh→S (deja compatible)
+Lorivain         # Lorivaan → -aan→-ain
+Vaelithen        # Vaelithen → deja compatible (-en)
+
+# ============================================================
+# FEMININS — Filtre Sordrenic (15%)
+# ============================================================
+# Proto → terminaisons occitanes/italiennes (-ella, -enca, -inda, -issa)
+
+Niamella         # Niamhael → -ael→-ella
+Asvenca          # Ashvaeli → Ash→As, -aeli→-enca
+Pritella         # Prithael → -ael→-ella
+Grianina         # Grianine → -ine→-ina
+Savitenca        # Savithel → -el→-enca
+Tulinda          # Tuulindhe → simplif. + -inda
+Eiludissa        # Eiludhani → -ani→-issa
+Sidaena          # Siidhaene → simplif. voyelles
+
+# ============================================================
+# FEMININS — Filtre Ardrainic (15%)
+# ============================================================
+# Proto → terminaisons francaises/arthuriennes (-eline, -anore, -isore, -elle)
+
+Nimueline        # Niamhael → Niamh→Nimu, -ael→-eline
+Asveline         # Ashvaeli → Ash→As, -aeli→-eline
+Prithanore       # Prithael → -ael→-anore
+Grianisore       # Grianine → -ine→-isore
+Savithelle       # Savithel → -el→-elle
+Tulisande        # Tuulindhe → -indhe→-isande
+Eiludaine        # Eiludhani → -ani→-aine
+Sidaenelle       # Siidhaene → -aene→-aenelle

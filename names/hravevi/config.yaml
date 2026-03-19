@@ -1,0 +1,233 @@
+# Hravevi language config
+# Armenian-inspired giantsborn language — isolated mountains east
+# No dialects, 1 culture (hravevi_culture)
+# 67M + 60F + 24 dynasties + 35 lowborn
+
+language_id: hravevi_language
+color: map_ARM
+# No family defined in original mod
+
+custom_names:
+  male:
+    # --- Kept from mod (43) ---
+    Nobles/anciens:
+      - Artavazd
+      - Artashes
+      - Artashir
+      - Arshavir
+      - Atrnerseh
+      - Hamazasp
+      - Khosrau
+      - Khosrov
+      - Zoravan
+    Guerriers/rois:
+      - Tigran
+      - Arshak
+      - Smbat
+      - Vagram
+      - Vahan
+      - Levon
+      - Ardeshir
+    Courts/communs:
+      - Ashot
+      - Gagik
+      - Hayk
+      - Mleh
+      - Nairi
+      - Sevag
+      - Sevan
+      - Mzhezh
+    Organiques:
+      - Mushel
+      - Musegh
+      - Narses
+      - Nerseh
+      - Jirair
+      - Bagour
+      - Tachar
+      - Roupen
+      - Zadig
+    Anciens/veneres:
+      - Abas
+      - Abirad
+      - Athom
+      - Eshkhan
+      - Ishkhan
+      - Khachik
+      - Khajag
+      - Malkhas
+      - Mamigon
+      - Gurgen
+    # --- Proto-geant brut (8) ---
+    Proto-geant brut:
+      - Gorn
+      - Dakh
+      - Vokh
+      - Torg
+      - Barg
+      - Karn
+      - Dov
+      - Gur
+    # --- Proto-geant compose (10) ---
+    Proto-geant compose:
+      - Gorakh
+      - Dakov
+      - Torgan
+      - Vokharn
+      - Bargon
+      - Karnosh
+      - Dovak
+      - Gurakh
+      - Dzoran
+      - Berdak
+    # --- Armenien-fantasy (6) ---
+    Armenien-fantasy:
+      - Ashvarn
+      - Sevokh
+      - Vahgor
+      - Garokh
+      - Hovazd
+      - Artokh
+
+  female:
+    # --- Kept from mod (50) ---
+    Gardes:
+      - Aghavni
+      - Alitz
+      - Almasd
+      - Anahit
+      - Ani
+      - Anoush
+      - Arda
+      - Arevig
+      - Arin
+      - Baydzar
+      - Berjanoush
+      - Berjouhi
+      - Dalita
+      - Datevig
+      - Elen
+      - Eliz
+      - Gadar
+      - Gorandoukht
+      - Gyulnara
+      - Hasmig
+      - Houri
+      - Hranoush
+      - Hripsimeh
+      - Keghanoush
+      - Keran
+      - Khorishah
+      - Kohar
+      - Latavri
+      - Leyli
+      - Lousin
+      - Mara
+      - Margarid
+      - Mariam
+      - Meghranoush
+      - Nane
+      - Narineh
+      - Nazani
+      - Ovsanna
+      - Pounig
+      - Razmouhi
+      - Satenik
+      - Satinik
+      - Seta
+      - Siran
+      - Sirvart
+      - Srpouhi
+      - Shoushanig
+      - Takouhi
+      - Vartanoush
+      - Vartouhi
+      - Vosgi
+      - Zabel
+    # --- Proto-geante (10) ---
+    Proto-geante:
+      - Goroush
+      - Karnoush
+      - Dovoukht
+      - Torgoush
+      - Bargoush
+      - Dzorouhi
+      - Guranit
+      - Berdoush
+      - Vokharin
+      - Dakouhi
+
+  dynasties:
+    # --- Custom fantasy (12) ---
+    - Gurakhuni
+    - Dakhovid
+    - Vahgorid
+    - Garokhani
+    - Hovazduni
+    - Mushelid
+    - Sevokhrani
+    - Zoravakhid
+    - Narsekuni
+    - Jirakhid
+    - Tacharuni
+    - Bagourzdi
+    # --- Proto-geants (8) ---
+    - Karnakhid
+    - Gordzuni
+    - Dovrani
+    - Torgashid
+    - Bargvazdi
+    - Vokharnid
+    - Berduni
+    - Dzorakhid
+    # --- Mixtes (4) ---
+    - Sevakhuni
+    - Ashvarnid
+    - Artakhid
+    - Haykuni
+
+  lowborn:
+    # --- Kept from mod (11) ---
+    - Avetisyan
+    - Davtyan
+    - Gevorgyan
+    - Grigoryan
+    - Hakobyan
+    - Hovhannisyan
+    - Mkhitaryan
+    - Petrosyan
+    - Poghosyan
+    - Sargsyan
+    - Vardanyan
+    # --- Metiers (5) ---
+    - Kartar
+    - Darkosh
+    - Vorskan
+    - Gordzak
+    - Berdosh
+    # --- Nature (5) ---
+    - Dzoruni
+    - Saravan
+    - Ardzvik
+    - Karvash
+    - Bargoshi
+    # --- Traits (4) ---
+    - Amrokh
+    - Gortsak
+    - Kaghvar
+    - Hzorkh
+    # --- Patronymiques (6) ---
+    - Tigranyan
+    - Artashyan
+    - Gorakhyan
+    - Haykyan
+    - Vahanyan
+    - Ashvaryan
+    # --- Lieux (4) ---
+    - Karnoshi
+    - Dzorashi
+    - Bargvardi
+    - Torvakan
+
+# No dialects — single culture
+# No culture patch needed (hravevi_culture stays on hravevi_language default)

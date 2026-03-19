@@ -1,0 +1,257 @@
+# Sordrenic language config
+# Provencal/Occitan-inspired language — 4 dialects
+# 63M + 59F + 25 dynasties + 30 lowborn (curated pool)
+# Uses pre-computed variant table (dialect_variants.txt)
+# Salt Sordrenic = default; Stone, Lutin, Pantagrin = extra
+
+language_id: sordrenic_language
+color: map_AQN
+family: moran_language_family
+
+location_prefix: "location_prefix_french"
+location_prefix_vowel: "location_prefix_french_vowel"
+
+custom_names:
+  male:
+    Signature occitane:
+      - Arnotz
+      - Drossotz
+      - Esclarenc
+      - Garsenc
+      - Sforzenc
+      - Thalesc
+      - Roquesc
+    Classiques occitans:
+      - Raimontz
+      - Pontaltz
+      - Mistranc
+      - Blanquitz
+      - Garsier
+      - Calmier
+      - Sordrantz
+      - Volcrantz
+    Touche italienne:
+      - Castenzo
+      - Salvanto
+      - Miraldo
+      - Rinenzo
+      - Fiorent
+    Nobles/doux:
+      - Carcenz
+      - Calvanto
+    Maritime:
+      - Corsorn
+      - Oissorn
+      - Saldosc
+    Wildcards:
+      - Sordel
+      - Mistrau
+      - Tornac
+      - Calveron
+      - Albaric
+      - Folcran
+      - Navriel
+      - Volcien
+      - Rostang
+      - Dalmin
+      - Corsavel
+      - Barral
+      - Gasquel
+      - Tolren
+      - Salvorn
+      - Carsenc
+      - Brenac
+      - Miral
+    Organiques:
+      - Gastol
+      - Corven
+      - Rimel
+      - Aldron
+      - Lorec
+      - Calven
+      - Persac
+      - Branel
+      - Marvol
+      - Saltor
+    Courts/bruts:
+      - Gast
+      - Roq
+      - Marc
+      - Bren
+      - Vald
+    Communs:
+      - Calmon
+      - Raimol
+      - Arnel
+      - Piermon
+      - Gastel
+
+  female:
+    Signature occitane:
+      - Esclaronda
+      - Navronda
+      - Volconda
+      - Lorenca
+      - Ossirenca
+      - Oissilde
+    Noblesse italienne:
+      - Castenca
+      - Rainella
+      - Fiorella
+      - Drossella
+      - Brunissa
+      - Blanquissa
+      - Fiorenza
+    Doux/familier:
+      - Stoelina
+      - Saldina
+      - Marzina
+      - Corsina
+      - Thalinda
+    Populaires:
+      - Valdesse
+      - Brunotte
+      - Loracia
+      - Mirosta
+    Wildcards:
+      - Mirena
+      - Celva
+      - Calanda
+      - Thalene
+      - Tornelle
+      - Volcire
+      - Corsiera
+      - Pierra
+      - Crestane
+      - Navrine
+      - Sordra
+      - Sforzelle
+      - Ailena
+      - Dalvine
+      - Rosca
+      - Tolrene
+      - Albane
+      - Brenelle
+      - Calvene
+      - Marsane
+      - Folquine
+      - Calmira
+    Organiques:
+      - Miren
+      - Solca
+      - Alena
+      - Corsine
+      - Bruna
+      - Lorelle
+      - Aldra
+      - Ravenne
+    Courts:
+      - Nora
+      - Salda
+      - Fenna
+      - Calma
+    Communs:
+      - Lorel
+      - Fiora
+      - Brissa
+
+  dynasties:
+    - de_Tolmontz
+    - de_Carcavel
+    - de_Roquentz
+    - de_Bauxorc
+    - de_Calmonca
+    - de_Mistrantz
+    - de_Esclarmon
+    - de_Sordranvel
+    - de_Corsaltz
+    - de_Stoelmontz
+    - de_Valdorno
+    - de_Aiglanca
+    - de_Thalvenc
+    - de_Oissorne
+    - de_Fiormontz
+    - de_Navresc
+    - de_Volcranvel
+    - de_Castornel
+    - de_Saldonca
+    - de_Montaurel
+    - de_Gasconvel
+    - de_Brunorca
+    - de_Piermonca
+    - de_Crestanvel
+    - de_Raimondel
+
+  lowborn:
+    - Rocavel
+    - Saldenc
+    - Costantz
+    - Aubrel
+    - Calmosc
+    - Brunetz
+    - Garsaud
+    - Roquiel
+    - Mistrel
+    - Volcain
+    - Corsaud
+    - Fioretz
+    - Tornesc
+    - Pontorc
+    - Valdetz
+    - Aiglotz
+    - Drossenc
+    - Montesc
+    - Rinauld
+    - Calvetz
+    - Navraud
+    - Crestiel
+    - Stoelaud
+    - Blanquetz
+    - Lornel
+    - Sortenc
+    - Gastorel
+    - Marzenc
+    - Thalorc
+    - Bauxaud
+
+# Dialect rules — using pre-computed variant table
+# Salt Sordrenic = default (no transform)
+dialects:
+  # Stone Sordrenic — harder, e->o, consonant hardening
+  - id: stone_sordrenic_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 1
+
+  # Lutin Sordrenic — elvish, softened, i-insertion
+  - id: lutin_sordrenic_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 2
+
+  # Pantagrin Sordrenic — giantsborn, heavier, a->o
+  - id: pantagrin_sordrenic_dialect
+    variants_file: dialect_variants.txt
+    variants_column: 3
+
+# ============================================================
+# CULTURE -> DIALECT MAPPINGS
+# ============================================================
+# salt_sordrenic = default dialect (sordrenic_language), no patch needed
+
+cultures:
+  - id: stone_sordrenic_culture
+    dialect: stone_sordrenic_dialect
+    color: map_jin
+    tags: [occitan_gfx, french_gfx, west_mediterranean_gfx, mediterranean_gfx, western_european_gfx, european_gfx]
+    groups: [human_group, sordrenic_group]
+
+  - id: pantagrins_culture
+    dialect: pantagrin_sordrenic_dialect
+    color: map_PRU
+    tags: [giantsborn_gfx, swedish_gfx, western_european_gfx, european_gfx]
+    groups: [sordrenic_group, giantsborn_group]
+
+  - id: lutin_culture
+    dialect: lutin_sordrenic_dialect
+    color: map_bjarmian
+    tags: [elf_gfx, occitan_gfx, french_gfx, west_mediterranean_gfx, mediterranean_gfx, western_european_gfx, european_gfx]
+    groups: [sordrenic_group, elven_group, ardrainic_group]

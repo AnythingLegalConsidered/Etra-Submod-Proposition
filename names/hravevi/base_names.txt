@@ -1,0 +1,119 @@
+# ============================================================
+# HRAVEVI — Pool de noms de base
+# ============================================================
+# Armenien distinctif (~50-60%) + Proto-geant invente (~40-50%)
+# Race : Giantsborn isoles, montagnes est
+# ============================================================
+
+# ============================================================
+# PRENOMS MASCULINS (67)
+# ============================================================
+
+# --- Gardes du mod (43) ---
+# Nobles/anciens
+Artavazd Artashes Artashir Arshavir Atrnerseh Hamazasp Khosrau Khosrov Zoravan
+# Guerriers/rois
+Tigran Arshak Smbat Vagram Vahan Levon Ardeshir
+# Courts/communs
+Ashot Gagik Hayk Mleh Nairi Sevag Sevan Mzhezh
+# Organiques
+Mushel Musegh Narses Nerseh Jirair Bagour Tachar Roupen Zadig
+# Anciens/veneres
+Abas Abirad Athom Eshkhan Ishkhan Khachik Khajag Malkhas Mamigon Gurgen
+
+# --- Nouveaux — Proto-geant brut, 1-2 syllabes (8) ---
+Gorn Dakh Vokh Torg Barg Karn Dov Gur
+
+# --- Nouveaux — Proto-geant compose, 2 syllabes (10) ---
+Gorakh Dakov Torgan Vokharn Bargon Karnosh Dovak Gurakh Dzoran Berdak
+
+# --- Nouveaux — Armenien-fantasy (6) ---
+Ashvarn Sevokh Vahgor Garokh Hovazd Artokh
+
+# ============================================================
+# PRENOMS FEMININS (60)
+# ============================================================
+
+# --- Gardes du mod (50) ---
+Aghavni Alitz Almasd Anahit Ani Anoush Arda Arevig Arin
+Baydzar Berjanoush Berjouhi
+Dalita Datevig
+Elen Eliz
+Gadar Gorandoukht Gyulnara
+Hasmig Houri Hranoush Hripsimeh
+Keghanoush Keran Khorishah Kohar
+Latavri Leyli Lousin
+Mara Margarid Mariam Meghranoush
+Nane Narineh Nazani
+Ovsanna
+Pounig
+Razmouhi
+Satenik Satinik Seta Siran Sirvart Srpouhi Shoushanig
+Takouhi
+Vartanoush Vartouhi Vosgi
+Zabel
+
+# --- Nouvelles — Proto-geante (10) ---
+Goroush Karnoush Dovoukht Torgoush Bargoush Dzorouhi Guranit Berdoush Vokharin Dakouhi
+
+# ============================================================
+# DYNASTIES (24)
+# ============================================================
+
+# --- Gardes du mod (6) ---
+Abamelik Amatuni Bagratuni Pahlavuni Rubenid Orbelid
+
+# --- Nouveaux — Clans armeniens-fantasy (6) ---
+Artsruni Mamikonian Kamsarakan Siunid Gnunid Varazdat
+
+# --- Nouveaux — Clans proto-geants (8) ---
+Karnakhid Gordzuni Dovrani Torgashid Bargvazdi Vokharnid Berduni Dzorakhid
+
+# --- Nouveaux — Mixtes (4) ---
+Sevakhuni Ashvarnid Artakhid Haykuni
+
+# ============================================================
+# ROTURIERS (35)
+# ============================================================
+
+# --- Gardes du mod (11) ---
+Avetisyan Davtyan Gevorgyan Grigoryan Hakobyan Hovhannisyan Mkhitaryan Petrosyan Poghosyan Sargsyan Vardanyan
+
+# --- Nouveaux — Metiers/craft (5) ---
+Kartar Darkosh Vorskan Gordzak Berdosh
+
+# --- Nouveaux — Nature/paysage (5) ---
+Dzoruni Saravan Ardzvik Karvash Bargoshi
+
+# --- Nouveaux — Traits (4) ---
+Amrokh Gortsak Kaghvar Hzorkh
+
+# --- Nouveaux — Patronymiques non-bibliques (6) ---
+Tigranyan Artashyan Gorakhyan Haykyan Vahanyan Ashvaryan
+
+# --- Nouveaux — Lieux (4) ---
+# Note : certains lieux servent aussi de dynastie (Berduni, etc.)
+Karnoshi Dzorashi Bargvardi Torvakan
+
+# ============================================================
+# NOMS RETIRES DU MOD ORIGINAL
+# ============================================================
+# Masculins retires (trop reconnaissables — bible/grec) :
+# Petros Poghos Davit Grigor Mikayel Movses Gosdantin Boghos
+# Bedros Hagop Hakob Samvel Taniel Kevork Ghoukas Margos
+# Arakel Sarkis Sahak Krikor Avedis Aboughamr Aboulgharib
+# Badouagan Ari Armen Kapriel Karayan
+# + shared keys : name_abraham name_alexander name_john name_lupus
+#   name_emmanuel name_theodore name_arsenios name_oshin name_hethum
+#   name_avag name_bagrat
+#
+# Feminins retires :
+# Rita (trop occidental), Mariyam (doublon Mariam)
+# name_anna name_mary name_milena
+#
+# Dynasties retirees :
+# Khojaminasishvili (georgien 7 syl) Tumanishvili (georgien)
+# Bebutov (russe -ov) Melikov (russe -ov) Bagdazarian (4 syl)
+#
+# Feminins deplaces depuis masculins :
+# Berjouhi Gyulnara Narineh → maintenant dans prenoms feminins

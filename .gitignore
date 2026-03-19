@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Binary assets (game files)
+*.dds
+*.bin
+*.dat
+*.mesh
+
+# Generated output (regenerable via generate_mod.py --all)
+output/ardrainic/
+output/armonorican/
+output/hravevi/
+output/moran/
+output/sordrenic/
+output/torrent/
+output/vulgar_moran/
+
+# Claude Code (private config)
+.claude/
+CLAUDE.md
+
+# Internal working files (session-specific, not relevant for public repo)
+CONTEXT.md
+DIGEST.md
+_specs/HANDOFF.md

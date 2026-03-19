@@ -1,0 +1,106 @@
+# ============================================================
+# HRAVEVI — ADN Phonetique
+# ============================================================
+# Inspiration : Armenien (classique + medieval) + Proto-geant invente
+# Concept : 2 couches fusionnees en UNE langue
+#   - Armenien distinctif (~50-60%) : noms qui sonnent deja fantasy
+#   - Proto-geant (~40-50%) : courts, lourds, gutturaux, 1-2 syllabes
+# Race : Giantsborn isoles — jamais absorbes, langue preservee
+# Zone : Enclave est, montagnes massives
+# Dialectes : Aucun (1 seule culture)
+# ============================================================
+
+# ============================================================
+# ATTAQUES (24)
+# ============================================================
+
+# Armeniennes distinctives (14)
+# Tig-    Tigran (EXCLUSIF)
+# Hov-    Hovhannes-style (EXCLUSIF)
+# Art-    Artavazd, Artashes
+# Arsh-   Arshak, Arshavir
+# Khos-   Khosrov, Khosrau
+# Ash-    Ashot
+# Vah-    Vahan
+# Nar-    Narses, Nerseh
+# Gag-    Gagik
+# Hayk-   Hayk (ancetre mythique)
+# Mush-   Mushel, Musegh
+# Sev-    Sevag, Sevan (sev = noir)
+# Mzh-    Mzhezh (cluster armenien)
+# Smb-    Smbat (cluster armenien)
+
+# Proto-geant (10)
+# Gor-    gorge/pierre (EXCLUSIF)
+# Dak-    force/lourd (EXCLUSIF)
+# Vokh-   souffle/esprit
+# Torg-   tonnerre
+# Barg-   montagne
+# Karn-   roc/pierre
+# Dov-    ours/puissance
+# Gur-    lourd/grave
+# Dzor-   gorge/ravin
+# Berd-   forteresse
+
+# ============================================================
+# TERMINAISONS MASCULINES (12)
+# ============================================================
+
+# Armeniennes
+# -an     Tigran, Torgan, Zoravan
+# -ak     Arshak, Dovak
+# -ir     Artashir, Arshavir
+# -ev     Khosrev
+# -el     Mushel
+# -at     Smbat
+
+# Proto-geant
+# -azd    EXCLUSIF (Artavazd, Hovazd)
+# -akh    EXCLUSIF (Gorakh, Gurakh)
+# -ogh    EXCLUSIF (Sevokh, Garokh)
+# -orn    Vokharn, Karnorn
+# -on     Bargon
+# -osh    Karnosh
+
+# ============================================================
+# TERMINAISONS FEMININES (10)
+# ============================================================
+
+# Armeniennes
+# -oush   EXCLUSIF (Anoush, Karnoush, Hranoush)
+# -oukht  EXCLUSIF (Gorandoukht, Dovoukht)
+# -ig     Hasmig, Datevig
+# -ouhi   Takouhi, Berjouhi
+# -it     Anahit
+# -in     Siran, Arin
+# -ani    Nazani
+
+# Proto-geant
+# -ar     Gordar
+# -arn    Vokharn (partage avec M)
+# -ik     Berdig
+
+# ============================================================
+# VOYELLES DOMINANTES
+# ============================================================
+# a, o    graves, ouvertes — pierre et tonnerre
+# u       sourd, profond — secondaire
+# i, e    rares, jamais dominantes
+
+# ============================================================
+# SONS INTERDITS (reserves a d'autres langues)
+# ============================================================
+# -ain/-eval, Gal-/Thib-         → Ardrainic
+# -tz/-enc/-esc, Esc-/Rai-/Oiss- → Sordrenic
+# Ll-/Rh-/Gw-, -wyn/-wen/-ydd    → Armonorican
+# -us/-ius                        → Moran
+# Wulf-/Sig-/Grim-, -wald/-mar   → Torrent
+
+# ============================================================
+# MARQUEURS EXCLUSIFS HRAVEVI
+# ============================================================
+# Attaques : Tig-, Hov-, Gor-, Dak-
+# Terminaisons M : -azd, -akh, -ogh
+# Terminaisons F : -oush, -oukht
+# Voyelles : a/o dominantes (graves)
+# Consonnes : Kh, Gh, Dz, clusters lourds (Mzh-, Smb-)

@@ -1,0 +1,231 @@
+# ============================================================
+# SORDRENIC — ADN Phonetique & Regles dialectales
+# ============================================================
+# Inspiration : Provencal + Occitan + Italien + Francais du sud
+# Groupe : Greco-Occitan
+# Cultures : Salt Sordrenic (cotier), Stone Sordrenic (montagne)
+#            Lutin (elfes, 85% sordrenic + 15% proto-elfique)
+#            Pantagrins (giantsborn, 85% sordrenic + 15% proto-geant)
+# ============================================================
+
+# ============================================================
+# ATTAQUES (35)
+# ============================================================
+
+# Occitanes (13)
+# Esc-    Esclaramonda-style (EXCLUSIF)
+# Rai-    Raimon-style (EXCLUSIF)
+# Arn-    Arnaut
+# Gas-    Gaston
+# Ber-    Bertran
+# Tren-   Trencavel
+# Carc-   Carcassonne
+# Roq-    Roquefort/roc
+# Aub-    Aubagne/aube
+# Baux-   Les Baux
+# Calm-   Calme/chalme
+# Mist-   Mistral/vent
+# Pon-    Pontius/pont
+
+# Italiennes (11)
+# Cast-   Castel
+# Sal-    Salvatore
+# Lor-    Lorenzo
+# Mont-   Montagne
+# Pier-   Pierre
+# Fior-   Fiore/fleur
+# Torn-   Tornabuoni
+# Rin-    Rinaldo
+# Cond-   Condottiere
+# Marz-   Marzo/Mars
+# Sforz-  Sforza/force
+# Vald-   Valdese
+
+# Provencales (5)
+# Blan-   Blanc
+# Gars-   Garsende
+# Brun-   Brun
+# Gui-    Guillaume occitan
+# Aig-    Aiguilles/aigu
+
+# Fantasy (6+)
+# Sor-    Sordren (lore)
+# Oiss-   Oissordrein (toponyme in-game) (EXCLUSIF)
+# Calv-   Calvaire/fantasy
+# Thal-   Thalassa/mer
+# Miral-  Miroir/fantasy
+# Cors-   Corse/corsaire
+# Volc-   Volcae (peuple antique)
+# Stoel-  Stoeste (toponyme in-game)
+# Crest-  Crete/montagne
+# Navr-   Navigation/navire
+# Dross-  Pierre brute
+# Ossir-  Oissordrein variant
+
+# Wildcards (ajout curation)
+# Folc-   Folquet (troubadour occitan)
+# Rost-   Rostang (guerrier occitan)
+# Alb-    Blanc/aube provencal
+# Dalm-   Dalmatique/mediterraneen
+# Sauv-   Sauvage
+# Barr-   Barre/seigneur provencal
+
+# ============================================================
+# TERMINAISONS MASCULINES (18 structurees + 12 souples)
+# ============================================================
+#
+# REGLE : max 2-3 noms par terminaison. Les marqueurs exclusifs
+# (-tz, -enc, -esc) representent max 30% du pool.
+# Les terminaisons souples assurent la diversite.
+
+# Occitanes (structurees — signature, usage parcimonieux)
+# -tz     EXCLUSIF (Arnotz, Raimontz)
+# -otz    variante (Drossotz)
+# -enc    EXCLUSIF (Esclarenc, Garsenc, Sforzenc)
+# -esc    EXCLUSIF (Thalesc, Roquesc)
+# -aut    occitan
+# -atz    occitan variante
+
+# Italiennes
+# -enzo   (Castenzo, Rinenzo)
+# -anto   (Salvanto, Calvanto)
+# -aldo   (Miraldo)
+
+# Provencales/communes
+# -ier    (Garsier, Calmier)
+# -orn    (Oissorn, Corsorn)
+# -anc    (Mistranc)
+# -altz   (Pontaltz)
+# -osc    (Saldosc)
+# -antz   (Sordrantz, Volcrantz)
+# -ontz   (Raimontz)
+
+# Souples (wildcards — chaque nom a un profil unique)
+# -el     occitan use (Sordel, Gastel, Arnel)
+# -ol     populaire (Gastol, Marvol, Raimol)
+# -ac     toponymique (Tornac, Persac, Brenac)
+# -iel    poetique (Navriel)
+# -au     provencal pur (Mistrau)
+# -in     familier/petit (Dalmin, Roquin)
+# -eron   use par le temps (Calveron)
+# -ar     maritime (Stoelar → reserve dialectes)
+# -al     vallee (Trendal → reserve dialectes)
+# -an     occitan courant (Folcran, Sforzan)
+# -ric    noble ancien (Albaric)
+# -avel   occitan noble (Corsavel)
+# -ien    ancien (Volcien)
+# -ang    guerrier (Rostang)
+
+# ============================================================
+# TERMINAISONS FEMININES (16 structurees + 10 souples)
+# ============================================================
+#
+# REGLE : max 3 noms par terminaison. Les marqueurs exclusifs
+# (-onda, -enca) representent max 30% du pool.
+# Les terminaisons souples brisent la monotonie.
+
+# Occitanes (structurees — signature, usage parcimonieux)
+# -onda   EXCLUSIF (Esclaronda, Navronda, Volconda)
+# -issa   (Brunissa, Blanquissa)
+# -ilda/e occitan ancien (Oissilde)
+# -inda   (Thalinda)
+
+# Italiennes
+# -ella   (Fiorella, Rainella, Drossella)
+# -ina    (Saldina, Marzina, Stoelina, Corsina)
+# -enza   (Fiorenza)
+
+# Provencales
+# -enca   EXCLUSIF (Lorenca, Ossirenca, Castenca)
+# -osta   (Mirosta)
+
+# Autres structurees
+# -esse   (Valdesse)
+# -otte   (Brunotte)
+# -acia   (Loracia)
+
+# Souples (wildcards — chaque nom a un profil unique)
+# -ane    provencal (Crestane, Marsane, Albane, Fiorane)
+# -ene    doux (Thalene, Calvene, Tolrene, Ossirene)
+# -ine    familier (Navrine, Folquine, Dalvine, Salvine)
+# -elle   noble occitan (Tornelle, Sforzelle, Brenelle)
+# -ire    sombre/profond (Volcire)
+# -ira    profond (Calmira)
+# -iera   noble maritime (Corsiera)
+# -ia     italien (Sforzia → reserve)
+# -a      simple/populaire (Pierra, Sordra, Celva, Rosca)
+# -anda   provencal (Calanda)
+# -ena    organique (Mirena, Ailena)
+
+# ============================================================
+# MARQUEURS EXCLUSIFS (non-recouvrement garanti)
+# ============================================================
+#
+# Attaques : Esc-, Rai-, Oiss-
+# Terminaisons : -tz, -enc, -esc, -onda, -enca
+# Voyelles dominantes : a, o (ouvertes, mediterraneennes)
+#
+# Sons INTERDITS (reserves) :
+# -eval, -ain, Thib-, Gal-  → Ardrainic
+# -wald, -mar, Wulf-, Sig-  → Torrent
+# -us, -ius                 → Moran
+# Ll-, Rh-, Gw-             → Armonorican
+
+# ============================================================
+# REGLES DIALECTALES
+# ============================================================
+
+# SALT SORDRENIC (base / default)
+# -----------------------------------------
+# Standard. Noms tels quels.
+
+# STONE SORDRENIC (montagnard, dur)
+# -----------------------------------------
+# Voyelles : e→o (fermeture)
+# Terminaisons M : -enc→-orc, -tz→-rtz, -esc→-osc, -enzo→-orzo
+# Terminaisons F : -enca→-orca, -ella→-olla, -onda→-orda, -ina→-orna
+# Consonnes : durcies (s→ss, c→k)
+# Style : plus court, tronque, rude
+#
+# Exemples :
+# Esclarenc → Esclarorc | Lorenca → Lororca
+# Castenzo → Castorzo  | Fiorella → Fiorolla
+# Arnotz → Arnortz     | Garsanda → Garsorda
+
+# LUTIN (culture pont — sordrenic + ardrainic + proto-elfique)
+# -----------------------------------------
+# Les Lutin vivent en foret centrale ENTOUREES par les Ardrainic
+# mais parlent sordrenic. Pool = mix triple :
+#
+# ~35-40% Sordrenic (leur langue) : Esclarenc, Castenzo, Fiorella
+# ~30-35% Ardrainic (leurs voisins) : Galenor, Thibeval, Belisore
+# ~15% Proto-elfique filtre Sordrenic : Aelvintz, Niamella, Suraniesc
+# ~15% Proto-elfique filtre Ardrainic : Aelvain, Nimueline, Suraneval
+#
+# Filtre proto-elfique → Sordrenic : -dh→-tz, -ael→-ella, -iel→-iesc
+# Filtre proto-elfique → Ardrainic : -dh→-ain, -ael→-eline, -iel→-eval
+#
+# Exemples de filtrage double :
+# | Proto pur    | Filtre Sordrenic | Filtre Ardrainic |
+# |-------------|-----------------|------------------|
+# | Aelvindh    | Aelvintz        | Aelvain          |
+# | Niamhael    | Niamella        | Nimueline        |
+# | Suraniel    | Suraniesc       | Suraneval        |
+# | Tuathiel    | Toatienc        | Toathelin        |
+# | Fionneth    | Fionesc         | Fionneval        |
+#
+# Les noms sordrenic du pool Lutin recoivent aussi le twist
+# dialectal lutin (adoucissement, insertion "i" liquide) :
+# Esclarenc → Esclarienc | Lorenca → Lorienca
+
+# PANTAGRIN (geant alourdi)
+# -----------------------------------------
+# Voyelles : a→o, e→o (graves)
+# Terminaisons M : -enc→-onc, -tz→-ntz, -esc→-osc
+# Terminaisons F : -enca→-onga, -ella→-olla, -onda→-onda (deja lourd)
+# Consonnes : doublees
+# + 25-30% noms proto-geants SORDRENICISES (Tigvotz, Garmontz, etc.)
+#
+# Exemples :
+# Esclarenc → Esclaronc | Lorenca → Loronga
+# Castenzo → Costonzo   | Fiorella → Fiorolla

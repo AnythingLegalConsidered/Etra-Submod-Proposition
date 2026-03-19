@@ -1,0 +1,220 @@
+# ============================================================
+# ARDRAINIC — Dialect transformation rules
+# ============================================================
+# 11 variants: base (ardrainic_language) + 10 dialects
+# Each culture maps to exactly one dialect
+# ============================================================
+
+# ============================================================
+# CULTURE → DIALECT MAPPING
+# ============================================================
+# Ardrainien    → ardrainic_language (default, standard)
+# Sittadellian  → sittadellian_dialect
+# Aullerican    → aullerican_dialect
+# Aloisoise     → aloisoise_dialect
+# Caprainois    → caprainois_dialect
+# Pwasciards    → pwasciards_dialect
+# Serenish      → serenish_dialect
+# Berenguer     → berenguer_dialect
+# Draquatin     → draquatin_dialect
+# Chevallois    → chevallois_dialect
+# Appavin       → appavin_dialect
+
+# ============================================================
+# SITTADELLIAN (Picardie/Normandie — dur, fortifie)
+# ============================================================
+# Terrain: forets nord, fortifie
+# Shift: consonnes durcies, terminaisons fermees
+#
+# -val  → -vard
+# -ain  → -art
+# -en   → -ent
+# -or   → -ort
+# -el   → -eld
+# -in   → -ird
+# -elin → -elard
+# -ore  → -ort
+# -ande → -arde
+# -ise  → -ise (inchange)
+# -elle → -eld
+#
+# Exemples:
+# Thibeval → Thibevard | Corvain → Corvart | Galenor → Galenort
+# Belisore → Belisort  | Alisande → Alisarde
+
+# ============================================================
+# AULLERICAN (Artois/Flandre — nord-frontiere, touche germanique)
+# ============================================================
+# Terrain: plaines nord, frontiere torrent
+# Shift: diphtongues germanisantes legeres
+#
+# -val  → -vael
+# -ain  → -aen
+# -or   → -oer
+# -en   → -aen
+# -elin → -elin (inchange — deja doux)
+# -ore  → -oer
+# -ande → -aende
+#
+# Exemples:
+# Thibeval → Thibevael | Corvain → Corvaen | Galenor → Galenoer
+# Belisore → Belisoer  | Alisande → Alisaende
+
+# ============================================================
+# ALOISOISE (Lorraine/Champagne — est, influence germanique marquee)
+# ============================================================
+# Terrain: collines est, contact torrent
+# Shift: ajout -en/-er (rallongement lorrain)
+#
+# -val  → -valen
+# -ain  → -ainer
+# -or   → -oren
+# -en   → -ener
+# -elin → -eliner
+# -ore  → -oren
+# -ande → -anden
+#
+# Exemples:
+# Thibeval → Thibevalen | Corvain → Corvainer | Galenor → Galenoren
+# Belisore → Belisoren  | Alisande → Alisanden
+
+# ============================================================
+# CAPRAINOIS (Loire/Anjou — doux, liquide, ligerian)
+# ============================================================
+# Terrain: vallees boisees, riviere
+# Shift: adoucissement, voyelles ouvertes
+#
+# -val  → -vel
+# -ain  → -in
+# -or   → -orel
+# -en   → -en (inchange)
+# -el   → -el (inchange)
+# -elin → -elin (inchange)
+# -ore  → -orel
+# -ande → -andel
+#
+# Exemples:
+# Thibeval → Thibevel | Corvain → Corvin | Galenor → Galenorel
+# Belisore → Belisorel | Alisande → Alisandel
+
+# ============================================================
+# PWASCIARDS (Poitou/Vendee — maritime, tronque)
+# ============================================================
+# Terrain: cote ouest, marins
+# Shift: tronque la derniere syllabe/consonne
+#
+# -val  → -va
+# -ain  → -a
+# -or   → -o
+# -en   → -e
+# -elin → -el
+# -ric  → -ri
+# -ore  → -o
+# -ande → -a
+# -ise  → -is
+# -elle → -el
+#
+# Exemples:
+# Thibeval → Thibev | Corvain → Corva | Galenor → Galeno
+# Belisore → Beliso | Alisande → Alisa | Nimue → Nimu
+
+# ============================================================
+# SERENISH (Berry/Auvergne — montagnard, archaique)
+# ============================================================
+# Terrain: montagnes centrales, isole
+# Shift: vocalique archaique e→o, i→o
+#
+# -val  → -van
+# -ain  → -an
+# -en   → -on
+# -in   → -on
+# -elin → -olon
+# -or   → -or (inchange — deja archaique)
+# -ore  → -or
+# -ande → -ande (inchange — deja archaique)
+#
+# Exemples:
+# Thibeval → Thibevan | Corvain → Corvan | Galenor → Galenor
+# Belisore → Belisor  | Alisande → Alisande
+
+# ============================================================
+# BERENGUER (Alsace — hybride franco-germanique)
+# ============================================================
+# Terrain: frontiere est, bi-culturel
+# Shift: consonnes germaniques
+#
+# -val  → -wald
+# -ain  → -ein
+# -or   → -ort
+# -ic   → -ich
+# -en   → -en (inchange)
+# -elin → -elin (inchange)
+# -ore  → -ort
+# -ande → -wald (germanisation forte)
+#
+# Exemples:
+# Thibeval → Thibewald | Corvain → Corvein | Galenor → Galenort
+# Belisore → Belisort  | Alisande → Aliswald
+
+# ============================================================
+# DRAQUATIN (Aquitaine/Gascogne — dragon-gascon)
+# ============================================================
+# Terrain: sud-ouest, riche
+# Shift: terminaisons gasconnes -at, -oun
+#
+# -val  → -vat
+# -ain  → -oun
+# -en   → -et
+# -or   → -oun
+# -elin → -elet
+# -ore  → -oun
+# -ande → -andou
+#
+# Exemples:
+# Thibeval → Thibevat | Corvain → Corvoun | Galenor → Galenoun
+# Belisore → Belisoun | Alisande → Alisandou | Nimue → Nimuet
+
+# ============================================================
+# CHEVALLOIS (Bourgogne — forestier, chevaleresque)
+# ============================================================
+# Terrain: forets centrales
+# Shift: terminaisons lourdes -ault/-olt
+#
+# -val  → -vault
+# -ain  → -ault
+# -en   → -olt
+# -or   → -ourt
+# -elin → -elault
+# -ore  → -ourt
+# -ande → -ault
+#
+# Exemples:
+# Thibeval → Thibevault | Corvain → Corvault | Galenor → Galenourt
+# Belisore → Belisourt  | Alisande → Alisault
+
+# ============================================================
+# APPAVIN (Alpes — franco-alpin, ex-Torrent)
+# ============================================================
+# Terrain: montagnes est, isole, influence germanique residuelle
+# Ex-culture Torrent, deplacee vers Ardrainic
+# Shift: vocalique montagnard a→o, diminutifs -el/-et
+#
+# -val  → -vel
+# -ain  → -on
+# -en   → -et
+# -or   → -or (inchange — montagnard)
+# -elin → -elet
+# -ric  → -ret
+# -ore  → -oret
+# -ande → -ondel
+# -ise  → -iset
+# -elle → -ellet
+#
+# Touche germanique residuelle:
+# Quelques noms gardent un -k/-g terminal rare (heritage torrent)
+# Ex: Aldric → Aldret (pas Aldrik — plus assez germanique)
+#
+# Exemples:
+# Thibeval → Thibevel  | Corvain → Corvon   | Galenor → Galenor
+# Belisore → Belisoret | Alisande → Alisondel | Nimue → Nimuet
+# Aldric → Aldret      | Florentin → Florentet

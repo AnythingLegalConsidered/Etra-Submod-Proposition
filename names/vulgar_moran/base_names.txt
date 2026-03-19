@@ -1,0 +1,75 @@
+# Vulgar Moran — Pool de noms de base
+# Latin corrompu vivant + italien + emprunts germano-francais + fantasy
+
+# ============================================================
+# PRENOMS MASCULINS (71)
+# ============================================================
+
+## Nobles / Patriciens (15)
+Aurelvan, Valoren, Casperian, Lucernor, Domavel, Silvoran, Corviant, Falcoren, Fioravel, Seranor, Celviant, Ostranor, Pavori, Vicernor, Renovan
+
+## Marchands / Bourgeois (15)
+Tavian, Galvero, Marcel, Marcelan, Lorven, Venaro, Dorian, Celano, Pavren, Fiorel, Malcori, Servan, Renari, Corvan, Brenval, Ostvel
+
+## Courts / Communs (18)
+Tavel, Bren, Coren, Marvic, Lucor, Falen, Doran, Seric, Valen, Galcen, Ostel, Reno, Vico, Malven, Casvel, Sivrel, Cezano, Verzic
+
+## Organiques / Inclassables (10)
+Lorvanel, Tavrenic, Celvorin, Auremis, Ventarol, Silvanic, Paverno, Brentori, Falervan, Domeric
+
+## Emprunts frontaliers (8)
+Brengar, Aldoven, Kelvorn, Halderic, Gervano, Gastorn, Brevanic, Kaldoven
+
+# ============================================================
+# PRENOMS FEMININS (52)
+# ============================================================
+
+## Nobles / Patriciennes (12)
+Aurelara, Valorene, Luceriel, Silvarine, Celovina, Doravene, Seraniel, Corviane, Domarina, Falcovene, Pavarina, Ventoriel
+
+## Marchandes / Bourgeoises (12)
+Taviane, Galverine, Marcelina, Lorvina, Dorilane, Celaneri, Renariel, Malcorine, Ostvelina, Brenova, Seranila, Corvila
+
+## Courtes / Communes (13)
+Tavra, Brena, Corena, Lucina, Fala, Serva, Dorla, Vena, Galca, Marvine, Rena, Pavla, Ostla
+
+## Organiques / Inclassables (9)
+Ventarossa, Silvaniel, Tavrenne, Celvoriane, Auremiane, Brentarine, Fiorenne, Lorvanelle, Domeriane
+
+## Empruntes frontalieres (5)
+Aldovine, Jervane, Halderne, Kelvarine, Brenilde
+
+# ============================================================
+# DYNASTIES (30)
+# ============================================================
+
+## Toponymiques (9)
+di Ventura, di Rovina, dal Kotharn, di Thanor, van Fluvel, di Fiorane, del Cerimo, di Lucina, dal Vikrit
+
+## Heroiques / Fondateurs (7)
+Corviani, Falcorven, Aurelari, Silveranti, Domarici, Ventaroli, Pavornesi
+
+## Totems / Emblemes (5)
+Falconari, Cervoreni, Lupovani, Aquilaren, Torrevani
+
+## Commerciaux / Titres (5)
+Mercovani, Grandavori, Navareni, Capitolari, Portaveni
+
+## Mixtes frontaliers (5) — noblesse hybride
+von Brengart, Halverdic, d'Ostrani, Kelvoretti, Aldovani
+
+# ============================================================
+# ROTURIERS (45)
+# ============================================================
+
+## Metiers (10)
+Fornar, Taveran, Mercar, Navicel, Cordar, Maconar, Vincel, Ferrar, Cartar, Salinar
+
+## Nature / Lieux (10)
+Rivelorn, Campori, Monvaler, Silvanar, Fontanel, Portavel, Pontevar, Litorani, Valperen, Costelar
+
+## Traits / Surnoms (10)
+Granvel, Fortanar, Russel, Calvorin, Longavel, Vivacel, Nerovan, Bravori, Vecchian, Bonavel
+
+## Patronymes simples (15)
+del Tavro, di Corven, dal Servan, del Marvic, di Lucori, del Brenor, dal Falen, di Ventaro, del Galcen, dal Pavren, di Casvel, del Doran, dal Reno, di Vico, dal Ostel

@@ -1,0 +1,59 @@
+# ============================================================
+# PANTAGRINS — Noms proto-geants sordrenicises (25-30% du pool)
+# ============================================================
+# Les Pantagrins sont des giantsborn vivant dans les montagnes
+# de la zone Sordrenic. Ils ont absorbe la culture locale mais
+# gardent ~25-30% de noms anciens proto-geants.
+#
+# Pool total = 70-75% sordrenic (du pool base_names.txt)
+#              + 25-30% proto-geant sordrenicise (ce fichier)
+#
+# Proto-geant = proto-armenien
+# Filtre = adaptation aux terminaisons sordrenic (-tz, -enc,
+#          -esc, -aldo, -montz, -ella, -enca, -inda, etc.)
+#
+# Les Hravevi (giantsborn de l'est) gardent le proto-geant PUR
+# car jamais absorbes. Meme race, sonorité completement differente.
+# ============================================================
+
+# ============================================================
+# MASCULINS — Proto-geant filtre Sordrenic (16)
+# ============================================================
+# On garde : consonnes lourdes, voyelles graves (o, u)
+# On adapte : terminaisons occitanes/italiennes
+
+Tigvotz          # Tigvoush → -oush→-otz
+Garmontz         # Gharmund → Gh→G, -mund→-montz
+Dovartz          # Dovazd → -azd→-artz
+Covarntz         # Khovarn → Kh→C, + -tz
+Sarusenc         # Sarushel → -el→-enc
+Vartotz          # Vartoush → -oush→-otz
+Sigraldo         # Tsigrael → Ts→S, -ael→-aldo
+Guelesc          # Gvelith → Gv→Gu, -ith→-esc
+Ovazirantz       # Hovazir → H muet, + -antz
+Zormontz         # Dzormund → Dz→Z, -mund→-montz
+Cartvenc         # Karthvel → K→C, -el→-enc
+Arsaquesc        # Arshakir → sh→s, -ir→-esc
+Vactantz         # Vakhtan → kh→c, + -tz
+Gagiantz         # Gaghik → -ik→-iantz
+Musvaldo         # Mushvel → sh→s, -el→-aldo
+Torgomontz       # Torgom → + -ontz
+
+# ============================================================
+# FEMININS — Proto-geant filtre Sordrenic (12)
+# ============================================================
+# On garde : poids, gravite
+# On adapte : terminaisons provencales/italiennes
+
+Nianorca         # Nianore → -ore→-orca
+Sisanella        # Tsisane → Ts→S, -ane→-anella
+Rusudella        # Rusudael → -ael→-ella
+Mizianissa       # Mziane → Mz→Miz, -ane→-anissa
+Eterenca         # Etherie → -ie→-enca
+Lamarinda        # Lamarine → -ine→-inda
+Sinaella         # Tsinael → Ts→S, -ael→-ella
+Goarissa         # Goharik → h muet, -ik→-issa
+Navardenca       # Nvarde → Nv→Nav, -e→-enca
+Satenilda        # Satenik → -ik→-ilda
+Anaidonda        # Anahid → + -onda
+Susanella        # Shoushan → Sh→S, -an→-anella

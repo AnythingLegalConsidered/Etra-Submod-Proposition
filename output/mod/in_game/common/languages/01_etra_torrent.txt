@@ -1,0 +1,408 @@
+﻿
+torrent_language = {
+
+	color = map_german
+	family = torrentor_language_family
+
+	patronym_suffix_son = "patronym_suffix_german_son"
+	patronym_suffix_daughter = "patronym_suffix_german_son"
+
+	male_names = {
+		# === CUSTOM FANTASY NAMES ===
+		name_sigwald name_sigmar name_volkmar name_volkhard name_grimwald name_arnwald name_arngar name_arnulf
+		name_aldrik name_aldmund name_helmrik name_helmgar name_eberhard name_eberbern name_hrodgar name_hrodwald
+		name_brandolf name_brandmar name_tormund name_torstein name_torbrand name_gundmar name_gundbern name_gundhard
+		name_hartbern name_hartmund name_wulfgar name_wulfbrand name_dietmar name_dietwald name_friedwald name_gerbern
+		name_gerwald name_baldgar name_ulfgar name_rikwald name_waldbern name_skorvarn name_skormund name_skordorn
+		name_skorgust name_tharwald name_tharbern name_thargar name_velkvarn name_velkdorn name_drakwald name_drakmorn
+		name_kurngar name_kurnwald name_rukhard name_rukvarn name_garnhelm name_garnwald name_storngar name_stornmar
+		name_brekolf name_brekdorn name_brekstein name_olkmar name_olkgar name_olkstein name_garm name_skorn
+		name_brek name_ruk name_drak name_gund name_volk name_arn name_hrod name_brand
+		name_ulf name_sten name_kurn name_thar name_torvin name_wulfren name_garneth name_aldenvarn
+		name_volkenmar name_volkren name_eberenwald name_hrodven name_brannrik name_thurgast name_kornstal name_aldven
+		name_varnhelm name_warneth name_gildren name_volstren name_krenvald name_rothgar name_halstred name_feldvarn
+		name_odgar name_sigdorn name_grimkald name_friedgust name_wulfgust name_ebermorn name_volkstein name_torgust
+		name_hartvarn name_arndorn name_helmdorn name_brandvarn name_friedmorn name_gundmorn
+	}
+
+	female_names = {
+		# === CUSTOM FANTASY NAMES ===
+		name_svarnhild name_sigrune name_brunhild name_brungard name_arnlinde name_arnhild name_waldburg name_grimrune
+		name_helmtrud name_helmburg name_ebergard name_tornilde name_gundlinde name_gundtrud name_hartrune name_hartgard
+		name_friedlinde name_gerhild name_gerburg name_wulfrune name_aldhild name_aldburg name_brandgard name_dietlinde
+		name_ulftrud name_volkara name_tharvane name_skormara name_aldsolde name_garnlinde name_brekorn name_velkhild
+		name_draksolde name_gundvane name_wulfmara name_tormara name_ebervane name_skorgard name_tharlinde name_kurnburg
+		name_rukvane name_stornmara name_breksolde name_olkrika name_arnkara name_waldmara name_hartvane name_astrild
+		name_gildvane name_thornild name_elgara name_valkren name_thuren name_aldena name_sterna name_gervane
+		name_bruneth name_wuldra name_rostvane name_rostmund name_solmara name_solrune name_lindgard name_lindhild
+		name_heilrune name_heilburg name_isenhild name_isensolde name_minnvane name_audmara name_hild name_runa
+		name_garda name_solde name_rika name_mara name_lind name_isen
+	}
+
+	dynasty_names = {
+	}
+
+	lowborn = {
+		# === CUSTOM FANTASY LOWBORN ===
+		Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+		Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+		Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+		Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+		Sigwaldsen Arnwaldsen
+	}
+
+	location_prefix = "location_prefix_german"
+
+
+	dialects = {
+
+		# =============================================
+		# DEFAULT DIALECT — Heuhian (Central)
+		# =============================================
+		heuhian_dialect = {
+			default = yes
+
+			dynasty_names = {
+				von_Skorwald von_Drakstein von_Thornburg von_Kurnfeld von_Grimhold von_Stornberg
+				von_Brekwald von_Olkheim von_Velkburg von_Garnstein von_Rukberg von_Tharfeld
+				von_Wulfheim von_Sigvarn von_Eberdorn von_Hartkald von_Friedmorn von_Baldenberg
+				von_Hrodstein von_Brandvarn von_Serenhald
+			}
+
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		fullhorner_dialect = {
+			male_names = {
+				name_othgar name_weland name_theudrik name_hunwald name_radgund name_eodwald name_wulfhad name_athelbern
+				name_mundgar name_hildebrand name_aethelmor name_godmund name_eormund name_saexwulf name_leodgar
+			}
+			female_names = {
+				name_aethelburg name_eadhild name_theodlinde name_wulfrun name_hilderun name_godgard name_leodburg name_eorild
+				name_athelmara name_saexhild
+			}
+			dynasty_names = {
+				von_Skorwald von_Drakstein von_Thornburg von_Kurnfeld von_Grimhold von_Stornberg
+				von_Brekwald von_Olkheim von_Velkburg von_Garnstein von_Rukberg von_Tharfeld
+				von_Wulfheim von_Sigvarn von_Eberdorn von_Hartkald von_Friedmorn von_Baldenberg
+				von_Hrodstein von_Brandvarn von_Serenhald
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		afhaemeisan_dialect = {
+			male_names = {
+				name_othgar name_weland name_theudrik name_hunwald name_radgund name_eodwald name_wulfhad name_athelbern
+				name_mundgar name_hildebrand name_aethelmor name_godmund name_eormund name_saexwulf name_leodgar
+			}
+			female_names = {
+				name_aethelburg name_eadhild name_theodlinde name_wulfrun name_hilderun name_godgard name_leodburg name_eorild
+				name_athelmara name_saexhild
+			}
+			dynasty_names = {
+				von_Skorwald von_Drakstein von_Thornburg von_Kurnfeld von_Grimhold von_Stornberg
+				von_Brekwald von_Olkheim von_Velkburg von_Garnstein von_Rukberg von_Tharfeld
+				von_Wulfheim von_Sigvarn von_Eberdorn von_Hartkald von_Friedmorn von_Baldenberg
+				von_Hrodstein von_Brandvarn von_Serenhald
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		lower_serenic_dialect = {
+			male_names = {
+				name_othgar name_weland name_theudrik name_hunwald name_radgund name_eodwald name_wulfhad name_athelbern
+				name_mundgar name_hildebrand name_aethelmor name_godmund name_eormund name_saexwulf name_leodgar
+			}
+			female_names = {
+				name_aethelburg name_eadhild name_theodlinde name_wulfrun name_hilderun name_godgard name_leodburg name_eorild
+				name_athelmara name_saexhild
+			}
+			dynasty_names = {
+				von_Skorwald von_Drakstein von_Thornburg von_Kurnfeld von_Grimhold von_Stornberg
+				von_Brekwald von_Olkheim von_Velkburg von_Garnstein von_Rukberg von_Tharfeld
+				von_Wulfheim von_Sigvarn von_Eberdorn von_Hartkald von_Friedmorn von_Baldenberg
+				von_Hrodstein von_Brandvarn von_Serenhald
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		middle_serenic_dialect = {
+			male_names = {
+				name_othgar name_weland name_theudrik name_hunwald name_radgund name_eodwald name_wulfhad name_athelbern
+				name_mundgar name_hildebrand name_aethelmor name_godmund name_eormund name_saexwulf name_leodgar
+			}
+			female_names = {
+				name_aethelburg name_eadhild name_theodlinde name_wulfrun name_hilderun name_godgard name_leodburg name_eorild
+				name_athelmara name_saexhild
+			}
+			dynasty_names = {
+				de_Sigvald de_Grimvain de_Tharvald von_Skorwald von_Drakstein von_Thornburg
+				von_Kurnfeld von_Grimhold von_Stornberg von_Brekwald von_Olkheim von_Velkburg
+				von_Garnstein
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		sorlkol_dialect = {
+			dynasty_names = {
+				zu_Skorwold zu_Grimwold zu_Olkberg zu_Drakhorn zu_Brekstein
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		naurmen_dialect = {
+			dynasty_names = {
+				van_Seegwoud van_Greemveld van_Woulfberg van_Braandhoek van_Toormeer van_Helmreek
+				van_Draakwoud van_Skoorvaan van_Olkmaar van_Volkhaard
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		stedeling_dialect = {
+			male_names = {
+				name_koopvald name_muurwoud name_goudmaar name_ringvald name_poortwoud name_handelmaar name_waalvoud name_zilverbeer
+				name_burgmeer name_dijkvaan
+			}
+			female_names = {
+				name_goudvane name_ringdis name_poortmara name_muurlinde name_zilverkara name_waalgaard
+			}
+			dynasty_names = {
+				van_Seegwoud van_Greemveld van_Woulfberg van_Braandhoek van_Toormeer van_Helmreek
+				van_Draakwoud van_Skoorvaan van_Olkmaar van_Volkhaard van_Goudmeer van_Ringveld
+				van_Poorthoek van_Zilverberg van_Waalmeer van_Dijkwoud van_Burgveld van_Koophaven
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		thaurfolk_dialect = {
+			male_names = {
+				name_halvard name_halvmund name_ragnvald name_ragnmund name_stigarn name_stigvald name_torbjorn name_torvald
+				name_audulf name_finnvald name_finnarn name_bjorngar name_bjornvald name_keldvarn name_keldmund name_grindvald
+				name_askvald name_brondulf name_vigmund name_skjoldarn
+			}
+			female_names = {
+				name_halvdis name_ragndis name_tordis name_stigfrid name_audfrid name_finnild name_bjornild name_keldrun
+				name_vigdis name_askfrid name_gronild name_skjoldis
+			}
+			dynasty_names = {
+				af_Halvard af_Ragnvald af_Stigarn af_Torvald af_Bjornvald af_Finnarn
+				af_Keldmund af_Vigmund af_Skjoldarn af_Askvald
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		bonwesforian_dialect = {
+			male_names = {
+				name_othgar name_weland name_theudrik name_hunwald name_radgund name_eodwald name_wulfhad name_athelbern
+				name_mundgar name_hildebrand name_aethelmor name_godmund name_eormund name_saexwulf name_leodgar
+			}
+			female_names = {
+				name_aethelburg name_eadhild name_theodlinde name_wulfrun name_hilderun name_godgard name_leodburg name_eorild
+				name_athelmara name_saexhild
+			}
+			dynasty_names = {
+				von_Skorwald von_Drakstein von_Thornburg von_Kurnfeld von_Grimhold von_Stornberg
+				von_Brekwald von_Olkheim von_Velkburg von_Garnstein von_Rukberg von_Tharfeld
+				von_Wulfheim von_Sigvarn von_Eberdorn von_Hartkald von_Friedmorn von_Baldenberg
+				von_Hrodstein von_Brandvarn von_Serenhald
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		borrikan_dialect = {
+			male_names = {
+				name_wojslaw name_wojmierz name_bogslaw name_bogdorn name_radslaw name_radmierz name_staslaw name_stanimierz
+				name_miroslaw name_bronwald name_bronislaw name_kazimierz name_drogosz name_wlodmierz name_zygbern name_grzymar
+				name_borvarn name_starogard name_leszwald name_mieszko
+			}
+			female_names = {
+				name_wojslawa name_bogmira name_radmira name_miroslawa name_bronka name_stanmira name_kazimira name_drogyna
+				name_leszhild name_bogvane name_wlodslawa name_grzymara
+			}
+			dynasty_names = {
+				Wojslavski Bogdanski Radoslavski Stanimorski Miroszewski Bronikowski
+				Kazimirski Drogoszewski Grzymalski Leszkowski
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		tyelkian_dialect = {
+			male_names = {
+				name_arpad name_istvald name_zsoltmund name_belagar name_kemengar name_talvarn name_boldmar name_farkvald
+				name_gyulbern name_laszgar name_szabolmar name_torokmund name_zoltan name_csabad name_keled name_vilagos
+				name_endrevald name_levengar name_tihamer name_egermund
+			}
+			female_names = {
+				name_arpana name_boldmara name_farkmira name_gyulvane name_ilonka name_eszteka name_viragna name_emeselde
+				name_csillana name_katalke name_szabolmara name_tundena
+			}
+			dynasty_names = {
+				Arpadi Istvaldi Zsoltmundi Belagari Farkvaldi Gyulberni
+				Torokmundi Szaboli Levenfi Egermundi
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		chesmeker_dialect = {
+			male_names = {
+				name_temurvalt name_temurbek name_arslanmund name_arslanbek name_karagar name_karavarn name_batukhan name_batuvalt
+				name_toktamur name_kuzbern name_devlmund name_bolavalt name_torghul name_sartmund name_edighar name_kutlubek
+				name_ildegar name_ulugmar name_mamavalt name_noghay
+			}
+			female_names = {
+				name_arslanay name_karagul name_batumara name_temurgul name_toktagul name_bolakhan name_altunay name_kutlugul
+				name_devlvane name_ildegul name_ulugmara name_aysolde
+			}
+			dynasty_names = {
+				Temurbek Arslankhan Karabek Batukhan Toktabek Kutlukhan
+				Edigbek Ulugkhan Sartbek Noghaikhan
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		erlfolk_dialect = {
+			male_names = {
+				name_aelvindh name_surangar name_fionnwald name_ilmarik name_dharmund name_ciarbern name_tairesmar name_vaelstein
+			}
+			female_names = {
+				name_niamhgard name_ashvalinde name_grianrune name_eiludhild name_tuulvane name_siidhmara
+			}
+			dynasty_names = {
+				aun_Aelvindwald aun_Fionnberg aun_Ilmastein aun_Dharfeld aun_Tairesheim
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		tiefling_torrent_dialect = {
+			dynasty_names = {
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		ratfolk_torrent_dialect = {
+			dynasty_names = {
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		knawven_dialect = {
+			dynasty_names = {
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+
+		himmelskind_dialect = {
+			dynasty_names = {
+			}
+			lowborn = {
+				Skorner Tharnbach Velkmann Drakner Kurnbach Rukmann Garnfeld Stornfeld Brekner Olkbach
+				Wulfblut Grimfell Drakblut Stornkind Tharschlag Eberhorn Arnfeder Brandkohle Helmschmied Dunkelbach
+				Grauvolk Steinherz Schwarzwald Tiefgrund Hochfeld Rotberg Wildbach Kaltstein Grauberg Dornfeld
+				Sturmbach Langbein Krummhand Breitschild Eisenarm Grauhaar Hartfaust Dunkelhaut Schnellmund
+				Sigwaldsen Arnwaldsen
+			}
+		}
+	}
+}

@@ -1,0 +1,326 @@
+# Moran language config
+# Classical Latin undead empire — 5 chronological strata
+# 57M + 47F + 25 dynasties + 40 lowborn
+# High Moran = default (imperial apex), 4 extra dialects
+
+language_id: moran_language
+color: religion_catholic
+family: moran_language_family
+
+patronym_prefix_son: "patronym_prefix_latin_son"
+location_suffix: "ensis"
+
+custom_names:
+  male:
+    Imperieux:
+      - Aeternus
+      - Caelinus
+      - Dominor
+      - Mortivex
+      - Nexius
+      - Sanctorius
+      - Crepanus
+      - Severox
+      - Vexandus
+      - Augurex
+    Militaires:
+      - Ossivax
+      - Feraxus
+      - Bellicor
+      - Hastius
+      - Scutanus
+      - Loricor
+      - Vultus
+      - Gladior
+      - Castrus
+      - Mortanus
+    Archaiques:
+      - Volsus
+      - Caelox
+      - Apitor
+      - Veturnax
+      - Fossus
+      - Practor
+      - Cremonus
+      - Numex
+      - Sacrinus
+      - Hostior
+    Courts:
+      - Corvus
+      - Canus
+      - Rufor
+      - Calvus
+      - Nexo
+      - Crispus
+      - Ossex
+      - Fundus
+      - Verox
+      - Priscor
+    Sacres:
+      - Sanctus
+      - Lucior
+      - Divinus
+      - Lucernus
+      - Aeterax
+      - Flamor
+      - Perpetuon
+      - Augurius
+      - Fiderus
+      - Sacrivex
+    Sombres:
+      - Umbrivus
+      - Tenebror
+      - Noctanus
+    Tardifs:
+      - Crepulus
+      - Ossivon
+      - Flavex
+      - Tulvanus
+      - Corvinus
+      - Sevelon
+      - Domivex
+    Vivum:
+      - Lucerno
+      - Corvino
+      - Valdo
+      - Belcoro
+      - Fontano
+      - Silvano
+
+  female:
+    Imperiales:
+      - Aeterna
+      - Caelina
+      - Dominara
+      - Mortiva
+      - Nexia
+      - Sanctoria
+      - Severina
+      - Vexanda
+      - Augura
+      - Bellicora
+    Douces:
+      - Corvina
+      - Lucerna
+      - Fulgina
+      - Crispina
+      - Hostia
+      - Fundilla
+      - Calvina
+      - Rufina
+      - Tulvana
+      - Priscora
+    Archaiques:
+      - Volsa
+      - Veturnilla
+      - Fossina
+      - Funebra
+      - Cremona
+      - Numeria
+      - Apitora
+      - Practilla
+      - Sacrilla
+      - Pulsara
+    Sacrees:
+      - Divina
+      - Flamina
+      - Sacriva
+      - Fidelia
+      - Lucida
+      - Aeterina
+      - Caelida
+      - Nexida
+      - Sanctilla
+      - Auguria
+    Sombres:
+      - Umbrivella
+      - Perpetua
+    Tardives:
+      - Creporna
+      - Ossivella
+      - Mortella
+      - Flavella
+      - Sevelina
+      - Corvella
+      - Domivera
+      - Tulvella
+    Vivum:
+      - Belcora
+      - Fontina
+      - Silvana
+      - Valdina
+      - Luciana
+
+  dynasties:
+    # Patriciennes
+    - Mortemari
+    - Nextorii
+    - Aeternii
+    - Caelarii
+    - Ossivarii
+    # Militaires
+    - Bellicii
+    - Feraxii
+    - Hastarii
+    - Scutanii
+    - Loricii
+    # Sacrees
+    - Sanctorii
+    - Divinii
+    - Flamarii
+    - Sacrivii
+    - Fidelicci
+    # Anciennes
+    - Veturnii
+    - Volsarii
+    - Crepanii
+    - Practii
+    - Hostarii
+    # Recentes
+    - Corviani
+    - Rufellii
+    - Calvenii
+    - Fundanii
+    - Fulgenii
+
+  lowborn:
+    # Metiers
+    - Fossarius
+    - Murarius
+    - Ferranus
+    - Lignarius
+    - Textoris
+    - Fullanus
+    - Vinarius
+    - Pistorus
+    - Navarius
+    - Carbonus
+    # Nature
+    - Silvanus
+    - Montanus
+    - Rupinus
+    - Fluminus
+    - Vallensis
+    - Campanus
+    - Litorius
+    - Fontanus
+    - Collivus
+    - Pratensis
+    # Traits
+    - Calvinus
+    - Longinus
+    - Rufinus
+    - Crassanus
+    - Procerus
+    - Tacitus
+    - Validus
+    - Parvulus
+    - Obscurus
+    - Fervidus
+    # Spirituels
+    - Templanus
+    - Sacerdus
+    - Augurius
+    - Flaminus
+    - Fidellus
+    - Sanctanus
+    - Divinus
+    - Caelanus
+    - Lucernus
+    - Aeternus
+
+# Dialect rules — suffix + replace for chronological strata
+# High Moran = default (no transform)
+dialects:
+  # Early Moran — archaic, republican (ae→ai, -us→-os)
+  - id: early_moran_dialect
+    rules_m:
+      - [ius, ios]
+      - [us, os]
+    rules_f:
+      - [illa, ila]
+    replace_rules_m:
+      - [Ae, Ai]
+      - [ae, ai]
+    replace_rules_f:
+      - [Ae, Ai]
+      - [ae, ai]
+
+  # Late Moran — eroded, decadent (-us→-o, ae→e)
+  - id: late_moran_dialect
+    rules_m:
+      - [ius, io]
+      - [us, o]
+      - [ax, as]
+    rules_f:
+      - [illa, ella]
+    replace_rules_m:
+      - [Ae, E]
+      - [ae, e]
+    replace_rules_f:
+      - [Ae, E]
+      - [ae, e]
+
+  # Novus Moran — contaminated by vulgar moran (-or→-ore, -ax→-ace)
+  - id: novus_moran_dialect
+    rules_m:
+      - [ius, io]
+      - [us, o]
+      - [or, ore]
+      - [ax, ace]
+    rules_f:
+      - [ina, ine]
+      - [illa, elle]
+    replace_rules_m:
+      - [Ae, E]
+      - [ae, e]
+    replace_rules_f:
+      - [Ae, E]
+      - [ae, e]
+
+  # Vivum Moran — proto-Italian, melodious (-or→-ore, -er→-ero)
+  - id: vivum_moran_dialect
+    rules_m:
+      - [ius, io]
+      - [us, o]
+      - [or, ore]
+      - [ax, ace]
+      - [er, ero]
+    rules_f:
+      - [illa, ella]
+    replace_rules_m:
+      - [Ae, E]
+      - [ae, e]
+    replace_rules_f:
+      - [Ae, E]
+      - [ae, e]
+
+# ============================================================
+# CULTURE → DIALECT MAPPINGS
+# ============================================================
+# high_moran = default dialect (moran_language), no patch needed
+
+cultures:
+  - id: early_moran_culture
+    dialect: early_moran_dialect
+    color: map_BYZ
+    tags: [undead_gfx, greek_gfx, east_mediterranean_gfx, mediterranean_gfx, eastern_european_gfx, european_gfx]
+    groups: [moran_group, undead_group]
+
+  - id: late_moran_culture
+    dialect: late_moran_dialect
+    color: color_culture_cappadocian_greek
+    tags: [undead_gfx, greek_gfx, east_mediterranean_gfx, mediterranean_gfx, eastern_european_gfx, european_gfx]
+    groups: [moran_group, undead_group]
+
+  - id: novus_moran_culture
+    dialect: novus_moran_dialect
+    color: map_ROM
+    tags: [undead_gfx, greek_gfx, east_mediterranean_gfx, mediterranean_gfx, eastern_european_gfx, european_gfx]
+    groups: [moran_group, undead_group]
+
+  - id: vivum_moran_culture
+    dialect: vivum_moran_dialect
+    color: color_culture_pontic_greek
+    tags: [greek_gfx, east_mediterranean_gfx, mediterranean_gfx, eastern_european_gfx, european_gfx]
+    groups: [moran_group, human_group]

@@ -1,0 +1,53 @@
+# ============================================================
+# TORRENTIAN — Manual dialect variants for short/organic names
+# ============================================================
+# Format: BaseName  Full  Afha  LowS  MidS  Sorl  Naur  Sted  Thau  Bonw  Borr  Tyel  Ches  Knaw
+# Column index:      1     2     3     4     5     6     7     8     9    10    11    12    13
+#
+# Short names (1 syllable) don't match suffix rules because the entire
+# name IS the suffix and Python's endswith() is case-sensitive.
+# These get handcrafted variants here.
+#
+# Dialect key:
+#   Full = Fullhorner (archaic, intercalaire +e, a→ae, o→oe)
+#   Afha = Afhaemeisan (softened, minimal)
+#   LowS = Lower Serenic (hardened, minimal)
+#   MidS = Middle Serenic (ardrainic border, minimal)
+#   Sorl = Sorlkol (Swiss, a→o closure)
+#   Naur = Naurmen (Dutch/Frisian, vowel elongation)
+#   Sted = Stedeling (Dutch urban + ardrainic)
+#   Thau = Thaurfolk (Danish, w→v, g→j)
+#   Bonw = Bonwesforian (Low German, minimal)
+#   Borr = Borrikan (Polish, palatalization)
+#   Tyel = Tyelkian (Hungarian, w→v)
+#   Ches = Chesmeker (Tatar, guttural)
+#   Knaw = Knawven (ratfolk, sibilant -ss)
+#
+# If variant == base name, override is ignored (rule or default applies).
+# ============================================================
+
+# MASCULINE (14 short names — single morpheme, no suffix to match)
+Garm        Gaerm       Garm    Garm    Garm    Gorm    Gaarm   Gaarm   Garm    Garm    Garm    Garm    Garm    Gass
+Skorn       Skoern      Skorn   Skorn   Skorn   Skorn   Skoorn  Skoorn  Skorn   Skorn   Skorn   Skorn   Skorn   Skoss
+Brek        Brek        Brek    Brek    Brek    Brek    Breek   Breek   Brek    Brek    Brek    Brek    Brek    Bress
+Ruk         Ruk         Ruk     Ruk     Ruk     Ruk     Ruuk    Ruuk    Ruk     Ruk     Ruk     Ruk     Ruk     Russ
+Drak        Draek       Drak    Drak    Drak    Drok    Draak   Draak   Drak    Drak    Drak    Drak    Drak    Drass
+Gund        Gund        Gund    Gund    Gund    Gund    Guund   Guund   Gund    Gund    Gund    Gund    Gund    Guss
+Volk        Voelk       Volk    Volk    Volk    Volk    Voolk   Voolk   Volk    Volk    Volk    Volk    Volk    Voss
+Arn         Aern        Arn     Arn     Arn     Orn     Aarn    Aarn    Arn     Arn     Arn     Arn     Arn     Arss
+Hrod        Hroed       Hrod    Hrod    Hrod    Hrod    Hrood   Hrood   Hrod    Hrod    Hrod    Hrod    Hrod    Hross
+Brand       Braend      Brand   Brand   Brand   Brond   Braand  Braand  Brand   Brand   Brand   Brand   Brand   Brass
+Ulf         Ulf         Ulf     Ulf     Ulf     Ulf     Uulf    Uulf    Ulf     Ulf     Ulf     Ulf     Ulf     Uss
+Sten        Sten        Sten    Sten    Sten    Sten    Steen   Steen   Sten    Sten    Sten    Sten    Sten    Stess
+Kurn        Kurn        Kurn    Kurn    Kurn    Kurn    Kuurn   Kuurn   Kurn    Kurn    Kurn    Kurn    Kurn    Kuss
+Thar        Thaer       Thar    Thar    Thar    Thor    Thaar   Thaar   Thar    Thar    Thar    Thar    Thar    Thass
+
+# FEMININE (8 short names — single morpheme, no suffix to match)
+Hild        Haeld       Hild    Hild    Hild    Hild    Heeld   Heeld   Hild    Hild    Hild    Hild    Hild    Hiss
+Runa        Raena       Runa    Runa    Runa    Runa    Ruuna   Ruuna   Runa    Runa    Runa    Runa    Runa    Russ
+Garda       Gaerda      Garda   Garda   Garda   Gorda   Gaarda  Gaarda  Jarda   Garda   Garda   Garda   Kharda  Gass
+Solde       Soelde      Solde   Solde   Solde   Solde   Soold   Soold   Solde   Solde   Solde   Solde   Solde   Soss
+Rika        Rika        Rika    Rika    Rika    Rika    Reeka   Reeka   Rika    Rika    Rika    Rika    Rika    Riss
+Mara        Maera       Mara    Mara    Mara    Mora    Maara   Maara   Mara    Mara    Mara    Mara    Mara    Mass
+Lind        Laend       Lind    Lind    Lind    Lind    Lind    Lind    Lind    Lind    Lind    Lind    Lind    Liss
+Isen        Isen        Isen    Isen    Isen    Isen    Eesen   Eesen   Isen    Isen    Isen    Isen    Isen    Iss

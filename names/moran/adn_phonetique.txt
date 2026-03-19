@@ -1,0 +1,95 @@
+# ============================================================
+# MORAN — ADN Phonetique
+# ============================================================
+# Inspiration : Latin classique (republicain -> imperial -> tardif -> vivant)
+# Groupe : moran_group (Empire mort-vivant)
+# Cultures : Early Moran (undead), High Moran (undead), Late Moran (undead),
+#            Novus Moran (undead), Vivum Moran (humain)
+# ============================================================
+
+# ============================================================
+# ATTAQUES (25)
+# ============================================================
+
+# Latines classiques (15)
+# Aug-    Augustus (imperial, prestige)
+# Cor-    Cornelius (gens romaine)
+# Flav-   Flavius (gens imperiale)
+# Gai-    Gaius (praenomen archaique)
+# Jul-    Julius (gens romaine)
+# Luc-    Lucius (praenomen classique)
+# Marc-   Marcus (praenomen courant)
+# Oct-    Octavius (numerique)
+# Pub-    Publius (praenomen)
+# Serg-   Sergius (gens romaine)
+# Sulp-   Sulpicius (gens romaine)
+# Tib-    Tiberius (praenomen)
+# Tul-    Tullius (gens romaine)
+# Val-    Valerius (gens romaine)
+# Vet-    Veturius (gens romaine)
+
+# Fantasy-latines (10)
+# Mort-   Mortemarum/mort (EXCLUSIF — lore undead)
+# Nex-    Nex = mort en latin (EXCLUSIF)
+# Cael-   Caelum = ciel (Imperial Creeds)
+# Sev-    Severus (austere, dur)
+# Aetern- Aeternus = eternel (EXCLUSIF — non-mort)
+# Vex-    Vexillum = etendard (militaire)
+# Dom-    Dominus = maitre (imperial)
+# Sanct-  Sanctus = sacre (Imperial Creeds)
+# Crep-   Crepusculum = crepuscule (EXCLUSIF — undead)
+# Oss-    Os/ossis = os (undead flavor)
+
+# ============================================================
+# TERMINAISONS MASCULINES (12)
+# ============================================================
+# -us     Classique (EXCLUSIF — marqueur #1)
+# -ius    Gens/prestige (EXCLUSIF — marqueur #2)
+# -ax     Dur, archaique (Ferax, Vorax)
+# -ex     Archaique (Vertex, Murex)
+# -or     Agent/titre (Victor, Castor)
+# -er     Agent (Acer)
+# -ans/-ens  Participe (Crescens, Valens)
+# -ix     Dur, tranchant (Felix, Fornix)
+# -on     Grec-latin, cognomen (Cato, Nero)
+# -um     Neutre sacre (rare, noms rituels)
+# -as     Grec latinise (Aeneas-style)
+# -o      Surnom/cognomen (Cato, Nero, Cicero)
+
+# ============================================================
+# TERMINAISONS FEMININES (10)
+# ============================================================
+# -a      Classique feminine (EXCLUSIF en systematique)
+# -ia     Gens feminine (Cornelia, Valeria)
+# -ina    Diminutif/affectif (Agrippina)
+# -illa   Diminutif noble (Lucilla, Priscilla)
+# -ana    Appartenance (Severana)
+# -era    Agent feminin (Valera)
+# -ida    Noble fantasy (Nexida, Caelida)
+# -orna   Fantasy-latine (Mortorna, Creporna)
+# -ura    Abstraite (Obscura, Futura)
+# -issa   EVITER — trop sordrenic
+
+# ============================================================
+# VOYELLES DOMINANTES
+# ============================================================
+# a, u, e (ouvert, grave, austere)
+# Le u est distinctif — aucune autre langue d'Etra ne l'utilise autant
+# (-us, -um, -ur-, -ul-)
+
+# ============================================================
+# SONS INTERDITS (reserves a d'autres langues)
+# ============================================================
+# -ain, -eval, Gal-, Thib-        -> Ardrainic
+# -tz, -enc, -esc, Esc-, Rai-     -> Sordrenic
+# Ll-, Rh-, Gw-, -wyn, -wen, -ydd -> Armonorican
+# Wulf-, Sig-, Grim-, -wald, -mar -> Torrent
+# -oush, -azd, Tig-, Hov-         -> Hravevi
+
+# ============================================================
+# MARQUEURS EXCLUSIFS (non-recouvrement garanti)
+# ============================================================
+# Attaques : Mort-, Nex-, Aetern-, Crep-, Oss-
+# Terminaisons M : -us, -ius (systematique)
+# Terminaisons F : -a systematique (toute F finit en -a/-ia)
+# Voyelle distinctive : u dominant
