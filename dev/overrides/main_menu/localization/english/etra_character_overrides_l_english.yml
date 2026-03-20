@@ -1,0 +1,73 @@
+﻿l_english:
+
+ # =============================================
+ # PANTAGRIN — dialect variants for hardcoded characters
+ # =============================================
+ name_alric.pantagrin_sordrenic_dialect: "Aldronc"
+ name_anna.pantagrin_sordrenic_dialect: "Gronnda"
+ name_john.pantagrin_sordrenic_dialect: "Jornac"
+ Sigurd.pantagrin_sordrenic_dialect: "Sigorntz"
+ name_magnus.pantagrin_sordrenic_dialect: "Magnortz"
+ name_canute.pantagrin_sordrenic_dialect: "Canornc"
+
+ # Pantagrin dynasties (Etra-unique, safe to override globally)
+ sunbreaker_dynasty: "Destrazol"
+ lastoath_dynasty: "Darnégramen"
+ stonewake_dynasty: "Troquévail"
+ thunderlord_dynasty: "Tronsénor"
+ strongjaw_dynasty: "Forszgalta"
+
+ # =============================================
+ # RATTOLINI — dialect variants for hardcoded characters
+ # =============================================
+ # Uses rattolini_dialect so only rat characters are affected
+ # Province/duchy names using these keys stay unchanged
+ name_gnavius.rattolini_dialect: "Gnavio"
+ name_vernacius.rattolini_dialect: "Vernaci"
+ name_cecile.rattolini_dialect: "Cecisca"
+ name_cheq.rattolini_dialect: "Scherzs"
+ name_vikkit.rattolini_dialect: "Vicitz"
+ name_kvos.rattolini_dialect: "Voserro"
+ name_vem.rattolini_dialect: "Vermic"
+ name_rocdit.rattolini_dialect: "Rosci"
+ name_jex.rattolini_dialect: "Jessaros"
+ name_djigren.rattolini_dialect: "Ginoz"
+ name_rikkek.rattolini_dialect: "Rissto"
+ name_zrindez.rattolini_dialect: "Strinaci"
+ name_mavvis.rattolini_dialect: "Mavisci"
+
+ # Rattolini extra names (for name pool)
+ name_gnavio: "Gnavio"
+ name_vernaci: "Vernaci"
+ name_cecisca: "Cecisca"
+ name_scherzs: "Scherzs"
+ name_vicitz: "Vicitz"
+ name_voserro: "Voserro"
+ name_vermic: "Vermic"
+ name_rosci: "Rosci"
+ name_jessaros: "Jessaros"
+ name_ginoz: "Ginoz"
+ name_rissto: "Rissto"
+ name_strinaci: "Strinaci"
+ name_mavisci: "Mavisci"
+
+ # =============================================
+ # RATTOLINI — country/duchy name overrides
+ # =============================================
+ A15: "Jessaros"
+ A15_ADJ: "Jessarian"
+ A16: "Vicitz"
+ A17: "Voserro"
+ A17_ADJ: "Voserran"
+ A19: "Rissto"
+ A19_ADJ: "Risstoan"
+ A20: "Mavisci"
+ A21: "Strinaci"
+ A21_ADJ: "Strinacian"
+ A22: "Rosci"
+ A22_ADJ: "Roscian"
+ A23: "Ginoz"
+ A23_ADJ: "Ginozian"
+
+ # Province
+ aita60: "Voserrothovo"

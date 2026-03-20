@@ -1,0 +1,637 @@
+# ============================================================
+# ARDRAINIC — Pool de noms de base (Ardrainien = standard)
+# ============================================================
+# Structure : mix formule (Attaque+Terminaison) + organiques + memorables
+# Ratio : ~50% formule, ~25% organiques, ~15% communs, ~10% memorables
+# Regle : 2-3 syllabes, max 5/terminaison, max 3/attaque, 25% organiques min
+# Marqueurs exclusifs : -ain/-eval (max 5 chacun), Gal-/Thib-, voyelle au
+# Les noms existants du mod (Adam, Louis, etc.) sont GARDES
+# Ceux-ci s'AJOUTENT par-dessus
+# ============================================================
+
+# ============================================================
+# PRENOMS MASCULINS (100 noms)
+# ============================================================
+
+## Noble/Courtois
+## ---------------------------------------------------------
+
+# Attaque Thib- (Thibaut deforme)
+Thibeval         # Thib + eval (noble-val)
+
+# Attaque Lanc- (Lancelot deforme)
+Lancelin         # Lanc + elin (lance-doux)
+
+# Attaque Gal- (Gauvain/Galahad)
+Galenor          # Gal + enor (galant-honneur)
+Gauceran         # organique (medieval authentique, Gaucelm-inspire)
+
+# Attaque Perc- (Perceval)
+Percelin         # Perc + elin (perce-doux)
+
+# Attaque Flor- (fleur/florissant)
+Florentin        # Flor + entin (fleur-noble)
+
+# Attaque Ros- (rose/rosee)
+Roselin          # Ros + elin (rose-doux)
+
+# Attaque Val- (valeur)
+Valerin          # Val + erin (valeur-noble)
+
+# Attaque Hug- (esprit)
+Hugolin          # Hug + olin (esprit-petit)
+
+## Fort/Militaire
+## ---------------------------------------------------------
+
+# Attaque Ald- (ancien/noble)
+Aldric           # Ald + ric (ancien-puissant)
+
+# Attaque Baud- (hardi)
+Baudren          # Baud + ren (hardi-regne)
+
+# organique (brise/guerrier brise)
+Brisand          # organique — brise+and, guerrier, memorable
+
+# Attaque Brun- (armure/brun)
+Bruneval         # Brun + eval (brun-val)
+
+# Attaque Briv- (pont/force)
+Brivald          # Briv + ald (pont-ancien)
+
+# Attaque Corv- (corbeau)
+Corvain          # Corv + ain (corbeau-domaine)
+
+# Attaque Eng- (ange/epee)
+Engeval          # Eng + eval (ange-val)
+
+# Attaque Ren- (regne)
+Renevald         # Ren + evald (regne-gouverne)
+
+# Attaque Sav- (sage)
+Saveric          # Sav + eric (sage-puissant)
+
+# Attaque Tanc- (pensee/conseil)
+Tancrel          # Tanc + rel (conseil-roi)
+
+## Sombre/Mysterieux
+## ---------------------------------------------------------
+
+# Attaque Loth- (cache/sombre — Lothian)
+Lothen           # Loth + en (cache-domaine)
+Yserand          # organique — riviere mysterieuse, Yser+and
+
+# Attaque Morv- (mort/mer sombre)
+Morvain          # Morv + ain (mer-sombre)
+
+# Attaque Tris- (triste — Tristan)
+Tristorin        # Tris + torin (triste-tour)
+
+# Attaque Mal- (mauvais/sombre)
+Maldren          # Mal + dren (mauvais-fort)
+
+# Attaque Falv- (faucon sombre)
+Falvien          # Falv + ien (faucon-ancien)
+
+# Attaque Dur- (dur/endurer)
+Dureval          # Dur + eval (dur-val)
+
+# Attaque Ysor- (isole/mysterieux)
+Ysoren           # Ysor + en (isole-domaine)
+
+# Attaque Orv- (or sombre)
+Orvelin          # Orv + elin (or-doux)
+
+## Elegant/Leger
+## ---------------------------------------------------------
+
+# Attaque Gav- (Gauvain leger)
+Gavelin          # Gav + elin (gai-doux)
+
+# Attaque Yv- (if — Yvain)
+Yvelin           # Yv + elin (if-doux)
+
+# organique (or-ciel, lumineux)
+Orviel           # organique — or+ciel, beau et unique
+
+# Attaque Dav- (David deforme)
+Davriel          # Dav + riel (aime-ciel)
+
+# Attaque Silv- (foret/argent)
+Silvain          # Silv + ain (foret-domaine)
+
+# organique (maritime, court)
+Carvel           # organique — caravelle tronquee, maritime, memorable
+
+# Attaque Lan- (lande)
+Lanthien         # Lan + thien (lande-ancien)
+
+# Attaque Clar- (clair/lumineux)
+Clariden         # Clar + iden (clair-identite)
+
+# organique (montagne, marqueur au)
+Aulvern          # organique — aul+vern, montagnard, marqueur "au"
+
+## Robuste/Terrien
+## ---------------------------------------------------------
+
+# Attaque Baur- (paysan/laboureur)
+Bauriven         # Baur + iven (laboureur-vivant)
+
+# Attaque Ger- (lance — Geraud)
+Gervain          # Ger + vain (lance-victoire)
+
+# Attaque Gir- (lance ronde — Giraud)
+Giraudin         # Gir + audin (tour-ancien)
+
+# Attaque Guil- (volonte — Guillaume)
+Guilcen          # Guil + cen (volonte-cent)
+
+# Attaque Lamb- (terre — Lambert)
+Lambren          # Lamb + ren (terre-regne)
+
+# Attaque Thib- (peuple — Thibert)
+Thibert          # Thib + ert (peuple-fort)
+Thieren          # Thi + eren (peuple-noble)
+
+# organique (cendre, sombre)
+Cendrel          # organique — cendre+el, sombre et court
+
+# organique (vallee doree, marqueur au)
+Vauriel          # organique — vau+riel, dore-ciel, marqueur "au"
+
+# Attaque Bor- (nord/boreal)
+Borivald         # Bor + ivald (nord-gouverne)
+
+## Divers
+## ---------------------------------------------------------
+
+# Attaque Art- (ours/noble)
+Artemas          # Art + emas (noble-esprit)
+
+# Attaque Aud- (richesse)
+Audric           # Aud + ric (riche-puissant)
+
+# Attaque Belv- (belle vue)
+Belviel          # Belv + iel (belle-ciel)
+
+# Attaque Bran- (corbeau — Bran le Beni)
+Braneval         # Bran + eval (corbeau-val)
+
+# Attaque Fin- (fin/subtil)
+Finvald          # Fin + vald (fin-gouverne)
+
+# Attaque Palv- (paladin)
+Palverin         # Palv + erin (paladin-noble)
+
+# Attaque Vent- (vent/aventure)
+Venthorin        # Vent + horin (vent-horizon)
+
+# Attaque Viv- (vivant — Viviane)
+Vivalden         # Viv + alden (vivant-ancien)
+
+# Attaque Lauv- (louange)
+Lauvain          # Lauv + ain (louange-domaine)
+
+# Attaque Lanv- (lande-valeur)
+Lanveric         # Lanv + eric (lande-puissant)
+
+# Attaque Per- (pierre/rocher)
+Periven          # Per + iven (pierre-vivant)
+
+# Attaque Rol- (gloire — Roland)
+Rolandel         # Rol + andel (gloire-noble)
+
+# Attaque Iren- (paix)
+Irenvald         # Iren + vald (paix-gouverne)
+
+# Attaque Gon- (combat)
+Gonthen          # Gon + then (combat-ancien)
+
+# Attaque Alde- (ancien)
+Aldeven          # Alde + ven (ancien-vent)
+
+## Nouveaux (attaques et terminaisons sous-representees)
+## ---------------------------------------------------------
+
+# Attaque Clov- (Clovis)
+Clovel           # Clov + el (roi-noble)
+
+# Attaque Ren- (renaitre)
+Renald           # Ren + ald (regne-ancien)
+
+# organique (faucon-regne)
+Falcren          # organique — faucon+regne, iconic, 2 syl
+
+# Attaque Marv- (merveille)
+Marven           # Marv + en (merveille-domaine)
+
+# Attaque Solv- (soleil)
+Solveric         # Solv + eric (soleil-puissant)
+
+# Attaque Ard- (ardent)
+Ardivel          # Ard + ivel (ardent-vivant)
+
+# Attaque Riv- (riviere — Rivalen arthurien)
+Rivalen          # Riv + alen (riviere-noble)
+
+# Attaque Del- (vallee)
+Delvarin         # Del + varin (vallee-gardien)
+
+# Attaque Hel- (cacher/sacre)
+Helcarin         # Hel + carin (sacre-cher)
+
+# organique (brave, unique)
+Braivel          # organique — brave+el, nom de chevalier
+
+# organique (dore, marqueur au)
+Vauredel         # organique — vau+re+del, vallee doree, marqueur "au"
+
+# Attaque Bal- (hardi)
+Balric           # Bal + ric (hardi-puissant)
+
+# Attaque Gorv- (seigneur)
+Gorvien          # Gorv + ien (seigneur-ancien)
+
+# Attaque Eri- (noble — Eric)
+Erivel           # Eri + vel (noble-voile)
+
+# organique (sombre-ciel)
+Darviel          # organique — sombre+ciel, mysterieux, 2 syl
+
+## Courts (2 syllabes — ajouts audit)
+## ---------------------------------------------------------
+
+# Attaque Brev- (bref/concis)
+Breven           # Brev + en (bref-domaine)
+
+# Attaque Mor- (sombre/mur)
+Morel            # Mor + el (sombre-noble)
+
+# Attaque Tanc- (conseil — court)
+Tancren          # Tanc + ren (conseil-regne)
+
+# Attaque Riv- (riviere — court)
+Rivel            # Riv + el (riviere-noble)
+
+## Expansion (objectif 100 — attaques variees + voyelle au renforcee)
+## ---------------------------------------------------------
+
+# Attaque Calv- (chaud)
+Calverin         # Calv + erin (chaleur-noble)
+
+# organique (breton-francais, real medieval)
+Audren           # organique — nom breton medieval authentique, 2 syl
+
+# Attaque Thib- (peuple)
+Thiboren         # Thib + oren (peuple-horizon)
+
+# organique (dore, marqueur au)
+Dauvrel          # organique — daur+el, dore, marqueur "au", 2 syl
+
+# organique (laurier-ciel)
+Lorviel          # organique — laurier+ciel, lumineux, 2 syl
+
+# organique (sauvage-noble)
+Sauvrel          # organique — sauvage+rel, forestier, 2 syl
+
+# Attaque Ber- (ours)
+Beriven          # Ber + iven (ours-vivant)
+
+# Attaque Vaur- (val)
+Vaurel           # Vaur + el (val-noble)
+
+# Attaque Daul- (doux)
+Daulric          # Daul + ric (doux-puissant)
+
+# Attaque Gauth- (gouverne)
+Gauthien         # Gauth + ien (gouverne-ancien)
+
+# Attaque Corv- (corbeau — court)
+Corvel           # Corv + el (corbeau-noble)
+
+# Attaque Fauv- (fauve)
+Fauvelin         # Fauv + elin (fauve-doux)
+
+# organique (beau+epine)
+Belvorne         # organique — bel+vorne, beaute epineuse, 2 syl
+
+# organique (victoire)
+Vincarel         # organique — victoire+el, triomphal, 3 syl
+
+# Attaque Orv- (or — -ald)
+Orvald           # Orv + ald (or-gouverne)
+
+# organique (terre-monde)
+Thelmond         # organique — terre+monde, ancien, 2 syl
+
+# Attaque Perc- (perceur — -ival)
+Percival         # Perc + ival (perceur-val)
+
+# Attaque Galv- (galant)
+Galveric         # Galv + eric (galant-puissant)
+
+# Attaque Briv- (pont — -enor)
+Brivenor         # Briv + enor (pont-honneur)
+
+# ============================================================
+# PRENOMS FEMININS (100 noms)
+# ============================================================
+
+## -ore (lumineux, Honneur/lumiere)
+## ---------------------------------------------------------
+Belisore         # Bel + isore (belle-doree)
+Dianore          # Dia + nore (divine-honneur)
+Eilenore         # Eile + nore (etoile-honneur)
+Irenore          # Ire + nore (paix-honneur)
+Selinore         # Sel + inore (lune-honneur)
+Aude             # organique — audace, standalone (Chanson de Roland)
+
+## -ande/-inde (noble, lignee)
+## ---------------------------------------------------------
+Alisande         # Ali + sande (noble-protegee)
+Iselinde         # Is + elinde (glace-douce)
+Orelinde         # Or + elinde (or-douce)
+Erisande         # Eri + sande (noble-protegee)
+Roselinde        # Ros + elinde (rose-douce)
+Yselle           # organique — echo d'Yseult, romantique, 2 syl
+
+## -ise (elegant, gracieux)
+## ---------------------------------------------------------
+Florelise        # Flor + elise (fleur-elue)
+Blanchise        # Blanch + ise (blanche-grace)
+Finelise         # Fin + elise (fine-elue)
+Novelise         # Nov + elise (nouvelle-elue)
+Vorelise         # Vor + elise (vraie-elue)
+
+## -elle/-eline (doux, delicat)
+## ---------------------------------------------------------
+Avrenelle        # Avr + enelle (avril-petite)
+Luminelle        # Lumin + elle (lumiere-elle)
+Brumeline        # Brum + eline (brume-douce)
+Nimueline        # Nimu + eline (Nimue-douce)
+Sorelline        # Sor + elline (soeur-elle)
+Gavenelle        # Gav + enelle (gaie-petite)
+
+## -aine/-aire/-ine (domaine, terre)
+## ---------------------------------------------------------
+Melusaine        # Melus + aine (Melusine-domaine)
+Genevaire        # Gen + evaire (nee-printemps)
+Celestaine       # Celest + aine (celeste-domaine)
+Solandine        # Sol + andine (soleil-noble)
+
+## Autres terminaisons
+## ---------------------------------------------------------
+Silvandre        # Silv + andre (foret-brave)
+Morgeline        # Morg + eline (mer-douce)
+Lorenne          # Lor + enne (or-ancienne)
+Orveline         # Orv + eline (or-douce)
+Viveldine        # Viv + eldine (vivante-ancienne)
+
+## Courts (2 syllabes)
+## ---------------------------------------------------------
+Nimue            # Nimue (la Dame du Lac)
+Solene           # Sol + ene (soleil-nee)
+Elise            # El + ise (elue-grace)
+Isore            # Is + ore (glace-or)
+Melise           # Mel + ise (miel-grace)
+Ilsen            # Il + sen (ile-ancienne)
+Avrel            # Avr + el (avril-elle)
+Brisen           # Bris + en (brise-nee)
+Orvine           # Orv + ine (or-vigne)
+
+## Nouveaux (attaques sous-representees)
+## ---------------------------------------------------------
+
+# Attaque Clar- (clair/lumineux)
+Clarinore        # Clar + inore (claire-honneur)
+Clarenne         # Clar + enne (claire-ancienne)
+Clarel           # Clar + el (claire-elle)
+
+# Attaque Ros- (rose)
+Rosanore         # Ros + anore (rose-honneur)
+Rosenne          # Ros + enne (rose-ancienne)
+
+# Attaque Guil- (volonte)
+Guilenore        # Guil + enore (volonte-honneur)
+
+# Attaque Dor- (dore)
+Dorelinde        # Dor + elinde (doree-douce)
+Dorene           # Dor + ene (doree-nee)
+
+# Attaque Ren- (renaitre)
+Renelise         # Ren + elise (renee-elue)
+
+# Attaque Helv- (sacre/montagne)
+Helvise          # Helv + ise (sacree-grace)
+Helvandre        # Helv + andre (sacree-brave)
+
+# Attaque Ger- (lance)
+Gervenne         # Gerv + enne (lance-ancienne)
+
+# Attaque Herv- (armee)
+Herveline        # Herv + eline (armee-douce)
+
+# Attaque Baud- (hardie)
+Baudeline        # Baud + eline (hardie-douce)
+
+# Attaque Tanc- (conseil)
+Tancrine         # Tanc + rine (conseil-reine)
+
+# Attaque Tal- (talent/terre)
+Talise           # Tal + ise (terre-grace)
+
+# Attaque Riv- (riviere)
+Rivane           # Riv + ane (riviere-noble)
+
+# Attaque Val- (valeur)
+Valdine          # Val + dine (valeur-noble)
+
+## Expansion (objectif 100 — formes regulieres + organiques)
+## ---------------------------------------------------------
+
+# Regulieres (terminaisons couvertes par dialectes)
+Galvenore        # Galv + enore (galante-honneur)
+Aurenore         # Aur + enore (aube-honneur)
+Corvenore        # Corv + enore (corbeau-honneur)
+Fauvenne         # Fauv + enne (fauve-ancienne)
+Belvenne         # Belv + enne (belle-ancienne)
+Marvenne         # Marv + enne (merveille-ancienne)
+Lauvenne         # Lauv + enne (louange-ancienne)
+Engeline         # Eng + eline (ange-douce)
+Corveline        # Corv + eline (corbeau-douce)
+Audeline         # Aud + eline (riche-douce)
+Irenise          # Iren + ise (paix-grace)
+Lanthise         # Lanth + ise (lande-grace)
+Carlinde         # Carl + inde (libre-douce)
+Balrinde         # Bal + rinde (hardie-douce)
+Eliandre         # Eli + andre (elue-brave)
+Yvandre          # Yv + andre (if-brave)
+
+# Organiques / irregulieres
+Mahelvaine       # Mahaut + Helvain croise
+Aliendre         # Alienor + -andre, noblesse
+Briselde         # brise + -elde, germanique
+Auremonde        # aube + monde, cosmique
+Galtrice         # Gal- + -trice, victorieuse
+Corvaise         # corbeau + -aise, terroir
+Thibelle         # Thib- + -elle, populaire
+Lauvence         # Lauv- + -ence, louange
+Durande          # dur- + -ande, endurante
+Savence          # sav- + -ence, sagesse
+Felvaire         # faucon + -aire, printaniere
+Irmelde          # paix + -elde, ancienne
+Percenne         # Perc- + -enne, perceuse
+Hervalde         # Herv- + -alde, armee-ancienne
+Vaurine          # val + -rine, reine du val
+Solande          # soleil + -ande, lumineuse
+Brunelde         # brune + -elde, robuste
+Aldive           # Ald- + -ive, vivante
+Galence          # Gal- + -ence, galante
+Thiberne         # Thib- + -erne, peuple-ancienne
+Marvaude         # merveille + -aude, haut rang
+Lorande          # or + -ande, lumiere doree
+Orvelde          # or + -elde, ancienne
+Ventaise         # vent + -aise, libre
+Baurelle         # Baur- + -elle, paysanne
+
+# ============================================================
+# DYNASTIES CUSTOM (25)
+# ============================================================
+# Format : de_Xxxxx (nobilaire francais)
+# S'ajoutent aux ~44 dynasties existantes (bourbon, Montfort, etc.)
+
+de_Galenval      # de la vallee de Galenor
+de_Thiberen      # de la lignee de Thibeval
+de_Corvelin      # du fief du Corbeau
+de_Briseval      # de la vallee brisee
+de_Lotheren      # du domaine cache
+de_Morvaille     # de la mer sombre
+de_Arneval       # de la vallee de l'Aigle
+de_Bruneval      # de la vallee brune
+de_Saverais      # des sages terres
+de_Floreval      # de la vallee fleurie
+de_Rosemonde     # du monde de la rose
+de_Aldrevain     # de l'ancien vainqueur
+de_Venthor       # du vent d'horizon
+de_Lancevel      # de la lance vaillante
+de_Baudrenais    # des hardis regnants
+de_Belcarin      # du beau cher
+de_Silvandre     # de la foret d'argent
+de_Perceven      # du perceur de voiles
+de_Clarident     # de la clarte
+de_Hugolen       # de l'esprit noble
+de_Gareval       # de la lance-vallee
+de_Branevel      # du corbeau noble
+de_Falcren       # du faucon regnant
+de_Gervais       # de la lance vraie
+de_Orvelin       # de l'or doux
+de_Wryn          # du Daqueland (ref Wayne/Batman)
+
+# ============================================================
+# ROTURIERS / LOWBORN (32)
+# ============================================================
+# Noms courts, ruraux, sans particule
+# S'ajoutent aux 7 existants (Bernard, Duran, Dubois, etc.)
+
+Bauvel           # du beau val
+Corvais          # du corbeau
+Brivault         # du pont fortifie
+Lanthois         # de la lande
+Gavenel          # du gai
+Perchet          # du perceur
+Maldrin          # du mauvais fort
+Gardel           # du jardin
+Savard           # du sage
+Morveau          # de la mer
+Brunel           # du brun
+Lambret          # de la terre
+Dauvrel          # du dore
+Roseval          # de la rose
+Tancret          # du conseil
+Silvand          # de la foret
+Garenne          # du garenne
+Louvel           # du loup
+Falcret          # du faucon
+Corvault         # du corbeau fort
+Thibrel          # du peuple
+Galvois          # du galant
+Baudrel          # du hardi
+Helvois          # de la montagne
+Orvelan          # de l'or doux
+Arnault          # de l'aigle
+Dureau           # du dur
+Giraud           # du tour
+Gavrel           # du gai
+Brisaud          # du brise
+Florens          # de la fleur
+Carviel          # du char celeste
+
+# ============================================================
+# TABLE DE TRANSFORMATION DIALECTALE (demo)
+# ============================================================
+# 6 noms x 10 dialectes — reference pour generer les variantes
+#
+# MASCULINS
+# ---------
+#
+# | Dialecte       | Thibeval    | Corvain     | Galenor     |
+# |----------------|-------------|-------------|-------------|
+# | Ardrainien     | Thibeval    | Corvain     | Galenor     |
+# | Sittadellian   | Thibevard   | Corvart     | Galenort    |
+# | Aullerican     | Thibevael   | Corvaen     | Galenoer    |
+# | Aloisoise      | Thibevalen  | Corvainer   | Galenoren   |
+# | Caprainois     | Thibevel    | Corvin      | Galenorel   |
+# | Pwasciards     | Thibev      | Corva       | Galeno      |
+# | Serenish       | Thibevan    | Corvan      | Galenor     |
+# | Berenguer      | Thibewald   | Corvein     | Galenort    |
+# | Draquatin      | Thibevat    | Corvoun     | Galenoun    |
+# | Chevallois     | Thibevault  | Corvault    | Galenourt   |
+#
+# FEMININS
+# --------
+#
+# | Dialecte       | Belisore    | Alisande    | Nimue       |
+# |----------------|-------------|-------------|-------------|
+# | Ardrainien     | Belisore    | Alisande    | Nimue       |
+# | Sittadellian   | Belisort    | Alisarde    | Nimue       |
+# | Aullerican     | Belisoer    | Alisaende   | Nimue       |
+# | Aloisoise      | Belisoren   | Alisanden   | Nimue       |
+# | Caprainois     | Belisorel   | Alisandel   | Nimue       |
+# | Pwasciards     | Beliso      | Alisa       | Nimu        |
+# | Serenish       | Belisor     | Alisande    | Nimue       |
+# | Berenguer      | Belisort    | Aliswald    | Nimue       |
+# | Draquatin      | Belisoun    | Alisandou   | Nimuet      |
+# | Chevallois     | Belisourt   | Alisault    | Nimue       |
+
+# ============================================================
+# REGLES DE TRANSFORMATION RESUMEES
+# ============================================================
+#
+# Sittadellian : -val->-vard, -ain->-art, -en->-ent, -or->-ort,
+#                -el->-eld, -in->-ird, consonnes durcies (fortifie/normand)
+#
+# Aullerican : -val->-vael, -ain->-aen, -or->-oer,
+#              shift vocalique leger, touche germanique (frontiere flamande)
+#
+# Aloisoise : -val->-valen, -ain->-ainer, -or->-oren, -en->-ener,
+#             ajout -en/-er (influence lorraine/germanique marquee)
+#
+# Caprainois : -val->-vel, -ain->-in, -or->-orel, -el->-el,
+#              adoucissement, voyelles ouvertes (doux/ligerian)
+#
+# Pwasciards : tronque la derniere syllabe/consonne,
+#              -val->-va, -ain->-a, -or->-o, -en->-e
+#              noms courts, rudes (maritime/vendeen)
+#
+# Serenish : -val->-van, -ain->-an, -en->-on, -in->-on,
+#            shift vocalique archaique e->o, i->o (montagnard/berrichon)
+#
+# Berenguer : -val->-wald, -ain->-ein, -or->-ort, -ic->-ich,
+#             consonnes germaniques (hybride alsacien)
+#
+# Draquatin : -val->-vat, -ain->-oun, -en->-et, -or->-oun,
+#             terminaisons gasconnes -at, -oun (dragon-gascon)
+#
+# Chevallois : -val->-vault, -ain->-ault, -en->-olt, -or->-ourt,
+#              terminaisons lourdes -ault/-olt (forestier/bourguignon)

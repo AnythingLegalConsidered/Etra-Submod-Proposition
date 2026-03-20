@@ -9,19 +9,13 @@ __pycache__/
 *.mesh
 
 # Generated output (regenerable via generate_mod.py --all)
-output/ardrainic/
-output/armonorican/
-output/hravevi/
-output/moran/
-output/sordrenic/
-output/torrent/
-output/vulgar_moran/
+dev/output/
 
 # Claude Code (private config)
 .claude/
 CLAUDE.md
 
 # Internal working files (session-specific, not relevant for public repo)
-CONTEXT.md
-DIGEST.md
-_specs/HANDOFF.md
+dev/CONTEXT.md
+dev/DIGEST.md
+dev/_specs/HANDOFF.md

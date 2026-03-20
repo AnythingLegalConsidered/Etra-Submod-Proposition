@@ -1,0 +1,27 @@
+﻿#Etra Formable Countries
+
+A321_f = { # Duchy of Daqueland
+	level = 2
+	required_locations_fraction = 0.75
+	rule = historical
+
+	potential = {
+		culture = culture:draquatin_culture
+	}
+
+	allow = {
+	}
+
+	name = A321
+	flag = A321
+	adjective = A321_ADJ
+	tag = A321
+	color = draquatin_color
+
+	areas = {
+		daqueland_area
+	}
+
+	form_effect = {
+	}
+}

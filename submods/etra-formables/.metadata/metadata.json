@@ -1,0 +1,23 @@
+{
+    "name": "Etra: Formable Countries",
+    "id": "ianis.etra.formables",
+    "version": "0.1.0",
+    "short_description": "Adds formable countries for Etra cultures and regions.",
+    "tags": [
+        "Gameplay"
+    ],
+    "supported_game_version": "1.1.*",
+    "relationships": [
+        {
+            "rel_type": "dependency",
+            "id": "nuka.etra",
+            "display_name": "Etra: The New Age",
+            "resource_type": "mod",
+            "version": "0.05"
+        }
+    ],
+    "game_custom_data": {
+        "multiplayer_synchronized": true,
+        "replace_paths": []
+    }
+}
