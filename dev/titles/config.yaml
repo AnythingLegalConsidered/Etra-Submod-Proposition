@@ -1,0 +1,409 @@
+# =============================================================================
+# Etra: Names & Cultures — Title Translations Config
+# =============================================================================
+#
+# Fantasy language translations for country/title names.
+# Each title can have translations per language. When the game rule is set to
+# "Fantasy Languages", country names change based on the ruler's culture.
+#
+# Usage:
+#   python generate_titles.py              # generate from this config
+#   python generate_titles.py --list       # show translation status
+#   python generate_titles.py --audit      # find English names needing translation
+#
+# Then run: python generate_mod.py --all   # picks up via overrides/
+# =============================================================================
+
+game_rule:
+  key: etra_title_names
+  default: fantasy
+  label: "Etra: Title Names"
+  desc_english: "Country names stay in English (e.g. Scarlet Order)"
+  desc_fantasy: "Country names in their ruler's fantasy language"
+
+languages:
+  - ardrainic_language
+  - torrent_language
+  - moran_language
+  - vulgar_moran_language
+  - sordrenic_language
+  - armonorican_language
+  - hravevi_language
+
+# =============================================================================
+# TITLE TRANSLATIONS
+# =============================================================================
+
+titles:
+
+  # =========================================================================
+  # VULGAR MORAN / FREEHOLDER
+  # =========================================================================
+
+  A02:
+    english: "Scarlet Order"
+    native: vulgar_moran_language
+    translations:
+      ardrainic_language: "L'Ordren Escarlain"
+      torrent_language: "Skarlakenorden"
+      moran_language: "Ordo Scarlatinus"
+      vulgar_moran_language: "Ordeni Escarlati"
+      sordrenic_language: "Ordenc Escarlatz"
+      armonorican_language: "Urdd Ysgarlad"
+      hravevi_language: "Karmir Oukhkan"
+
+  A11:
+    english: "The Sanguine Daughters"
+    native: vulgar_moran_language
+    translations:
+      ardrainic_language: "Les Sangvinores"
+      torrent_language: "Bluttoechtren"
+      moran_language: "Filiae Sanguinei"
+      vulgar_moran_language: "Le Figlie Sanguinai"
+      sordrenic_language: "Filhatz Sanguentz"
+      armonorican_language: "Merched Gwaed"
+      hravevi_language: "Aryunan Dsterkh"
+
+  A12:
+    english: "The Eternal Watch"
+    native: vulgar_moran_language
+    translations:
+      ardrainic_language: "Garde Eternain"
+      torrent_language: "Ewigwacht"
+      moran_language: "Vigilia Aeterna"
+      vulgar_moran_language: "Guardia Eternai"
+      sordrenic_language: "Garda Eternatz"
+      armonorican_language: "Gwylfa Tragwydd"
+      hravevi_language: "Haverdian Pahakk"
+
+  A29:
+    english: "The Preservers of the Mother"
+    native: vulgar_moran_language
+    translations:
+      ardrainic_language: "Les Gardains de la Mere"
+      torrent_language: "Mutterhuetren"
+      moran_language: "Custodes Matris"
+      vulgar_moran_language: "I Conservadori della Madre"
+      sordrenic_language: "Gardairatz de la Mairatz"
+      armonorican_language: "Gwarcheidwad y Fam"
+      hravevi_language: "Mayr Pahapannerkh"
+
+  # =========================================================================
+  # TORRENT — SORLKOL ORDERS
+  # =========================================================================
+
+  A282:
+    english: "Lions of the Unbroken Line"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Leons de l'Invaincain"
+      torrent_language: "Unbrochleuwen"
+      moran_language: "Leones Lineae Infractae"
+      vulgar_moran_language: "Leoni dell'Infrangai"
+      sordrenic_language: "Leonenc Intrencatz"
+      armonorican_language: "Llewod Ditorr"
+      hravevi_language: "Ankeghtch Arsiounerkh"
+
+  A283:
+    english: "Pale Sentinels of the Frozen Gate"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Sentinores du Portgelain"
+      torrent_language: "Frosttorwacht"
+      moran_language: "Vigiles Portae Glacialis"
+      vulgar_moran_language: "Sentinelli del Portogelatai"
+      sordrenic_language: "Sentinelatz del Portgelatz"
+      armonorican_language: "Gwylwyr Porth Rhew"
+      hravevi_language: "Sarrtchtor Pahakkerkh"
+
+  A285:
+    english: "Ashes of the Fallen Star"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Cendres d'Estoile Dechain"
+      torrent_language: "Fallsternasche"
+      moran_language: "Cineres Stellae Lapsae"
+      vulgar_moran_language: "Ceneri della Stellai Cadutai"
+      sordrenic_language: "Cendratz d'Estelatz Decadatz"
+      armonorican_language: "Lludw Seren Gwymp"
+      hravevi_language: "Ankadj Astghi Motcherkh"
+
+  A286:
+    english: "Warriors of the West"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Guerrevains du Ponant"
+      torrent_language: "Westkriegar"
+      moran_language: "Bellatores Occidentis"
+      vulgar_moran_language: "Guerrieri dell'Ovestai"
+      sordrenic_language: "Guerreiratz del Ponentz"
+      armonorican_language: "Rhyfelwyr Gorllewin"
+      hravevi_language: "Arevmtyan Razmikerkh"
+
+  A287:
+    english: "Crown Shattering Disciples"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Disciples Brisecouronnain"
+      torrent_language: "Kronbrecher"
+      moran_language: "Discipuli Coronae Fractae"
+      vulgar_moran_language: "Discepoli Spezzacoronai"
+      sordrenic_language: "Disciplatz Rompecoroentz"
+      armonorican_language: "Disgyblion Torricoron"
+      hravevi_language: "Psakkotor Ashakerderkh"
+
+  A288:
+    english: "Pale Abbots"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Abbevains Blemes"
+      torrent_language: "Bleichaebte"
+      moran_language: "Abbates Pallidi"
+      vulgar_moran_language: "Abbati Pallidai"
+      sordrenic_language: "Abadatz Palidenc"
+      armonorican_language: "Abadau Gwelw"
+      hravevi_language: "Dpour Vardapetnerkh"
+
+  A289:
+    english: "Bear of the Highlands"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Ors des Hauterres"
+      torrent_language: "Hochlandbaer"
+      moran_language: "Ursus Montium"
+      vulgar_moran_language: "Orso dell'Altopianai"
+      sordrenic_language: "Orsenc d'Autaterratz"
+      armonorican_language: "Arth yr Ucheldir"
+      hravevi_language: "Partsravani Ardj"
+
+  A290:
+    english: "Twelfth Temple of the Stone Path"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Douzain Temple de Pierrevoin"
+      torrent_language: "Steinpfadtempel"
+      moran_language: "Templum XII Viae Lapidis"
+      vulgar_moran_language: "Dodicesimo Templo Pietraviai"
+      sordrenic_language: "Dotzenc Templenc de Peiracaminatz"
+      armonorican_language: "Deuddegfed Teml Maenllwybr"
+      hravevi_language: "XII Karoupadji Tatchar"
+
+  A291:
+    english: "Hawk of the Heights"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Faucon des Hautains"
+      torrent_language: "Hochfalk"
+      moran_language: "Falco Altitudinis"
+      vulgar_moran_language: "Falco dell'Altezzai"
+      sordrenic_language: "Falconenc d'Auturatz"
+      armonorican_language: "Hebog yr Uchelfan"
+      hravevi_language: "Partsounqi Baze"
+
+  A292:
+    english: "Path of Silence"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Voie du Silencain"
+      torrent_language: "Stillepfad"
+      moran_language: "Via Silentii"
+      vulgar_moran_language: "Via del Silenzioi"
+      sordrenic_language: "Caminatz del Silenctz"
+      armonorican_language: "Llwybr Distawrwydd"
+      hravevi_language: "Lrdjoutyan Oughi"
+
+  A293:
+    english: "Bell of the Cloister"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Cloche du Cloistrain"
+      torrent_language: "Kloosterglok"
+      moran_language: "Campana Claustri"
+      vulgar_moran_language: "Campana del Chiostrai"
+      sordrenic_language: "Clochatz del Claustratz"
+      armonorican_language: "Cloch y Cloestr"
+      hravevi_language: "Vanqi Zangh"
+
+  A295:
+    english: "Path and Vigil Judge"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Jugeval de Voie et Veille"
+      torrent_language: "Pfadrichter"
+      moran_language: "Iudex Viae et Vigiliae"
+      vulgar_moran_language: "Giudicai del Sentierai"
+      sordrenic_language: "Jutgetz del Caminatz"
+      armonorican_language: "Barnwr Llwybr"
+      hravevi_language: "Datavor Oughi"
+
+  A296:
+    english: "Sons of the Amethyst Skies"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Fils du Ciel Amethystain"
+      torrent_language: "Amethystsoehn"
+      moran_language: "Filii Caeli Amethystini"
+      vulgar_moran_language: "Figli dell'Ametistai"
+      sordrenic_language: "Filhatz del Celatz Ametistenc"
+      armonorican_language: "Meibion Nen Amethyst"
+      hravevi_language: "Ametisti Vordikerkh"
+
+  A299:
+    english: "Eagles of the Merciful Sun"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Aigles du Solain Clemencain"
+      torrent_language: "Gnadensonnaarn"
+      moran_language: "Aquilae Solis Clementis"
+      vulgar_moran_language: "Aquile del Sole Clementai"
+      sordrenic_language: "Aiglatz del Solenc Pietadosenc"
+      armonorican_language: "Eryrod yr Haul Trugarog"
+      hravevi_language: "Voghormadj Arevi Artsiverkh"
+
+  A300:
+    english: "Drunken Fist"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Poing Yvrevain"
+      torrent_language: "Trunkenfaust"
+      moran_language: "Pugnus Ebrius"
+      vulgar_moran_language: "Pugno Ubriacai"
+      sordrenic_language: "Ponhatz Embriacatz"
+      armonorican_language: "Dwrn Meddw"
+      hravevi_language: "Harbar Brountkh"
+
+  A301:
+    english: "Sunstone Bee"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Aveille de Pierresolain"
+      torrent_language: "Sonnsteenbien"
+      moran_language: "Apis Lapidis Solaris"
+      vulgar_moran_language: "Ape di Pietrasolarai"
+      sordrenic_language: "Abelhatz del Peirassolenc"
+      armonorican_language: "Gwenynen Maenhaul"
+      hravevi_language: "Arevakari Meghou"
+
+  A303:
+    english: "Radiant Star"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Estoile Rayonnain"
+      torrent_language: "Strahlstern"
+      moran_language: "Stella Radians"
+      vulgar_moran_language: "Stella Radiantai"
+      sordrenic_language: "Estelatz Radiantz"
+      armonorican_language: "Seren Disglair"
+      hravevi_language: "Paytsarr Astgh"
+
+  # =========================================================================
+  # TORRENT — HIMMELSKIND ORDERS (celestial/Aasimar)
+  # =========================================================================
+
+  A284:
+    english: "Heaven and Steel Princess"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Princevore du Ciel d'Acier"
+      torrent_language: "Himmelstahl"
+      moran_language: "Princeps Caeli et Chalybis"
+      vulgar_moran_language: "Principessa Cielacciai"
+      sordrenic_language: "Princesatz del Celacieratz"
+      armonorican_language: "Tywysoges Nef a Dur"
+      hravevi_language: "Yerkinapoghpad"
+
+  A294:
+    english: "Silent Peak School"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Ecole du Somval Muet"
+      torrent_language: "Stillgipfel"
+      moran_language: "Schola Verticis Silentis"
+      vulgar_moran_language: "Scuola della Cimai Silentai"
+      sordrenic_language: "Escolatz del Cimenc Silenctz"
+      armonorican_language: "Ysgol Copa Distaw"
+      hravevi_language: "Lourj Gagathi Dprots"
+
+  A297:
+    english: "Final Sorrows"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Doleurs Dernierevain"
+      torrent_language: "Endkummer"
+      moran_language: "Dolores Ultimi"
+      vulgar_moran_language: "Dolori Finalai"
+      sordrenic_language: "Doloratz Darreratz"
+      armonorican_language: "Gofidiau Olaf"
+      hravevi_language: "Verdjin Vishterkh"
+
+  A298:
+    english: "Virtuous Autumn"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Automne Vertuvain"
+      torrent_language: "Tugendherbst"
+      moran_language: "Autumnus Virtuosus"
+      vulgar_moran_language: "Autunno Virtuosai"
+      sordrenic_language: "Autonatz Vertudosenc"
+      armonorican_language: "Hydref Rhinweddol"
+      hravevi_language: "Bari Ashoun"
+
+  A302:
+    english: "Exalted Tornados"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Tempestes Hauvaines"
+      torrent_language: "Sturmerhaben"
+      moran_language: "Procellae Exaltatae"
+      vulgar_moran_language: "Tornado Esaltatai"
+      sordrenic_language: "Tempestatz Exaltadatz"
+      armonorican_language: "Corwyntoedd Dyrchafel"
+      hravevi_language: "Vehegh Ptouytnerkh"
+
+  # =========================================================================
+  # TORRENT — OTHER
+  # =========================================================================
+
+  A169:
+    english: "Little Serpent"
+    native: torrent_language
+    translations:
+      ardrainic_language: "Serpenteau"
+      torrent_language: "Litslang"
+      moran_language: "Serpens Parvus"
+      vulgar_moran_language: "Serpentello"
+      sordrenic_language: "Pichon Serpenctz"
+      armonorican_language: "Sarff Fach"
+      hravevi_language: "Pokhr Odz"
+
+  # =========================================================================
+  # ARDRAINIC
+  # =========================================================================
+
+  A176:
+    english: "Bluehorn"
+    native: ardrainic_language
+    translations:
+      ardrainic_language: "Cornebleu"
+      torrent_language: "Blauhorn"
+      moran_language: "Cornu Caeruleum"
+      vulgar_moran_language: "Cornoazzurai"
+      sordrenic_language: "Cornatz Blavenc"
+      armonorican_language: "Corn Glas"
+      hravevi_language: "Kapouyt Yeghdjour"
+
+  # =========================================================================
+  # SORDRENIC
+  # =========================================================================
+
+  A242:
+    english: "Greenheart"
+    native: sordrenic_language
+    translations:
+      ardrainic_language: "Coeurvert"
+      torrent_language: "Gruenhart"
+      moran_language: "Cor Viridis"
+      vulgar_moran_language: "Cuoreverdai"
+      sordrenic_language: "Corvertz"
+      armonorican_language: "Calon Las"
+      hravevi_language: "Kanatch Sird"

@@ -667,20 +667,27 @@ def assemble_mod(output_root: Path, processed: list[tuple[dict, Path]], mod_dir:
         mod_dir = output_root / "mod"
 
     # Clean previous assembly (preserve .git if present)
+    # On Windows, empty directories may be locked by VSCode/Explorer,
+    # so we delete files first, then try to remove dirs (best-effort).
     if mod_dir.exists():
         git_dir = mod_dir / ".git"
         has_git = git_dir.exists()
-        if has_git:
-            # Keep .git, remove everything else
-            for item in mod_dir.iterdir():
-                if item.name == ".git":
-                    continue
-                if item.is_dir():
-                    shutil.rmtree(item)
-                else:
-                    item.unlink()
-        else:
-            shutil.rmtree(mod_dir)
+        # Delete all files first
+        for f in sorted(mod_dir.rglob("*"), key=lambda p: len(p.parts), reverse=True):
+            if f.is_file() and not str(f).startswith(str(git_dir)):
+                f.unlink()
+        # Try to remove empty dirs (best-effort, ignore locked dirs)
+        for d in sorted(mod_dir.rglob("*"), key=lambda p: len(p.parts), reverse=True):
+            if d.is_dir() and d != git_dir and not str(d).startswith(str(git_dir)):
+                try:
+                    d.rmdir()
+                except OSError:
+                    pass  # Windows may lock empty dirs — they'll be reused
+        if not has_git:
+            try:
+                mod_dir.rmdir()
+            except OSError:
+                pass
 
     lang_dir = mod_dir / "in_game" / "common" / "languages"
     cult_dir = mod_dir / "in_game" / "common" / "cultures"

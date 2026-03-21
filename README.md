@@ -15,23 +15,8 @@ Each submod is independent and can be installed separately.
 
 1. Subscribe to [Etra: The New Age](https://steamcommunity.com/sharedfiles/filedetails/?id=3619896881) on Steam Workshop
 2. Download or clone this repo
-3. Pick the submod(s) you want — each has its own install instructions below
-
-### etra-names-cultures
-
-Replaces generic placeholder names with original fantasy names, each culture having its own dialect.
-
-```bash
-pip install pyyaml
-python dev/generate_mod.py --all
-python dev/deploy.py
-```
-
-Enable the submod in the EU5 launcher.
-
-### etra-formables
-
-Formable nations with custom decisions. Copy `submods/etra-formables/` to your EU5 mod folder, or use the deploy script.
+3. Copy the submod folder(s) you want from `submods/` into your EU5 mod folder (`Documents/Paradox Interactive/Europa Universalis V/mod/`)
+4. Enable the submod(s) in the EU5 launcher
 
 ## Project structure
 
