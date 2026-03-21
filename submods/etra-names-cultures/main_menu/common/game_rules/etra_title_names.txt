@@ -8,10 +8,12 @@ etra_title_names = {
 	default = etra_names_fantasy
 
 	etra_names_english = {
+		flag = etra_names_english
 		flag = flavour_rule
 	}
 
 	etra_names_fantasy = {
+		flag = etra_names_fantasy
 		flag = flavour_rule
 	}
 }

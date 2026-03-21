@@ -936,6 +936,40 @@ dialects:
       - [ild, ilt]
       - [dra, tra]
       - [mund, munt]
+    extra_male:
+      - Borgwald
+      - Borgmund
+      - Zorngar
+      - Zornvarn
+      - Drudwald
+      - Drudmar
+      - Galdmund
+      - Galdvarn
+      - Verdgar
+      - Verdmund
+      - Berzwald
+      - Berzgar
+      - Gozmar
+      - Gozmund
+      - Brigvarn
+      - Brighard
+      - Dargmund
+      - Dargbern
+      - Boldgar
+      - Boldvarn
+    extra_female:
+      - Borghild
+      - Borglinde
+      - Zornmara
+      - Zornvane
+      - Drudhild
+      - Galdrune
+      - Verdlinde
+      - Berzrune
+      - Gozburg
+      - Brigmara
+      - Dargvane
+      - Boldkara
     extra_dynasties:
       - von_Sigwalt
       - von_Grimhart
@@ -945,6 +979,16 @@ dialects:
       - von_Drakwalt
       - von_Skorpern
       - von_Brekstain
+      - von_Borgwalt
+      - von_Zornvarn
+      - von_Drudhart
+      - von_Galdwalt
+      - von_Boldstein
+      - von_Berzwalt
+      - von_Gozmunt
+      - von_Brigwalt
+      - von_Dargpern
+      - von_Verdwalt
 
   # ============================================================
   # TYELKIAN (High Germanic — a→e umlaut/fronting)
@@ -970,6 +1014,40 @@ dialects:
       - [mara, mera]
       - [kara, kera]
       - [vane, vene]
+    extra_male:
+      - Aelfmund
+      - Aelfmar
+      - Raegwald
+      - Raegvarn
+      - Wuedgar
+      - Wuedmund
+      - Maegwald
+      - Maeghard
+      - Fraedmar
+      - Fraedgar
+      - Wuerdwald
+      - Wuerdbern
+      - Gaelmund
+      - Gaelvarn
+      - Kuenwald
+      - Kuengar
+      - Huegmund
+      - Huegmar
+      - Luetwald
+      - Luetbern
+    extra_female:
+      - Aelfhild
+      - Aelflinde
+      - Raeggard
+      - Raegmara
+      - Wuedrune
+      - Maeghild
+      - Fraedgard
+      - Wuerdvane
+      - Gaelburg
+      - Kuenrune
+      - Huegmara
+      - Luetlinde
     extra_dynasties:
       - von_Sigweld
       - von_Grimherd
@@ -979,6 +1057,16 @@ dialects:
       - von_Wulfger
       - von_Arnweld
       - von_Helmer
+      - von_Aelfmer
+      - von_Raegweld
+      - von_Wuedger
+      - von_Maegweld
+      - von_Fraedmer
+      - von_Wuerdweld
+      - von_Gaelvern
+      - von_Kuenweld
+      - von_Huegmer
+      - von_Luetweld
 
   # ============================================================
   # CHESMEKER (Frontier Germanic — a→o darkening + terminal -th)
@@ -1005,6 +1093,40 @@ dialects:
       - [mara, mortha]
       - [kara, kortha]
       - [hild, holth]
+    extra_male:
+      - Khallmund
+      - Khallvarn
+      - Khortgar
+      - Khortwald
+      - Ghestmund
+      - Ghestvarn
+      - Khaltgar
+      - Khaltbern
+      - Ghrenzwald
+      - Ghrenzmund
+      - Khraftgar
+      - Khraftmund
+      - Ghrundmar
+      - Ghrundvarn
+      - Khernwald
+      - Kherngar
+      - Kheidmund
+      - Kheidmar
+      - Ghardwald
+      - Ghardbern
+    extra_female:
+      - Khallhild
+      - Khallrune
+      - Khortlinde
+      - Khortmara
+      - Ghestgard
+      - Ghestvane
+      - Khalthild
+      - Ghrenzburg
+      - Khraftgard
+      - Ghrundmara
+      - Khernhild
+      - Kheidvane
     extra_dynasties:
       - von_Sigwolth
       - von_Grimhorth
@@ -1014,6 +1136,16 @@ dialects:
       - von_Wulfgorth
       - von_Brekkolth
       - von_Stornmorth
+      - von_Khallmonth
+      - von_Khortgorth
+      - von_Ghestmonth
+      - von_Khaltwolth
+      - von_Ghrenzwolth
+      - von_Khraftmonth
+      - von_Ghrundmorth
+      - von_Khernwolth
+      - von_Kheidmonth
+      - von_Ghardwolth
 
   # ============================================================
   # NON-HUMAN DIALECTS — no transforms, extra pools only
@@ -1228,19 +1360,19 @@ cultures:
   - id: borrikan_culture
     dialect: borrikan_dialect
     color: borrikan_color
-    tags: [polish_gfx, west_slavic_gfx, slavic_gfx, eastern_european_gfx, european_gfx]
+    tags: [north_german_gfx, german_gfx, eastern_european_gfx, european_gfx]
     groups: [torrenter_group, human_group]
 
   - id: tyelkian_culture
     dialect: tyelkian_dialect
     color: tyelkian_color
-    tags: [hungarian_gfx, eastern_european_gfx, european_gfx]
+    tags: [south_german_gfx, german_gfx, western_european_gfx, european_gfx]
     groups: [torrenter_group, human_group]
 
   - id: chesmeker_culture
     dialect: chesmeker_dialect
     color: chesmeker_color
-    tags: [central_asian_gfx, middle_east_gfx]
+    tags: [north_german_gfx, german_gfx, eastern_european_gfx, european_gfx]
     groups: [torrenter_group, human_group]
 
   # --- NON-HUMAN ---

@@ -51,6 +51,14 @@ titles:
       sordrenic_language: "Ordenc Escarlatz"
       armonorican_language: "Urdd Ysgarlad"
       hravevi_language: "Karmir Oukhkan"
+    adjectives:
+      ardrainic_language: "Escarlain"
+      torrent_language: "Skarlaken"
+      moran_language: "Scarlatinus"
+      vulgar_moran_language: "Escarlati"
+      sordrenic_language: "Escarlatz"
+      armonorican_language: "Ysgarlad"
+      hravevi_language: "Karmir"
 
   A11:
     english: "The Sanguine Daughters"
@@ -407,3 +415,297 @@ titles:
       sordrenic_language: "Corvertz"
       armonorican_language: "Calon Las"
       hravevi_language: "Kanatch Sird"
+
+# =============================================================================
+# RULER TITLES (Monarchy)
+# =============================================================================
+#
+# Fantasy ruler rank titles per language and dialect.
+# When game rule = Fantasy and government = Monarchy, ruler titles
+# (Emperor/King/Duke/Count) display in the ruler's culture language.
+#
+# Format:
+#   - dialect: Display name
+#     id: game language/dialect/culture ID (used in trigger)
+#     trigger: language (default) or culture (for culture-specific matching)
+#     fallback: true (placed AFTER specific dialects, catches unmatched cultures)
+#     also_matches: [extra IDs that should use the same titles]
+#     empire/kingdom/duchy/county: [male_title, female_title]
+
+ruler_titles:
+
+  # =========================================================================
+  # ARDRAINIC (Old French medieval + Arthurian)
+  # =========================================================================
+
+  ardrainic:
+    - dialect: Sittadellian
+      id: sittadellian_dialect
+      empire: [Empereort, Emperist]
+      kingdom: [Reist, Reinort]
+      duchy: [Dust, Ducest]
+      county: [Cuent, Contevort]
+    - dialect: Aullerican
+      id: aullerican_dialect
+      empire: [Empereour, Emperaeis]
+      kingdom: [Raeis, Reinoer]
+      duchy: [Dues, Ducaesse]
+      county: [Cuaens, Contevoer]
+    - dialect: Aloisoise
+      id: aloisoise_dialect
+      empire: [Empereoren, Empereiser]
+      kingdom: [Reiser, Reinoren]
+      duchy: [Duser, Ducessen]
+      county: [Cuenser, Contevoren]
+    - dialect: Caprainois
+      id: caprainois_dialect
+      empire: [Emperorel, Empereil]
+      kingdom: [Rais, Reinorel]
+      duchy: [Duis, Ducelle]
+      county: [Cuien, Contevorel]
+    - dialect: Pwasciards
+      id: pwasciards_dialect
+      empire: [Empero, Emperi]
+      kingdom: [Re, Reino]
+      duchy: [Du, Duces]
+      county: [Cuen, Contevo]
+    - dialect: Serenish
+      id: serenish_dialect
+      empire: [Emporor, Emporois]
+      kingdom: [Rois, Reinor]
+      duchy: [Dus, Ducosse]
+      county: [Cuons, Contevor]
+    - dialect: Berenguer
+      id: berenguer_dialect
+      empire: [Emperort, Emperein]
+      kingdom: [Rein, Reinort]
+      duchy: [Duz, Ducenn]
+      county: [Cuenn, Contevort]
+    - dialect: Draquatin
+      id: draquatin_dialect
+      empire: [Emperoun, Emperouna]
+      kingdom: [Rei, Reinouna]
+      duchy: [Dous, Ducessa]
+      county: [Counes, Contevouna]
+    - dialect: Chevallois
+      id: chevallois_dialect
+      empire: [Empereourt, Emperoise]
+      kingdom: [Reault, Reinourt]
+      duchy: [Dault, Ducoise]
+      county: [Cuault, Contevourt]
+    - dialect: Appavin
+      id: appavin_dialect
+      empire: [Emperoret, Empereiset]
+      kingdom: [Reit, Reinoret]
+      duchy: [Duet, Ducesset]
+      county: [Cuet, Contevoret]
+    # Fallback: catches Ardrainien (base language) + any unmatched Ardrainic culture
+    - dialect: Ardrainien
+      id: ardrainic_language
+      fallback: true
+      empire: [Empereor, Empereis]
+      kingdom: [Reis, Reinore]
+      duchy: [Dus, Ducesse]
+      county: [Cuens, Contevore]
+
+  # =========================================================================
+  # TORRENT (Germanic archaique)
+  # =========================================================================
+
+  torrent:
+    - dialect: Heuhian
+      id: heuhian_dialect
+      empire: [Kaisarmund, Kaisarmunde]
+      kingdom: [Kunig, Kunigin]
+      duchy: [Herzgar, Herzgarde]
+      county: [Grafvarn, Grafvarne]
+    - dialect: Fullhorner
+      id: fullhorner_dialect
+      empire: [Kaisaermaend, Kaisaermaende]
+      kingdom: [Kunewald, Kunewalde]
+      duchy: [Herzwaeld, Herzwalde]
+      county: [Grafvaern, Grafvaerne]
+    - dialect: Afhaemeisan
+      id: afhaemeisan_dialect
+      empire: [Kaisarvald, Kaisarvalde]
+      kingdom: [Kunivald, Kunivalde]
+      duchy: [Herzvald, Herzvalde]
+      county: [Grafvald, Grafvalde]
+    - dialect: Lower Serenic
+      id: lower_serenic_dialect
+      empire: [Kaisarhart, Kaisarharde]
+      kingdom: [Kunighart, Kunigharde]
+      duchy: [Herzgaert, Herzgaerte]
+      county: [Grafwalt, Grafwalte]
+    - dialect: Middle Serenic
+      id: middle_serenic_dialect
+      empire: [Kaisarvain, Kaisarvaine]
+      kingdom: [Kunivain, Kunivaine]
+      duchy: [Herzvain, Herzvaine]
+      county: [Grafvain, Grafvaine]
+    - dialect: Sorlkol
+      id: sorlkol_dialect
+      empire: [Koisorstein, Koisorsteine]
+      kingdom: [Konigmond, Konigmonde]
+      duchy: [Herzmond, Herzmonde]
+      county: [Grofmond, Grofmonde]
+    - dialect: Naurmen
+      id: naurmen_dialect
+      empire: [Kaaisaarmaar, Kaaisaarmaare]
+      kingdom: [Kuuningmaar, Kuuningmaare]
+      duchy: [Heerzmaar, Heerzmaare]
+      county: [Graafmaar, Graafmaare]
+    - dialect: Stedeling
+      id: stedeling_dialect
+      empire: [Kaaisaarrik, Kaaisaarrike]
+      kingdom: [Kuuningrik, Kuuningrike]
+      duchy: [Heerzrik, Heerzrike]
+      county: [Graafrik, Graafrike]
+    - dialect: Thaurfolk
+      id: thaurfolk_dialect
+      empire: [Alljar, Alljarde]
+      kingdom: [Drotjar, Drotjarde]
+      duchy: [Hertjar, Hertjarde]
+      county: [Jarl, Jarle]
+    - dialect: Bonwesforian
+      id: bonwesforian_dialect
+      empire: [Kaisarbrand, Kaisarbrande]
+      kingdom: [Kuningbrand, Kuningbrande]
+      duchy: [Herzbrand, Herzbrande]
+      county: [Grafbrand, Grafbrande]
+    - dialect: Borrikan
+      id: borrikan_dialect
+      empire: [Gaizarmund, Gaizarmunde]
+      kingdom: [Gunigard, Gunigarde]
+      duchy: [Herdzgar, Herdzgarde]
+      county: [Gravvarn, Gravvarne]
+    - dialect: Tyelkian
+      id: tyelkian_dialect
+      empire: [Muendkaisar, Muendkaisarin]
+      kingdom: [Valdkuenig, Valdkuenigin]
+      duchy: [Gaerherz, Gaerherzin]
+      county: [Varngraf, Varngrafin]
+    - dialect: Chesmeker
+      id: chesmeker_dialect
+      empire: [Khaisarvarn, Khaisarvarne]
+      kingdom: [Khunigvarn, Khunigvarne]
+      duchy: [Kherzgar, Kherzgarde]
+      county: [Ghrafvarn, Ghrafvarne]
+    # Fallback: catches non-human Torrent cultures (himmelskind, tieflings, etc.)
+    - dialect: Torrent
+      id: torrent_language
+      fallback: true
+      also_matches:
+        - south_torrentor_dialect
+        - central_torrentor_dialect
+        - north_torrentor_dialect
+      empire: [Kaisarmund, Kaisarmunde]
+      kingdom: [Kunig, Kunigin]
+      duchy: [Herzgar, Herzgarde]
+      county: [Grafvarn, Grafvarne]
+
+  # =========================================================================
+  # SORDRENIC (Occitan + Italien / cites-etats)
+  # =========================================================================
+
+  sordrenic:
+    - dialect: Stone Sordrenic
+      id: stone_sordrenic_dialect
+      empire: [Excolsortz, Excolsorda]
+      kingdom: [Signororc, Signororda]
+      duchy: [Podestortz, Podestorca]
+      county: [Consolorc, Consolorca]
+    - dialect: Lutin
+      id: lutin_sordrenic_dialect
+      empire: [Excelsiatz, Excelsionda]
+      kingdom: [Signorienc, Signorionda]
+      duchy: [Podestiatz, Podestienca]
+      county: [Consolienc, Consolienca]
+    - dialect: Pantagrin
+      id: pantagrin_sordrenic_dialect
+      empire: [Excolsontz, Excolsonda]
+      kingdom: [Signorronc, Signorronda]
+      duchy: [Podestontz, Podestonca]
+      county: [Consolonc, Consolonca]
+    # Fallback: Salt Sordrenic (base)
+    - dialect: Salt Sordrenic
+      id: sordrenic_language
+      fallback: true
+      empire: [Excelsatz, Excelsonda]
+      kingdom: [Signorenc, Signoronda]
+      duchy: [Podestatz, Podestenca]
+      county: [Consolenc, Consolenca]
+
+  # =========================================================================
+  # MORAN (Latin classique — Empire mort-vivant, langue figee)
+  # =========================================================================
+
+  moran:
+    - dialect: Moran
+      id: moran_language
+      fallback: true
+      also_matches:
+        - early_moran_dialect
+        - late_moran_dialect
+        - novus_moran_dialect
+        - vivum_moran_dialect
+      empire: [Imperator, Imperatrix]
+      kingdom: [Rex, Regina]
+      duchy: [Dux, Ducissa]
+      county: [Comes, Comitissa]
+
+  # =========================================================================
+  # VULGAR MORAN (Latin corrompu / Italien fantasy)
+  # =========================================================================
+
+  vulgar_moran:
+    - dialect: Vulgar Moran
+      id: vulgar_moran_language
+      fallback: true
+      also_matches:
+        - rovina_dialect
+        - koth_dialect
+        - thanok_dialect
+        - fluviolander_dialect
+        - fioranelle_dialect
+        - marcheur_dialect
+        - rattolini_dialect
+      empire: [Imperadore, Imperadrova]
+      kingdom: [Regaven, Reginara]
+      duchy: [Ducarel, Ducessene]
+      county: [Comitoven, Comitessila]
+
+  # =========================================================================
+  # ARMONORICAN (Celtique — Gallois/Breton/Cornique)
+  # =========================================================================
+
+  armonorican:
+    # Aggeuios = rural archaic (specific culture trigger)
+    - dialect: Aggeuios
+      id: aggeuios_culture
+      trigger: culture
+      empire: [Pennddraig, Pennddraiges]
+      kingdom: [Brenhydd, Brenhyddes]
+      duchy: [Tighern, Tighernes]
+      county: [Rhyddystain, Rhyddystaines]
+    # Ebiam = urban polished (fallback for all Armonorican)
+    - dialect: Ebiam
+      id: armonorican_dialect
+      fallback: true
+      empire: [Pendraig, Pendraiges]
+      kingdom: [Brenin, Brenhines]
+      duchy: [Tiern, Tiernes]
+      county: [Distain, Distaines]
+
+  # =========================================================================
+  # HRAVEVI (Armenien + Proto-geant)
+  # =========================================================================
+
+  hravevi:
+    - dialect: Hravevi
+      id: hravevi_language
+      fallback: true
+      empire: [Arkayakh, Arkoukht]
+      kingdom: [Tagavor, Tagouhi]
+      duchy: [Ishkhan, Ishkhanoush]
+      county: [Nakharar, Nakhrouhi]

@@ -18,9 +18,9 @@
 #   Sted = Stedeling (Dutch urban + ardrainic)
 #   Thau = Thaurfolk (Danish, w→v, g→j)
 #   Bonw = Bonwesforian (Low German, minimal)
-#   Borr = Borrikan (Polish, palatalization)
-#   Tyel = Tyelkian (Hungarian, w→v)
-#   Ches = Chesmeker (Tatar, guttural)
+#   Borr = Borrikan (East Germanic, devoicing d→t, b→p)
+#   Tyel = Tyelkian (High Germanic, a→e umlaut/fronting)
+#   Ches = Chesmeker (Frontier Germanic, a→o darkening + -th)
 #   Knaw = Knawven (ratfolk, sibilant -ss)
 #
 # If variant == base name, override is ignored (rule or default applies).

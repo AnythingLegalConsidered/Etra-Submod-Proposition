@@ -384,37 +384,41 @@ af_Brunmark
 af_Volksted
 af_Arnvald
 
-## -ski (Borrikan — polonais)
-Zygwaldski
-Brynski
-Arnowski
-Grymski
-Volkarski
-Helminski
-Tarski
-Waldowski
-Kornicki
-Draczewski
+## von_ (Borrikan — East Germanic, devoicing)
+von_Borgwalt
+von_Zornvarn
+von_Drudhart
+von_Galdwalt
+von_Boldstein
+von_Berzwalt
+von_Gozmunt
+von_Brigwalt
+von_Dargpern
+von_Verdwalt
 
-## -i (Tyelkian — hongrois)
-Zsigvaldi
-Volkari
-Grimvaldi
-Helmeki
-Tornadi
-Brekendi
-Olkmari
-Kurnadi
+## von_ (Tyelkian — High Germanic, umlaut/fronting)
+von_Aelfmer
+von_Raegweld
+von_Wuedger
+von_Maegweld
+von_Fraedmer
+von_Wuerdweld
+von_Gaelvern
+von_Kuenweld
+von_Huegmer
+von_Luetweld
 
-## -bek (Chesmeker — tatar)
-Sigbek
-Volkbek
-Grimbek
-Tornbek
-Kurnbek
-Skorvaltbek
-Drakhanbek
-Helmarbek
+## von_ (Chesmeker — Frontier Germanic, darkening)
+von_Khallmonth
+von_Khortgorth
+von_Ghestmonth
+von_Khaltwolth
+von_Ghrenzwolth
+von_Khraftmonth
+von_Ghrundmorth
+von_Khernwolth
+von_Kheidmonth
+von_Ghardwolth
 
 ## NOTE — Races non-humaines (systeme substrat, PAS de dialecte propre)
 ## Tieflings, Ratfolk (Knawven), Himmelskind : absorbent la culture locale
@@ -655,175 +659,179 @@ af_Skjoldarn
 af_Askvald
 
 # ============================================================
-# BORRIKAN (polonais/slave) — seule culture slave du Torrent
+# BORRIKAN (East Germanic — terminal devoicing, "hardened" dialect)
 # ============================================================
-# Inspiration : vieux-polonais + fantasy. Attaques Woj-, Bog-, Rad-, Sta-, Mir-, Bron-
-# Terminaisons M : -slaw (gloire), -mierz (paix), -ek (diminutif), -osz
-# Terminaisons F : -slawa, -mira, -ka, -yna
-# Prefixe dynastique : ∅ + suffixe -ski/-wicz
+# Inspiration: East Germanic/Gothic. Unique attacks: Borg-, Zorn-, Drud-, Gald-,
+# Verd-, Berz-, Goz-, Brig-, Darg-, Bold-. Fortress/border warrior identity.
+# Twist: terminal devoicing d→t, b→p (same as config.yaml rules)
+# Endings M/F: standard Torrent morphemes (generator applies devoicing rules)
+# Dynasty prefix: von_
+# CRITICAL: This is a GERMANIC dialect, NOT Slavic — no -slaw, -mierz, -ski
 
 ## Masculins Borrikan (20)
-Wojslaw          # Woj + slaw (guerrier-gloire)
-Wojmierz         # Woj + mierz (guerrier-paix)
-Bogslaw          # Bog + slaw (dieu-gloire)
-Bogdorn          # Bog + dorn* (dieu-epine) — fantasy
-Radslaw          # Rad + slaw (conseil-gloire)
-Radmierz         # Rad + mierz (conseil-paix)
-Staslaw          # Sta + slaw (etre-gloire)
-Stanimierz       # Stan + mierz (camp-paix)
-Miroslaw         # Mir + slaw (monde-gloire)
-Bronwald         # Bron + wald (arme-foret) — hybride torrent
-Bronislaw        # Bron + slaw (arme-gloire)
-Kazimierz        # Kaz + mierz (detruire-paix)
-Drogosz          # Drog + osz (precieux-fort)
-Wlodmierz        # Wlod + mierz (pouvoir-monde)
-Zygbern          # Zyg + bern (victoire-ours) — hybride torrent
-Grzymar          # Grzym + mar (tonnerre-gloire) — hybride torrent
-Borvarn          # Bor + varn* (foret-gardien) — hybride fantasy
-Starogard        # Star + gard (ancien-garde) — hybride
-Leszwald         # Lesz + wald (ruse-foret) — hybride torrent
-Mieszko          # Miesz + ko (epee-petit)
+Borgwald         # Borg + wald (fortress-forest) — natural B voiced
+Borgmund         # Borg + mund (fortress-protector)
+Zorngar          # Zorn + gar (wrath-spear) — natural Z
+Zornvarn         # Zorn + varn (wrath-guardian)
+Drudwald         # Drud + wald (strength-forest) — natural D
+Drudmar          # Drud + mar (strength-glory)
+Galdmund         # Gald + mund (tribute-protector) — natural G
+Galdvarn         # Gald + varn (tribute-guardian)
+Verdgar          # Verd + gar (worth-spear) — natural V
+Verdmund         # Verd + mund (worth-protector)
+Berzwald         # Berz + wald (birch-forest) — buzz cluster -rz
+Berzgar          # Berz + gar (birch-spear)
+Gozmar           # Goz + mar (god-glory) — voiced God→Goz
+Gozmund          # Goz + mund (god-protector)
+Brigvarn         # Brig + varn (bridge-guardian)
+Brighard         # Brig + hard (bridge-brave)
+Dargmund         # Darg + mund (work-protector)
+Dargbern         # Darg + bern (work-bear)
+Boldgar          # Bold + gar (bold-spear)
+Boldvarn         # Bold + varn (bold-guardian)
 
 ## Feminins Borrikan (12)
-Wojslawa         # Woj + slawa (guerriere-gloire)
-Bogmira          # Bog + mira (divine-monde)
-Radmira          # Rad + mira (conseil-monde)
-Miroslawa        # Mir + slawa (monde-gloire)
-Bronka           # Bron + ka (arme-diminutif)
-Stanmira         # Stan + mira (camp-monde)
-Kazimira         # Kaz + mira (destructrice-monde)
-Drogyna          # Drog + yna (precieuse)
-Leszhild         # Lesz + hild (ruse-combat) — hybride torrent
-Bogvane          # Bog + vane* (divine-vent) — hybride fantasy
-Wlodslawa        # Wlod + slawa (pouvoir-gloire)
-Grzymara         # Grzym + mara* (tonnerre-gloire) — hybride fantasy
+Borghild         # Borg + hild (fortress-battle)
+Borglinde        # Borg + linde (fortress-linden)
+Zornmara         # Zorn + mara (wrath-glory)
+Zornvane         # Zorn + vane (wrath-wind)
+Drudhild         # Drud + hild (strength-battle)
+Galdrune         # Gald + rune (tribute-secret)
+Verdlinde        # Verd + linde (worth-linden)
+Berzrune         # Berz + rune (birch-secret)
+Gozburg          # Goz + burg (god-fortress)
+Brigmara         # Brig + mara (bridge-glory)
+Dargvane         # Darg + vane (work-wind)
+Boldkara         # Bold + kara (bold-beloved)
 
 ## Dynasties Borrikan
-Wojslavski
-Bogdanski
-Radoslavski
-Stanimorski
-Miroszewski
-Bronikowski
-Kazimirski
-Drogoszewski
-Grzymalski
-Leszkowski
+von_Borgwalt
+von_Zornvarn
+von_Drudhart
+von_Galdwalt
+von_Boldstein
+von_Berzwalt
+von_Gozmunt
+von_Brigwalt
+von_Dargpern
+von_Verdwalt
 
 # ============================================================
-# TYELKIAN (hongrois/finnois) — voyelle harmony, structure agglutinante
+# TYELKIAN (High Germanic — a→e umlaut/fronting, "melodic" dialect)
 # ============================================================
-# Inspiration : vieux-hongrois + fantasy. Attaques Arp-, Ist-, Zsolt-, Bel-, Kem-, Tal-
-# Terminaisons M : -ad/-ed (harmonie), -os/-es, -mund (emprunt torrent), -vald (emprunt)
-# Terminaisons F : -ka/-ke, -na/-ne (harmonie), -mara*
-# Prefixe dynastique : ∅ + suffixe -i/-fi
-# ORDRE INVERSE : nom de famille AVANT le prenom
+# Inspiration: High German umlaut shift. Unique attacks: Aelf-, Raeg-, Wued-, Maeg-,
+# Fraed-, Wuerd-, Gael-, Kuen-, Hueg-, Luet-. Fronted-vowel roots = "bright" quality.
+# Twist: a→e fronting in endings (same as config.yaml rules)
+# Endings M/F: standard Torrent morphemes (generator applies fronting rules)
+# Dynasty prefix: von_
+# Name order: REVERSED (family name first) — structural, not phonetic
+# CRITICAL: This is a GERMANIC dialect, NOT Hungarian — no Cs-/Gy-/Sz-, no -ad/-ed
 
 ## Masculins Tyelkian (20)
-Arpad            # Arp + ad (orge-sang, fondateur mythique)
-Istvald          # Ist + vald (couronne-foret) — hybride torrent
-Zsoltmund        # Zsolt + mund (sultan-protecteur) — hybride torrent
-Belagar          # Bel + agar (interieur-lance) — hybride fantasy
-Kemengar         # Kem + en + gar (dur-ne-lance) — hybride torrent
-Talvarn          # Tal + varn* (base-gardien) — hybride fantasy
-Boldmar          # Bold + mar (heureux-gloire) — hybride torrent
-Farkvald         # Fark + vald (loup-foret) — hybride torrent
-Gyulbern         # Gyul + bern (braise-ours) — hybride torrent
-Laszgar          # Lasz + gar (camp-lance) — hybride torrent
-Szabolmar        # Szabol + mar (sabre-gloire) — hybride torrent
-Torokmund        # Torok + mund (force-protecteur) — hybride torrent
-Zoltan           # Zolt + an (sultan-ne)
-Csabad           # Csab + ad (combat-sang)
-Keled            # Kel + ed (lever-forme)
-Vilagos          # Vilag + os (monde-fort)
-Endrevald        # Endre + vald (viril-foret) — hybride
-Levengar         # Leven + gar (chevalier-lance) — hybride
-Tihamer          # Tiham + er (silencieux-homme)
-Egermund         # Eger + mund (aulne-protecteur) — hybride
+Aelfmund         # Aelf + mund (spirit-protector) — natural ae vowel
+Aelfmar          # Aelf + mar (spirit-glory)
+Raegwald         # Raeg + wald (counsel-forest) — fronted Rad→Raeg
+Raegvarn         # Raeg + varn (counsel-guardian)
+Wuedgar          # Wued + gar (fury-spear) — fronted Wut→Wued
+Wuedmund         # Wued + mund (fury-protector)
+Maegwald         # Maeg + wald (kinsman-forest) — fronted Mag→Maeg
+Maeghard         # Maeg + hard (kinsman-brave)
+Fraedmar         # Fraed + mar (joy-glory) — fronted Freude→Fraed
+Fraedgar         # Fraed + gar (joy-spear)
+Wuerdwald        # Wuerd + wald (fate-forest) — fronted Wurd→Wuerd
+Wuerdbern        # Wuerd + bern (fate-bear)
+Gaelmund         # Gael + mund (echo-protector) — fronted Gal→Gael
+Gaelvarn         # Gael + varn (echo-guardian)
+Kuenwald         # Kuen + wald (bold-forest) — fronted Kuhn→Kuen
+Kuengar          # Kuen + gar (bold-spear)
+Huegmund         # Hueg + mund (mind-protector) — fronted Hug→Hueg
+Huegmar          # Hueg + mar (mind-glory)
+Luetwald         # Luet + wald (people-forest) — fronted Leut→Luet
+Luetbern         # Luet + bern (people-bear)
 
 ## Feminins Tyelkian (12)
-Arpana           # Arp + ana (orge-mere)
-Boldmara         # Bold + mara* (heureuse-gloire) — hybride fantasy
-Farkmira         # Fark + mira (louve-monde)
-Gyulvane         # Gyul + vane* (braise-vent) — hybride fantasy
-Ilonka           # Ilon + ka (lumiere-petite)
-Eszteka          # Eszte + ka (etoile-petite)
-Viragna          # Virag + na (fleur-femme)
-Emeselde         # Emes + elde (mere-ancienne)
-Csillana         # Csilla + na (etoile-femme)
-Katalke          # Katal + ke (pure-petite)
-Szabolmara       # Szabol + mara* (sabre-gloire) — hybride fantasy
-Tundena          # Tunde + na (fee-femme)
+Aelfhild         # Aelf + hild (spirit-battle)
+Aelflinde        # Aelf + linde (spirit-linden)
+Raeggard         # Raeg + gard (counsel-protection)
+Raegmara         # Raeg + mara (counsel-glory)
+Wuedrune         # Wued + rune (fury-secret)
+Maeghild         # Maeg + hild (kinsman-battle)
+Fraedgard        # Fraed + gard (joy-protection)
+Wuerdvane        # Wuerd + vane (fate-wind)
+Gaelburg         # Gael + burg (echo-fortress)
+Kuenrune         # Kuen + rune (bold-secret)
+Huegmara         # Hueg + mara (mind-glory)
+Luetlinde        # Luet + linde (people-linden)
 
 ## Dynasties Tyelkian
-Arpadi
-Istvaldi
-Zsoltmundi
-Belagari
-Farkvaldi
-Gyulberni
-Torokmundi
-Szaboli
-Levenfi
-Egermundi
+von_Aelfmer
+von_Raegweld
+von_Wuedger
+von_Maegweld
+von_Fraedmer
+von_Wuerdweld
+von_Gaelvern
+von_Kuenweld
+von_Huegmer
+von_Luetweld
 
 # ============================================================
-# CHESMEKER (tatar/turcique) — guttural, marche frontiere de l'est
+# CHESMEKER (Frontier Germanic — a→o darkening + terminal -th, "guttural" dialect)
 # ============================================================
-# Inspiration : tatar de Crimee + kipchak + fantasy. Attaques Temur-, Arslan-, Kara-,
-# Batu-, Tok-, Kuz-, Devl-
-# Terminaisons M : -khan (chef), -bek (seigneur), -tay (poulain), -gul (fleur),
-#                  -mund (emprunt torrent), -valt (emprunt torrent)
-# Terminaisons F : -gul (fleur), -ay (lune), -khan (dame), -mara*
-# Prefixe dynastique : ∅ + suffixe -bek/-khan
+# Inspiration: frontier harsh Germanic. Unique attacks: Khall-, Khort-, Ghest-, Khalt-,
+# Ghrenz-, Khraft-, Ghrund-, Khern-, Kheid-, Ghard-. Kh-/Gh- prefix = guttural aspiration.
+# Twist: a→o darkening + -th terminal (same as config.yaml rules)
+# Endings M/F: standard Torrent morphemes (generator applies darkening rules)
+# Dynasty prefix: von_
+# CRITICAL: This is a GERMANIC dialect, NOT Turkic — no -khan, -bek, -gul
 
 ## Masculins Chesmeker (20)
-Temurvalt        # Temur + valt (fer-foret) — hybride torrent
-Temurbek         # Temur + bek (fer-seigneur)
-Arslanmund       # Arslan + mund (lion-protecteur) — hybride torrent
-Arslanbek        # Arslan + bek (lion-seigneur)
-Karagar          # Kara + gar (noir-lance) — hybride torrent
-Karavarn         # Kara + varn* (noir-gardien) — hybride fantasy
-Batukhan         # Batu + khan (solide-chef)
-Batuvalt         # Batu + valt (solide-foret) — hybride torrent
-Toktamur         # Tok + tamur (sature-fer)
-Kuzbern          # Kuz + bern (automne-ours) — hybride torrent
-Devlmund         # Devl + mund (geant-protecteur) — hybride torrent
-Bolavalt         # Bola + valt (nuage-foret) — hybride torrent
-Torghul          # Tor + ghul (tonnerre-fleur) — hybride torrent
-Sartmund         # Sart + mund (marchand-protecteur) — hybride
-Edighar          # Edig + har (bon-guerrier)
-Kutlubek         # Kutlu + bek (beni-seigneur)
-Ildegar          # Ilde + gar (vent-lance) — hybride
-Ulugmar          # Ulug + mar (grand-gloire) — hybride torrent
-Mamavalt         # Mama + valt (oncle-foret) — hybride torrent
-Noghay           # Nog + hay (chien-vivant)
+Khallmund        # Khall + mund (hall-protector) — guttural H→Kh
+Khallvarn        # Khall + varn (hall-guardian)
+Khortgar         # Khort + gar (treasure-spear) — guttural H→Kh
+Khortwald        # Khort + wald (treasure-forest)
+Ghestmund        # Ghest + mund (stranger-protector) — guttural G→Gh
+Ghestvarn        # Ghest + varn (stranger-guardian)
+Khaltgar         # Khalt + gar (cold-spear) — guttural K→Kh
+Khaltbern        # Khalt + bern (cold-bear)
+Ghrenzwald       # Ghrenz + wald (border-forest) — guttural G→Gh
+Ghrenzmund       # Ghrenz + mund (border-protector)
+Khraftgar        # Khraft + gar (power-spear) — guttural K→Kh
+Khraftmund       # Khraft + mund (power-protector)
+Ghrundmar        # Ghrund + mar (ground-glory) — guttural G→Gh
+Ghrundvarn       # Ghrund + varn (ground-guardian)
+Khernwald        # Khern + wald (core-forest) — guttural K→Kh
+Kherngar         # Khern + gar (core-spear)
+Kheidmund        # Kheid + mund (heath-protector) — guttural H→Kh
+Kheidmar         # Kheid + mar (heath-glory)
+Ghardwald        # Ghard + wald (yard-forest) — guttural G→Gh
+Ghardbern        # Ghard + bern (yard-bear)
 
 ## Feminins Chesmeker (12)
-Arslanay         # Arslan + ay (lionne-lune)
-Karagul          # Kara + gul (noire-fleur)
-Batumara         # Batu + mara* (solide-gloire) — hybride fantasy
-Temurgul         # Temur + gul (fer-fleur)
-Toktagul         # Tokta + gul (arret-fleur)
-Bolakhan         # Bola + khan (nuage-dame)
-Altunay          # Altun + ay (or-lune)
-Kutlugul         # Kutlu + gul (benie-fleur)
-Devlvane         # Devl + vane* (geante-vent) — hybride fantasy
-Ildegul          # Ilde + gul (vent-fleur)
-Ulugmara         # Ulug + mara* (grande-gloire) — hybride fantasy
-Aysolde          # Ay + solde* (lune-or) — hybride fantasy
+Khallhild        # Khall + hild (hall-battle)
+Khallrune        # Khall + rune (hall-secret)
+Khortlinde       # Khort + linde (treasure-linden)
+Khortmara        # Khort + mara (treasure-glory)
+Ghestgard        # Ghest + gard (stranger-protection)
+Ghestvane        # Ghest + vane (stranger-wind)
+Khalthild        # Khalt + hild (cold-battle)
+Ghrenzburg       # Ghrenz + burg (border-fortress)
+Khraftgard       # Khraft + gard (power-protection)
+Ghrundmara       # Ghrund + mara (ground-glory)
+Khernhild        # Khern + hild (core-battle)
+Kheidvane        # Kheid + vane (heath-wind)
 
 ## Dynasties Chesmeker
-Temurbek
-Arslankhan
-Karabek
-Batukhan
-Toktabek
-Kutlukhan
-Edigbek
-Ulugkhan
-Sartbek
-Noghaikhan
+von_Khallmonth
+von_Khortgorth
+von_Ghestmonth
+von_Khaltwolth
+von_Ghrenzwolth
+von_Khraftmonth
+von_Ghrundmorth
+von_Khernwolth
+von_Kheidmonth
+von_Ghardwolth
 
 # ============================================================
 # TABLE DE TRANSFORMATION DIALECTALE (demo)
@@ -845,9 +853,9 @@ Noghaikhan
 # | Stedeling        | Seegvoud   | Draakvoud   | Greemkain   |
 # | Thaurfolk        | Sigvald    | Drakvald    | Grimjald    |
 # | Bonwesforian     | Sigwald    | Drakwald    | Grimkald    |
-# | Borrikan         | Zygwald    | Draczwald   | Grzymkald   |
-# | Tyelkian         | Zsigvald   | Drakvald    | Grimkald    |
-# | Chesmeker        | Sigvalt    | Drakhvalt   | Grimkhalt   |
+# | Borrikan         | Sigwalt    | Drakwalt    | Grimkalt    |
+# | Tyelkian         | Sigweld    | Drakweld    | Grimkeld    |
+# | Chesmeker        | Sigwolth   | Drakwolth   | Grimkolth   |
 # | (Erlfolk = utilisent le dialecte de leur zone + proto-elfique germanise)
 # | (Tieflings/Ratfolk/Himmelskind = utilisent le dialecte de leur zone)
 #
@@ -866,9 +874,9 @@ Noghaikhan
 # | Stedeling        | Bruungain   | Thaarvaine  | Seegreeka   |
 # | Thaurfolk        | Brunjard    | Tharvane    | Sigrika     |
 # | Bonwesforian     | Brungard    | Tharvane    | Sigrika     |
-# | Borrikan         | Brzungarda  | Tarzwana    | Zygryka     |
-# | Tyelkian         | Brungard    | Tarvane     | Zsigrika    |
-# | Chesmeker        | Brunkhar    | Tharkhan    | Sigrikha    |
+# | Borrikan         | Brungart    | Tharvane    | Sigrika     |
+# | Tyelkian         | Brungerd    | Tharvene    | Sigrika     |
+# | Chesmeker        | Brungorth   | Tharvonth   | Sigrika     |
 # | (Erlfolk/Tieflings/Ratfolk/Himmelskind = dialecte local, pas de transform special)
 #
 # ============================================================
@@ -888,9 +896,9 @@ Noghaikhan
 #             Resultat : hybride neerlando-francais reconnaissable
 # Thaurfolk : -wald->-vald, g->j, patronymes -sen
 # Bonwesforian : -mund->-mond (bas-allemand)
-# Borrikan : Sig->Zyg, sch->sz, w->l (polonais)
-# Tyelkian : Sig->Zsig, harmonie vocalique, accents aigus (hongrois)
-# Chesmeker : -wald->-valt, +kh guttural (tatar)
+# Borrikan : terminal devoicing — d→t, b→p (East Germanic, Gothic-like)
+# Tyelkian : a→e fronting/umlaut — wald→weld, gar→ger, mar→mer (High Germanic)
+# Chesmeker : a→o darkening + -th terminal — wald→wolth, mund→month (Frontier Germanic)
 # Erlfolk : PAS de transform — utilisent dialecte local + ~25% noms proto-elfiques germanises
 # Tieflings : PAS de transform — utilisent south_torrentor_dialect
 # Ratfolk (Knawven) : PAS de transform — utilisent north_torrentor_dialect

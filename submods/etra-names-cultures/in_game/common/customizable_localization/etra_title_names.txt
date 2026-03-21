@@ -68,6 +68,7 @@ A02 = {
 		fallback = yes
 	}
 }
+A02_ADJ = { parent = A02 suffix = "_ADJ" }
 
 # A11: The Sanguine Daughters
 A11 = {

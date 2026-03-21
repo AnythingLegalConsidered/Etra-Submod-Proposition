@@ -114,7 +114,7 @@ REPLACE:bonwesforian_culture = {
 REPLACE:borrikan_culture = {
 	language = borrikan_dialect
 	color = borrikan_color
-	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+	tags = { north_german_gfx german_gfx eastern_european_gfx european_gfx }
 	culture_groups = {
 		torrenter_group
 		human_group
@@ -124,7 +124,7 @@ REPLACE:borrikan_culture = {
 REPLACE:tyelkian_culture = {
 	language = tyelkian_dialect
 	color = tyelkian_color
-	tags = { hungarian_gfx eastern_european_gfx european_gfx }
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 	culture_groups = {
 		torrenter_group
 		human_group
@@ -134,7 +134,7 @@ REPLACE:tyelkian_culture = {
 REPLACE:chesmeker_culture = {
 	language = chesmeker_dialect
 	color = chesmeker_color
-	tags = { central_asian_gfx middle_east_gfx }
+	tags = { north_german_gfx german_gfx eastern_european_gfx european_gfx }
 	culture_groups = {
 		torrenter_group
 		human_group

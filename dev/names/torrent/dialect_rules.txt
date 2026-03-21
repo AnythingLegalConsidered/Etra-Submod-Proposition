@@ -181,57 +181,65 @@
 #   Grimmund → Grimmond
 #   Brungard → Brungard (unchanged)
 
-# BORRIKAN (Polish/Slavic — sole Slavic culture)
+# BORRIKAN (voiced Germanic — "buzzy" dialect)
 # -------------------------------------------
-# Identity: radically different, Slavic outlier in a Germanic coalition
-# Style: sibilant, palatalized, -slaw endings, sz/cz sounds
-# Vowels: no harmonized shift, but i→y in some cases
-# Consonants: Sig→Zyg, sch→sz, w→ł, palatalization
-# Endings M: torrent endings adapted to Polish phonetics
-# Endings F: -slawa, -mira, -ka, -yna
-# Dynasty prefix: none, SUFFIX -ski/-wicz
-# Unique names: HAS OWN MINI-POOL (Wojslaw, Bogslaw, Radslaw, Miroslawa, etc.)
-#               ~50% transforms of torrent pool + ~50% own Slavic names
+# Identity: distinct Germanic culture with voiced/softened consonants
+# Style: buzzing, voiced, flowing — hard consonants become soft
+# TWIST: voicing shift — K→G, S→Z, F→V, T→D in clusters
+# Vowels: no major shift
+# Consonants: K→G (Kaisar→Gaisar), S→Z (eis→eiz), F→V (Graf→Grav),
+#             +dz clusters (Herz→Herdz), doubled voiced consonants (vv)
+# Endings M: standard Torrent morphemes, just voiced
+# Endings F: standard Torrent feminine, just voiced
+# Dynasty prefix: von (standard) or SUFFIX -gard
+# Unique names: transforms of base Torrent pool with voicing applied
+#               NO Slavic names — this is a Germanic dialect
 # Examples (transforms):
-#   Sigwald → Zygwald
-#   Brungard → Brzungarda
-#   Grimgar → Grzymgar
-# Examples (own pool):
-#   Wojslaw, Bronislaw, Kazimierz, Bogmira, Radmira
+#   Sigwald → Zigwald
+#   Grimgar → Grizgar
+#   Grafvarn → Gravvarn
+#   Kaisarmund → Gaizarmund
 
-# TYELKIAN (Hungarian/Finnish — vowel harmony)
+# TYELKIAN (fronted Germanic — "melodic/exotic" dialect)
 # -------------------------------------------
-# Identity: exotic outlier, agglutinative feel, distinct vowel system
-# Style: vowel harmony, accented, reversed name order
-# Vowels: vowel harmony (back: a,o,u or front: e,ö,ü), accents aigus
-# Consonants: Sig→Zsig, w→v, sz/gy/cs sounds
-# Endings M: -ad/-ed (harmonized), -os/-es, +torrent hybrids (-vald, -mund)
-# Endings F: -ka/-ke (harmonized), -na/-ne, +torrent hybrids
+# Identity: distinct Germanic culture with fronted vowels and reversed compounds
+# Style: melodic, fronted, exotic — sounds "brighter" than other Torrent dialects
+# TWIST 1: vowel fronting — u→ue, a→ae in stressed positions, accent marks
+# TWIST 2: REVERSED compound order — morpheme comes BEFORE root
+#          (Muendkaisar instead of Kaisarmund, Valdkuenig instead of Kunigvald)
+# Vowels: u→ue (Kunig→Kuenig), fronting toward ae/oe
+# Consonants: w→v (standard), otherwise Germanic
+# Endings M: standard Torrent morphemes, fronted vowels
+# Endings F: standard Torrent feminine + -in for short titles
 # Dynasty prefix: none, SUFFIX -i/-fi
-# Name order: REVERSED (family name first)
-# Unique names: HAS OWN MINI-POOL (Arpad, Istvald, Zsoltmund, Ilonka, etc.)
+# Name order: REVERSED (family name first) — carries over to title compounds
+# Unique names: transforms of base Torrent pool with fronting + reversal
+#               NO Hungarian/Finnish names — this is a Germanic dialect
 # Examples (transforms):
-#   Sigwald → Zsigvald
-#   Volkmar → Volkár
-# Examples (own pool):
-#   Arpad, Zoltan, Csabad, Boldmara, Viragna
+#   Sigwald → Muendsig (reversed + fronted)
+#   Volkmar → Maervolk (reversed)
+#   Kunig → Kuenig (fronted)
+#   Kaisarmund → Muendkaisar (reversed)
 
-# CHESMEKER (Tatar/Turkic — eastern march)
+# CHESMEKER (guttural Germanic — "frontier harsh" dialect)
 # -------------------------------------------
-# Identity: frontier warriors, steppe-influenced, guttural, martial
-# Style: guttural, -khan/-bek titles, heavy consonants
-# Vowels: no harmonized shift
-# Consonants: -wald→-valt, +kh guttural, hard final consonants
-# Endings M: -khan (chief), -bek (lord), -tay, +torrent hybrids (-valt, -mund)
-# Endings F: -gul (flower), -ay (moon), -khan (lady), +torrent hybrids
-# Dynasty prefix: none, SUFFIX -bek/-khan
-# Unique names: HAS OWN MINI-POOL (Temurvalt, Arslanbek, Batukhan, Karagul, etc.)
+# Identity: frontier warriors, harsh borderland Germanic dialect
+# Style: guttural, aspirated, heavy consonants — sounds "rougher" than other dialects
+# TWIST: guttural aspiration — K→Kh, H→Kh, G→Gh on initial consonants
+# Vowels: no major shift
+# Consonants: K→Kh (Kaisar→Khaisar), H→Kh (Herz→Kherz),
+#             G→Gh (Graf→Ghraf), hard final consonants preserved
+# Endings M: standard Torrent morphemes (especially -varn guardian = frontier culture)
+# Endings F: standard Torrent feminine
+# Dynasty prefix: von or SUFFIX -varn
+# Unique names: transforms of base Torrent pool with guttural aspiration
+#               NO Turkic/Tatar names — this is a Germanic dialect
 # Examples (transforms):
-#   Sigwald → Sigvalt
-#   Grimgar → Grimkhar
-#   Drakwald → Drakhvalt
-# Examples (own pool):
-#   Temurbek, Arslanmund, Batukhan, Altunay, Aysolde
+#   Sigwald → Sigwald (no initial shift, S stays)
+#   Kaisarmund → Khaisarmund (K→Kh)
+#   Grimgar → Ghrimghar (G→Gh)
+#   Herzgar → Kherzgar (H→Kh)
+#   Grafvarn → Ghrafvarn (G→Gh)
 
 # ============================================================
 # NON-HUMAN CULTURES (no own dialect — substrate system)
