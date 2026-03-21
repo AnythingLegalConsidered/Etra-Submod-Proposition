@@ -92,6 +92,105 @@ def generate_game_rule(cfg: dict) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Generator: Country Name Construction Override
+# ---------------------------------------------------------------------------
+
+# Path to Etra mod's country_name_construction.txt (source to copy + extend)
+ETRA_COUNTRY_NAME_CONSTRUCTION = (
+    ETRA_MOD / "in_game" / "common" / "customizable_localization"
+    / "country_name_construction.txt"
+)
+
+
+def generate_name_construction(cfg: dict) -> str:
+    """Override country_name_construction for fantasy language constructions.
+
+    Copies Etra's original file but inserts per-language construction
+    templates as the FIRST checks. When game rule = fantasy and ruler
+    speaks a fantasy language, the country name uses the appropriate
+    fantasy construction (e.g., "$RANK$ de $NAME$" for Ardrainic).
+    Falls through to Etra's normal logic otherwise.
+    """
+    ruler_titles = cfg.get("ruler_titles", {})
+    constructions = cfg.get("constructions", {})
+
+    if not ruler_titles or not constructions:
+        return ""
+
+    # Read Etra's original file
+    if not ETRA_COUNTRY_NAME_CONSTRUCTION.exists():
+        print(
+            f"WARNING: Cannot find Etra country_name_construction at "
+            f"{ETRA_COUNTRY_NAME_CONSTRUCTION}",
+            file=sys.stderr,
+        )
+        return ""
+
+    with open(ETRA_COUNTRY_NAME_CONSTRUCTION, encoding="utf-8-sig") as f:
+        original = f.read()
+
+    # Build per-language construction entries
+    # Each dialect gets its own entry pointing to its language's template
+    block_lines = [
+        "\t# Etra: Names & Cultures — Fantasy country name constructions",
+        "\t# When fantasy mode + monarchy, use per-language construction",
+        "\t# (e.g., 'Reaume de X' instead of 'Kingdom of X')",
+        "",
+    ]
+
+    for lang_name, dialects_list in ruler_titles.items():
+        if lang_name not in constructions:
+            continue
+
+        loc_key = f"etra_construction_{lang_name}"
+        block_lines.append(f"\t# --- {lang_name.upper()} ---")
+
+        for d in dialects_list:
+            trigger_type = d.get("trigger", "language")
+            trigger_id = d["id"]
+            also_matches = d.get("also_matches", [])
+
+            # All IDs to create entries for (main + also_matches)
+            all_ids = [(trigger_id, trigger_type)]
+            for extra_id in also_matches:
+                all_ids.append((extra_id, "language"))
+
+            for tid, ttype in all_ids:
+                if ttype == "culture":
+                    ruler_line = f"\t\t\truler ?= {{ culture = culture:{tid} }}"
+                else:
+                    ruler_line = (
+                        f"\t\t\truler ?= {{ culture.language = language:{tid} }}"
+                    )
+
+                block_lines.extend([
+                    "\ttext = {",
+                    f"\t\tlocalization_key = {loc_key}",
+                    "\t\ttrigger = {",
+                    "\t\t\thas_game_rule = etra_names_fantasy",
+                    "\t\t\tgovernment_type = government_type:monarchy",
+                    ruler_line,
+                    "\t\t}",
+                    "\t}",
+                ])
+        block_lines.append("")
+
+    fantasy_block = "\n".join(block_lines) + "\n"
+
+    # Insert our block right after "type = country"
+    insert_point = original.find("type = country")
+    if insert_point == -1:
+        print("WARNING: Could not find 'type = country' in construction file",
+              file=sys.stderr)
+        return ""
+
+    newline = original.find("\n", insert_point)
+    result = original[:newline + 1] + fantasy_block + original[newline + 1:]
+
+    return result
+
+
+# ---------------------------------------------------------------------------
 # Generator: Customizable Localization
 # ---------------------------------------------------------------------------
 
@@ -404,8 +503,9 @@ def generate_ruler_titles_custom_loc(cfg: dict) -> str:
 # ---------------------------------------------------------------------------
 
 def generate_ruler_titles_loc(cfg: dict) -> str:
-    """Generate localization entries for ruler titles."""
+    """Generate localization entries for ruler titles + construction templates."""
     ruler_titles = cfg.get("ruler_titles", {})
+    constructions = cfg.get("constructions", {})
     if not ruler_titles:
         return ""
 
@@ -414,6 +514,9 @@ def generate_ruler_titles_loc(cfg: dict) -> str:
 
     for lang_name, dialects_list in ruler_titles.items():
         lines.append(f" # {lang_name.upper()}")
+        # Get fantasy polity names for this language (from constructions)
+        polity_names = constructions.get(lang_name, {}).get("ranks", {})
+
         for d in dialects_list:
             dialect = d["dialect"]
             for rank in RANKS:
@@ -427,9 +530,22 @@ def generate_ruler_titles_loc(cfg: dict) -> str:
                 seen.add(loc_key)
 
                 male, female = titles
-                lines.append(f' {loc_key}: "{RANK_DISPLAY[rank]}"')
+                # Use fantasy polity name if available, else English
+                polity = polity_names.get(rank, RANK_DISPLAY[rank])
+                lines.append(f' {loc_key}: "{polity}"')
                 lines.append(f' {loc_key}_ruler_male: "{male}"')
                 lines.append(f' {loc_key}_ruler_female: "{female}"')
+        lines.append("")
+
+    # Construction template loc keys
+    if constructions:
+        lines.append(" # --- CONSTRUCTION TEMPLATES ---")
+        for lang_name, cons in constructions.items():
+            template = cons.get("template", "$RANK$ of $NAME$")
+            map_template = cons.get("map_template", "$NAME$")
+            loc_key = f"etra_construction_{lang_name}"
+            lines.append(f' {loc_key}: "{template}"')
+            lines.append(f' {loc_key}_map: "{map_template}"')
         lines.append("")
 
     return "\n".join(lines)
@@ -652,7 +768,16 @@ def main():
             f.write(custom_loc_content)
         print(f"  Custom loc    -> {custom_loc_path}")
 
-    # 4. Customizable localization — ruler titles
+    # 4. Country name construction override (forces $NAME$ for our titles)
+    if has_titles:
+        construction_content = generate_name_construction(cfg)
+        if construction_content:
+            construction_path = custom_loc_dir / "country_name_construction.txt"
+            with open(construction_path, "w", encoding="utf-8-sig") as f:
+                f.write(construction_content)
+            print(f"  Construction  -> {construction_path}")
+
+    # 5. Customizable localization — ruler titles
     ruler_titles = cfg.get("ruler_titles", {})
     ruler_custom_loc = generate_ruler_titles_custom_loc(cfg)
     if ruler_custom_loc:

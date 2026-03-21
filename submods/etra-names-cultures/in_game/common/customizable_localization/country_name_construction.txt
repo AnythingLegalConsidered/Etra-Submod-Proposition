@@ -1,0 +1,550 @@
+﻿country_name_construction = {
+	type = country
+	# Etra: Names & Cultures — Fantasy country name constructions
+	# When fantasy mode + monarchy, use per-language construction
+	# (e.g., 'Reaume de X' instead of 'Kingdom of X')
+
+	# --- ARDRAINIC ---
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:sittadellian_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:aullerican_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:aloisoise_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:caprainois_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:pwasciards_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:serenish_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:berenguer_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:draquatin_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:chevallois_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:appavin_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:ardrainic_language }
+		}
+	}
+
+	# --- TORRENT ---
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:heuhian_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:fullhorner_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:afhaemeisan_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:lower_serenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:middle_serenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:sorlkol_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:naurmen_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:stedeling_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:thaurfolk_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:bonwesforian_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:borrikan_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:tyelkian_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:chesmeker_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:torrent_language }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:south_torrentor_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:central_torrentor_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:north_torrentor_dialect }
+		}
+	}
+
+	# --- SORDRENIC ---
+	text = {
+		localization_key = etra_construction_sordrenic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:stone_sordrenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_sordrenic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:lutin_sordrenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_sordrenic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:pantagrin_sordrenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_sordrenic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:sordrenic_language }
+		}
+	}
+
+	# --- MORAN ---
+	text = {
+		localization_key = etra_construction_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:moran_language }
+		}
+	}
+	text = {
+		localization_key = etra_construction_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:early_moran_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:late_moran_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:novus_moran_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:vivum_moran_dialect }
+		}
+	}
+
+	# --- VULGAR_MORAN ---
+	text = {
+		localization_key = etra_construction_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:vulgar_moran_language }
+		}
+	}
+	text = {
+		localization_key = etra_construction_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:rovina_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:koth_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:thanok_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:fluviolander_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:fioranelle_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:marcheur_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_construction_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:rattolini_dialect }
+		}
+	}
+
+	# --- ARMONORICAN ---
+	text = {
+		localization_key = etra_construction_armonorican
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture = culture:aggeuios_culture }
+		}
+	}
+	text = {
+		localization_key = etra_construction_armonorican
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:armonorican_dialect }
+		}
+	}
+
+	# --- HRAVEVI ---
+	text = {
+		localization_key = etra_construction_hravevi
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			government_type = government_type:monarchy
+			ruler ?= { culture.language = language:hravevi_language }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_name
+		trigger = {
+			OR = {
+				AND = {
+					tag = PAP
+					has_reform = government_reform:papacy_reform
+				}
+				tag = A01
+			}
+		}
+	}
+	text = {
+		localization_key = country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank
+		trigger = {
+			OR = {
+				AND = {
+					tag = GBR
+					coa_def_GBR_uk_trigger = yes
+				}
+				AND = {
+					tag = MAM
+					OR = {
+						country_rank = country_rank:rank_empire
+						country_rank = country_rank:rank_kingdom
+					}
+					religion.group = religion_group:muslim
+				}
+				AND = {
+					tag = DAU
+					OR = {
+						country_rank = country_rank:rank_duchy
+						country_rank = country_rank:rank_county
+					}
+				}
+				AND = {
+					tag = PAL
+					OR = {
+						country_rank = country_rank:rank_duchy
+						country_rank = country_rank:rank_county
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_prefix_name_rank
+		trigger = {
+			government_type = government_type:monarchy
+			OR = {
+				country_rank = country_rank:rank_kingdom 
+				country_rank = country_rank:rank_empire
+			}
+			tag = MAL
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_prefix_name
+		trigger = {
+			country_rank ?= country_rank:rank_empire
+			court_language ?= { language_family ?= language_family:chinese_language_family }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_prefix_name_horde
+		trigger = {
+			government_type = government_type:steppe_horde
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_prefix_adjective_rank
+		trigger = {
+			OR = {
+				AND = {
+					country_rank = country_rank:rank_empire 
+					NOT = { tag = LAT }
+				}
+				
+				tag = TIM
+				tag = GLH
+				tag = CHG
+				tag = LAT
+				AND = {
+					tag = PLC
+					country_rank = country_rank:rank_kingdom
+				}
+				
+				AND = {
+					country_rank = country_rank:rank_duchy
+					government_type = government_type:republic
+					culture = culture:frisian
+				}
+				
+				AND = {
+					tag = HSA
+					government_type = government_type:republic
+				}
+				
+				AND = {
+					has_reform = government_reform:military_order_reform
+					OR = {
+						country_rank = country_rank:rank_kingdom
+						country_rank = country_rank:rank_duchy
+					}
+					NOT = { tag = KNI }
+				}
+				has_reform = government_reform:japanese_clan
+				country_type = pop
+			}
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_sultanate
+		trigger = {
+			religion.group = religion_group:muslim
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_crown
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			OR = {
+				tag = ARA
+				tag = CAS
+				tag = POL
+				AND = {
+					tag = BOH
+					has_variable = crown_of_bohemia_variable
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_prefix_rank_of_name
+		fallback = yes
+	}
+}
+country_name_construction_map = { parent = country_name_construction suffix = "_map" }

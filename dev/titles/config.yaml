@@ -17,9 +17,9 @@
 game_rule:
   key: etra_title_names
   default: fantasy
-  label: "Etra: Title Names"
-  desc_english: "Country names stay in English (e.g. Scarlet Order)"
-  desc_fantasy: "Country names in their ruler's fantasy language"
+  label: "Etra: Endonyms"
+  desc_english: "Countries and rulers use English names"
+  desc_fantasy: "Countries and rulers use their culture's fantasy language"
 
 languages:
   - ardrainic_language
@@ -415,6 +415,83 @@ titles:
       sordrenic_language: "Corvertz"
       armonorican_language: "Calon Las"
       hravevi_language: "Kanatch Sird"
+
+# =============================================================================
+# CONSTRUCTIONS (country name display)
+# =============================================================================
+#
+# How country names are built per language in fantasy mode.
+# template: loc template with $RANK$ and $NAME$ variables
+# map_template: shorter version for the map
+# ranks: fantasy polity/realm names per rank (replaces "Empire"/"Kingdom"/etc.)
+#
+# $RANK$ comes from country_flavor (our ruler title system sets these)
+# $NAME$ comes from the country's display name (our title translations or English)
+
+constructions:
+
+  ardrainic:
+    template: "$RANK$ de $NAME$"
+    map_template: "$NAME$"
+    ranks:
+      empire: Empereorie
+      kingdom: Reaume
+      duchy: Duchie
+      county: "Conte"
+
+  torrent:
+    template: "$RANK$ $NAME$"
+    map_template: "$NAME$"
+    ranks:
+      empire: Kaisarreich
+      kingdom: Kunigreich
+      duchy: Herztum
+      county: Grafschaft
+
+  sordrenic:
+    template: "$RANK$ del $NAME$"
+    map_template: "$NAME$"
+    ranks:
+      empire: Excelsatzia
+      kingdom: Signorencia
+      duchy: Podestazia
+      county: Consolencia
+
+  moran:
+    template: "$RANK$ $NAME$"
+    map_template: "$NAME$"
+    ranks:
+      empire: Imperium
+      kingdom: Regnum
+      duchy: Ducatus
+      county: Comitatus
+
+  vulgar_moran:
+    template: "$RANK$ del $NAME$"
+    map_template: "$NAME$"
+    ranks:
+      empire: Imperio
+      kingdom: Regoveno
+      duchy: Ducato
+      county: Comitoveno
+
+  armonorican:
+    template: "$RANK$ $NAME$"
+    map_template: "$NAME$"
+    ranks:
+      empire: Pendraigaeth
+      kingdom: Breniniaeth
+      duchy: Tiernaeth
+      county: Distainaeth
+
+  hravevi:
+    template: "$RANK$ $NAME$"
+    map_template: "$NAME$"
+    ranks:
+      empire: Arkayakhoutyoun
+      kingdom: Tagavoroutyoun
+      duchy: Ishkhanoutyoun
+      county: Nakharaoutyoun
 
 # =============================================================================
 # RULER TITLES (Monarchy)
