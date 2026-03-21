@@ -16,7 +16,7 @@
 | Empire  | Empereor   | Empereis    |
 | Kingdom | Reis       | Reinore     |
 | Duchy   | Dus        | Ducesse     |
-| County  | Cuens      | Contevore   |
+| County  | Comte      | Contevore   |
 
 ## Empire — all dialects
 
@@ -70,17 +70,17 @@
 
 | Dialect        | Count      | Countess     |
 |----------------|------------|--------------|
-| Ardrainien     | Cuens      | Contevore    |
-| Sittadellian   | Cuent      | Contevort    |
-| Aullerican     | Cuaens     | Contevoer    |
-| Aloisoise      | Cuenser    | Contevoren   |
-| Caprainois     | Cuien      | Contevorel   |
-| Pwasciards     | Cuen       | Contevo      |
-| Serenish       | Cuons      | Contevor     |
-| Berenguer      | Cuenn      | Contevort    |
-| Draquatin      | Counes     | Contevouna   |
-| Chevallois     | Cuault     | Contevourt   |
-| Appavin        | Cuet       | Contevoret   |
+| Ardrainien     | Comte      | Contevore    |
+| Sittadellian   | Comt       | Contevort    |
+| Aullerican     | Coamte     | Contevoer    |
+| Aloisoise      | Comter     | Contevoren   |
+| Caprainois     | Comtien    | Contevorel   |
+| Pwasciards     | Com        | Contevo      |
+| Serenish       | Comto      | Contevor     |
+| Berenguer      | Comtenn    | Contevort    |
+| Draquatin      | Comtoune   | Contevouna   |
+| Chevallois     | Comtault   | Contevourt   |
+| Appavin        | Comtet     | Contevoret   |
 
 
 # ============================================================
@@ -915,6 +915,33 @@
 | Duchy   | Dux         | Ducissa      |
 | County  | Comes       | Comitissa    |
 
+## Theocracy (Hierarchy: Pontifex > Episcopus > Abbas > Prior)
+
+| Rank    | Ruler M      | Ruler F      |
+|---------|-------------|--------------|
+| Empire  | Pontifex    | Pontifica    |
+| Kingdom | Episcopus   | Episcopa     |
+| Duchy   | Abbas       | Abbatissa    |
+| County  | Prior       | Priorissa    |
+
+## Republic (Cursus honorum: Princeps > Consul > Praetor > Quaestor)
+
+| Rank    | Ruler M     | Ruler F      |
+|---------|------------|--------------|
+| Empire  | Princeps   | Principa     |
+| Kingdom | Consul     | Consulissa   |
+| Duchy   | Praetor    | Praetrix     |
+| County  | Quaestor   | Quaestrix    |
+
+## Order (Military: Magister > Commendator > Praeceptor > Custos)
+
+| Rank    | Ruler M      | Ruler F       |
+|---------|-------------|---------------|
+| Empire  | Magister    | Magistra      |
+| Kingdom | Commendator | Commendatrix  |
+| Duchy   | Praeceptor  | Praeceptrix   |
+| County  | Custos      | Custodia      |
+
 
 # ============================================================
 # VULGAR MORAN (Latin corrompu / Italien fantasy)
@@ -924,12 +951,41 @@
 # No -us/-ius endings (key distinction from Moran). Softened consonants (t->d).
 # Each title uses a DIFFERENT VM ending for diversity.
 
+## Monarchy
+
 | Rank    | Moran origin | VM Ruler M   | VM Ruler F    | Corruption                    |
 |---------|-------------|--------------|---------------|-------------------------------|
 | Empire  | Imperator   | Imperadore   | Imperadrova   | t->d, +ore / +ova            |
 | Kingdom | Rex         | Regaven      | Reginara      | stem reg- (regem) +aven/+ara |
 | Duchy   | Dux         | Ducarel      | Ducessene     | stem duc- (ducem) +arel/+ene |
 | County  | Comes       | Comitoven    | Comitessila   | stem comit- +oven / +ila     |
+
+## Theocracy
+
+| Rank    | Moran origin | VM Ruler M    | VM Ruler F     | Corruption                     |
+|---------|-------------|---------------|----------------|--------------------------------|
+| Empire  | Pontifex    | Pontevadore   | Pontevadrova   | -fex->-vadore, t->d, +ova     |
+| Kingdom | Episcopus   | Vescovarel    | Vescovessene   | corrupted Italian stem +arel   |
+| Duchy   | Abbas       | Abadoven      | Abadessila     | bb->d, +oven / +ila           |
+| County  | Prior       | Prioraven     | Priorellara    | +aven / +ara                   |
+
+## Republic
+
+| Rank    | Moran origin | VM Ruler M    | VM Ruler F     | Corruption                     |
+|---------|-------------|---------------|----------------|--------------------------------|
+| Empire  | Princeps    | Prinzadore    | Prinzadrova    | c->z, +adore / +ova           |
+| Kingdom | Consul      | Consolaven    | Consolenara    | u->o, +aven / +ara            |
+| Duchy   | Praetor     | Pretovarel    | Pretovessene   | ae->e, +arel / +ene           |
+| County  | Quaestor    | Questoven     | Questessila    | ae->e, +oven / +ila           |
+
+## Order
+
+| Rank    | Moran origin  | VM Ruler M    | VM Ruler F     | Corruption                     |
+|---------|-------------- |---------------|----------------|--------------------------------|
+| Empire  | Magister      | Maestradore   | Maestradrova   | corrupted Italian +adore / +ova|
+| Kingdom | Commendator   | Comendaven    | Comendanara    | mm->m, +aven / +ara           |
+| Duchy   | Praeceptor    | Precettarel   | Precettessene  | ae->e, pt->tt, +arel / +ene   |
+| County  | Custos        | Custodoven    | Custodessila   | +oven / +ila                   |
 
 
 # ============================================================
@@ -955,6 +1011,33 @@
 # gh dropped (Tighern -> Tiern)
 # Rh- and dd- dropped, y->i (Rhyddystain -> Distain)
 
+## Theocracy — Hierarchy: Pengroes (cross) > Esgob (bishop) > Abad (abbot) > Ofir (priest)
+
+| Rank    | Aggeuios M     | Aggeuios F      | Ebiam M    | Ebiam F     | Origin                          |
+|---------|----------------|-----------------|------------|-------------|----------------------------------|
+| Empire  | Penngroeydd    | Penngroeiddes   | Pengroes   | Pengroeses  | pen+croes = chief of the cross   |
+| Kingdom | Esghobyдd      | Esghobyddes     | Esgobin    | Esgobines   | esgob = bishop                   |
+| Duchy   | Abaddydd       | Abaddyddes      | Abadin     | Abadines    | abad = abbot                     |
+| County  | Offeirydd      | Offeiryddes     | Ofirin     | Ofirines    | offeiriad = priest               |
+
+## Republic — Hierarchy: Penrid (free) > Ynadin (magistrate) > Maerin (mayor) > Barnin (judge)
+
+| Rank    | Aggeuios M     | Aggeuios F      | Ebiam M    | Ebiam F     | Origin                          |
+|---------|----------------|-----------------|------------|-------------|----------------------------------|
+| Empire  | Pennrhydd      | Pennrhyddes     | Penrid     | Penrides    | pen+rhydd = chief of the free    |
+| Kingdom | Ynaddydd       | Ynaddyddes      | Ynadin     | Ynadines    | ynad = magistrate                |
+| Duchy   | Maerydd        | Maeryddes       | Maerin     | Maerines    | maer = mayor                     |
+| County  | Barnwydd       | Barnwyddes      | Barnin     | Barnines    | barnwr = judge                   |
+
+## Order — Hierarchy: Pencled (sword) > Cadlin (warlord) > Marchogin (knight) > Gwylin (sentinel)
+
+| Rank    | Aggeuios M     | Aggeuios F      | Ebiam M    | Ebiam F      | Origin                          |
+|---------|----------------|-----------------|------------|--------------|----------------------------------|
+| Empire  | Penncledд      | Penncleddes     | Pencled    | Pencledes    | pen+cledd(yf) = chief of sword   |
+| Kingdom | Cadlydd        | Cadlyddes       | Cadlin     | Cadlines     | cadlyw = warlord/commander       |
+| Duchy   | Marchogydd     | Marchogyddes    | Marchogin  | Marchogines  | marchog = knight                 |
+| County  | Gwylydd        | Gwylyddes       | Gwylin     | Gwylines     | gwylwr = sentinel                |
+
 
 # ============================================================
 # HRAVEVI (Armenien + Proto-geant)
@@ -963,6 +1046,8 @@
 # Design: Armenian political vocabulary for everyday ranks.
 # Proto-giant markers (-akh, -oukht) only on Emperor = the oldest title,
 # from the era when giants and Armenians merged.
+
+## Monarchy
 
 | Rank    | Ruler M     | Ruler F       | Etymology                                |
 |---------|-------------|---------------|------------------------------------------|
@@ -974,3 +1059,30 @@
 # Note: Higher rank = more proto-giant. Emperor is the only title with
 # proto-giant morphemes on BOTH M and F forms. This reflects the title's
 # ancient origin from the giant-Armenian fusion era.
+
+## Theocracy
+
+| Rank    | Ruler M      | Ruler F       | Etymology                                |
+|---------|-------------|---------------|------------------------------------------|
+| Empire  | Hayrapakh   | Hayroukht     | hayrapetakan (patriarcal) + -akh/-oukht  |
+| Kingdom | Yepiskovar  | Yepiskouhi    | yepiskopos (eveque) + -ar/-ouhi          |
+| Duchy   | Vardapan    | Vardapanoush  | vardapet (docteur-pretre) + -oush        |
+| County  | Abadar      | Abadrouhi     | abad (abbe) + -ar/-ouhi                  |
+
+## Republic
+
+| Rank    | Ruler M      | Ruler F       | Etymology                                |
+|---------|-------------|---------------|------------------------------------------|
+| Empire  | Zhoghovakh  | Zhoghvoukht   | zhoghovurd (peuple) + -akh/-oukht        |
+| Kingdom | Khorhdar    | Khorhdouhi    | khorhurd (conseil) + -ar/-ouhi           |
+| Duchy   | Kargavan    | Kargavanoush  | kargavar (administrateur) + -oush        |
+| County  | Datavor     | Datrouhi      | datavor (juge) + -ouhi                   |
+
+## Order
+
+| Rank    | Ruler M      | Ruler F       | Etymology                                |
+|---------|-------------|---------------|------------------------------------------|
+| Empire  | Sparapakh   | Sparoukht     | sparapet (general) + -akh/-oukht         |
+| Kingdom | Hazaravar   | Hazarouhi     | hazar (commandant) + -avar/-ouhi         |
+| Duchy   | Zinvorar    | Zinvaroush    | zinvor (soldat) + -ar/-oush              |
+| County  | Pahkar      | Pahkrouhi     | pahak (garde) + -ar/-ouhi                |

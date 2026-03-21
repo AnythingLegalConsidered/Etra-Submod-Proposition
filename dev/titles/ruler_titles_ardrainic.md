@@ -4,7 +4,7 @@
 
 ## Design Rules
 # - Titles are VOCABULARY words, not name-constructed (no systematic Attaque+Terminaison)
-# - Base forms use real Old French (Empereor, Reis, Dus, Cuens) with light Ardrainic twist
+# - Base forms use real Old French (Empereor, Reis, Dus, Comte) with light Ardrainic twist
 # - Country/polity names use Ardrainic markers (-ain, -eval, -vain) = formal/administrative register
 # - Feminine titles use Ardrainic F markers (-ore, -nore) OR authentic Old French forms
 # - Dialect shifts follow the SAME rules as name dialect transforms (see config.yaml)
@@ -16,7 +16,7 @@
 | Empire  | Emperance   | Empereor   | Empereis    |
 | Kingdom | Renoumain   | Reis       | Reinore     |
 | Duchy   | Ducheval    | Dus        | Ducesse     |
-| County  | Comtevain   | Cuens      | Contevore   |
+| County  | Comtevain   | Comte      | Contevore   |
 
 ### Etymology
 - Empereor / Empereis: Old French direct (empereor XIIe siecle, empereis = feminine)
@@ -24,7 +24,7 @@
 - Reinore: reine + -ore (Ardrainic F marker, like Belisore, Eilenore)
 - Dus: Old French real for "duc". Brut, court.
 - Ducesse: Old French archaic (not modern "duchesse" — shorter, more archaic)
-- Cuens: Old French "cuens" (cas sujet de comte). Immediately exotic.
+- Comte: Old French "conte/comte". Clean, recognizable, fantasy-neutral.
 - Contevore: conte (cas regime) + -ore (Ardrainic F marker)
 - Country names: Emperance, Renoumain (-ain), Ducheval (-eval exclusive), Comtevain (-vain, au-vowel)
 
@@ -82,17 +82,17 @@
 
 | Dialect        | Count      | Countess     | Shift applied              |
 |----------------|------------|--------------|----------------------------|
-| Ardrainien     | Cuens      | Contevore    | base                       |
-| Sittadellian   | Cuent      | Contevort    | hardening -t               |
-| Aullerican     | Cuaens     | Contevoer    | diphtongue ua, oer         |
-| Aloisoise      | Cuenser    | Contevoren   | rallongement               |
-| Caprainois     | Cuien      | Contevorel   | liquide -ien, -orel        |
-| Pwasciards     | Cuen       | Contevo      | truncation                 |
-| Serenish       | Cuons      | Contevor     | e→o                        |
-| Berenguer      | Cuenn      | Contevort    | germanique -enn, -ort      |
-| Draquatin      | Counes     | Contevouna   | gascon -ounes, -ouna       |
-| Chevallois     | Cuault     | Contevourt   | chevaleresque -ault, -ourt |
-| Appavin        | Cuet       | Contevoret   | alpin -et                  |
+| Ardrainien     | Comte      | Contevore    | base                       |
+| Sittadellian   | Comt       | Contevort    | hardening, drop soft -e    |
+| Aullerican     | Coamte     | Contevoer    | diphtongue o→oa            |
+| Aloisoise      | Comter     | Contevoren   | rallongement -er           |
+| Caprainois     | Comtien    | Contevorel   | liquide -ien               |
+| Pwasciards     | Com        | Contevo      | truncation                 |
+| Serenish       | Comto      | Contevor     | e→o                        |
+| Berenguer      | Comtenn    | Contevort    | germanique -enn            |
+| Draquatin      | Comtoune   | Contevouna   | gascon -oune               |
+| Chevallois     | Comtault   | Contevourt   | chevaleresque -ault        |
+| Appavin        | Comtet     | Contevoret   | alpin -et                  |
 
 ## Dialect Shift Summary
 
