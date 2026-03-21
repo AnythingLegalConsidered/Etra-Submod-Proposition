@@ -135,29 +135,52 @@ def generate_name_construction(cfg: dict) -> str:
         "",
     ]
 
-    # 1. Translated titles: just $NAME$ (names are already complete proper nouns)
-    titles = cfg.get("titles", {})
-    tags = [
-        tag for tag, data in titles.items()
-        if isinstance(data, dict) and data.get("translations")
-    ]
-    if tags:
-        tag_lines = "\n".join(f"\t\t\t\ttag = {t}" for t in tags)
-        block_lines.extend([
-            "\t# Translated titles — show just $NAME$ (already complete)",
-            "\ttext = {",
-            "\t\tlocalization_key = country_name_construction_name",
-            "\t\ttrigger = {",
-            "\t\t\thas_game_rule = etra_names_fantasy",
-            "\t\t\tOR = {",
-            tag_lines,
-            "\t\t\t}",
-            "\t\t}",
-            "\t}",
-            "",
-        ])
+    # 1. Military orders: per-language "Order of" construction
+    #    (checked first — military_order_reform + ruler language)
+    has_order_templates = any(
+        c.get("order_template") for c in constructions.values()
+    )
+    if has_order_templates:
+        block_lines.append("\t# --- MILITARY ORDERS (per-language 'Order of') ---")
+        for lang_name, dialects_list in ruler_titles.items():
+            cons = constructions.get(lang_name, {})
+            if not cons.get("order_template"):
+                continue
 
-    # 2. Per-language construction for all other countries
+            order_key = f"etra_order_{lang_name}"
+
+            for d in dialects_list:
+                trigger_type = d.get("trigger", "language")
+                trigger_id = d["id"]
+                also_matches = d.get("also_matches", [])
+
+                all_ids = [(trigger_id, trigger_type)]
+                for extra_id in also_matches:
+                    all_ids.append((extra_id, "language"))
+
+                for tid, ttype in all_ids:
+                    if ttype == "culture":
+                        ruler_line = (
+                            f"\t\t\truler ?= {{ culture = culture:{tid} }}"
+                        )
+                    else:
+                        ruler_line = (
+                            f"\t\t\truler ?= {{ culture.language = language:{tid} }}"
+                        )
+
+                    block_lines.extend([
+                        "\ttext = {",
+                        f"\t\tlocalization_key = {order_key}",
+                        "\t\ttrigger = {",
+                        "\t\t\thas_game_rule = etra_names_fantasy",
+                        "\t\t\thas_reform = government_reform:military_order_reform",
+                        ruler_line,
+                        "\t\t}",
+                        "\t}",
+                    ])
+        block_lines.append("")
+
+    # 2. Per-language construction for non-order countries
     for lang_name, dialects_list in ruler_titles.items():
         if lang_name not in constructions:
             continue
@@ -566,6 +589,11 @@ def generate_ruler_titles_loc(cfg: dict) -> str:
             loc_key = f"etra_construction_{lang_name}"
             lines.append(f' {loc_key}: "{template}"')
             lines.append(f' {loc_key}_map: "{map_template}"')
+            # Order template (for military orders)
+            order_template = cons.get("order_template")
+            if order_template:
+                lines.append(f' etra_order_{lang_name}: "{order_template}"')
+                lines.append(f' etra_order_{lang_name}_map: "{map_template}"')
         lines.append("")
 
     return "\n".join(lines)

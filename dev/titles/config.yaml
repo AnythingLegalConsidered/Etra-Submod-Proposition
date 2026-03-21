@@ -432,6 +432,7 @@ constructions:
 
   ardrainic:
     template: "$RANK$ de $NAME$"
+    order_template: "Ordren de $NAME$"
     map_template: "$NAME$"
     ranks:
       empire: Emperein
@@ -441,6 +442,7 @@ constructions:
 
   torrent:
     template: "$RANK$ $NAME$"
+    order_template: "Orden $NAME$"
     map_template: "$NAME$"
     ranks:
       empire: Kaisarrik
@@ -450,6 +452,7 @@ constructions:
 
   sordrenic:
     template: "$RANK$ del $NAME$"
+    order_template: "Ordenc del $NAME$"
     map_template: "$NAME$"
     ranks:
       empire: Excelsatz
@@ -459,6 +462,7 @@ constructions:
 
   moran:
     template: "$RANK$ $NAME$"
+    order_template: "Ordo $NAME$"
     map_template: "$NAME$"
     ranks:
       empire: Imperium
@@ -468,6 +472,7 @@ constructions:
 
   vulgar_moran:
     template: "$RANK$ del $NAME$"
+    order_template: "Ordeni del $NAME$"
     map_template: "$NAME$"
     ranks:
       empire: Imperio
@@ -477,6 +482,7 @@ constructions:
 
   armonorican:
     template: "$RANK$ $NAME$"
+    order_template: "Urdd $NAME$"
     map_template: "$NAME$"
     ranks:
       empire: Pendraigath
@@ -486,6 +492,7 @@ constructions:
 
   hravevi:
     template: "$RANK$ $NAME$"
+    order_template: "Oukhkan $NAME$"
     map_template: "$NAME$"
     ranks:
       empire: Arkayutyun
@@ -521,61 +528,61 @@ ruler_titles:
       empire: [Empereort, Emperist]
       kingdom: [Reist, Reinort]
       duchy: [Dust, Ducest]
-      county: [Cuent, Contevort]
+      county: [Comt, Contevort]
     - dialect: Aullerican
       id: aullerican_dialect
       empire: [Empereour, Emperaeis]
       kingdom: [Raeis, Reinoer]
       duchy: [Dues, Ducaesse]
-      county: [Cuaens, Contevoer]
+      county: [Coamte, Contevoer]
     - dialect: Aloisoise
       id: aloisoise_dialect
       empire: [Empereoren, Empereiser]
       kingdom: [Reiser, Reinoren]
       duchy: [Duser, Ducessen]
-      county: [Cuenser, Contevoren]
+      county: [Comter, Contevoren]
     - dialect: Caprainois
       id: caprainois_dialect
       empire: [Emperorel, Empereil]
       kingdom: [Rais, Reinorel]
       duchy: [Duis, Ducelle]
-      county: [Cuien, Contevorel]
+      county: [Comtien, Contevorel]
     - dialect: Pwasciards
       id: pwasciards_dialect
       empire: [Empero, Emperi]
       kingdom: [Re, Reino]
       duchy: [Du, Duces]
-      county: [Cuen, Contevo]
+      county: [Com, Contevo]
     - dialect: Serenish
       id: serenish_dialect
       empire: [Emporor, Emporois]
       kingdom: [Rois, Reinor]
       duchy: [Dus, Ducosse]
-      county: [Cuons, Contevor]
+      county: [Comto, Contevor]
     - dialect: Berenguer
       id: berenguer_dialect
       empire: [Emperort, Emperein]
       kingdom: [Rein, Reinort]
       duchy: [Duz, Ducenn]
-      county: [Cuenn, Contevort]
+      county: [Comtenn, Contevort]
     - dialect: Draquatin
       id: draquatin_dialect
       empire: [Emperoun, Emperouna]
       kingdom: [Rei, Reinouna]
       duchy: [Dous, Ducessa]
-      county: [Counes, Contevouna]
+      county: [Comtoune, Contevouna]
     - dialect: Chevallois
       id: chevallois_dialect
       empire: [Empereourt, Emperoise]
       kingdom: [Reault, Reinourt]
       duchy: [Dault, Ducoise]
-      county: [Cuault, Contevourt]
+      county: [Comtault, Contevourt]
     - dialect: Appavin
       id: appavin_dialect
       empire: [Emperoret, Empereiset]
       kingdom: [Reit, Reinoret]
       duchy: [Duet, Ducesset]
-      county: [Cuet, Contevoret]
+      county: [Comtet, Contevoret]
     # Fallback: catches Ardrainien (base language) + any unmatched Ardrainic culture
     - dialect: Ardrainien
       id: ardrainic_language
@@ -583,7 +590,7 @@ ruler_titles:
       empire: [Empereor, Empereis]
       kingdom: [Reis, Reinore]
       duchy: [Dus, Ducesse]
-      county: [Cuens, Contevore]
+      county: [Comte, Contevore]
 
   # =========================================================================
   # TORRENT (Germanic archaique)

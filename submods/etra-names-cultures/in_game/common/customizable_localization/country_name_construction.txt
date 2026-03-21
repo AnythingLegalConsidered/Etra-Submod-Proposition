@@ -2,42 +2,389 @@
 	type = country
 	# Etra: Names & Cultures — Fantasy country name constructions
 
-	# Translated titles — show just $NAME$ (already complete)
+	# --- MILITARY ORDERS (per-language 'Order of') ---
 	text = {
-		localization_key = country_name_construction_name
+		localization_key = etra_order_ardrainic
 		trigger = {
 			has_game_rule = etra_names_fantasy
-			OR = {
-				tag = A02
-				tag = A11
-				tag = A12
-				tag = A29
-				tag = A282
-				tag = A283
-				tag = A285
-				tag = A286
-				tag = A287
-				tag = A288
-				tag = A289
-				tag = A290
-				tag = A291
-				tag = A292
-				tag = A293
-				tag = A295
-				tag = A296
-				tag = A299
-				tag = A300
-				tag = A301
-				tag = A303
-				tag = A284
-				tag = A294
-				tag = A297
-				tag = A298
-				tag = A302
-				tag = A169
-				tag = A176
-				tag = A242
-			}
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:sittadellian_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:aullerican_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:aloisoise_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:caprainois_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:pwasciards_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:serenish_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:berenguer_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:draquatin_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:chevallois_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:appavin_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_ardrainic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:ardrainic_language }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:heuhian_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:fullhorner_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:afhaemeisan_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:lower_serenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:middle_serenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:sorlkol_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:naurmen_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:stedeling_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:thaurfolk_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:bonwesforian_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:borrikan_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:tyelkian_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:chesmeker_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:torrent_language }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:south_torrentor_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:central_torrentor_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_torrent
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:north_torrentor_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_sordrenic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:stone_sordrenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_sordrenic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:lutin_sordrenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_sordrenic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:pantagrin_sordrenic_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_sordrenic
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:sordrenic_language }
+		}
+	}
+	text = {
+		localization_key = etra_order_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:moran_language }
+		}
+	}
+	text = {
+		localization_key = etra_order_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:early_moran_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:late_moran_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:novus_moran_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:vivum_moran_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:vulgar_moran_language }
+		}
+	}
+	text = {
+		localization_key = etra_order_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:rovina_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:koth_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:thanok_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:fluviolander_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:fioranelle_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:marcheur_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_vulgar_moran
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:rattolini_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_armonorican
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture = culture:aggeuios_culture }
+		}
+	}
+	text = {
+		localization_key = etra_order_armonorican
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:armonorican_dialect }
+		}
+	}
+	text = {
+		localization_key = etra_order_hravevi
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			has_reform = government_reform:military_order_reform
+			ruler ?= { culture.language = language:hravevi_language }
 		}
 	}
 
