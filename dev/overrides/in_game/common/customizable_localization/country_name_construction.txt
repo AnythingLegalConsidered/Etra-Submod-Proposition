@@ -1,8 +1,45 @@
 ﻿country_name_construction = {
 	type = country
 	# Etra: Names & Cultures — Fantasy country name constructions
-	# When fantasy mode + monarchy, use per-language construction
-	# (e.g., 'Reaume de X' instead of 'Kingdom of X')
+
+	# Translated titles — show just $NAME$ (already complete)
+	text = {
+		localization_key = country_name_construction_name
+		trigger = {
+			has_game_rule = etra_names_fantasy
+			OR = {
+				tag = A02
+				tag = A11
+				tag = A12
+				tag = A29
+				tag = A282
+				tag = A283
+				tag = A285
+				tag = A286
+				tag = A287
+				tag = A288
+				tag = A289
+				tag = A290
+				tag = A291
+				tag = A292
+				tag = A293
+				tag = A295
+				tag = A296
+				tag = A299
+				tag = A300
+				tag = A301
+				tag = A303
+				tag = A284
+				tag = A294
+				tag = A297
+				tag = A298
+				tag = A302
+				tag = A169
+				tag = A176
+				tag = A242
+			}
+		}
+	}
 
 	# --- ARDRAINIC ---
 	text = {

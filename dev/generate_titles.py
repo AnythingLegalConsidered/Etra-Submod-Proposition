@@ -129,15 +129,35 @@ def generate_name_construction(cfg: dict) -> str:
     with open(ETRA_COUNTRY_NAME_CONSTRUCTION, encoding="utf-8-sig") as f:
         original = f.read()
 
-    # Build per-language construction entries
-    # Each dialect gets its own entry pointing to its language's template
+    # Build construction entries
     block_lines = [
         "\t# Etra: Names & Cultures — Fantasy country name constructions",
-        "\t# When fantasy mode + monarchy, use per-language construction",
-        "\t# (e.g., 'Reaume de X' instead of 'Kingdom of X')",
         "",
     ]
 
+    # 1. Translated titles: just $NAME$ (names are already complete proper nouns)
+    titles = cfg.get("titles", {})
+    tags = [
+        tag for tag, data in titles.items()
+        if isinstance(data, dict) and data.get("translations")
+    ]
+    if tags:
+        tag_lines = "\n".join(f"\t\t\t\ttag = {t}" for t in tags)
+        block_lines.extend([
+            "\t# Translated titles — show just $NAME$ (already complete)",
+            "\ttext = {",
+            "\t\tlocalization_key = country_name_construction_name",
+            "\t\ttrigger = {",
+            "\t\t\thas_game_rule = etra_names_fantasy",
+            "\t\t\tOR = {",
+            tag_lines,
+            "\t\t\t}",
+            "\t\t}",
+            "\t}",
+            "",
+        ])
+
+    # 2. Per-language construction for all other countries
     for lang_name, dialects_list in ruler_titles.items():
         if lang_name not in constructions:
             continue
