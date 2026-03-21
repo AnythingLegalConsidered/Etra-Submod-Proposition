@@ -434,28 +434,28 @@ constructions:
     template: "$RANK$ de $NAME$"
     map_template: "$NAME$"
     ranks:
-      empire: Empereorie
+      empire: Emperein
       kingdom: Reaume
-      duchy: Duchie
-      county: "Conte"
+      duchy: Duche
+      county: Conte
 
   torrent:
     template: "$RANK$ $NAME$"
     map_template: "$NAME$"
     ranks:
-      empire: Kaisarreich
-      kingdom: Kunigreich
+      empire: Kaisarrik
+      kingdom: Kunigrik
       duchy: Herztum
-      county: Grafschaft
+      county: Grafvarn
 
   sordrenic:
     template: "$RANK$ del $NAME$"
     map_template: "$NAME$"
     ranks:
-      empire: Excelsatzia
-      kingdom: Signorencia
-      duchy: Podestazia
-      county: Consolencia
+      empire: Excelsatz
+      kingdom: Signoratz
+      duchy: Podestatz
+      county: Consolatz
 
   moran:
     template: "$RANK$ $NAME$"
@@ -479,19 +479,19 @@ constructions:
     template: "$RANK$ $NAME$"
     map_template: "$NAME$"
     ranks:
-      empire: Pendraigaeth
-      kingdom: Breniniaeth
-      duchy: Tiernaeth
-      county: Distainaeth
+      empire: Pendraigath
+      kingdom: Breninath
+      duchy: Tiernath
+      county: Distainath
 
   hravevi:
     template: "$RANK$ $NAME$"
     map_template: "$NAME$"
     ranks:
-      empire: Arkayakhoutyoun
-      kingdom: Tagavoroutyoun
-      duchy: Ishkhanoutyoun
-      county: Nakharaoutyoun
+      empire: Arkayutyun
+      kingdom: Tagavutyun
+      duchy: Ishkhanyun
+      county: Nakharyun
 
 # =============================================================================
 # RULER TITLES (Monarchy)

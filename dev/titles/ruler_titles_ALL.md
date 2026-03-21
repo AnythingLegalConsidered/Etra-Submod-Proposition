@@ -1,5 +1,5 @@
-# Etra: Names & Cultures — Complete Ruler Titles (Monarchy)
-# All 7 languages, all dialects
+# Etra: Names & Cultures — Complete Ruler Titles
+# All 7 languages, all dialects, all government types
 # Generated 2026-03-21
 
 # ============================================================
@@ -81,6 +81,246 @@
 | Draquatin      | Counes     | Contevouna   |
 | Chevallois     | Cuault     | Contevourt   |
 | Appavin        | Cuet       | Contevoret   |
+
+
+# ============================================================
+# ARDRAINIC — THÉOCRATIE (Old French ecclesiastique)
+# ============================================================
+# Design: Real Old French clerical vocabulary, cas sujet forms
+# Same dialect shifts as monarchy. F markers: -ore, -eis, -esse
+
+## Base titles
+
+| Rank    | Ruler M     | Ruler F      |
+|---------|-------------|--------------|
+| Empire  | Pontivain   | Pontivore    |
+| Kingdom | Evesques    | Evesquore    |
+| Duchy   | Prestres    | Prestrore    |
+| County  | Clers       | Clerquore    |
+
+## Empire — all dialects
+
+| Dialect        | M            | F            |
+|----------------|--------------|--------------|
+| Ardrainien     | Pontivain    | Pontivore    |
+| Sittadellian   | Pontivaint   | Pontivort    |
+| Aullerican     | Pontivaein   | Pontivoer    |
+| Aloisoise      | Pontivainer  | Pontivoren   |
+| Caprainois     | Pontivail    | Pontivorel   |
+| Pwasciards     | Pontiva      | Pontivo      |
+| Serenish       | Pontivoin    | Pontivor     |
+| Berenguer      | Pontivein    | Pontivort    |
+| Draquatin      | Pontivaun    | Pontivouna   |
+| Chevallois     | Pontivault   | Pontivourt   |
+| Appavin        | Pontivainet  | Pontivoret   |
+
+## Kingdom — all dialects
+
+| Dialect        | M            | F            |
+|----------------|--------------|--------------|
+| Ardrainien     | Evesques     | Evesquore    |
+| Sittadellian   | Evesquest    | Evesquort    |
+| Aullerican     | Evaesques    | Evesquoer    |
+| Aloisoise      | Evesqueser   | Evesquoren   |
+| Caprainois     | Evisques     | Evesquorel   |
+| Pwasciards     | Evesque      | Evesquo      |
+| Serenish       | Evosques     | Evosquor     |
+| Berenguer      | Evesquenn    | Evesquort    |
+| Draquatin      | Evesqui      | Evesquouna   |
+| Chevallois     | Evesquault   | Evesquourt   |
+| Appavin        | Evesquet     | Evesquoret   |
+
+## Duchy — all dialects
+
+| Dialect        | M            | F            |
+|----------------|--------------|--------------|
+| Ardrainien     | Prestres     | Prestrore    |
+| Sittadellian   | Prestrest    | Prestrort    |
+| Aullerican     | Praestres    | Prestroer    |
+| Aloisoise      | Prestreser   | Prestroren   |
+| Caprainois     | Pristres     | Prestrorel   |
+| Pwasciards     | Prestre      | Prestro      |
+| Serenish       | Prostres     | Prostror     |
+| Berenguer      | Prestrenn    | Prestrort    |
+| Draquatin      | Prestri      | Prestrouna   |
+| Chevallois     | Prestrault   | Prestrourt   |
+| Appavin        | Prestret     | Prestroret   |
+
+## County — all dialects
+
+| Dialect        | M            | F            |
+|----------------|--------------|--------------|
+| Ardrainien     | Clers        | Clerquore    |
+| Sittadellian   | Clert        | Clerquort    |
+| Aullerican     | Claers       | Clerquoer    |
+| Aloisoise      | Clerser      | Clerquoren   |
+| Caprainois     | Clirs        | Clerquorel   |
+| Pwasciards     | Cler         | Clerquo      |
+| Serenish       | Clors        | Clorquor     |
+| Berenguer      | Clerz        | Clerquort    |
+| Draquatin      | Cleirs       | Clerquouna   |
+| Chevallois     | Clerault     | Clerquourt   |
+| Appavin        | Cleret       | Clerquoret   |
+
+
+# ============================================================
+# ARDRAINIC — RÉPUBLIQUE (Old French communal/consulaire)
+# ============================================================
+# Design: Old French civic vocabulary — communes, bailliages, échevinages
+# Chanceleor/Chanceleis follows the Empereor/Empereis pattern exactly
+
+## Base titles
+
+| Rank    | Ruler M      | Ruler F       |
+|---------|--------------|---------------|
+| Empire  | Chanceleor   | Chanceleis    |
+| Kingdom | Consuls      | Conselvore    |
+| Duchy   | Recteurs     | Recteuvore    |
+| County  | Eschevins    | Eschevinore   |
+
+## Empire — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Ardrainien     | Chanceleor     | Chanceleis     |
+| Sittadellian   | Chanceleort    | Chancelist     |
+| Aullerican     | Chanceleour    | Chancelaeis    |
+| Aloisoise      | Chanceleoren   | Chanceleiser   |
+| Caprainois     | Chancelorel    | Chanceleil     |
+| Pwasciards     | Chancelo       | Chanceli       |
+| Serenish       | Chancoleor     | Chancelois     |
+| Berenguer      | Chancelort     | Chancelein     |
+| Draquatin      | Chanceloun     | Chancelouna    |
+| Chevallois     | Chanceleourt   | Chanceloise    |
+| Appavin        | Chanceloret    | Chanceleiset   |
+
+## Kingdom — all dialects
+
+| Dialect        | M            | F              |
+|----------------|--------------|----------------|
+| Ardrainien     | Consuls      | Conselvore     |
+| Sittadellian   | Consult      | Conselvort     |
+| Aullerican     | Consuels     | Conselvoer     |
+| Aloisoise      | Consulser    | Conselvoren    |
+| Caprainois     | Consuils     | Conselvorel    |
+| Pwasciards     | Consul       | Conselvo       |
+| Serenish       | Consuls      | Conselvor      |
+| Berenguer      | Consulz      | Conselvort     |
+| Draquatin      | Consouls     | Conselvouna    |
+| Chevallois     | Consault     | Conselvourt    |
+| Appavin        | Consulet     | Conselvoret    |
+
+## Duchy — all dialects
+
+| Dialect        | M            | F              |
+|----------------|--------------|----------------|
+| Ardrainien     | Recteurs     | Recteuvore     |
+| Sittadellian   | Recteurt     | Recteuvort     |
+| Aullerican     | Raecteurs    | Recteuvoer     |
+| Aloisoise      | Recteurser   | Recteuvoren    |
+| Caprainois     | Ricteirs     | Recteuvorel    |
+| Pwasciards     | Recteur      | Recteuvo       |
+| Serenish       | Rectours     | Rectouvor      |
+| Berenguer      | Recteurz     | Recteuvort     |
+| Draquatin      | Recteuns     | Recteuvouna    |
+| Chevallois     | Recteault    | Recteuvourt    |
+| Appavin        | Recteuret    | Recteuvoret    |
+
+## County — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Ardrainien     | Eschevins      | Eschevinore    |
+| Sittadellian   | Eschevint      | Eschevinort    |
+| Aullerican     | Eschaevins     | Eschevinoer    |
+| Aloisoise      | Eschevinser    | Eschevinoren   |
+| Caprainois     | Eschivins      | Eschevinorel   |
+| Pwasciards     | Eschevin       | Eschevino      |
+| Serenish       | Eschovins      | Eschovinor     |
+| Berenguer      | Eschevinn      | Eschevinort    |
+| Draquatin      | Eschevi        | Eschevinouna   |
+| Chevallois     | Eschevinault   | Eschevinourt   |
+| Appavin        | Eschevinet     | Eschevinoret   |
+
+
+# ============================================================
+# ARDRAINIC — ORDRE (Old French chevaleresque/militaire)
+# ============================================================
+# Design: Real OF military hierarchy — connétable, sénéchal, maréchal
+# Questor = quêteur/quaestor with OF treatment
+
+## Base titles
+
+| Rank    | Ruler M      | Ruler F         |
+|---------|--------------|-----------------|
+| Empire  | Conestable   | Conestableis    |
+| Kingdom | Seneschal    | Senechesse      |
+| Duchy   | Mareschal    | Mareschesse     |
+| County  | Questor      | Questoresse     |
+
+## Empire — all dialects
+
+| Dialect        | M              | F                |
+|----------------|----------------|------------------|
+| Ardrainien     | Conestable     | Conestableis     |
+| Sittadellian   | Conestablet    | Conestablist     |
+| Aullerican     | Conestauble    | Conestablaeis    |
+| Aloisoise      | Conestabler    | Conestabliser    |
+| Caprainois     | Conestaille    | Conestableil     |
+| Pwasciards     | Conestab       | Conestabli       |
+| Serenish       | Conostable     | Conestablois     |
+| Berenguer      | Conestablen    | Conestablein     |
+| Draquatin      | Conestoun      | Conestouna       |
+| Chevallois     | Conestault     | Conestabloise    |
+| Appavin        | Conestablet    | Conestableiset   |
+
+## Kingdom — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Ardrainien     | Seneschal      | Senechesse     |
+| Sittadellian   | Seneschalt     | Senechest      |
+| Aullerican     | Senaeschal     | Senechaesse    |
+| Aloisoise      | Seneschaler    | Senechessen    |
+| Caprainois     | Sineschal      | Senechelle     |
+| Pwasciards     | Senescha       | Seneches       |
+| Serenish       | Senoschal      | Senochosse     |
+| Berenguer      | Seneschalz     | Senechenn      |
+| Draquatin      | Seneschaul     | Senechessa     |
+| Chevallois     | Seneschault    | Senechoise     |
+| Appavin        | Seneschalet    | Senechesset    |
+
+## Duchy — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Ardrainien     | Mareschal      | Mareschesse    |
+| Sittadellian   | Mareschalt     | Mareschest     |
+| Aullerican     | Maraeschal     | Mareschaesse   |
+| Aloisoise      | Mareschaler    | Mareschessen   |
+| Caprainois     | Marischal      | Mareschelle    |
+| Pwasciards     | Marescha       | Maresches      |
+| Serenish       | Maroschal      | Maroschosse    |
+| Berenguer      | Mareschalz     | Mareschenn     |
+| Draquatin      | Mareschaul     | Mareschessa    |
+| Chevallois     | Mareschault    | Mareschoise    |
+| Appavin        | Mareschalet    | Mareschesset   |
+
+## County — all dialects
+
+| Dialect        | M            | F              |
+|----------------|--------------|----------------|
+| Ardrainien     | Questor      | Questoresse    |
+| Sittadellian   | Questort     | Questorest     |
+| Aullerican     | Quaestor     | Questoraesse   |
+| Aloisoise      | Questorer    | Questoressen   |
+| Caprainois     | Quistor      | Questorelle    |
+| Pwasciards     | Questo       | Questores      |
+| Serenish       | Quostor      | Questorosse    |
+| Berenguer      | Questorz     | Questorenn     |
+| Draquatin      | Questoun     | Questoressa    |
+| Chevallois     | Questault    | Questoroise    |
+| Appavin        | Questoret    | Questoresset   |
 
 
 # ============================================================
@@ -192,6 +432,270 @@
 
 
 # ============================================================
+# TORRENT — THÉOCRATIE (Germanic religieux)
+# ============================================================
+# Design: Racine religieuse germanique + morpheme Torrent
+# Gott (God), Bisch (bishop), Abt (abbot), Priest (priest)
+
+## Base titles
+
+| Rank    | Ruler M     | Ruler F      | Etymology                            |
+|---------|-------------|--------------|--------------------------------------|
+| Empire  | Gottwald    | Gottwalde    | Gott (God) + wald (ruler)            |
+| Kingdom | Bischmund   | Bischmunde   | Bisch- (bishop) + mund (protector)   |
+| Duchy   | Abthart     | Abtharde     | Abt (abbot) + hart (brave)           |
+| County  | Priestgar   | Priestgarde  | Priest- (priest) + gar (spear/guard) |
+
+## Empire — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Gottwald       | Gottwalde      |
+| Fullhorner     | Goettmaend     | Goettmaende    |
+| Afhaemeisan    | Gottvald       | Gottvalde      |
+| Lower Serenic  | Gotthart       | Gottharde      |
+| Middle Serenic | Gottvain       | Gottvaine      |
+| Sorlkol        | Gottstein      | Gottsteine     |
+| Naurmen        | Goottmaar      | Goottmaare     |
+| Stedeling      | Goottrik       | Goottrike      |
+| Thaurfolk      | Godhjar        | Godhjarde      |
+| Bonwesforian   | Gottbrand      | Gottbrande     |
+| Borrikan       | Goddwald       | Goddwalde      |
+| Tyelkian       | Waeldgoett     | Waeldgoettin   |
+| Chesmeker      | Ghottvarn      | Ghottvarne     |
+
+## Kingdom — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Bischmund      | Bischmunde     |
+| Fullhorner     | Bischwald      | Bischwalde     |
+| Afhaemeisan    | Bischvald      | Bischvalde     |
+| Lower Serenic  | Bischhart      | Bischharde     |
+| Middle Serenic | Bischvain      | Bischvaine     |
+| Sorlkol        | Bischmond      | Bischmonde     |
+| Naurmen        | Biischmaar     | Biischmaare    |
+| Stedeling      | Biischrik      | Biischrike     |
+| Thaurfolk      | Blotjar        | Blotjarde      |
+| Bonwesforian   | Bischbrand     | Bischbrande    |
+| Borrikan       | Bischmund      | Bischmunde     |
+| Tyelkian       | Muendbisch     | Muendbischin   |
+| Chesmeker      | Bischvarn      | Bischvarne     |
+
+## Duchy — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Abthart        | Abtharde       |
+| Fullhorner     | Aebtwaeld      | Aebtwalde      |
+| Afhaemeisan    | Abtvald        | Abtvalde       |
+| Lower Serenic  | Abtgaert       | Abtgaerte      |
+| Middle Serenic | Abtvain        | Abtvaine       |
+| Sorlkol        | Obtmond        | Obtmonde       |
+| Naurmen        | Aabtmaar       | Aabtmaare      |
+| Stedeling      | Aabtrik        | Aabtrike       |
+| Thaurfolk      | Vitjar         | Vitjarde       |
+| Bonwesforian   | Abtbrand       | Abtbrande      |
+| Borrikan       | Abdhard        | Abdharde       |
+| Tyelkian       | Haertaebt      | Haertaebtin    |
+| Chesmeker      | Abtvarn        | Abtvarne       |
+
+## County — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Priestgar      | Priestgarde    |
+| Fullhorner     | Priestvaern    | Priestvaerne   |
+| Afhaemeisan    | Priestvald     | Priestvalde    |
+| Lower Serenic  | Priestwalt     | Priestwalte    |
+| Middle Serenic | Priestvain     | Priestvaine    |
+| Sorlkol        | Priostmond     | Priostmonde    |
+| Naurmen        | Priistmaar     | Priistmaare    |
+| Stedeling      | Priistrik      | Priistrike     |
+| Thaurfolk      | Thuljar        | Thuljarde      |
+| Bonwesforian   | Priestbrand    | Priestbrande   |
+| Borrikan       | Priestgar      | Priestgarde    |
+| Tyelkian       | Gaerpriest     | Gaerpriestin   |
+| Chesmeker      | Priestvarn     | Priestvarne    |
+
+
+# ============================================================
+# TORRENT — RÉPUBLIQUE (Germanic civique)
+# ============================================================
+# Design: Racine civique germanique + morpheme Torrent
+# Volk (people), Rat (council), Burgh (city), Vogt (reeve)
+
+## Base titles
+
+| Rank    | Ruler M      | Ruler F       | Etymology                             |
+|---------|--------------|---------------|---------------------------------------|
+| Empire  | Volksvarn    | Volksvarne    | Volk (people) + varn (guardian)        |
+| Kingdom | Ratswald     | Ratswalde     | Rat (council) + wald (ruler)           |
+| Duchy   | Burghstein   | Burghsteine   | Burg (city) + stein (stone/foundation) |
+| County  | Vogtmund     | Vogtmunde     | Vogt (reeve) + mund (protector)        |
+
+## Empire — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Volksvarn      | Volksvarne     |
+| Fullhorner     | Voelksmaend    | Voelksmaende   |
+| Afhaemeisan    | Volksvald      | Volksvalde     |
+| Lower Serenic  | Volkshart      | Volksharde     |
+| Middle Serenic | Volksvain      | Volksvaine     |
+| Sorlkol        | Volkstein      | Volksteine     |
+| Naurmen        | Voolksmaar     | Voolksmaare    |
+| Stedeling      | Voolksrik      | Voolksrike     |
+| Thaurfolk      | Thingjar       | Thingjarde     |
+| Bonwesforian   | Volksbrand     | Volksbrande    |
+| Borrikan       | Volgzvarn      | Volgzvarne     |
+| Tyelkian       | Vaernvoelks    | Vaernvoelksin  |
+| Chesmeker      | Volksvarn      | Volksvarne     |
+
+## Kingdom — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Ratswald       | Ratswalde      |
+| Fullhorner     | Raetswald      | Raetswalde     |
+| Afhaemeisan    | Ratsvald       | Ratsvalde      |
+| Lower Serenic  | Ratshart       | Ratsharde      |
+| Middle Serenic | Ratsvain       | Ratsvaine      |
+| Sorlkol        | Rotsmond       | Rotsmonde      |
+| Naurmen        | Raatsmaar      | Raatsmaare     |
+| Stedeling      | Raatsrik       | Raatsrike      |
+| Thaurfolk      | Lagjar         | Lagjarde       |
+| Bonwesforian   | Ratsbrand      | Ratsbrande     |
+| Borrikan       | Radzwald       | Radzwalde      |
+| Tyelkian       | Waeldraets     | Waeldraetsin   |
+| Chesmeker      | Ratsvarn       | Ratsvarne      |
+
+## Duchy — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Burghstein     | Burghsteine    |
+| Fullhorner     | Burghwaeld     | Burghwalde     |
+| Afhaemeisan    | Burghvald      | Burghvalde     |
+| Lower Serenic  | Burghgaert     | Burghgaerte    |
+| Middle Serenic | Burghvain      | Burghvaine     |
+| Sorlkol        | Burghmond      | Burghmonde     |
+| Naurmen        | Buurghmaar     | Buurghmaare    |
+| Stedeling      | Buurghrik      | Buurghrike     |
+| Thaurfolk      | Hirdjar        | Hirdjarde      |
+| Bonwesforian   | Burghbrand     | Burghbrande    |
+| Borrikan       | Burghstein     | Burghsteine    |
+| Tyelkian       | Steinbuergh    | Steinbuerghin  |
+| Chesmeker      | Burghvarn      | Burghvarne     |
+
+## County — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Vogtmund       | Vogtmunde      |
+| Fullhorner     | Voegtvaern     | Voegtvaerne    |
+| Afhaemeisan    | Vogtvald       | Vogtvalde      |
+| Lower Serenic  | Vogtwalt       | Vogtwalte      |
+| Middle Serenic | Vogtvain       | Vogtvaine      |
+| Sorlkol        | Vogtmond       | Vogtmonde      |
+| Naurmen        | Voogtmaar      | Voogtmaare     |
+| Stedeling      | Voogtrik       | Voogtrike      |
+| Thaurfolk      | Karl           | Karle          |
+| Bonwesforian   | Vogtbrand      | Vogtbrande     |
+| Borrikan       | Vogdmund       | Vogdmunde      |
+| Tyelkian       | Muendvoegt     | Muendvoegtin   |
+| Chesmeker      | Vogtvarn       | Vogtvarne      |
+
+
+# ============================================================
+# TORRENT — ORDRE (Germanic martial)
+# ============================================================
+# Design: Racine martiale germanique + morpheme Torrent
+# Orden (order), Meist (master), Ritt (knight), Wacht (watch)
+
+## Base titles
+
+| Rank    | Ruler M       | Ruler F        | Etymology                          |
+|---------|---------------|----------------|-------------------------------------|
+| Empire  | Ordensbrand   | Ordensbrande   | Orden (order) + brand (sword/fire)  |
+| Kingdom | Meistrik      | Meistrike      | Meist- (master) + rik (ruler)       |
+| Duchy   | Rittvarn      | Rittvarne      | Ritt- (knight) + varn (guardian)     |
+| County  | Wachtbern     | Wachtberne     | Wacht (watch) + bern (bear)         |
+
+## Empire — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Ordensbrand    | Ordensbrande   |
+| Fullhorner     | Oerdensmaend   | Oerdensmaende  |
+| Afhaemeisan    | Ordensvald     | Ordensvalde    |
+| Lower Serenic  | Ordenshart     | Ordensharde    |
+| Middle Serenic | Ordensvain     | Ordensvaine    |
+| Sorlkol        | Ordenstein     | Ordensteine    |
+| Naurmen        | Oordensmaar    | Oordensmaare   |
+| Stedeling      | Oordensrik     | Oordensrike    |
+| Thaurfolk      | Herjar         | Herjarde       |
+| Bonwesforian   | Ordensbrand    | Ordensbrande   |
+| Borrikan       | Ordenzbrand    | Ordenzbrande   |
+| Tyelkian       | Braendoerdens  | Braendoerdensin|
+| Chesmeker      | Ordensvarn     | Ordensvarne    |
+
+## Kingdom — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Meistrik       | Meistrike      |
+| Fullhorner     | Meistwald      | Meistwalde     |
+| Afhaemeisan    | Meistvald      | Meistvalde     |
+| Lower Serenic  | Meisthart      | Meistharde     |
+| Middle Serenic | Meistvain      | Meistvaine     |
+| Sorlkol        | Moistmond      | Moistmonde     |
+| Naurmen        | Meeistmaar     | Meeistmaare    |
+| Stedeling      | Meeistrik      | Meeistrike     |
+| Thaurfolk      | Drengar        | Drengarde      |
+| Bonwesforian   | Meistbrand     | Meistbrande    |
+| Borrikan       | Meisdrig       | Meisdrige      |
+| Tyelkian       | Rikmeist       | Rikmeistin     |
+| Chesmeker      | Meistvarn      | Meistvarne     |
+
+## Duchy — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Rittvarn       | Rittvarne      |
+| Fullhorner     | Rittwaeld      | Rittwalde      |
+| Afhaemeisan    | Rittvald       | Rittvalde      |
+| Lower Serenic  | Rittgaert      | Rittgaerte     |
+| Middle Serenic | Rittvain       | Rittvaine      |
+| Sorlkol        | Rittmond       | Rittmonde      |
+| Naurmen        | Riittmaar      | Riittmaare     |
+| Stedeling      | Riittrik       | Riittrike      |
+| Thaurfolk      | Vikjar         | Vikjarde       |
+| Bonwesforian   | Rittbrand      | Rittbrande     |
+| Borrikan       | Riddvarn       | Riddvarne      |
+| Tyelkian       | Vaernritt      | Vaernrittin    |
+| Chesmeker      | Rittvarn       | Rittvarne      |
+
+## County — all dialects
+
+| Dialect        | M              | F              |
+|----------------|----------------|----------------|
+| Heuhian        | Wachtbern      | Wachtberne     |
+| Fullhorner     | Waechtvaern    | Waechtvaerne   |
+| Afhaemeisan    | Wachtvald      | Wachtvalde     |
+| Lower Serenic  | Wachtwalt      | Wachtwalte     |
+| Middle Serenic | Wachtvain      | Wachtvaine     |
+| Sorlkol        | Wochtmond      | Wochtmonde     |
+| Naurmen        | Waachtmaar     | Waachtmaare    |
+| Stedeling      | Waachtrik      | Waachtrike     |
+| Thaurfolk      | Thegn          | Thegne         |
+| Bonwesforian   | Wachtbrand     | Wachtbrande    |
+| Borrikan       | Wachdbern      | Wachdberne     |
+| Tyelkian       | Bernwaecht     | Bernwaechtin   |
+| Chesmeker      | Wachtvarn      | Wachtvarne     |
+
+
+# ============================================================
 # SORDRENIC (Occitan + Italien / cites-etats mediterraneennes)
 # ============================================================
 # Base dialect: Salt Sordrenic (cotier, standard)
@@ -242,6 +746,160 @@
 | Stone Sordrenic| Consolorc    | Consolorca     | -enc->-orc, -enca->-orca       |
 | Lutin          | Consolienc   | Consolienca    | "i" liquide                    |
 | Pantagrin      | Consolonc    | Consolonca     | -enc->-onc, -enca->-onca       |
+
+
+# ============================================================
+# SORDRENIC — THÉOCRATIE (religieux italien)
+# ============================================================
+# Design: vocabulaire religieux italien + marqueurs Sordrenic
+
+## Base titles
+
+| Rank    | Ruler M    | Ruler F     | Etymology                    |
+|---------|------------|-------------|-------------------------------|
+| Empire  | Patriatz   | Patrionda   | patriarca (patriarche)        |
+| Kingdom | Vescovenc  | Vescovonda  | vescovo (eveque)              |
+| Duchy   | Abadatz    | Abadenca    | abate (abbe)                  |
+| County  | Priorenc   | Priorenca   | priore (prieur)               |
+
+## Empire — all dialects
+
+| Dialect        | M            | F            | Shift                          |
+|----------------|--------------|--------------|--------------------------------|
+| Salt Sordrenic | Patriatz     | Patrionda    | base                           |
+| Stone Sordrenic| Patriartz    | Patriorda    | -tz->-rtz, -onda->-orda        |
+| Lutin          | Patriiatz    | Patriionda   | "i" liquide (merged with stem) |
+| Pantagrin      | Patriontz    | Patrionda    | -tz->-ontz                     |
+
+## Kingdom — all dialects
+
+| Dialect        | M            | F            | Shift                          |
+|----------------|--------------|--------------|--------------------------------|
+| Salt Sordrenic | Vescovenc    | Vescovonda   | base                           |
+| Stone Sordrenic| Vescovorc    | Vescovorda   | -enc->-orc, -onda->-orda       |
+| Lutin          | Vescovienc   | Vescovionda  | "i" liquide                    |
+| Pantagrin      | Vescovonc    | Vescovonda   | -enc->-onc                     |
+
+## Duchy — all dialects
+
+| Dialect        | M            | F            | Shift                          |
+|----------------|--------------|--------------|--------------------------------|
+| Salt Sordrenic | Abadatz      | Abadenca     | base                           |
+| Stone Sordrenic| Abadortz     | Abadorca     | -atz->-ortz, -enca->-orca      |
+| Lutin          | Abadiatz     | Abadienca    | "i" liquide                    |
+| Pantagrin      | Abadontz     | Abadonca     | -atz->-ontz, -enca->-onca      |
+
+## County — all dialects
+
+| Dialect        | M            | F            | Shift                          |
+|----------------|--------------|--------------|--------------------------------|
+| Salt Sordrenic | Priorenc     | Priorenca    | base                           |
+| Stone Sordrenic| Priororc     | Priororca    | -enc->-orc, -enca->-orca       |
+| Lutin          | Priorienc    | Priorienca   | "i" liquide                    |
+| Pantagrin      | Priorronc    | Priorronca   | -enc->-onc, consonne doublee   |
+
+
+# ============================================================
+# SORDRENIC — RÉPUBLIQUE (cites-etats occitan/italien)
+# ============================================================
+# Design: vocabulaire politique occitan/catalan/venitien + marqueurs Sordrenic
+# Mix: Capitolenc (Toulouse), Provedatz (Venise), Bayleatz (Occitanie), Clavarenc (Occitanie)
+
+## Base titles
+
+| Rank    | Ruler M     | Ruler F      | Etymology                           |
+|---------|-------------|--------------|--------------------------------------|
+| Empire  | Capitolenc  | Capitolonda  | Capitou (Toulouse) — magistrat       |
+| Kingdom | Provedatz   | Provedonda   | Proveidor/Provveditore — admin       |
+| Duchy   | Bayleatz    | Bayleenca    | Bayle (occitan) — bailli             |
+| County  | Clavarenc   | Clavarenca   | Clavari (occitan) — tresorier        |
+
+## Empire — all dialects
+
+| Dialect        | M            | F              | Shift                          |
+|----------------|--------------|----------------|--------------------------------|
+| Salt Sordrenic | Capitolenc   | Capitolonda    | base                           |
+| Stone Sordrenic| Capitolorc   | Capitolorda    | -enc->-orc, -onda->-orda       |
+| Lutin          | Capitolienc  | Capitolionda   | "i" liquide                    |
+| Pantagrin      | Capitollonc  | Capitollonda   | -enc->-onc, consonne doublee   |
+
+## Kingdom — all dialects
+
+| Dialect        | M            | F              | Shift                          |
+|----------------|--------------|----------------|--------------------------------|
+| Salt Sordrenic | Provedatz    | Provedonda     | base                           |
+| Stone Sordrenic| Provodortz   | Provodorda     | e->o, -atz->-ortz, -onda->-orda|
+| Lutin          | Provediatz   | Provedionda    | "i" liquide                    |
+| Pantagrin      | Provodontz   | Provodonda     | e->o, -atz->-ontz              |
+
+## Duchy — all dialects
+
+| Dialect        | M            | F              | Shift                          |
+|----------------|--------------|----------------|--------------------------------|
+| Salt Sordrenic | Bayleatz     | Bayleenca      | base                           |
+| Stone Sordrenic| Baylortz     | Baylorca       | e->o, -atz->-ortz, -enca->-orca|
+| Lutin          | Bayleiatz    | Bayleienca     | "i" liquide                    |
+| Pantagrin      | Baylontz     | Baylonca       | e->o, -atz->-ontz, -enca->-onca|
+
+## County — all dialects
+
+| Dialect        | M            | F              | Shift                          |
+|----------------|--------------|----------------|--------------------------------|
+| Salt Sordrenic | Clavarenc    | Clavarenca     | base                           |
+| Stone Sordrenic| Clavarorc    | Clavarorca     | -enc->-orc, -enca->-orca       |
+| Lutin          | Clavarienc   | Clavarienca    | "i" liquide                    |
+| Pantagrin      | Clavarronc   | Clavarronca    | -enc->-onc, consonne doublee   |
+
+
+# ============================================================
+# SORDRENIC — ORDRE (ordres militaires italiens)
+# ============================================================
+# Design: vocabulaire des ordres militaires italiens + marqueurs Sordrenic
+
+## Base titles
+
+| Rank    | Ruler M    | Ruler F      | Etymology                          |
+|---------|------------|--------------|-------------------------------------|
+| Empire  | Maestratz  | Maestronda   | Gran Maestro — grand-maitre         |
+| Kingdom | Comendatz  | Comendonda   | Commendatore — commandeur           |
+| Duchy   | Cavaliatz  | Cavalienca   | Cavaliere — chevalier               |
+| County  | Vicarenc   | Vicarenca    | Vicario — vicaire/lieutenant        |
+
+## Empire — all dialects
+
+| Dialect        | M            | F            | Shift                          |
+|----------------|--------------|--------------|--------------------------------|
+| Salt Sordrenic | Maestratz    | Maestronda   | base                           |
+| Stone Sordrenic| Maestrortz   | Maestrorda   | -atz->-ortz, -onda->-orda      |
+| Lutin          | Maestriatz   | Maestrionda  | "i" liquide                    |
+| Pantagrin      | Maestrontz   | Maestronda   | -atz->-ontz                    |
+
+## Kingdom — all dialects
+
+| Dialect        | M            | F            | Shift                          |
+|----------------|--------------|--------------|--------------------------------|
+| Salt Sordrenic | Comendatz    | Comendonda   | base                           |
+| Stone Sordrenic| Comondortz   | Comondorda   | e->o, -atz->-ortz, -onda->-orda|
+| Lutin          | Comendiatz   | Comendionda  | "i" liquide                    |
+| Pantagrin      | Comondontz   | Comondonda   | e->o, -atz->-ontz              |
+
+## Duchy — all dialects
+
+| Dialect        | M            | F            | Shift                          |
+|----------------|--------------|--------------|--------------------------------|
+| Salt Sordrenic | Cavaliatz    | Cavalienca   | base                           |
+| Stone Sordrenic| Cavaliortz   | Cavaliorca   | -atz->-ortz, -enca->-orca      |
+| Lutin          | Cavaliiatz   | Cavaliienca  | "i" liquide (merged with stem) |
+| Pantagrin      | Cavallontz   | Cavallonca   | -atz->-ontz, consonne doublee  |
+
+## County — all dialects
+
+| Dialect        | M            | F            | Shift                          |
+|----------------|--------------|--------------|--------------------------------|
+| Salt Sordrenic | Vicarenc     | Vicarenca    | base                           |
+| Stone Sordrenic| Vicarorc     | Vicarorca    | -enc->-orc, -enca->-orca       |
+| Lutin          | Vicarienc    | Vicarienca   | "i" liquide                    |
+| Pantagrin      | Vicarronc    | Vicarronca   | -enc->-onc, consonne doublee   |
 
 
 # ============================================================
